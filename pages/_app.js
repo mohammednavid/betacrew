@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { Provider as StyletronProvider } from 'styletron-react'
-import { styletron } from '../styletron'
+import { styletron } from '../Styletron.js'
 
 
 function MyApp({ Component, pageProps }) {
