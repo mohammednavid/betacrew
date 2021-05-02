@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Provider as StyletronProvider } from "styletron-react";
-import { styletron } from "../styletron";
+import { styletron } from "../Styletron.js";
 import { Header } from "../components/Header";
 import Banner from "../components/Banner";
 import Banner2 from "../components/Banner2";
