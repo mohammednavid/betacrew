@@ -1,0 +1,470 @@
+.about {
+  width: 100%;
+}
+
+.about .aboutContainer {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5% 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 888px) {
+  .about .aboutContainer {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    margin-top: 50px;
+    padding: 5%;
+  }
+}
+
+.about .aboutContainer .aboutLeft {
+  width: 50%;
+  max-width: 770px;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 888px) {
+  .about .aboutContainer .aboutLeft {
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+}
+
+.about .aboutContainer .aboutLeft .aboutTitle {
+  font: normal normal bold 83px/103px Graphik Bold;
+  letter-spacing: 0px;
+  text-shadow: 0px 30px 60px #00000017;
+}
+
+.about .aboutContainer .aboutLeft .aboutTitle span {
+  color: #5185eb;
+}
+
+@media screen and (max-width: 1500px) {
+  .about .aboutContainer .aboutLeft .aboutTitle {
+    font-size: 74px;
+    line-height: 94px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about .aboutContainer .aboutLeft .aboutTitle {
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutContainer .aboutLeft .aboutTitle {
+    font-size: 46px;
+    line-height: 68px;
+    text-align: center;
+    white-space: normal;
+  }
+}
+
+.about .aboutContainer .aboutLeft .aboutDescp {
+  text-align: left;
+  font: normal normal 300 28px/42px Graphik;
+  letter-spacing: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+  .about .aboutContainer .aboutLeft .aboutDescp {
+    font-size: 23px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about .aboutContainer .aboutLeft .aboutDescp {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .about .aboutContainer .aboutLeft .aboutDescp {
+    text-align: center;
+  }
+}
+
+.about .aboutContainer .aboutRight {
+  z-index: 2;
+  background: #fff;
+}
+
+.about .aboutFounder {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5% 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+@media screen and (max-width: 1600px) {
+  .about .aboutFounder {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .about .aboutFounder {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutFounder {
+    padding: 5%;
+  }
+}
+
+.about .aboutFounder .aboutImageLeft {
+  z-index: 2;
+  background: #fff;
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutFounder .aboutImageLeft {
+    max-width: 300px;
+  }
+}
+
+.about .aboutFounder .aboutImageRight {
+  margin-top: -165px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutFounder .aboutImageRight {
+    margin-top: -120px;
+    min-width: 300px;
+  }
+}
+
+.about .aboutFounder .aboutFounderTitle {
+  text-align: center;
+  font: normal normal bold 55px/72px Graphik Bold;
+  color: #5185eb;
+}
+
+@media screen and (max-width: 1300px) {
+  .about .aboutFounder .aboutFounderTitle {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutFounder .aboutFounderTitle {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+.about .aboutFounder .aboutFounderDescp {
+  font: normal normal 300 30px/39px Graphik;
+  letter-spacing: 0px;
+  color: #000000d4;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aboutCulture {
+  width: 100%;
+  background: #ff6498;
+  padding: 5% 9%;
+  padding-top: 3%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 620px) {
+  .aboutCulture {
+    padding: 5%;
+  }
+}
+
+.aboutCulture .aboutCultureHeader {
+  text-align: center;
+  font: normal normal bold 83px/103px Graphik Bold;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutCulture .aboutCultureHeader {
+    font-size: 74px;
+    line-height: 94px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutCulture .aboutCultureHeader {
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutCulture .aboutCultureHeader {
+    font-size: 46px;
+    line-height: 65px;
+    text-align: center;
+    white-space: normal;
+  }
+}
+
+.aboutCulture .aboutCultureContainer {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (max-width: 620px) {
+  .aboutCulture .aboutCultureContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.aboutCulture .aboutCultureContainer .aboutCultureContent {
+  max-width: 530px;
+}
+
+@media screen and (max-width: 1600px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent {
+    max-width: 360px;
+  }
+}
+
+@media screen and (min-width: 621px) and (max-width: 888px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent {
+    max-width: 280px;
+  }
+}
+
+.aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
+  text-align: left;
+  padding-top: 100px;
+  font: normal normal bold 80px/30px Graphik Bold;
+  white-space: nowrap;
+  color: #2a539c;
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
+    font-size: 70px;
+    line-height: 94px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
+    font-size: 42px;
+    line-height: 65px;
+    text-align: center;
+    white-space: normal;
+    padding-top: 50px;
+  }
+}
+
+.aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
+  text-align: left;
+  padding-top: 30px;
+  font: normal normal normal 24px/40px Graphik;
+  letter-spacing: 1.2px;
+  color: #fcfcfc;
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
+    font-size: 23px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
+    text-align: center;
+  }
+}
+
+.aboutOperate {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 9%;
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate {
+    padding: 5%;
+  }
+}
+
+.aboutOperate .aboutOperateTitle {
+  text-align: center;
+  font: normal normal bold 80px/100px Graphik Bold;
+  margin-bottom: 20px;
+}
+
+.aboutOperate .aboutOperateTitle span {
+  color: #5185eb;
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutOperate .aboutOperateTitle {
+    font-size: 70px;
+    line-height: 94px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutOperate .aboutOperateTitle {
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateTitle {
+    font-size: 42px;
+    line-height: 65px;
+  }
+}
+
+.aboutOperate .aboutOperateDescp {
+  text-align: center;
+  font: normal normal 300 26px/34px Graphik;
+  color: #313131;
+  margin-bottom: 50px;
+}
+
+.aboutOperate .aboutOperateHire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #5185eb;
+  border-radius: 56px;
+  padding: 10% 5%;
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateHire {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutHireContent {
+  max-width: 633px;
+  text-align: left;
+  font: normal normal bold 47px/59px Graphik;
+  letter-spacing: 1.88px;
+  color: #ffffff;
+  text-shadow: 0px 30px 60px #00000017;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutOperate .aboutOperateHire .aboutHireContent {
+    font-size: 36px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateHire .aboutHireContent {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutHireButton {
+  cursor: pointer;
+  padding: 10px 30px;
+  text-align: center;
+  background: #ff6498;
+  -webkit-box-shadow: 0px 30px 60px #2a539c;
+          box-shadow: 0px 30px 60px #2a539c;
+  border-radius: 14px;
+  font: normal normal bold 28px/38px Graphik;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-shadow: 0px 30px 60px #00000017;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutOperate .aboutOperateHire .aboutHireButton {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */

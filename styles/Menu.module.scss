@@ -1,0 +1,21 @@
+.menu{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    margin-left: -5%;
+    .menuIcon{
+        position: absolute;
+        font-family: graphik;
+        font-size: 24px;
+        top: 50px;
+        right: 12%;
+        color: black;
+        cursor: pointer;
+    }
+}

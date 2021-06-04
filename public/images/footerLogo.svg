@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249" height="209.792" viewBox="0 0 249 209.792">
+  <defs>
+    <filter id="Path_2053" x="0" y="0" width="206.994" height="198.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2054" x="1.027" y="13.442" width="207.421" height="196.35" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Betacrewlogo_Footer" transform="translate(-203 -10428.081)">
+    <text id="BETACREW" transform="translate(278 10589.976)" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em" opacity="0.91"><tspan x="0" y="0">BETACREW</tspan></text>
+    <g id="weblogo" transform="translate(278 10473.081)">
+      <g transform="matrix(1, 0, 0, 1, -75, -45)" filter="url(#Path_2053)">
+        <path id="Path_2053-2" data-name="Path 2053" d="M231.83,473.9V509.62l23.491-32.212c2.541-3.27,9.391-4.344,13.073-2.047h0c6.655,2.335,6.379,8.748,3.557,13.359l-8.428,13.739c-1.573,2.57-2.7,7.187-.346,9.25h0c2.163,1.913,7.569,2.907,9.364.711l15.03-19.237a5.926,5.926,0,0,0,1.254-3.639v-5.2c0-10.42-9.661-18.869-21.577-18.869H241.464C236.139,465.475,231.83,469.248,231.83,473.9Z" transform="translate(-156.83 -420.47)" fill="#2a539c" opacity="0.9"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -75, -45)" filter="url(#Path_2054)">
+        <path id="Path_2054-2" data-name="Path 2054" d="M276.245,526.869c-2.541,3.27-9.391,4.344-13.073,2.047h0c-6.655-2.335-6.374-8.748-3.557-13.359l8.428-13.723c1.573-2.565,2.7-7.187.346-9.25h0c-2.163-1.908-7.569-2.907-9.364-.711l-24.069,34.221a6.382,6.382,0,0,0-.541,6.642l.351.7a6.854,6.854,0,0,0,6.174,3.516H273.38s7.126.887,14.251-8.55c0,0,6.309-11.756,2.033-18.169Z" transform="translate(-157.7 -432.18)" fill="#2a539c" opacity="0.9"/>
+      </g>
+    </g>
+  </g>
+</svg>

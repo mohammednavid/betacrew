@@ -1,0 +1,29 @@
+.menu {
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  margin-left: -5%;
+}
+
+.menu .menuIcon {
+  position: absolute;
+  font-family: graphik;
+  font-size: 24px;
+  top: 50px;
+  right: 12%;
+  color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Menu.module.css.map */

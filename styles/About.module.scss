@@ -1,0 +1,300 @@
+.about {
+  width: 100%;
+  .aboutContainer {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 5% 9%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    @media screen and (max-width: 888px) {
+      flex-wrap: wrap-reverse;
+      margin-top: 50px;
+      padding: 5%;
+    }
+    .aboutLeft {
+      width: 50%;
+      max-width: 770px;
+      margin-right: 5%;
+      @media screen and (max-width: 888px) {
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 0;
+      }
+      .aboutTitle {
+        font: normal normal bold 83px/103px Graphik Bold;
+        letter-spacing: 0px;
+        text-shadow: 0px 30px 60px #00000017;
+        span {
+          color: #5185eb;
+        }
+        @media screen and (max-width: 1500px) {
+          font-size: 74px;
+          line-height: 94px;
+          white-space: nowrap;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 55px;
+          line-height: 75px;
+          text-align: center;
+        }
+        @media screen and (max-width: 620px) {
+          font-size: 46px;
+          line-height: 68px;
+          text-align: center;
+          white-space: normal;
+        }
+      }
+      .aboutDescp {
+        text-align: left;
+        font: normal normal 300 28px/42px Graphik;
+        letter-spacing: 0px;
+        @media screen and (max-width: 1500px) {
+          font-size: 23px;
+          line-height: 36px;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 20px;
+          line-height: 30px;
+        }
+        @media screen and (max-width: 888px) {
+          text-align: center;
+        }
+      }
+    }
+    .aboutRight {
+      z-index: 2;
+      background: #fff;
+    }
+  }
+  .aboutFounder {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 5% 18%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    @media screen and (max-width: 1600px) {
+      justify-content: space-around;
+      padding: 5% 10%;
+    }
+    @media screen and (max-width: 888px) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 620px) {
+      padding: 5%;
+    }
+    .aboutImageLeft {
+      z-index: 2;
+      background: #fff;
+      @media screen and (max-width: 620px) {
+        max-width: 300px;
+      }
+    }
+    .aboutImageRight {
+      margin-top: -165px;
+      z-index: 1;
+      @media screen and (max-width: 620px) {
+        margin-top: -120px;
+        min-width: 300px;
+      }
+    }
+    .aboutFounderTitle {
+      text-align: center;
+      font: normal normal bold 55px/72px Graphik Bold;
+      color: #5185eb;
+      @media screen and (max-width: 1300px) {
+        font-size: 45px;
+        line-height: 60px;
+      }
+      @media screen and (max-width: 620px) {
+        font-size: 40px;
+        line-height: 55px;
+      }
+    }
+    .aboutFounderDescp {
+      font: normal normal 300 30px/39px Graphik;
+      letter-spacing: 0px;
+      color: #000000d4;
+      font-size: 24px;
+      line-height: 32px;
+    }
+}
+}
+.aboutCulture {
+    width: 100%;
+    background: #ff6498;
+    padding: 5% 9%;
+    padding-top: 3%;
+    margin-top: 5%;
+    @media screen and (max-width: 620px) {
+        padding: 5%;
+    }
+    .aboutCultureHeader {
+      text-align: center;
+      font: normal normal bold 83px/103px Graphik Bold;
+      color: #ffffff;
+      @media screen and (max-width: 1500px) {
+        font-size: 74px;
+        line-height: 94px;
+        white-space: nowrap;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 55px;
+        line-height: 75px;
+        text-align: center;
+      }
+      @media screen and (max-width: 620px) {
+        font-size: 46px;
+        line-height: 65px;
+        text-align: center;
+        white-space: normal;
+      }
+    }
+    .aboutCultureContainer {
+      max-width: 1920px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      @media screen and (max-width: 620px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .aboutCultureContent {
+        max-width: 530px;
+        @media screen and (max-width: 1600px) {
+          max-width: 500px;
+        }
+        @media screen and (max-width: 1200px) {
+          max-width: 360px;
+        }
+        @media screen and (min-width: 621px) and (max-width: 888px) {
+          max-width: 280px;
+        }
+        .aboutCultureTitle {
+          text-align: left;
+          padding-top: 100px;
+          font: normal normal bold 80px/30px Graphik Bold;
+          white-space: nowrap;
+          color: #2a539c;
+          @media screen and (max-width: 1500px) {
+            font-size: 70px;
+            line-height: 94px;
+          }
+          @media screen and (max-width: 1200px) {
+            font-size: 50px;
+            line-height: 75px;
+          }
+          @media screen and (max-width: 620px) {
+            font-size: 42px;
+            line-height: 65px;
+            text-align: center;
+            white-space: normal;
+            padding-top: 50px;
+          }
+        }
+        .aboutCultureDescp {
+          text-align: left;
+          padding-top: 30px;
+          font: normal normal normal 24px/40px Graphik;
+          letter-spacing: 1.2px;
+          color: #fcfcfc;
+          @media screen and (max-width: 1500px) {
+            font-size: 23px;
+            line-height: 36px;
+          }
+          @media screen and (max-width: 1200px) {
+            font-size: 20px;
+            line-height: 30px;
+          }
+          @media screen and (max-width: 620px) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .aboutOperate {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 9%;
+    @media screen and (max-width: 620px) {
+        padding: 5%;
+    }
+    .aboutOperateTitle {
+      text-align: center;
+      font: normal normal bold 80px/100px Graphik Bold;
+      margin-bottom: 20px;
+      span {
+        color: #5185eb;
+      }
+      @media screen and (max-width: 1500px) {
+        font-size: 70px;
+        line-height: 94px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 50px;
+        line-height: 75px;
+      }
+      @media screen and (max-width: 620px) {
+        font-size: 42px;
+        line-height: 65px;
+      }
+    }
+    .aboutOperateDescp {
+      text-align: center;
+      font: normal normal 300 26px/34px Graphik;
+      color: #313131;
+      margin-bottom: 50px;
+    }
+    .aboutOperateHire {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: #5185eb;
+      border-radius: 56px;
+      padding: 10% 5%;
+      @media screen and (max-width: 620px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .aboutHireContent {
+          max-width: 633px;
+        text-align: left;
+        font: normal normal bold 47px/59px Graphik;
+        letter-spacing: 1.88px;
+        color: #ffffff;
+        text-shadow: 0px 30px 60px #00000017;
+        @media screen and (max-width: 1200px) {
+            font-size: 36px;
+            line-height: 55px;
+          }
+          @media screen and (max-width: 620px) {
+            text-align: center;
+            padding-bottom: 30px;
+          }
+      }
+      .aboutHireButton {
+          cursor: pointer;
+          padding: 10px 30px;
+          text-align: center;
+        background: #ff6498;
+        box-shadow: 0px 30px 60px #2a539c;
+        border-radius: 14px;
+        font: normal normal bold 28px/38px Graphik;
+        letter-spacing: 1.2px;
+        color: #ffffff;
+        text-shadow: 0px 30px 60px #00000017;
+        text-transform: uppercase;
+        @media screen and (max-width: 1200px) {
+            font-size: 24px;
+            line-height: 30px;
+          }
+      }
+    }
+  }
