@@ -51,10 +51,10 @@
   color: #5185eb;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .about .aboutContainer .aboutLeft .aboutTitle {
-    font-size: 74px;
-    line-height: 94px;
+    font-size: 66px;
+    line-height: 84px;
     white-space: nowrap;
   }
 }
@@ -82,23 +82,18 @@
   letter-spacing: 0px;
 }
 
-@media screen and (max-width: 1500px) {
-  .about .aboutContainer .aboutLeft .aboutDescp {
-    font-size: 23px;
-    line-height: 36px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1900px) {
   .about .aboutContainer .aboutLeft .aboutDescp {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 34px;
   }
 }
 
 @media screen and (max-width: 888px) {
   .about .aboutContainer .aboutLeft .aboutDescp {
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -176,7 +171,7 @@
   color: #5185eb;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1900px) {
   .about .aboutFounder .aboutFounderTitle {
     font-size: 45px;
     line-height: 60px;
@@ -185,7 +180,7 @@
 
 @media screen and (max-width: 620px) {
   .about .aboutFounder .aboutFounderTitle {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 55px;
   }
 }
@@ -194,8 +189,13 @@
   font: normal normal 300 30px/39px Graphik;
   letter-spacing: 0px;
   color: #000000d4;
-  font-size: 24px;
-  line-height: 32px;
+}
+
+@media screen and (max-width: 1900px) {
+  .about .aboutFounder .aboutFounderDescp {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 .aboutCulture {
@@ -218,10 +218,10 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureHeader {
-    font-size: 74px;
-    line-height: 94px;
+    font-size: 62px;
+    line-height: 82px;
     white-space: nowrap;
   }
 }
@@ -236,8 +236,8 @@
 
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureHeader {
-    font-size: 46px;
-    line-height: 65px;
+    font-size: 42px;
+    line-height: 52px;
     text-align: center;
     white-space: normal;
   }
@@ -270,15 +270,15 @@
   max-width: 530px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 500px;
+    max-width: 410px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 360px;
+    max-width: 390px;
   }
 }
 
@@ -296,10 +296,11 @@
   color: #2a539c;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
-    font-size: 70px;
-    line-height: 94px;
+    padding-top: 50px;
+    font-size: 58px;
+    line-height: 80px;
   }
 }
 
@@ -312,8 +313,8 @@
 
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
-    font-size: 42px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 55px;
     text-align: center;
     white-space: normal;
     padding-top: 50px;
@@ -328,23 +329,19 @@
   color: #fcfcfc;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
-    font-size: 23px;
-    line-height: 36px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
-    font-size: 20px;
-    line-height: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -371,9 +368,9 @@
   color: #5185eb;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .aboutOperate .aboutOperateTitle {
-    font-size: 70px;
+    font-size: 62px;
     line-height: 94px;
   }
 }
@@ -399,6 +396,137 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1900px) {
+  .aboutOperate .aboutOperateDescp {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.aboutOperate .aboutOperateHDWO {
+  position: relative;
+  padding: 3% 0 10% 0;
+}
+
+@media screen and (min-width: 889px) {
+  .aboutOperate .aboutOperateHDWO {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.aboutOperate .aboutOperateHDWO .aboutHDWO_Line {
+  position: absolute;
+  width: 85%;
+  height: 3px;
+  background: #000;
+  top: 28%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 888px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO_Line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO_Line {
+    top: 29%;
+  }
+}
+
+.aboutOperate .aboutOperateHDWO .aboutHDWO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 25px 0;
+  z-index: 2;
+}
+
+@media screen and (min-width: 889px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO:nth-child(2), .aboutOperate .aboutOperateHDWO .aboutHDWO:nth-child(4) {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+.aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
+  width: 130px;
+  padding: 30px;
+  background: #f1f1f1;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
+    width: 160px;
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
+    width: auto;
+    padding: 60px;
+  }
+}
+
+.aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
+  width: 50vw;
+  max-width: 205px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  font: normal normal 300 14px/22px Graphik;
+  color: #464646;
+}
+
+@media screen and (min-width: 621px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
+    min-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
+    min-width: 120px;
+    max-width: 180px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1251px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
+    min-width: 200px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
+    min-width: 250px;
+    font: normal normal 300 20px/30px Graphik;
+    padding-top: 50px;
+  }
+}
+
 .aboutOperate .aboutOperateHire {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,7 +541,7 @@
   padding: 10% 5%;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 888px) {
   .aboutOperate .aboutOperateHire {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -432,17 +560,19 @@
   text-shadow: 0px 30px 60px #00000017;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1900px) {
   .aboutOperate .aboutOperateHire .aboutHireContent {
     font-size: 36px;
     line-height: 55px;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 888px) {
   .aboutOperate .aboutOperateHire .aboutHireContent {
+    font-size: 28px;
+    line-height: 45px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 
@@ -461,10 +591,18 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1900px) {
   .aboutOperate .aboutOperateHire .aboutHireButton {
     font-size: 24px;
     line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutOperate .aboutOperateHire .aboutHireButton {
+    font-size: 18px;
+    white-space: nowrap;
+    line-height: 28px;
   }
 }
 /*# sourceMappingURL=About.module.css.map */

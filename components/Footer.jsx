@@ -6,7 +6,9 @@ const Footer = () => {
         <div className={styles.footer}>
             <hr/>
             <div className={styles.footerContainer}>
-                <Image src='/images/footerLogo.svg'  className={styles.footerLogo} width={174} height={124}/>
+                <div className={styles.footerLogo}>
+                <Image src='/images/footerLogo.svg' width={174} height={124}/>
+                </div>
                 <ul>
                     <li>Work</li>
                     <li>How it works</li>

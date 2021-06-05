@@ -60,22 +60,64 @@ const About = () => {
                 </div>
                 <div className={styles.aboutCultureContent}>
                   <h1 className={styles.aboutCultureTitle}>Be transparent</h1>
-                  <p className={styles.aboutCultureDescp}>{val.beTransparent}</p>
+                  <p className={styles.aboutCultureDescp}>
+                    {val.beTransparent}
+                  </p>
                 </div>
               </div>
             </div>
             <div className={styles.aboutOperate}>
-              <h1 className={styles.aboutOperateTitle}>How do we operate <span>?</span></h1>
-              <p className={styles.aboutOperateDescp}>Our 5 step approach outlines how we choose a dedicated team to work on your project.</p>
+              <h1 className={styles.aboutOperateTitle}>
+                How do we operate <span>?</span>
+              </h1>
+              <p className={styles.aboutOperateDescp}>
+                Our 5 step approach outlines how we choose a dedicated team to
+                work on your project.
+              </p>
+              <div className={styles.aboutOperateHDWO}>
+                <div className={styles.aboutHDWO}>
+                  <div className={styles.aboutHDWO_Img}>
+                    <Image src="/images/HDWO_1.svg" width={110} height={110} />
+                  </div>
+                  <p className={styles.aboutHDWO_Descp}>{val.firstStep}</p>
+                </div>
+                <div className={styles.aboutHDWO}>
+                  <p className={styles.aboutHDWO_Descp}>{val.secondStep}</p>
+                  <div className={styles.aboutHDWO_Img}>
+                    <Image src="/images/HDWO_2.svg" width={110} height={110} />
+                  </div>
+                </div>
+                <div className={styles.aboutHDWO}>
+                  <div className={styles.aboutHDWO_Img}>
+                    <Image src="/images/HDWO_3.svg" width={110} height={110} />
+                  </div>
+                  <p className={styles.aboutHDWO_Descp}>{val.thirdStep}</p>
+                </div>
+                <div className={styles.aboutHDWO}>
+                  <p className={styles.aboutHDWO_Descp}>{val.fourthStep}</p>
+                  <div className={styles.aboutHDWO_Img}>
+                    <Image src="/images/HDWO_4.svg" width={110} height={110} />
+                  </div>
+                </div>
+                <div className={styles.aboutHDWO}>
+                  <div className={styles.aboutHDWO_Img}>
+                    <Image src="/images/HDWO_5.svg" width={110} height={110} />
+                  </div>
+                  <p className={styles.aboutHDWO_Descp}>{val.fifthStep}</p>
+                </div>
+                <div className={styles.aboutHDWO_Line}></div>
+              </div>
               <div className={styles.aboutOperateHire}>
-                <p className={styles.aboutHireContent}>Hire The Best Developers And Designers Around!</p>
+                <p className={styles.aboutHireContent}>
+                  Hire The Best Developers And Designers Around!
+                </p>
                 <a className={styles.aboutHireButton}>HIRE TOP DEVELOPERS</a>
               </div>
             </div>
           </div>
         );
       })}
-      <Footer/>
+      <Footer />
     </>
   );
 };
