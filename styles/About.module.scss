@@ -130,7 +130,7 @@
 .aboutCulture {
   width: 100%;
   background: #ff6498;
-  padding: 5% 9%;
+  padding: 5% 12%;
   padding-top: 3%;
   margin-top: 5%;
   @media screen and (max-width: 620px) {
@@ -161,8 +161,11 @@
     max-width: 1920px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    @media screen and (min-width: 1500px) {
+      justify-content: space-around;
+    }
     @media screen and (max-width: 620px) {
       flex-wrap: wrap;
       justify-content: center;
@@ -369,7 +372,7 @@
     .aboutOperateRight {
       .aboutHireButton {
         cursor: pointer;
-        padding: 10px 30px;
+        padding: 20px 50px;
         text-align: center;
         background: #ff6498;
         box-shadow: 0px 30px 60px #2a539c;
@@ -383,6 +386,7 @@
           font-size: 18px;
           line-height: 28px;
           border-radius: 10px;
+          padding: 20px 30px;
         }
         @media screen and (max-width: 1200px) {
           font-size: 16px;

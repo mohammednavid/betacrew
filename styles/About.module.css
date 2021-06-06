@@ -204,7 +204,7 @@
 .aboutCulture {
   width: 100%;
   background: #ff6498;
-  padding: 5% 9%;
+  padding: 5% 12%;
   padding-top: 3%;
   margin-top: 5%;
 }
@@ -252,11 +252,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+@media screen and (min-width: 1500px) {
+  .aboutCulture .aboutCultureContainer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -586,7 +594,7 @@
 
 .aboutOperate .aboutOperateHire .aboutOperateRight .aboutHireButton {
   cursor: pointer;
-  padding: 10px 30px;
+  padding: 20px 50px;
   text-align: center;
   background: #ff6498;
   -webkit-box-shadow: 0px 30px 60px #2a539c;
@@ -604,6 +612,7 @@
     font-size: 18px;
     line-height: 28px;
     border-radius: 10px;
+    padding: 20px 30px;
   }
 }
 
