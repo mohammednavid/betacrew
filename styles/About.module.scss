@@ -402,31 +402,25 @@
         .aboutOperateUpperLine {
           width: 1px;
           height: 21px;
-          border: 3px solid #ffffff;
+          border-right: 4px solid #ffffff;
           opacity: 1;
           &:nth-child(1){
             transform: rotate(140deg);
           }
           &:nth-child(3){
             transform: rotate(40deg);
-          }
-          @media screen and (max-width:1900px){
-            border: 2px solid #ffffff;
           }
           }
         .aboutOperateBottomLine {
           width: 1px;
           height: 21px;
-          border: 3px solid #ffffff;
+          border-right: 4px solid #ffffff;
           opacity: 1;
           &:nth-child(1){
             transform: rotate(40deg);
           }
           &:nth-child(3){
             transform: rotate(140deg);
-          }
-          @media screen and (max-width:1900px){
-            border: 2px solid #ffffff;
           }
         }
       }

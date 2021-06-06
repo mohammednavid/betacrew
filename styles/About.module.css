@@ -637,7 +637,7 @@
 .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine {
   width: 1px;
   height: 21px;
-  border: 3px solid #ffffff;
+  border-right: 4px solid #ffffff;
   opacity: 1;
 }
 
@@ -651,16 +651,10 @@
           transform: rotate(40deg);
 }
 
-@media screen and (max-width: 1900px) {
-  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine {
-    border: 2px solid #ffffff;
-  }
-}
-
 .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine {
   width: 1px;
   height: 21px;
-  border: 3px solid #ffffff;
+  border-right: 4px solid #ffffff;
   opacity: 1;
 }
 
@@ -672,11 +666,5 @@
 .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine:nth-child(3) {
   -webkit-transform: rotate(140deg);
           transform: rotate(140deg);
-}
-
-@media screen and (max-width: 1900px) {
-  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine {
-    border: 2px solid #ffffff;
-  }
 }
 /*# sourceMappingURL=About.module.css.map */
