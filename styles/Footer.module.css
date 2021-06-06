@@ -67,10 +67,17 @@
   opacity: 0.49;
 }
 
+@media screen and (max-width: 1900px) {
+  .footer .footerContainer ul li {
+    font-size: 24px;
+    line-height: 66px;
+  }
+}
+
 @media screen and (max-width: 888px) {
   .footer .footerContainer ul li {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 64px;
   }
 }
@@ -80,11 +87,24 @@
   font-size: 28px;
 }
 
+@media screen and (max-width: 1900px) {
+  .footer .footerContainer .footerCopyright {
+    font-size: 22px;
+  }
+}
+
 .footer .footerContainer .footerCopyright span {
   text-align: right;
   font: normal normal 300 28px/65px Graphik;
   color: #000000;
   opacity: 0.49;
+}
+
+@media screen and (max-width: 1900px) {
+  .footer .footerContainer .footerCopyright span {
+    font-size: 22px;
+    line-height: 60px;
+  }
 }
 
 @media screen and (max-width: 888px) {

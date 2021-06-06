@@ -49,10 +49,12 @@
       .aboutDescp {
         text-align: left;
         font: normal normal 300 28px/42px Graphik;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
+        color: #000000d4;
+        opacity: 0.8;
         @media screen and (max-width: 1900px) {
-          font-size: 20px;
-          line-height: 34px;
+          font-size: 18px;
+          line-height: 32px;
         }
         @media screen and (max-width: 888px) {
           text-align: center;
@@ -105,11 +107,11 @@
       font: normal normal bold 55px/72px Graphik Bold;
       color: #5185eb;
       @media screen and (max-width: 1900px) {
-        font-size: 45px;
+        font-size: 42px;
         line-height: 60px;
       }
       @media screen and (max-width: 620px) {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 55px;
       }
     }
@@ -117,6 +119,7 @@
       font: normal normal 300 30px/39px Graphik;
       letter-spacing: 0px;
       color: #000000d4;
+      opacity: 0.8;
       @media screen and (max-width: 1900px) {
         font-size: 24px;
         line-height: 36px;
@@ -167,10 +170,7 @@
     .aboutCultureContent {
       max-width: 530px;
       @media screen and (max-width: 1900px) {
-        max-width: 410px;
-      }
-      @media screen and (max-width: 1200px) {
-        max-width: 390px;
+        max-width: 370px;
       }
       @media screen and (min-width: 621px) and (max-width: 888px) {
         max-width: 280px;
@@ -182,12 +182,8 @@
         white-space: nowrap;
         color: #2a539c;
         @media screen and (max-width: 1900px) {
-          padding-top: 50px;
-          font-size: 58px;
-          line-height: 80px;
-        }
-        @media screen and (max-width: 1200px) {
-          font-size: 50px;
+          padding-top: 70px;
+          font-size: 48px;
           line-height: 75px;
         }
         @media screen and (max-width: 620px) {
@@ -206,13 +202,13 @@
         color: #fcfcfc;
         @media screen and (max-width: 1900px) {
           padding-top: 15px;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 32px;
         }
         @media screen and (max-width: 620px) {
           text-align: center;
           font-size: 16px;
-          line-height:24px;
+          line-height: 24px;
         }
       }
     }
@@ -222,7 +218,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 9%;
+  padding: 10% 9%;
   @media screen and (max-width: 620px) {
     padding: 5%;
   }
@@ -259,22 +255,22 @@
   .aboutOperateHDWO {
     position: relative;
     padding: 3% 0 10% 0;
-    @media screen and (min-width:889px){
+    @media screen and (min-width: 889px) {
       display: flex;
       align-items: flex-start;
       justify-content: space-around;
     }
-    .aboutHDWO_Line{
+    .aboutHDWO_Line {
       position: absolute;
       width: 85%;
       height: 3px;
       background: #000;
       top: 28%;
       z-index: 1;
-      @media screen and (max-width:888px){
+      @media screen and (max-width: 888px) {
         display: none;
       }
-      @media screen and (min-width:1201px) and (max-width:1800px){
+      @media screen and (min-width: 1201px) and (max-width: 1800px) {
         top: 29%;
       }
     }
@@ -284,25 +280,25 @@
       justify-content: space-around;
       margin: 25px 0;
       z-index: 2;
-      @media screen and (min-width:889px){
+      @media screen and (min-width: 889px) {
         flex-wrap: wrap;
       }
       &:nth-child(2),
-      &:nth-child(4){
-        @media screen and (min-width:889px){
+      &:nth-child(4) {
+        @media screen and (min-width: 889px) {
           flex-wrap: wrap-reverse;
         }
       }
-      .aboutHDWO_Img{
+      .aboutHDWO_Img {
         width: 130px;
         padding: 30px;
         background: #f1f1f1;
         border-radius: 50%;
-        @media screen and (min-width:1200px){
+        @media screen and (min-width: 1200px) {
           width: 160px;
           padding: 40px;
         }
-        @media screen and (min-width:1900px){
+        @media screen and (min-width: 1900px) {
           width: auto;
           padding: 60px;
         }
@@ -314,18 +310,18 @@
         letter-spacing: 0.4px;
         font: normal normal 300 14px/22px Graphik;
         color: #464646;
-        @media screen and (min-width:621px){
+        @media screen and (min-width: 621px) {
           min-width: 50vw;
         }
-        @media screen and (min-width:889px){
+        @media screen and (min-width: 889px) {
           min-width: 120px;
           max-width: 180px;
           padding-top: 30px;
         }
-        @media screen and (min-width:1251px){
+        @media screen and (min-width: 1251px) {
           min-width: 200px;
         }
-        @media screen and (min-width:1800px){
+        @media screen and (min-width: 1800px) {
           min-width: 250px;
           font: normal normal 300 20px/30px Graphik;
           padding-top: 50px;
@@ -336,10 +332,13 @@
   .aboutOperateHire {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #5185eb;
     border-radius: 56px;
     padding: 10% 5%;
+    @media screen and (max-width: 1500px) {
+      border-radius: 30px;
+    }
     @media screen and (max-width: 888px) {
       flex-wrap: wrap;
       justify-content: center;
@@ -347,7 +346,7 @@
     .aboutHireContent {
       max-width: 633px;
       text-align: left;
-      font: normal normal bold 47px/59px Graphik;
+      font: normal normal bold 47px/59px Graphik Bold;
       letter-spacing: 1.88px;
       color: #ffffff;
       text-shadow: 0px 30px 60px #00000017;
@@ -355,33 +354,81 @@
         font-size: 36px;
         line-height: 55px;
       }
-      @media screen and (max-width: 888px) {
+      @media screen and (max-width: 1200px) {
         font-size: 28px;
         line-height: 45px;
+      }
+      @media screen and (max-width: 888px) {
         text-align: center;
         padding-bottom: 20px;
       }
-    }
-    .aboutHireButton {
-      cursor: pointer;
-      padding: 10px 30px;
-      text-align: center;
-      background: #ff6498;
-      box-shadow: 0px 30px 60px #2a539c;
-      border-radius: 14px;
-      font: normal normal bold 28px/38px Graphik;
-      letter-spacing: 1.2px;
-      color: #ffffff;
-      text-shadow: 0px 30px 60px #00000017;
-      text-transform: uppercase;
-      @media screen and (max-width: 1900px) {
-        font-size: 24px;
-        line-height: 30px;
+      @media screen and (max-width: 620px) {
+        font-size:24px;
       }
-      @media screen and (max-width: 1200px) {
-        font-size: 18px;
-        white-space: nowrap;
-        line-height: 28px;
+    }
+    .aboutOperateRight {
+      .aboutHireButton {
+        cursor: pointer;
+        padding: 10px 30px;
+        text-align: center;
+        background: #ff6498;
+        box-shadow: 0px 30px 60px #2a539c;
+        border-radius: 14px;
+        font: normal normal bold 28px/38px Graphik bold;
+        letter-spacing: 1.2px;
+        color: #ffffff;
+        text-shadow: 0px 30px 60px #00000017;
+        text-transform: uppercase;
+        @media screen and (max-width: 1900px) {
+          font-size: 18px;
+          line-height: 28px;
+          border-radius: 10px;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 16px;
+          white-space: nowrap;
+          line-height: 24px;
+          border-radius: 10px;
+        }
+      }
+      .aboutOperateLineWhite {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:30px 0;
+        @media screen and (min-width:1901px){
+          margin:50px 0;
+        }
+        .aboutOperateUpperLine {
+          width: 1px;
+          height: 21px;
+          border: 3px solid #ffffff;
+          opacity: 1;
+          &:nth-child(1){
+            transform: rotate(140deg);
+          }
+          &:nth-child(3){
+            transform: rotate(40deg);
+          }
+          @media screen and (max-width:1900px){
+            border: 2px solid #ffffff;
+          }
+          }
+        .aboutOperateBottomLine {
+          width: 1px;
+          height: 21px;
+          border: 3px solid #ffffff;
+          opacity: 1;
+          &:nth-child(1){
+            transform: rotate(40deg);
+          }
+          &:nth-child(3){
+            transform: rotate(140deg);
+          }
+          @media screen and (max-width:1900px){
+            border: 2px solid #ffffff;
+          }
+        }
       }
     }
   }

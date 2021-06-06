@@ -45,24 +45,26 @@ const About = () => {
               <h1 className={styles.aboutCultureHeader}>Our Culture .</h1>
               <div className={styles.aboutCultureContainer}>
                 <div className={styles.aboutCultureContent}>
-                  <h1 className={styles.aboutCultureTitle}>Collaborate</h1>
-                  <p className={styles.aboutCultureDescp}>{val.collaborate}</p>
+                  <h1 className={styles.aboutCultureTitle}>{val.firstTitle}</h1>
+                  <p className={styles.aboutCultureDescp}>{val.firstDescp}</p>
                 </div>
                 <div className={styles.aboutCultureContent}>
-                  <h1 className={styles.aboutCultureTitle}>Client-first</h1>
-                  <p className={styles.aboutCultureDescp}>{val.clientFirst}</p>
+                  <h1 className={styles.aboutCultureTitle}>
+                    {val.secondTitle}
+                  </h1>
+                  <p className={styles.aboutCultureDescp}>{val.secondDescp}</p>
                 </div>
               </div>
               <div className={styles.aboutCultureContainer}>
                 <div className={styles.aboutCultureContent}>
-                  <h1 className={styles.aboutCultureTitle}>Work smart</h1>
-                  <p className={styles.aboutCultureDescp}>{val.workSmart}</p>
+                  <h1 className={styles.aboutCultureTitle}>{val.thirdTitle}</h1>
+                  <p className={styles.aboutCultureDescp}>{val.thirdDescp}</p>
                 </div>
                 <div className={styles.aboutCultureContent}>
-                  <h1 className={styles.aboutCultureTitle}>Be transparent</h1>
-                  <p className={styles.aboutCultureDescp}>
-                    {val.beTransparent}
-                  </p>
+                  <h1 className={styles.aboutCultureTitle}>
+                    {val.fourthTitle}
+                  </h1>
+                  <p className={styles.aboutCultureDescp}>{val.fourthDescp}</p>
                 </div>
               </div>
             </div>
@@ -111,7 +113,19 @@ const About = () => {
                 <p className={styles.aboutHireContent}>
                   Hire The Best Developers And Designers Around!
                 </p>
+                <div className={styles.aboutOperateRight}>
+                <div className={styles.aboutOperateLineWhite}>
+                  <div className={styles.aboutOperateUpperLine}></div>
+                  <div className={styles.aboutOperateUpperLine}></div>
+                  <div className={styles.aboutOperateUpperLine}></div>
+                </div>
                 <a className={styles.aboutHireButton}>HIRE TOP DEVELOPERS</a>
+                <div className={styles.aboutOperateLineWhite}>
+                  <div className={styles.aboutOperateBottomLine}></div>
+                  <div className={styles.aboutOperateBottomLine}></div>
+                  <div className={styles.aboutOperateBottomLine}></div>
+                </div>
+                </div>
               </div>
             </div>
           </div>

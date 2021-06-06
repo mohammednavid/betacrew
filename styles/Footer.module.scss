@@ -36,10 +36,13 @@
         letter-spacing: 0px;
         color: #000000;
         opacity: 0.49;
+        @media screen and (max-width: 1900px) {
+          font-size:24px;
+          line-height:66px;
+        }
         @media screen and (max-width: 888px) {
-          // min-width: 300px;
           text-align: center;
-          font-size: 24px;
+          font-size: 22px;
           line-height: 64px;
         }
       }
@@ -47,12 +50,18 @@
     .footerCopyright {
         margin-top: auto;
         font-size: 28px;
+        @media screen and (max-width: 1900px) {
+          font-size:22px;
+        }
       span {
         text-align: right;
         font: normal normal 300 28px/65px Graphik;
         color: #000000;
         opacity: 0.49;
-        
+        @media screen and (max-width: 1900px) {
+          font-size:22px;
+          line-height:60px;
+        }
         @media screen and (max-width: 888px) {
           font-size: 24px;
         }

@@ -50,6 +50,12 @@
   padding-right: 20px;
 }
 
+@media screen and (max-width: 1800px) {
+  .header .headerMenu p {
+    font-size: 22px;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .header .headerMenu p {
     display: none;

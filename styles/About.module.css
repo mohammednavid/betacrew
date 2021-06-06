@@ -79,13 +79,15 @@
 .about .aboutContainer .aboutLeft .aboutDescp {
   text-align: left;
   font: normal normal 300 28px/42px Graphik;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
+  color: #000000d4;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1900px) {
   .about .aboutContainer .aboutLeft .aboutDescp {
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 32px;
   }
 }
 
@@ -173,14 +175,14 @@
 
 @media screen and (max-width: 1900px) {
   .about .aboutFounder .aboutFounderTitle {
-    font-size: 45px;
+    font-size: 42px;
     line-height: 60px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .about .aboutFounder .aboutFounderTitle {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 55px;
   }
 }
@@ -189,6 +191,7 @@
   font: normal normal 300 30px/39px Graphik;
   letter-spacing: 0px;
   color: #000000d4;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1900px) {
@@ -272,13 +275,7 @@
 
 @media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 410px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 390px;
+    max-width: 370px;
   }
 }
 
@@ -298,15 +295,8 @@
 
 @media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
-    padding-top: 50px;
-    font-size: 58px;
-    line-height: 80px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
-    font-size: 50px;
+    padding-top: 70px;
+    font-size: 48px;
     line-height: 75px;
   }
 }
@@ -332,7 +322,7 @@
 @media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
   }
 }
@@ -349,7 +339,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 9%;
+  padding: 10% 9%;
 }
 
 @media screen and (max-width: 620px) {
@@ -534,11 +524,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #5185eb;
   border-radius: 56px;
   padding: 10% 5%;
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutOperate .aboutOperateHire {
+    border-radius: 30px;
+  }
 }
 
 @media screen and (max-width: 888px) {
@@ -554,7 +551,7 @@
 .aboutOperate .aboutOperateHire .aboutHireContent {
   max-width: 633px;
   text-align: left;
-  font: normal normal bold 47px/59px Graphik;
+  font: normal normal bold 47px/59px Graphik Bold;
   letter-spacing: 1.88px;
   color: #ffffff;
   text-shadow: 0px 30px 60px #00000017;
@@ -567,16 +564,27 @@
   }
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 1200px) {
   .aboutOperate .aboutOperateHire .aboutHireContent {
     font-size: 28px;
     line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .aboutOperate .aboutOperateHire .aboutHireContent {
     text-align: center;
     padding-bottom: 20px;
   }
 }
 
-.aboutOperate .aboutOperateHire .aboutHireButton {
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateHire .aboutHireContent {
+    font-size: 24px;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutHireButton {
   cursor: pointer;
   padding: 10px 30px;
   text-align: center;
@@ -584,7 +592,7 @@
   -webkit-box-shadow: 0px 30px 60px #2a539c;
           box-shadow: 0px 30px 60px #2a539c;
   border-radius: 14px;
-  font: normal normal bold 28px/38px Graphik;
+  font: normal normal bold 28px/38px Graphik bold;
   letter-spacing: 1.2px;
   color: #ffffff;
   text-shadow: 0px 30px 60px #00000017;
@@ -592,17 +600,83 @@
 }
 
 @media screen and (max-width: 1900px) {
-  .aboutOperate .aboutOperateHire .aboutHireButton {
-    font-size: 24px;
-    line-height: 30px;
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutHireButton {
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 10px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .aboutOperate .aboutOperateHire .aboutHireButton {
-    font-size: 18px;
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutHireButton {
+    font-size: 16px;
     white-space: nowrap;
-    line-height: 28px;
+    line-height: 24px;
+    border-radius: 10px;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 1901px) {
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite {
+    margin: 50px 0;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine {
+  width: 1px;
+  height: 21px;
+  border: 3px solid #ffffff;
+  opacity: 1;
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine:nth-child(1) {
+  -webkit-transform: rotate(140deg);
+          transform: rotate(140deg);
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine:nth-child(3) {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+@media screen and (max-width: 1900px) {
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateUpperLine {
+    border: 2px solid #ffffff;
+  }
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine {
+  width: 1px;
+  height: 21px;
+  border: 3px solid #ffffff;
+  opacity: 1;
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine:nth-child(1) {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine:nth-child(3) {
+  -webkit-transform: rotate(140deg);
+          transform: rotate(140deg);
+}
+
+@media screen and (max-width: 1900px) {
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutOperateLineWhite .aboutOperateBottomLine {
+    border: 2px solid #ffffff;
   }
 }
 /*# sourceMappingURL=About.module.css.map */
