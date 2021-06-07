@@ -6,13 +6,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 888px) {
+    padding-left: 0%;
+    padding-right: 5%;
+  }
   .headerLogo {
       width: 300px;
     margin-top: 50px;
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 888px) {
       width: 300px;
-      margin-left: -40px;
+      margin-left: -10px;
       margin-top: 50px;
+    }
+    @media screen and (max-width: 620px) {
+      margin-left: -30px;
     }
   }
   .headerMenu {

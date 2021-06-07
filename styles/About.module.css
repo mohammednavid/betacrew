@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 888px) {
   .about .aboutContainer {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 50px;
     padding: 5%;
   }
@@ -36,7 +36,8 @@
 @media screen and (max-width: 888px) {
   .about .aboutContainer .aboutLeft {
     width: 100%;
-    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-top: -20px;
     margin-right: 0;
   }
 }
@@ -63,15 +64,14 @@
   .about .aboutContainer .aboutLeft .aboutTitle {
     font-size: 55px;
     line-height: 75px;
-    text-align: center;
   }
 }
 
 @media screen and (max-width: 620px) {
   .about .aboutContainer .aboutLeft .aboutTitle {
-    font-size: 46px;
-    line-height: 68px;
-    text-align: center;
+    max-width: 180px;
+    font-size: 32px;
+    line-height: 52px;
     white-space: normal;
   }
 }
@@ -91,17 +91,22 @@
   }
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 620px) {
   .about .aboutContainer .aboutLeft .aboutDescp {
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 21px;
   }
 }
 
 .about .aboutContainer .aboutRight {
   z-index: 2;
   background: #fff;
+}
+
+@media screen and (max-width: 888px) {
+  .about .aboutContainer .aboutRight {
+    padding-top: 50px;
+  }
 }
 
 .about .aboutFounder {
@@ -211,7 +216,7 @@
 
 @media screen and (max-width: 620px) {
   .aboutCulture {
-    padding: 5%;
+    padding: 10% 5%;
   }
 }
 
@@ -239,7 +244,7 @@
 
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureHeader {
-    font-size: 42px;
+    font-size: 32px;
     line-height: 52px;
     text-align: center;
     white-space: normal;
@@ -267,7 +272,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 888px) {
   .aboutCulture .aboutCultureContainer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -287,12 +292,6 @@
   }
 }
 
-@media screen and (min-width: 621px) and (max-width: 888px) {
-  .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 280px;
-  }
-}
-
 .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
   text-align: left;
   padding-top: 100px;
@@ -309,10 +308,16 @@
   }
 }
 
+@media screen and (min-width: 621px) and (max-width: 888px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 30px;
+    line-height: 50px;
     text-align: center;
     white-space: normal;
     padding-top: 50px;
@@ -323,7 +328,7 @@
   text-align: left;
   padding-top: 30px;
   font: normal normal normal 24px/40px Graphik;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.8px;
   color: #fcfcfc;
 }
 
@@ -335,11 +340,17 @@
   }
 }
 
+@media screen and (min-width: 621px) and (max-width: 888px) {
+  .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureDescp {
     text-align: center;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 21px;
   }
 }
 
@@ -382,8 +393,8 @@
 
 @media screen and (max-width: 620px) {
   .aboutOperate .aboutOperateTitle {
-    font-size: 42px;
-    line-height: 65px;
+    font-size: 32px;
+    line-height: 52px;
   }
 }
 
@@ -398,6 +409,13 @@
   .aboutOperate .aboutOperateDescp {
     font-size: 20px;
     line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateDescp {
+    font-size: 16px;
+    line-height: 32px;
   }
 }
 
@@ -441,29 +459,21 @@
 }
 
 .aboutOperate .aboutOperateHDWO .aboutHDWO {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   margin: 25px 0;
   z-index: 2;
 }
 
-@media screen and (min-width: 889px) {
+@media screen and (max-width: 888px) {
   .aboutOperate .aboutOperateHDWO .aboutHDWO {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 889px) {
-  .aboutOperate .aboutOperateHDWO .aboutHDWO:nth-child(2), .aboutOperate .aboutOperateHDWO .aboutHDWO:nth-child(4) {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 35px auto;
   }
 }
 
@@ -472,9 +482,17 @@
   padding: 30px;
   background: #f1f1f1;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 621px) and (max-width: 888px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
+    width: 160px;
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1251px) {
   .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
     width: 160px;
     padding: 40px;
@@ -483,13 +501,19 @@
 
 @media screen and (min-width: 1900px) {
   .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
-    width: auto;
-    padding: 60px;
+    width: 200px;
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Img {
+    margin-bottom: 15px;
   }
 }
 
 .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
-  width: 50vw;
+  width: 60vw;
   max-width: 205px;
   text-align: center;
   letter-spacing: 0.4px;
@@ -499,7 +523,7 @@
 
 @media screen and (min-width: 621px) {
   .aboutOperate .aboutOperateHDWO .aboutHDWO .aboutHDWO_Descp {
-    min-width: 50vw;
+    width: 100%;
   }
 }
 
@@ -582,13 +606,14 @@
 @media screen and (max-width: 888px) {
   .aboutOperate .aboutOperateHire .aboutHireContent {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .aboutOperate .aboutOperateHire .aboutHireContent {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 34px;
   }
 }
 
@@ -622,6 +647,12 @@
     white-space: nowrap;
     line-height: 24px;
     border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutOperate .aboutOperateHire .aboutOperateRight .aboutHireButton {
+    font-size: 12px;
   }
 }
 

@@ -84,10 +84,10 @@ const About = () => {
                   <p className={styles.aboutHDWO_Descp}>{val.firstStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
-                  <p className={styles.aboutHDWO_Descp}>{val.secondStep}</p>
                   <div className={styles.aboutHDWO_Img}>
                     <Image src="/images/HDWO_2.svg" width={110} height={110} />
                   </div>
+                  <p className={styles.aboutHDWO_Descp}>{val.secondStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
@@ -96,10 +96,10 @@ const About = () => {
                   <p className={styles.aboutHDWO_Descp}>{val.thirdStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
-                  <p className={styles.aboutHDWO_Descp}>{val.fourthStep}</p>
                   <div className={styles.aboutHDWO_Img}>
                     <Image src="/images/HDWO_4.svg" width={110} height={110} />
                   </div>
+                  <p className={styles.aboutHDWO_Descp}>{val.fourthStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>

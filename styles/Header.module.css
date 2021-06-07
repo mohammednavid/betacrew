@@ -14,16 +14,29 @@
           align-items: center;
 }
 
+@media screen and (max-width: 888px) {
+  .header {
+    padding-left: 0%;
+    padding-right: 5%;
+  }
+}
+
 .header .headerLogo {
   width: 300px;
   margin-top: 50px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 888px) {
   .header .headerLogo {
     width: 300px;
-    margin-left: -40px;
+    margin-left: -10px;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header .headerLogo {
+    margin-left: -30px;
   }
 }
 
