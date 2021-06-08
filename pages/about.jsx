@@ -3,6 +3,7 @@ import Image from "next/image";
 import { aboutData } from "../data/aboutData";
 import styles from "../styles/About.module.css";
 import Footer from "../components/Footer";
+import Hire from "../components/Hire";
 
 const About = () => {
   return (
@@ -109,24 +110,7 @@ const About = () => {
                 </div>
                 <div className={styles.aboutHDWO_Line}></div>
               </div>
-              <div className={styles.aboutOperateHire}>
-                <p className={styles.aboutHireContent}>
-                  Hire The Best Developers And Designers Around!
-                </p>
-                <div className={styles.aboutOperateRight}>
-                <div className={styles.aboutOperateLineWhite}>
-                  <div className={styles.aboutOperateUpperLine}></div>
-                  <div className={styles.aboutOperateUpperLine}></div>
-                  <div className={styles.aboutOperateUpperLine}></div>
-                </div>
-                <a className={styles.aboutHireButton}>HIRE TOP DEVELOPERS</a>
-                <div className={styles.aboutOperateLineWhite}>
-                  <div className={styles.aboutOperateBottomLine}></div>
-                  <div className={styles.aboutOperateBottomLine}></div>
-                  <div className={styles.aboutOperateBottomLine}></div>
-                </div>
-                </div>
-              </div>
+              <Hire/>
             </div>
           </div>
         );

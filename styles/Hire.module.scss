@@ -1,0 +1,103 @@
+.hire {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #5185eb;
+  border-radius: 56px;
+  padding: 10% 5%;
+  margin-bottom: 50px;
+  @media screen and (max-width: 1500px) {
+    border-radius: 30px;
+  }
+  @media screen and (max-width: 888px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hireContent {
+    max-width: 633px;
+    text-align: left;
+    font: normal normal bold 47px/59px Graphik Bold;
+    letter-spacing: 1.88px;
+    color: #ffffff;
+    text-shadow: 0px 30px 60px #00000017;
+    @media screen and (max-width: 1900px) {
+      font-size: 36px;
+      line-height: 55px;
+    }
+    @media screen and (max-width: 1200px) {
+      font-size: 28px;
+      line-height: 45px;
+    }
+    @media screen and (max-width: 888px) {
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    @media screen and (max-width: 620px) {
+      font-size: 18px;
+      line-height: 34px;
+    }
+  }
+  .hireRight {
+    .hireButton {
+      cursor: pointer;
+      padding: 20px 50px;
+      text-align: center;
+      background: #ff6498;
+      box-shadow: 0px 30px 60px #2a539c;
+      border-radius: 14px;
+      font: normal normal bold 28px/38px Graphik bold;
+      letter-spacing: 1.2px;
+      color: #ffffff;
+      text-shadow: 0px 30px 60px #00000017;
+      text-transform: uppercase;
+      @media screen and (max-width: 1900px) {
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 10px;
+        padding: 20px 30px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+        white-space: nowrap;
+        line-height: 24px;
+        border-radius: 10px;
+      }
+      @media screen and (max-width: 620px) {
+        font-size: 12px;
+      }
+    }
+    .hireLineWhite {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 30px 0;
+      @media screen and (min-width: 1901px) {
+        margin: 50px 0;
+      }
+      .hireUpperLine {
+        width: 1px;
+        height: 21px;
+        border-right: 4px solid #ffffff;
+        opacity: 1;
+        &:nth-child(1) {
+          transform: rotate(140deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(40deg);
+        }
+      }
+      .hireBottomLine {
+        width: 1px;
+        height: 21px;
+        border-right: 4px solid #ffffff;
+        opacity: 1;
+        &:nth-child(1) {
+          transform: rotate(40deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(140deg);
+        }
+      }
+    }
+  }
+}
