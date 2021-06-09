@@ -670,4 +670,15 @@
   margin: 250px 0;
   margin-right: -23px;
 }
+
+.caseStudy .caseStudyHire {
+  padding: 5%;
+}
+
+@media screen and (min-width: 889px) {
+  .caseStudy .caseStudyHire {
+    padding: 5% 9%;
+    padding-top: 0;
+  }
+}
 /*# sourceMappingURL=caseStudy.module.css.map */

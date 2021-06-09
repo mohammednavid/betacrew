@@ -431,4 +431,11 @@
         margin: 250px 0;
         margin-right: -23px;
   }
+  .caseStudyHire{
+    padding:5%;
+    @media screen and (min-width:889px){
+      padding:5% 9%;
+      padding-top: 0;
+    }
+  }
 }

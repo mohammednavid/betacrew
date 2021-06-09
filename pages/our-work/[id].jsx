@@ -478,7 +478,9 @@ const caseStudy = () => {
             </div>
           );
         })}
+        <div className={styles.caseStudyHire}>
         <Hire />
+        </div>
       </div>
       <Footer />
     </>
