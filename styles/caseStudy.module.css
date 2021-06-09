@@ -325,6 +325,12 @@
   }
 }
 
+@media screen and (min-width: 1921px) {
+  .caseStudy .caseStudyDescpHeader {
+    margin-top: 40%;
+  }
+}
+
 .caseStudy .caseStudyDescpFull {
   text-align: left;
   font-size: 18px;
@@ -378,6 +384,14 @@
   }
 }
 
+@media screen and (min-width: 1921px) {
+  .caseStudy .caseStudyPerson {
+    min-width: 100vw;
+    position: absolute;
+    left: 0;
+  }
+}
+
 .caseStudy .caseStudyPerson .caseStudyPersonImg {
   width: 100%;
   display: -webkit-box;
@@ -401,6 +415,7 @@
 @media screen and (min-width: 889px) {
   .caseStudy .caseStudyPerson .caseStudyPersonThought {
     max-width: 55%;
+    margin-right: auto;
   }
 }
 

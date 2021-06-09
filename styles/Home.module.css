@@ -1,0 +1,220 @@
+.home {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+@media screen and (min-width: 889px) {
+  .home {
+    padding: 5% 9%;
+  }
+}
+
+.home .homeTitle {
+  max-width: 1200px;
+  text-align: center;
+  font: normal normal bold 88px/110px Graphik Bold;
+  letter-spacing: 0px;
+  text-shadow: 0px 30px 60px #00000017;
+  margin: 0 auto;
+  color: #101010;
+  padding-top: 30px;
+}
+
+.home .homeTitle span {
+  color: #5185eb;
+}
+
+@media screen and (max-width: 1900px) {
+  .home .homeTitle {
+    max-width: 800px;
+    font-size: 65px;
+    line-height: 85px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .homeTitle {
+    font-size: 45px;
+    line-height: 60px;
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeTitle {
+    max-width: 350px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+.home .homeDescp {
+  text-align: center;
+  font: normal normal 300 26px/40px Graphik;
+  letter-spacing: 1px;
+  color: #363636;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1900px) {
+  .home .homeDescp {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .homeDescp {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeDescp {
+    max-width: 320px;
+    font-size: 15px;
+    line-height: 23px;
+    padding-top: 20px;
+  }
+}
+
+.home .homeButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 24px;
+  font-family: Graphik Bold;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1401px) {
+  .home .homeButtons {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .homeButtons {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeButtons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+    font-size: 16px;
+    max-width: 320px;
+  }
+}
+
+.home .homeButtons .homeButtonLeft {
+  color: #fff;
+  background: #2A539C;
+  padding: 15px 30px;
+  margin: 0 20px 30px 20px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeButtons .homeButtonLeft {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .homeButtons .homeButtonLeft {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeButtons .homeButtonLeft {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeButtons .homeButtonLeft {
+    width: 350px;
+  }
+}
+
+.home .homeButtons .homeButtonRight {
+  color: #2A539C;
+  background: #fff;
+  padding: 15px 30px;
+  margin: 0 20px 30px 20px;
+  border: 3px solid #5185eb;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeButtons .homeButtonRight {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .homeButtons .homeButtonRight {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeButtons .homeButtonRight {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeButtons .homeButtonRight {
+    width: 350px;
+  }
+}
+
+.home .homeVector {
+  margin-top: -50px;
+}
+
+@media screen and (min-width: 621px) {
+  .home .homeVector {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeVector {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeVector {
+    margin-top: -300px;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */

@@ -215,6 +215,9 @@
       font-size: 65px;
       line-height: 85px;
     }
+    @media screen and (min-width: 1921px) {
+      margin-top: 40%;
+    }
   }
   .caseStudyDescpFull {
     text-align: left;
@@ -248,6 +251,11 @@
       justify-content: center;
       margin-bottom: 100px;
     }
+    @media screen and (min-width: 1921px) {
+      min-width:100vw;
+      position: absolute;
+      left: 0;
+    }
     .caseStudyPersonImg {
       width: 100%;
       display: flex;
@@ -261,6 +269,7 @@
     .caseStudyPersonThought {
       @media screen and (min-width: 889px) {
         max-width: 55%;
+        margin-right:auto;
       }
       .caseStudyPersonHeader {
         text-align: left;

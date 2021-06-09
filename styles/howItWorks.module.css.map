@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,KAAK,EAAC,gBAAgB;EACtB,MAAM,EAAC,gBAAgB;CAC1B",
+    "sources": [
+        "howItWorks.module.scss"
+    ],
+    "names": [],
+    "file": "howItWorks.module.css"
+}

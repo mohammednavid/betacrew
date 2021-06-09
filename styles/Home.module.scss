@@ -1,0 +1,141 @@
+.home{
+    width:100%;
+    max-width:1920px;
+    margin: 0 auto;
+    padding: 5%;
+    @media screen and (min-width:889px) {
+        padding: 5% 9%;
+    }
+    .homeTitle{
+        max-width:1200px;
+        text-align:center;
+            font: normal normal bold 88px/110px Graphik Bold;
+            letter-spacing: 0px;
+            text-shadow: 0px 30px 60px #00000017;
+            margin:0 auto;
+            color:#101010;
+            padding-top: 30px;
+            span {
+                color: #5185eb;
+            }
+            @media screen and (max-width: 1900px) {
+                max-width:800px;
+              font-size: 65px;
+              line-height: 85px;
+            }
+            @media screen and (max-width: 1200px) {
+              font-size: 45px;
+              line-height: 60px;
+              max-width: 550px;
+            }
+            @media screen and (max-width: 620px) {
+              max-width: 350px;
+              font-size: 26px;
+              line-height: 40px;
+            }
+    }
+    .homeDescp {
+        text-align: center;
+        font: normal normal 300 26px/40px Graphik;
+        letter-spacing: 1px;
+        color: #363636;
+        max-width: 800px;
+        margin: 0 auto;
+        opacity: 0.9;
+        padding-top: 30px;
+        @media screen and (max-width: 1900px) {
+          font-size: 20px;
+          line-height: 34px;
+          max-width:600px;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 18px;
+          line-height: 32px;
+          max-width: 500px;
+        }
+        @media screen and (max-width: 620px) {
+            max-width: 320px;
+          font-size: 15px;
+          line-height: 23px;
+          padding-top: 20px;
+        }
+      }
+      .homeButtons{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 30px 0;
+          font-size: 24px;
+          font-family: Graphik Bold;
+          white-space:nowrap;
+          margin: 0 auto;
+
+          @media screen and (min-width:1401px) {
+              margin-top:40px;
+          }
+          @media screen and (max-width:1200px) {
+              font-size: 18px;
+          }
+          @media screen and (max-width:620px) {
+              flex-direction: column;
+              padding: 20px 0;
+              font-size: 16px;
+              max-width:320px;
+          }
+          .homeButtonLeft{
+              color: #fff;
+              background: #2A539C;
+              padding: 15px 30px;
+              margin:0 20px 30px 20px;
+              border: 3px solid transparent;
+              border-radius: 8px;
+              cursor: pointer;
+              @media screen and (min-width:1201px) {
+                width: 260px;
+            }
+            @media screen and (max-width:1200px) {
+                width: 220px;
+            }
+            @media screen and (max-width:620px) {
+                width: 100%;
+            }
+            @media screen and (min-width:1901px) {
+              width: 350px;
+            }
+            }
+          .homeButtonRight{
+              color: #2A539C;
+              background: #fff;
+              padding: 15px 30px;
+              margin:0 20px 30px 20px;
+              border: 3px solid #5185eb;
+              cursor: pointer;
+              border-radius: 8px;
+              @media screen and (min-width:1201px) {
+                width: 260px;
+              }
+              @media screen and (max-width:1200px) {
+                  width: 220px;
+                }
+                @media screen and (max-width:620px) {
+                    width: 100%;
+                }
+                @media screen and (min-width:1901px) {
+                  width: 350px;
+                }
+          }
+      }
+      .homeVector{
+          margin-top:-50px;
+          @media screen and (min-width:621px){
+          margin-top:-100px;
+        }
+          @media screen and (min-width:1201px){
+              margin-top:-200px;
+          }
+          @media screen and (min-width:1901px){
+              margin-top:-300px;
+          }
+      }
+}
