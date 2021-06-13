@@ -409,6 +409,7 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
     padding-right: 5%;
+    margin-left: -10%;
   }
 }
 

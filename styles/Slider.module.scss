@@ -1,0 +1,121 @@
+// body {
+// 	align-items: center;
+// 	background: #E3E3E3;
+// 	display: flex;
+// 	height: 100vh;
+// 	justify-content: center;
+// }
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider,.slider2 {
+	background: white;
+	height: 200px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	margin-bottom:50px;
+    @media screen and (max-width:888px){
+        height:100px;
+        margin-bottom: 30px;
+    }
+    @media screen and (max-width:620px){
+        margin-bottom: 10px;
+    }
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 250px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+        @media screen and (max-width:888px){
+            display:none;
+        }
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slideTrack {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 12);
+        @media screen and (max-width:888px){
+            width:calc(90px * 12);
+        }
+        @media screen and (min-width:889px) and (max-width:1900px){
+        width:calc(150px * 12);
+        }
+	}
+	
+	.slide {
+		height: max-content;
+		max-width: 250px;
+        background:lightblue;
+        border-radius:70px;
+        padding: 30px;
+        transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
+        margin:30px;
+        @media screen and (max-width:888px){
+            max-width: 90px;
+            height:90px;
+            margin: 10px;
+            padding: 20px;
+        }
+        @media screen and (max-width:620px){
+            height:70px;
+            margin: 5px;
+            padding: 15px;
+        }
+        @media screen and (min-width:889px) and (max-width:1900px){
+            max-width: 150px;
+            height:140px;
+            margin: 20px;
+        }
+	}
+    .slideImg{
+        transform: rotate(385deg);
+        @media screen and (max-width:888px){
+            width: 50px;
+            height:50px;
+        }
+        @media screen and (max-width:620px){
+            width: 40px;
+            height:40px;
+        }
+        @media screen and (min-width:889px) and (max-width:1900px){
+            width: 80px;
+            height:80px;
+        }
+    }
+}
+.slider2{
+    margin-left: -100px;
+    margin-bottom: 10%;
+    @media screen and (max-width:888px){
+        margin-bottom: 100px;
+        margin-left: -50px;
+    }
+}
