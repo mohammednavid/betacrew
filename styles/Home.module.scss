@@ -134,10 +134,15 @@
     max-width: 1000px;
     margin:0 auto;
     margin-top: -15%;
+    height:max-content;
     background:#fff;
     z-index:-1;
-    margin-bottom: -10%;
+    // margin-bottom: -10%;
+    @media screen and (min-width: 889px) {
+      height:80vh;
+    }
     @media screen and (min-width: 1901px) {
+      height:120vh;
       max-width: 1600px;
     }
   }
