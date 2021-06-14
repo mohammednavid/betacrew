@@ -13,6 +13,8 @@
     margin: 0 auto;
     color: #101010;
     padding-top: 30px;
+    background:#fff;
+    z-index:10;
     span {
       color: #5185eb;
     }
@@ -41,6 +43,8 @@
     margin: 0 auto;
     opacity: 0.9;
     padding-top: 30px;
+    background:#fff;
+    z-index:10;
     @media screen and (max-width: 1900px) {
       font-size: 20px;
       line-height: 30px;
@@ -68,7 +72,8 @@
     font-family: Graphik;
     white-space: nowrap;
     margin: 0 auto;
-
+    background:#fff;
+    z-index:10;
     @media screen and (min-width: 1401px) {
       margin-top: 40px;
     }
@@ -89,6 +94,7 @@
       border: 3px solid transparent;
       border-radius: 8px;
       cursor: pointer;
+      z-index: 10;
       @media screen and (min-width: 1201px) {
         width: 260px;
       }
@@ -109,6 +115,7 @@
       border: 3px solid #5185eb;
       cursor: pointer;
       border-radius: 8px;
+      z-index: 10;
       @media screen and (min-width: 1201px) {
         width: 260px;
       }
@@ -124,24 +131,21 @@
     }
   }
   .homeVector {
-    margin-top: -70px;
-    @media screen and (min-width: 621px) {
-      margin-top: -200px;
-    }
-    @media screen and (min-width: 1201px) {
-      margin-top: -250px;
-    }
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top: -15%;
+    background:#fff;
+    z-index:-1;
+    margin-bottom: -10%;
     @media screen and (min-width: 1901px) {
-      max-width: 1920px;
-      margin: 0 auto;
-      margin-top: -300px;
+      max-width: 1600px;
     }
   }
   .homeWWD {
     padding: 5%;
     max-width: 1920px;
     margin: 0 auto;
-    margin-top: -15%;
+    z-index: 2;
     @media screen and (min-width: 889px) {
       padding: 0% 9%;
     }
@@ -151,6 +155,7 @@
       color: #000c20;
       font-family: Graphik Bold;
       text-align: center;
+      z-index: 2;
       margin-bottom: 2%;
       span {
         color: #5185eb;
@@ -175,10 +180,12 @@
       color: #000c20;
       text-align: center;
       margin: 0 auto;
+      z-index: 2 !important;
       margin-bottom: 5%;
       max-width: 320px;
       span {
         color: #5185eb;
+        cursor: pointer;
       }
       @media screen and (min-width: 621px) {
         font-size: 18px;

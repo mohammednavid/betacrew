@@ -159,7 +159,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.homeWWD} style={{ marginTop: "-5%" }}>
+        <div className={styles.homeWWD}>
           <h2 className={styles.homeWWDTitle}>
             OUR POD <span>.</span>
           </h2>
