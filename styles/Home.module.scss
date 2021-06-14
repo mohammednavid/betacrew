@@ -241,35 +241,36 @@
             max-height: 500px;
           }
           .homeStepImg1 {
-              margin-left: -25px !important;
-              @media screen and (min-width: 889px) {
-                margin-left: -35px !important;
-              }
+            margin-left: -25px !important;
+            @media screen and (min-width: 889px) {
+              margin-left: -35px !important;
+            }
           }
           .homeStepImg {
-              @media screen and (min-width: 1201px) {
-                margin-left: 15px !important;
-              }
+            @media screen and (min-width: 1201px) {
+              margin-left: 15px !important;
+            }
           }
           .homeStepImg3 {
-              margin-left: -45px !important;
-              @media screen and (min-width: 889px) {
-                margin-left: -70px !important;
-              }
-              @media screen and (min-width: 1201px) {
-                margin-left: -90px !important;
-              }
+            margin-left: -45px !important;
+            @media screen and (min-width: 889px) {
+              margin-left: -70px !important;
+            }
+            @media screen and (min-width: 1201px) {
+              margin-left: -90px !important;
+            }
           }
-          .homeStepImgBg,.homeStepImgBg3 {
+          .homeStepImgBg,
+          .homeStepImgBg3 {
             position: absolute;
             width: 188px;
             height: 165px;
             left: 20px;
-            top:20px;
+            top: 20px;
             background: #ff6498;
             @media screen and (min-width: 889px) {
               top: 30px;
-              left:30px;
+              left: 30px;
               width: 300px;
               height: 265px;
             }
@@ -285,10 +286,10 @@
               left: 60px;
             }
           }
-          .homeStepImgBg3{
+          .homeStepImgBg3 {
             top: 50px;
             left: 30px;
-            height:135px;
+            height: 135px;
             width: 183px;
             @media screen and (min-width: 889px) {
               top: 60px;
@@ -409,11 +410,66 @@
           margin-bottom: -80px;
         }
         @media screen and (max-width: 888px) {
-         display:none;
+          display: none;
         }
         .homeForwardImg {
           z-index: 10;
         }
+      }
+    }
+  }
+  .homeCL1 {
+    padding: 5%;
+    max-width: 1920px;
+    margin: 0 auto;
+    @media screen and (min-width: 889px) {
+      padding: 0% 9%;
+    }
+    .homeCL1Title {
+      font-size: 26px;
+      line-height: 35px;
+      color: #2a539c;
+      font-family: Graphik Bold;
+      text-align: center;
+      margin-bottom: 2%;
+      @media screen and (min-width: 621px) {
+        font-size: 32px;
+        line-height: 44px;
+      }
+      @media screen and (min-width: 1201px) {
+        font-size: 38px;
+        line-height: 50px;
+      }
+      @media screen and (min-width: 1901px) {
+        font-size: 47px;
+        line-height: 59px;
+      }
+    }
+    .homeCL1Descp {
+      font-size: 12px;
+      line-height: 20px;
+      color: #000c20;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 5%;
+      max-width: 320px;
+      span {
+        color: #5185eb;
+      }
+      @media screen and (min-width: 621px) {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 600px;
+      }
+      @media screen and (min-width: 1201px) {
+        font-size: 21px;
+        line-height: 32px;
+        max-width: 830px;
+      }
+      @media screen and (min-width: 1901px) {
+        font-size: 25px;
+        line-height: 40px;
+        max-width: 1000px;
       }
     }
   }
@@ -905,7 +961,7 @@
       padding: 100px 50px;
       background: #dbf9ff;
       margin: 50px 0 0 0;
-      cursor:pointer;
+      cursor: pointer;
       @media screen and (min-width: 621px) {
         margin: 0 30px 0 0;
       }
@@ -925,22 +981,22 @@
     text-align: center;
     width: max-content;
     margin: 0 auto;
-    white-space:nowrap;
+    white-space: nowrap;
     color: #2a539c;
     padding: 0 2.5px;
     cursor: pointer;
     font: normal normal 600 16px/49px Graphik;
-letter-spacing: 0.64px;
+    letter-spacing: 0.64px;
     text-shadow: 0px 30px 60px #00000017;
     border-bottom: 2px solid #ff6498;
     margin-bottom: 50px;
     @media screen and (min-width: 621px) {
-      font-size:24px;
-      margin-bottom:10%;
+      font-size: 24px;
+      margin-bottom: 10%;
     }
     @media screen and (min-width: 1201px) {
       font-size: 32px;
-      margin-bottom:100px;
+      margin-bottom: 100px;
     }
     @media screen and (min-width: 1901p) {
       font: normal normal 600 39px/49px Graphik;
@@ -960,7 +1016,7 @@ letter-spacing: 0.64px;
       margin-bottom: 100px;
     }
     @media screen and (min-width: 1921px) {
-      min-width:100vw;
+      min-width: 100vw;
       position: absolute;
       left: 0;
     }
@@ -978,7 +1034,7 @@ letter-spacing: 0.64px;
     .caseStudyPersonThought {
       @media screen and (min-width: 889px) {
         max-width: 55%;
-        margin-right:auto;
+        margin-right: auto;
       }
       .caseStudyPersonHeader {
         text-align: left;
@@ -1001,14 +1057,14 @@ letter-spacing: 0.64px;
           line-height: 55px;
         }
       }
-      .caseStudyPersonLine{
-        margin-left:10px;
-        height:2px;
-        width:120px;
+      .caseStudyPersonLine {
+        margin-left: 10px;
+        height: 2px;
+        width: 120px;
         background: #ff6498;
         margin-bottom: 50px;
-        @media screen and (max-width:1200px){
-          width:80px;
+        @media screen and (max-width: 1200px) {
+          width: 80px;
         }
       }
       .caseStudyPersonWords {
@@ -1031,12 +1087,12 @@ letter-spacing: 0.64px;
       }
     }
   }
-  .homeHire{
-    padding:10% 5%;
-    @media screen and (min-width:889px){
-      padding:5% 9%;
+  .homeHire {
+    padding: 10% 5%;
+    @media screen and (min-width: 889px) {
+      padding: 5% 9%;
     }
-    @media screen and (min-width:1921px){
+    @media screen and (min-width: 1921px) {
       margin-top: 30%;
     }
     .hire {
@@ -1083,8 +1139,8 @@ letter-spacing: 0.64px;
           cursor: pointer;
           padding: 20px 50px;
           text-align: center;
-          background: #2A539C;
-          box-shadow: 0px 30px 60px #2A539C24;
+          background: #2a539c;
+          box-shadow: 0px 30px 60px #2a539c24;
           border-radius: 14px;
           font: normal normal bold 28px/38px Graphik bold;
           letter-spacing: 1.2px;
@@ -1141,6 +1197,6 @@ letter-spacing: 0.64px;
           }
         }
       }
-    }    
+    }
   }
 }

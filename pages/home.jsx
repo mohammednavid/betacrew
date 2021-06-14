@@ -169,6 +169,14 @@ const HomePage = () => {
             within the organization.
           </p>
         </div>
+        <div className={styles.homeCL1}>
+          <h2 className={styles.homeCL1Title}>CL1(CREW LEVEL 1)</h2>
+          <p className={styles.homeCL1Descp}>
+            These are entry-level engineers expected to be able to write modules
+            and fix bugs. We expect them to be keen learners and perform well
+            under a more senior engineer.
+          </p>
+        </div>
         <div className={styles.homeProcess}>
           <div className={styles.homeProcessContainer}>
             <div className={styles.homeProcessLeft}>
@@ -260,8 +268,8 @@ const HomePage = () => {
             <h2 className={styles.homeDiffTitle}>THE BETACREW WAY</h2>
             <div className={styles.homeDiffImg}>
               <Image
-                src="/images/betaCrewWay.svg"
-                alt="The Old Way"
+                src="/images/betacrewWay.svg"
+                alt="The Betacrew Way"
                 width={550}
                 height={500}
               />

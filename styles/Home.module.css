@@ -413,7 +413,8 @@
   }
 }
 
-.home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg, .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
+.home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg,
+.home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
   position: absolute;
   width: 188px;
   height: 165px;
@@ -423,7 +424,8 @@
 }
 
 @media screen and (min-width: 889px) {
-  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg, .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg,
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
     top: 30px;
     left: 30px;
     width: 300px;
@@ -432,7 +434,8 @@
 }
 
 @media screen and (min-width: 1201px) {
-  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg, .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg,
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
     height: 340px;
     width: 370px;
     left: 55px;
@@ -440,7 +443,8 @@
 }
 
 @media screen and (min-width: 1901px) {
-  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg, .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg,
+  .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImgBg3 {
     height: 365px;
     width: 410px;
     top: 40px;
@@ -645,6 +649,86 @@
 
 .home .homeWWD .homeStepContainer .homeForward2 .homeForwardImg {
   z-index: 10;
+}
+
+.home .homeCL1 {
+  padding: 5%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 889px) {
+  .home .homeCL1 {
+    padding: 0% 9%;
+  }
+}
+
+.home .homeCL1 .homeCL1Title {
+  font-size: 26px;
+  line-height: 35px;
+  color: #2a539c;
+  font-family: Graphik Bold;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+@media screen and (min-width: 621px) {
+  .home .homeCL1 .homeCL1Title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeCL1 .homeCL1Title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeCL1 .homeCL1Title {
+    font-size: 47px;
+    line-height: 59px;
+  }
+}
+
+.home .homeCL1 .homeCL1Descp {
+  font-size: 12px;
+  line-height: 20px;
+  color: #000c20;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  max-width: 320px;
+}
+
+.home .homeCL1 .homeCL1Descp span {
+  color: #5185eb;
+}
+
+@media screen and (min-width: 621px) {
+  .home .homeCL1 .homeCL1Descp {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeCL1 .homeCL1Descp {
+    font-size: 21px;
+    line-height: 32px;
+    max-width: 830px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeCL1 .homeCL1Descp {
+    font-size: 25px;
+    line-height: 40px;
+    max-width: 1000px;
+  }
 }
 
 .home .homePOD {
@@ -1692,9 +1776,9 @@
   cursor: pointer;
   padding: 20px 50px;
   text-align: center;
-  background: #2A539C;
-  -webkit-box-shadow: 0px 30px 60px #2A539C24;
-          box-shadow: 0px 30px 60px #2A539C24;
+  background: #2a539c;
+  -webkit-box-shadow: 0px 30px 60px #2a539c24;
+          box-shadow: 0px 30px 60px #2a539c24;
   border-radius: 14px;
   font: normal normal bold 28px/38px Graphik bold;
   letter-spacing: 1.2px;
