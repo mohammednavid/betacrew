@@ -214,13 +214,13 @@
 
 @media screen and (min-width: 889px) {
   .home .homeVector {
-    height: 80vh;
+    height: 800px;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .home .homeVector {
-    height: 120vh;
+    height: 1300px;
     max-width: 1600px;
   }
 }
