@@ -5,13 +5,19 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import { useRef, useEffect } from "react";
 import Image from "next/image";
 import { homePODData, homeWWDData, homeFeedback } from "../data/homeData";
-import lottie from "../lottie.json";
+// import lottie from "/";
 import Slider from "../components/Slider";
 import Link from "next/link";
+import Process from "../components/Process";
 import Hire from "../components/Hire";
+import PodSlider from "../components/PodSlider";
+
 
 const HomePage = () => {
   const vector = useRef(null);
+  const secondVector = useRef(null);
+  const thirdVector = useRef(null);
+  const fourthVector = useRef(null);
 
   return (
     <>
@@ -34,7 +40,7 @@ const HomePage = () => {
             hover
             autoplay={true}
             loop={false}
-            src={lottie}
+            src="/illustration/lottie.json"
           ></Player>
         </div>
         <div className={styles.homeWWD}>
@@ -42,7 +48,7 @@ const HomePage = () => {
             WHAT WE DO <span>.</span>
           </h2>
           <p className={styles.homeWWDDescp}>
-            We provide best in classs <span>developer team</span> . So you can
+            We provide best in class <span>developer team</span> . So you can
             build the plane as you fly it.
           </p>
           {homeWWDData.map((item) => {
@@ -155,12 +161,18 @@ const HomePage = () => {
               );
             })}
             <div className={styles.homePODRight}>
-              <Image src="/images/POD.svg" alt="" width={500} height={400} />
+              <Player
+                ref={secondVector}
+                hover
+                autoplay={true}
+                loop={false}
+                src="/illustration/pod.json"
+              ></Player>
             </div>
           </div>
         </div>
         <div className={styles.homeWWD}>
-          <h2 className={styles.homeWWDTitle}>
+          <h2 className={styles.homeWWDTitle} style={{marginTop:'-5%'}}>
             OUR POD <span>.</span>
           </h2>
           <p className={styles.homeWWDDescp}>
@@ -169,6 +181,7 @@ const HomePage = () => {
             within the organization.
           </p>
         </div>
+        <PodSlider/>
         <div className={styles.homeCL1}>
           <h2 className={styles.homeCL1Title}>CL1(CREW LEVEL 1)</h2>
           <p className={styles.homeCL1Descp}>
@@ -177,60 +190,18 @@ const HomePage = () => {
             under a more senior engineer.
           </p>
         </div>
-        <div className={styles.homeProcess}>
-          <div className={styles.homeProcessContainer}>
-            <div className={styles.homeProcessLeft}>
-              <h2 className={styles.homeProcessLeftTitle}>
-                How we build your perfect team .
-              </h2>
-              <a className={styles.homeProcessLeftButton}>Create your Team</a>
-            </div>
-            <div className={styles.homeProcessRight}>
-              <div className={styles.homeProcessRightContent}>
-                <div className={styles.homeProcessRightBlank}></div>
-                <div className={styles.homeProcessRightCircle}></div>
-                <div className={styles.homeProcessRightNumber}>01</div>
-                <div className={styles.homeProcessRightText}>
-                  Matching Process
-                </div>
-              </div>
-              <div className={styles.homeProcessRightContent}>
-                <div className={styles.homeProcessRightBlank}></div>
-                <div className={styles.homeProcessRightCircle}></div>
-                <div className={styles.homeProcessRightNumber}>02</div>
-                <div className={styles.homeProcessRightText}>
-                  Assess The Candidates
-                </div>
-              </div>
-              <div className={styles.homeProcessRightContent}>
-                <div className={styles.homeProcessRightBlank}></div>
-                <div className={styles.homeProcessRightCircle}></div>
-                <div className={styles.homeProcessRightNumber}>03</div>
-                <div className={styles.homeProcessRightText}>
-                  Suggest A Team Structure
-                </div>
-              </div>
-              <div className={styles.homeProcessRightContent}>
-                <div className={styles.homeProcessRightBlank}></div>
-                <div className={styles.homeProcessRightCircle}></div>
-                <div className={styles.homeProcessRightNumber}>04</div>
-                <div className={styles.homeProcessRightText}>
-                  Build Custom Pods
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            <Process/>
         <div className={styles.homeDiffContainer}>
           <div className={styles.homeDiff}>
             <h2 className={styles.homeDiffTitle}>THE OLD WAY</h2>
             <div className={styles.homeDiffImg}>
-              <Image
-                src="/images/betacrewWay.svg"
-                alt="The Old Way"
-                width={550}
-                height={500}
-              />
+              <Player
+                ref={thirdVector}
+                hover
+                autoplay={true}
+                loop={false}
+                src="/illustration/oldWay.json"
+              ></Player>
             </div>
             <ul className={styles.homeDiffContent}>
               <li className={styles.homeDiffPoint}>
@@ -267,12 +238,13 @@ const HomePage = () => {
           <div className={styles.homeDiff}>
             <h2 className={styles.homeDiffTitle}>THE BETACREW WAY</h2>
             <div className={styles.homeDiffImg}>
-              <Image
-                src="/images/betacrewWay.svg"
-                alt="The Betacrew Way"
-                width={550}
-                height={500}
-              />
+              <Player
+                ref={thirdVector}
+                hover
+                autoplay={true}
+                loop={false}
+                src="/illustration/betacrewWay.json"
+              ></Player>
             </div>
             <ul className={styles.homeDiffContent}>
               <li className={styles.homeDiffPoint}>
@@ -336,7 +308,7 @@ const HomePage = () => {
             </Link>
             <Link href="/our-work/case-study-2">
               <div className={styles.homeCaseStudiesCard2}>
-                <Image src="/images/bild.png" alt="" width={340} height={130} />
+                <Image src="/images/stopspoof.png" alt="" width={340} height={130} />
               </div>
             </Link>
           </div>

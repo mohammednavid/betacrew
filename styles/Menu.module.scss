@@ -1,21 +1,183 @@
-.menu{
-    width: 100vw;
-    min-height: 100vh;
+.menu {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #fff;
+  padding: 10%;
+  @media screen and (min-width: 1201px) {
+      padding: 5% 10%;
+      padding-bottom: 0;
+}
+  .menuClose {
+    position: absolute;
+    font-family: graphik;
+    font-size: 24px;
+    top: 45px;
+    right: 11%;
+    color: black;
+    cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    background: #fff;
-    margin-left: -5%;
-    .menuIcon{
-        position: absolute;
-        font-family: graphik;
-        font-size: 24px;
-        top: 50px;
-        right: 12%;
-        color: black;
-        cursor: pointer;
+    @media screen and (max-width: 888px) {
+      right: 9%;
     }
+    p {
+      font-family: Graphik;
+      letter-spacing: 0px;
+      color: #2a539c;
+      text-shadow: 0px 30px 60px #00000014;
+      font-size: 28px;
+      font-weight: 600;
+      @media screen and (max-width: 1800px) {
+        font-size: 22px;
+      }
+      @media screen and (max-width: 620px) {
+        display: none;
+      }
+    }
+    .menuIcon {
+      width: 30px;
+      height: 30px;
+      margin-left: 20px;
+      @media screen and (max-width: 620px) {
+        display: block;
+        margin-left: 0;
+      }
+    }
+  }
+  .menuContainer {
+      padding-top: 60px;
+    @media screen and (min-width: 621px) {
+        padding-top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 1920px;
+      margin: 0 auto;
+    }
+    .menuLeft {
+      text-align: left;
+      .menuLeftList {
+        cursor: pointer;
+        list-style: none;
+        letter-spacing: 0px;
+        font: normal normal normal 22px/56px Graphik;
+        color: #3b537ccc;
+        @media screen and (min-width: 621px) {
+            font: normal normal normal 32px/60px Graphik;
+        }
+        @media screen and (min-width: 1201px) {
+            font: normal normal normal 40px/70px Graphik;
+        }
+        @media screen and (min-width: 1901px) {
+          font: normal normal normal 60px/78px Graphik;
+        }
+      }
+      .menuLeftLink {
+        font: normal normal bold 28px/56px Graphik Bold;
+        letter-spacing: 0px;
+        color: #ff6498;
+        margin-left: 20px;
+        border-bottom:3px solid transparent;
+        transition:all 0.3s linear;
+        &:hover{
+            border-bottom:3px solid #2a539c;
+        }
+        @media screen and (min-width: 621px) {
+            font: normal normal normal 42px/90px Graphik Bold;
+            padding-bottom: 5px;
+        }
+        @media screen and (min-width: 1201px) {
+            margin-left: 30px;
+            font: normal normal normal 60px/105px Graphik Bold;
+        }
+        @media screen and (min-width: 1901px) {
+          font: normal normal bold 90px/127px Graphik Bold;
+        }
+      }
+    }
+    .menuLeftListLast {
+      list-style: none;
+      text-align: left;
+      font: normal normal normal 28px/60px Graphik;
+      letter-spacing: 0px;
+      cursor: pointer;
+      color: #2a539c;
+      border-bottom:3px solid transparent;
+      transition:all 0.3s linear;
+      &:hover{
+        border-bottom:3px solid #ff6498;
+    }
+      @media screen and (min-width: 621px) {
+        font: normal normal normal 42px/90px Graphik;
+    }
+    @media screen and (min-width: 1201px) {
+        font: normal normal normal 60px/105px Graphik;
+    }
+      @media screen and (min-width: 1901px) {
+        font: normal normal normal 82px/127px Graphik;
+      }
+    }
+    .menuRight {
+      list-style: none;
+      text-align: left;
+      @media screen and (min-width: 621px) {
+          text-align: right;
+          margin-top: 50px;
+      }
+      .menuRightLink1 {
+        font: normal normal normal 28px/56px Graphik;
+        letter-spacing: 0px;
+        color: #3b537c;
+        @media screen and (min-width: 621px) {
+            font: normal normal normal 42px/90px Graphik;
+            margin-right: 5px;
+        }
+        @media screen and (min-width: 1201px) {
+            font: normal normal normal 60px/105px Graphik;
+            margin-right: -10px;
+        }
+        @media screen and (min-width: 1901px) {
+            font: normal normal normal 90px/127px Graphik;
+        }
+      }
+      .menuRightLink {
+          cursor: pointer;
+        font: normal normal normal 23px/54px Graphik;
+        letter-spacing: 0px;
+        color: #5185eb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 200px;
+        @media screen and (min-width: 621px) {
+            max-width: 300px;
+            font: normal normal normal 30px/60px Graphik;
+        }
+        @media screen and (min-width: 1201px) {
+            max-width: 300px;
+            font: normal normal normal 40px/70px Graphik;
+        }
+        @media screen and (min-width: 1901px) {
+            max-width: 500px;
+            font: normal normal normal 60px/88px Graphik;
+        }
+        span{
+            width: 42px;
+            height: 0.1px;
+            border-top: 2px solid #FF6498;
+            @media screen and (min-width: 621px) {
+                margin-right: -20px;
+                margin-left: 10px;
+            }
+            @media screen and (min-width: 1201px) {
+                margin-left: 30px;
+            }
+        }
+      }
+    }
+  }
 }

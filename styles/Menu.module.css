@@ -1,29 +1,288 @@
 .menu {
   width: 100vw;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 100;
   background: #fff;
-  margin-left: -5%;
+  padding: 10%;
 }
 
-.menu .menuIcon {
+@media screen and (min-width: 1201px) {
+  .menu {
+    padding: 5% 10%;
+    padding-bottom: 0;
+  }
+}
+
+.menu .menuClose {
   position: absolute;
   font-family: graphik;
   font-size: 24px;
-  top: 50px;
-  right: 12%;
+  top: 45px;
+  right: 11%;
   color: black;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 888px) {
+  .menu .menuClose {
+    right: 9%;
+  }
+}
+
+.menu .menuClose p {
+  font-family: Graphik;
+  letter-spacing: 0px;
+  color: #2a539c;
+  text-shadow: 0px 30px 60px #00000014;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1800px) {
+  .menu .menuClose p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .menu .menuClose p {
+    display: none;
+  }
+}
+
+.menu .menuClose .menuIcon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .menu .menuClose .menuIcon {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.menu .menuContainer {
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer {
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+
+.menu .menuContainer .menuLeft {
+  text-align: left;
+}
+
+.menu .menuContainer .menuLeft .menuLeftList {
+  cursor: pointer;
+  list-style: none;
+  letter-spacing: 0px;
+  font: normal normal normal 22px/56px Graphik;
+  color: #3b537ccc;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuLeft .menuLeftList {
+    font: normal normal normal 32px/60px Graphik;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuLeft .menuLeftList {
+    font: normal normal normal 40px/70px Graphik;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuLeft .menuLeftList {
+    font: normal normal normal 60px/78px Graphik;
+  }
+}
+
+.menu .menuContainer .menuLeft .menuLeftLink {
+  font: normal normal bold 28px/56px Graphik Bold;
+  letter-spacing: 0px;
+  color: #ff6498;
+  margin-left: 20px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.menu .menuContainer .menuLeft .menuLeftLink:hover {
+  border-bottom: 3px solid #2a539c;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuLeft .menuLeftLink {
+    font: normal normal normal 42px/90px Graphik Bold;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuLeft .menuLeftLink {
+    margin-left: 30px;
+    font: normal normal normal 60px/105px Graphik Bold;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuLeft .menuLeftLink {
+    font: normal normal bold 90px/127px Graphik Bold;
+  }
+}
+
+.menu .menuContainer .menuLeftListLast {
+  list-style: none;
+  text-align: left;
+  font: normal normal normal 28px/60px Graphik;
+  letter-spacing: 0px;
+  cursor: pointer;
+  color: #2a539c;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.menu .menuContainer .menuLeftListLast:hover {
+  border-bottom: 3px solid #ff6498;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuLeftListLast {
+    font: normal normal normal 42px/90px Graphik;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuLeftListLast {
+    font: normal normal normal 60px/105px Graphik;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuLeftListLast {
+    font: normal normal normal 82px/127px Graphik;
+  }
+}
+
+.menu .menuContainer .menuRight {
+  list-style: none;
+  text-align: left;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuRight {
+    text-align: right;
+    margin-top: 50px;
+  }
+}
+
+.menu .menuContainer .menuRight .menuRightLink1 {
+  font: normal normal normal 28px/56px Graphik;
+  letter-spacing: 0px;
+  color: #3b537c;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuRight .menuRightLink1 {
+    font: normal normal normal 42px/90px Graphik;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuRight .menuRightLink1 {
+    font: normal normal normal 60px/105px Graphik;
+    margin-right: -10px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuRight .menuRightLink1 {
+    font: normal normal normal 90px/127px Graphik;
+  }
+}
+
+.menu .menuContainer .menuRight .menuRightLink {
+  cursor: pointer;
+  font: normal normal normal 23px/54px Graphik;
+  letter-spacing: 0px;
+  color: #5185eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuRight .menuRightLink {
+    max-width: 300px;
+    font: normal normal normal 30px/60px Graphik;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuRight .menuRightLink {
+    max-width: 300px;
+    font: normal normal normal 40px/70px Graphik;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuRight .menuRightLink {
+    max-width: 500px;
+    font: normal normal normal 60px/88px Graphik;
+  }
+}
+
+.menu .menuContainer .menuRight .menuRightLink span {
+  width: 42px;
+  height: 0.1px;
+  border-top: 2px solid #FF6498;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuRight .menuRightLink span {
+    margin-right: -20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuRight .menuRightLink span {
+    margin-left: 30px;
+  }
 }
 /*# sourceMappingURL=Menu.module.css.map */

@@ -1,17 +1,1 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712 315" width="712" height="315">
-	<title>Betacrew_homepage_web</title>
-	<style>
-		tspan { white-space:pre }
-		.shp0 { fill: #5185eb } 
-		.shp1 { fill: none;stroke: #ff6498;stroke-linecap:round;stroke-width: 2 } 
-	</style>
-	<g id="Betacrew_homepage_web">
-		<g id="Group 2932">
-			<path id="Ellipse 35" class="shp0" d="M697 30C688.7 30 682 23.29 682 15C682 6.7 688.7 0 697 0C705.29 0 712 6.7 712 15C712 23.29 705.29 30 697 30Z" />
-			<g id="Group 2839">
-				<path id="Ellipse 36" class="shp0" d="M15 315C6.7 315 0 308.29 0 300C0 291.7 6.7 285 15 285C23.29 285 30 291.7 30 300C30 308.29 23.29 315 15 315Z" />
-				<path id="Path 4656" class="shp1" d="M697.5 30C697.5 30 642.01 229.43 446.73 234.35C251.46 239.26 119.24 234.35 15.5 299.85" />
-			</g>
-		</g>
-	</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="712" height="315" viewBox="0 0 712 315"><defs><style>.a{fill:#5185eb;}.b{fill:none;stroke:#ff6498;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;stroke-dasharray:20;}</style></defs><circle class="a" cx="15" cy="15" r="15" transform="translate(682)"/><g transform="translate(0 30)"><circle class="a" cx="15" cy="15" r="15" transform="translate(0 255)"/><path class="b" d="M2066,4137s-55.491,199.435-250.766,204.347-327.493,0-431.234,65.5" transform="translate(-1368.5 -4137)"/></g></svg>

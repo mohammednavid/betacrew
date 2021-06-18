@@ -1,0 +1,247 @@
+.contact {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 10% 5%;
+}
+
+@media screen and (min-width: 889px) {
+  .contact {
+    padding: 9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 889px) {
+  .contact .contactLeft {
+    width: 100%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactLeft .contactTitle {
+    text-align: left;
+    font: normal normal bold 46px/60px Graphik Bold;
+    letter-spacing: 0px;
+    color: #5185eb;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactLeft .contactTitle {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactLeft .contactTitle {
+    font-size: 100px;
+    line-height: 130px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactLeft .contactDescp {
+    text-align: left;
+    font: normal normal 300 17px/22px Graphik;
+    color: #101010b5;
+    padding-bottom: 50px;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactLeft .contactDescp {
+    font: normal normal 300 22px/32px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactLeft .contactDescp {
+    font: normal normal 300 28px/37px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactLeft .contactEmail,
+  .contact .contactLeft .contactPhone {
+    font: normal normal 300 18px/35px Graphik;
+    color: #101010b5;
+    opacity: 0.8;
+  }
+  .contact .contactLeft .contactEmail strong,
+  .contact .contactLeft .contactPhone strong {
+    font: normal normal medium 18px/30px Graphik;
+    color: #3b537c;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactLeft .contactEmail strong,
+  .contact .contactLeft .contactPhone strong {
+    font: normal normal medium 28px/40px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactLeft .contactEmail strong,
+  .contact .contactLeft .contactPhone strong {
+    font: normal normal medium 38px/49px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) and (max-width: 888px) {
+  .contact .contactLeft .contactEmail,
+  .contact .contactLeft .contactPhone {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactLeft .contactEmail,
+  .contact .contactLeft .contactPhone {
+    font: normal normal 300 23px/33px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactLeft .contactEmail,
+  .contact .contactLeft .contactPhone {
+    font: normal normal 300 28px/37px Graphik;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactEmail2,
+  .contact .contactPhone2 {
+    font: normal normal 300 18px/35px Graphik;
+    color: #101010b5;
+    opacity: 0.8;
+  }
+  .contact .contactEmail2 strong,
+  .contact .contactPhone2 strong {
+    font: normal normal medium 18px/30px Graphik;
+    color: #3b537c;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 889px) {
+  .contact .contactEmail2,
+  .contact .contactPhone2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactRight {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 889px) {
+  .contact .contactRight {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactRight label {
+    width: 100%;
+    font: normal normal normal 18px/49px Graphik;
+    letter-spacing: 0.36px;
+    color: #545454;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactRight label {
+    font: normal normal normal 28px/40px Graphik;
+    letter-spacing: 0.56px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactRight label {
+    font: normal normal normal 38px/49px Graphik;
+    letter-spacing: 0.76px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactRight input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #545454;
+    margin-bottom: 50px;
+    font-size: 18px;
+    padding: 10px;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactRight input {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .contact .contactRight .contactButton {
+    font: normal normal bold 38px/49px Graphik;
+    letter-spacing: 0px;
+    color: #ff6498;
+    max-width: 200px;
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  .contact .contactRight .contactButton::after {
+    content: "";
+    width: 50px;
+    height: 0.0001px;
+    border: 1px solid #5185eb;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactRight .contactButton::after {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1201px) {
+  .contact .contactRight .contactButton {
+    font-size: 60px;
+    line-height: 80px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 889px) and (min-width: 1901px) {
+  .contact .contactRight .contactButton {
+    font-size: 100px;
+    line-height: 130px;
+  }
+}
+/*# sourceMappingURL=Contact.module.css.map */

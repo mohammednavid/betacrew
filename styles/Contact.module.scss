@@ -1,0 +1,147 @@
+.contact {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 10% 5%;
+  @media screen and (min-width: 889px) {
+    padding: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  .contactLeft {
+    @media screen and (min-width: 889px) {
+      width: 100%;
+      padding-right: 10%;
+    }
+    .contactTitle {
+      text-align: left;
+      font: normal normal bold 46px/60px Graphik Bold;
+      letter-spacing: 0px;
+      color: #5185eb;
+      padding-bottom: 20px;
+      @media screen and (min-width: 1201px) {
+        font-size: 60px;
+        line-height: 80px;
+      }
+      @media screen and (min-width: 1901px) {
+        font-size: 100px;
+        line-height: 130px;
+      }
+    }
+    .contactDescp {
+      text-align: left;
+      font: normal normal 300 17px/22px Graphik;
+      color: #101010b5;
+      padding-bottom: 50px;
+      opacity: 0.8;
+      @media screen and (min-width: 1201px) {
+        font: normal normal 300 22px/32px Graphik;
+      }
+      @media screen and (min-width: 1901px) {
+        font: normal normal 300 28px/37px Graphik;
+      }
+    }
+    .contactEmail,
+    .contactPhone {
+      strong {
+        font: normal normal medium 18px/30px Graphik;
+        color: #3b537c;
+        @media screen and (min-width: 1201px) {
+          font: normal normal medium 28px/40px Graphik;
+        }
+        @media screen and (min-width: 1901px) {
+          font: normal normal medium 38px/49px Graphik;
+        }
+      }
+      font: normal normal 300 18px/35px Graphik;
+      color: #101010b5;
+      opacity: 0.8;
+      @media screen and (max-width: 888px) {
+        display: none;
+      }
+      @media screen and (min-width: 1901px) {
+        font: normal normal 300 23px/33px Graphik;
+      }
+      @media screen and (min-width: 1901px) {
+        font: normal normal 300 28px/37px Graphik;
+      }
+    }
+  }
+  .contactEmail2,
+  .contactPhone2 {
+    strong {
+      font: normal normal medium 18px/30px Graphik;
+      color: #3b537c;
+    }
+    font: normal normal 300 18px/35px Graphik;
+    color: #101010b5;
+    opacity: 0.8;
+    @media screen and (min-width: 889px) {
+      display: none;
+    }
+}
+.contactRight {
+    margin-bottom: 80px;
+    @media screen and (min-width: 889px) {
+      margin-bottom: 0;
+    }
+    label {
+      width: 100%;
+      font: normal normal normal 18px/49px Graphik;
+      letter-spacing: 0.36px;
+      color: #545454;
+      opacity: 0.8;
+      @media screen and (min-width: 1201px) {
+        font: normal normal normal 28px/40px Graphik;
+        letter-spacing: 0.56px;
+      }
+      @media screen and (min-width: 1901px) {
+        font: normal normal normal 38px/49px Graphik;
+        letter-spacing: 0.76px;
+      }
+    }
+    input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #545454;
+      margin-bottom: 50px;
+      font-size: 18px;
+      padding: 10px;
+      opacity: 0.8;
+      @media screen and (min-width: 1201px) {
+        font-size: 22px;
+      }
+    }
+    .contactButton {
+      font: normal normal bold 38px/49px Graphik;
+      letter-spacing: 0px;
+      color: #ff6498;
+      max-width: 200px;
+      margin-left: auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      cursor: pointer;
+      &::after {
+        content: "";
+        width: 50px;
+        height: 0.0001px;
+        border: 1px solid #5185eb;
+        margin-left: 15px;
+        @media screen and (min-width: 1901px) {
+            width: 100px;
+        }
+    }
+    @media screen and (min-width: 1201px) {
+        font-size: 60px;
+        line-height: 80px;
+        max-width: 400px;
+    }
+    @media screen and (min-width: 1901px) {
+        font-size: 100px;
+        line-height: 130px;
+      }
+      }
+    }
+  }
+}

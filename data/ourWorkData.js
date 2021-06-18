@@ -3,8 +3,7 @@ export const ourWorkData = [
     // First Case Study 
     id:"case-study-1",
     firstName: "Bild",
-    firstDescp:
-      "With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron.AI approached Distributed to fulil those needs  with a quick turn-around time.",
+    firstDescp:"With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
     firstLogo: "/images/bild.png",
     firstComment:"It's not an overstatement to say we've been able to overachieve with betacrew.",
     firstTeamScaled:"5X",
@@ -20,9 +19,8 @@ export const ourWorkData = [
     // Second Case Study 
     id:"case-study-2",
     secondName: "Stopspoof",
-  secondDescp:
-      "With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron.AI approached Distributed to fulil those needs  with a quick turn-around time.",
-    secondLogo: "/images/bild.svg",
+    secondDescp: "With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
+    secondLogo: "/images/stopspoof.png",
     secondComment:"It's not an overstatement to say we've been able to overachieve with betacrew.",
     secondTeamScaled:"5X",
     secondNPS:"10/10",
@@ -38,8 +36,7 @@ export const ourWorkData = [
     // Third Case Study 
     id:"case-study-3",
     thirdName: "Nav 360",
-    thirdDescp:
-      "With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron.AI approached Distributed to fulil those needs  with a quick turn-around time.",
+    thirdDescp:"With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
     thirdLogo: "/images/nav.svg",
     thirdComment:"It's not an overstatement to say we've been able to overachieve with betacrew.",
     thirdTeamScaled:"5X",

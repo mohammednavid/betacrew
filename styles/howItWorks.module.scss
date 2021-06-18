@@ -1,4 +1,355 @@
-.container{
-    width:300px !important;
-    height:300px !important;
+.HIW {
+  width: 100%;
+  overflow: hidden;
+  padding: 10% 0;
+  @media screen and (min-width: 889px) {
+    padding: 5% 0;
+  }
+  .HIW_Title {
+    text-align: center;
+    font: normal normal bold 24px/33px Graphik Bold;
+    letter-spacing: 0px;
+    text-shadow: 0px 30px 60px #00000017;
+    padding-bottom: 20px;
+    max-width: 310px;
+    margin: 0 auto;
+    @media screen and (min-width: 889px) {
+      font-size: 36px;
+      line-height: 52px;
+      max-width: 470px;
+    }
+    @media screen and (min-width: 1201px) {
+      font-size: 48px;
+      line-height: 64px;
+      max-width: 630px;
+    }
+    @media screen and (min-width: 1901px) {
+      font-size: 67px;
+      line-height: 83px;
+      max-width: 880px;
+    }
+    span {
+      color: #5185eb;
+    }
+  }
+  .HIW_Descp {
+    text-align: center;
+    font: normal normal 300 15px/23px Graphik;
+    letter-spacing: 0.45px;
+    color: #363636;
+    @media screen and (min-width: 621px) {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    @media screen and (min-width: 889px) {
+      font-size: 19px;
+      line-height: 29px;
+      max-width: 480px;
+    }
+    @media screen and (min-width: 889px) {
+      font-size: 20px;
+      line-height: 30px;
+      max-width: 650px;
+    }
+    @media screen and (min-width: 1901px) {
+      font-size: 22px;
+      line-height: 34px;
+      max-width: 900px;
+    }
+  }
+  .HIW_Container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10% 5%;
+    @media screen and (min-width: 889px) and (max-width: 1440px) {
+      padding: 5% 9%;
+    }
+    @media screen and (min-width: 1441px) {
+      padding: 5% 0;
+    }
+    .HIW_Content,
+    .HIW_Content2 {
+      @media screen and (min-width: 621px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .HIW_ContentVector {
+        height: 300px;
+        min-width: 100%;
+        @media screen and (min-width: 621px) {
+          height: 400px;
+          min-width: 450px;
+          margin-left: -100px;
+        }
+        @media screen and (min-width: 889px) {
+          height: 500px;
+        }
+        @media screen and (min-width: 1201px) {
+          height: 600px;
+          max-width: 700px;
+          margin-left: -150px;
+        }
+        @media screen and (min-width: 1501px) {
+          margin-left: -50px;
+        }
+      }
+      .HIW_ContentText {
+        margin: 0 5%;
+        @media screen and (min-width: 621px) {
+          margin: 5% 0;
+          max-width: 300px;
+        }
+        @media screen and (min-width: 889px) {
+          max-width: 400px;
+        }
+        @media screen and (min-width: 1201px) {
+          max-width: 550px;
+        }
+        @media screen and (min-width: 1901px) {
+          max-width: 600px;
+        }
+        .HIW_Step {
+          font: normal normal bold 24px/34px Graphik Bold;
+          color: #5185eb;
+          text-shadow: 0px 30px 60px #00000017;
+          background: #f1f1f1;
+          width: max-content;
+          padding: 5px;
+          border-radius: 5px;
+          margin-bottom: 20px;
+          @media screen and (min-width: 889px) {
+            font-size: 28px;
+            line-height: 34px;
+            padding: 10px;
+          }
+        }
+        .HIW_ContentTextContainer {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: 0px 30px 60px #00000029;
+          border: 1px solid #70707017;
+          border-radius: 8px;
+          padding: 30px 20px;
+          .HIW_ContentTitle {
+            font: normal normal bold 17px/21px Graphik Bold;
+            color: #2a539c;
+            text-shadow: 0px 30px 60px #00000017;
+            max-width: 200px;
+            padding-bottom: 20px;
+            @media screen and (min-width: 889px) {
+              font-size: 20px;
+              line-height: 25px;
+              max-width: 230px;
+            }
+            @media screen and (min-width: 1201px) {
+              font-size: 24px;
+              line-height: 30px;
+              max-width: 260px;
+            }
+            @media screen and (min-width: 1901px) {
+              font-size: 29px;
+              line-height: 36px;
+              max-width: 320px;
+            }
+          }
+          .HIW_ContentDescp {
+            font: normal normal 300 14px/21px Graphik;
+            letter-spacing: 0.56px;
+            color: #363636;
+            opacity: 0.8;
+            @media screen and (min-width: 889px) {
+              font-size: 16px;
+              line-height: 25px;
+            }
+            @media screen and (min-width: 1201px) {
+              font-size: 18px;
+              line-height: 27px;
+            }
+            @media screen and (min-width: 1901px) {
+              font-size: 20px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .HIW_Content2 {
+      @media screen and (max-width: 620px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+      }
+      @media screen and (min-width: 621px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .HIW_ContentVector {
+        height: 300px;
+        min-width: 100%;
+        @media screen and (min-width: 621px) {
+          height: 400px;
+          min-width: 450px;
+          margin-left: auto;
+          margin-right: -100px;
+        }
+        @media screen and (min-width: 889px) {
+          height: 450px;
+        }
+        @media screen and (min-width: 1201px) {
+          height: 600px;
+          max-width: 650px;
+          margin-right: -150px;
+        }
+        @media screen and (min-width: 1501px) {
+          margin-right: -50px;
+        }
+      }
+    }
+  }
+  .HIW_Forward {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: -100px;
+    @media screen and (min-width: 1201px) {
+      min-width: 90%;
+      max-width: 90%;
+    }
+    @media screen and (min-width: 1501px) {
+      min-width: 100%;
+    }
+    @media screen and (max-width: 888px) {
+      display: none;
+    }
+    .HIW_ForwardImg {
+      z-index: 10;
+    }
+  }
+  .HIW_Hire {
+    padding: 5%;
+    @media screen and (min-width: 889px) {
+      padding: 0% 9%;
+      padding-top: 5%;
+    }
+  }
+  .HIW_Services {
+    padding: 10%;
+    @media screen and (min-width: 889px) {
+      padding: 10% 9%;
+      padding-bottom: 5%;
+    }
+    .HIW_ServicesTitle {
+      text-align: center;
+      font: normal normal bold 30px/37px Graphik Bold;
+      text-shadow: 0px 30px 60px #00000017;
+      padding-bottom: 20px;
+      span {
+        color: #5185eb;
+      }
+      @media screen and (min-width: 889px) {
+       font-size:36px;
+       line-height:38px;
+       padding-bottom:30px;
+    }
+    @media screen and (min-width: 1201px) {
+       font-size:42px;
+       line-height:54px;
+       padding-bottom:50px;
+      }
+      @media screen and (min-width: 1901px) {
+       font-size:49px;
+       line-height:60px;
+      }
+    }
+    .HIW_ServicesContainer {
+      box-shadow: 0px 30px 60px #00000021;
+      border: 1px solid #7070702b;
+      @media screen and (min-width: 621px) {
+        max-width: 563px;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        @media screen and (min-width: 889px) {
+            max-width: 728px;
+          }
+        @media screen and (min-width: 1201px) {
+            max-width: 1043px;
+          }
+        @media screen and (min-width: 1501px) {
+            max-width: 1163px;
+          }
+        @media screen and (min-width: 1901px) {
+            max-width: 1435px;
+          }
+      }
+      .HIW_ServicesContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        border: 1px solid #7070702b;
+        padding: 30px 20px;
+        @media screen and (min-width: 621px) {
+          padding: 40px;
+        }
+        @media screen and (min-width: 889px) {
+          padding:50px 50px;
+        }
+        @media screen and (min-width: 1201px) {
+          padding:70px 80px;
+        }
+        @media screen and (min-width: 1501px) {
+          padding:90px 100px;
+        }
+        @media screen and (min-width: 1901px) {
+          padding:110px 130px;
+        }
+        .HIW_ServicesImg {
+          max-width: 70px;
+          margin-bottom: 10px;
+          @media screen and (min-width: 889px) {
+            width:90px;
+            margin-bottom: 20px;
+          }
+          @media screen and (min-width: 1201px) {
+            width:120px;
+          }
+          @media screen and (min-width: 1501px) {
+            width:140px;
+          }
+        }
+        .HIW_ServicesText {
+          text-align: center;
+          font: normal normal bold 14px/20px Graphik Bold;
+          letter-spacing: 0.11px;
+          color: #3b537c;
+          text-shadow: 0px 30px 60px #00000017;
+          max-width: 105px;
+          @media screen and (min-width: 889px) {
+            font-size: 18px;
+            line-height:24px;
+            max-width: 140px;
+          }
+          @media screen and (min-width: 1201px) {
+            font-size: 24px;
+            line-height:32px;
+            max-width: 185px;
+          }
+          @media screen and (min-width: 1901px) {
+            font-size: 28px;
+            line-height:40px;
+            max-width: 215px;
+          }
+        }
+      }
+    }
+  }
 }

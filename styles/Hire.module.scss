@@ -12,6 +12,7 @@
   @media screen and (max-width: 888px) {
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 15px;
   }
   .hireContent {
     max-width: 633px;
@@ -64,6 +65,7 @@
       }
       @media screen and (max-width: 620px) {
         font-size: 12px;
+        border-radius: 8px;
       }
     }
     .hireLineWhite {
