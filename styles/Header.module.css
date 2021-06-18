@@ -23,6 +23,7 @@
 
 .header .headerLogo {
   width: 300px;
+  height: 200px;
   cursor: pointer;
   margin-top: 50px;
 }
@@ -52,6 +53,7 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  height: 30px;
 }
 
 .header .headerMenu p {

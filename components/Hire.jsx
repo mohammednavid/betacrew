@@ -1,4 +1,5 @@
 import styles from "../styles/Hire.module.css";
+import Link from 'next/link'
 
 const Hire = () => {
   return (
@@ -12,7 +13,9 @@ const Hire = () => {
           <div className={styles.hireUpperLine}></div>
           <div className={styles.hireUpperLine}></div>
         </div>
-        <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
+        <Link href="/contact">
+          <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
+        </Link>
         <div className={styles.hireLineWhite}>
           <div className={styles.hireBottomLine}></div>
           <div className={styles.hireBottomLine}></div>

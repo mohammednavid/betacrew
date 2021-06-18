@@ -5,13 +5,11 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import { useRef, useEffect } from "react";
 import Image from "next/image";
 import { homePODData, homeWWDData, homeFeedback } from "../data/homeData";
-// import lottie from "/";
 import Slider from "../components/Slider";
 import Link from "next/link";
 import Process from "../components/Process";
 import Hire from "../components/Hire";
 import PodSlider from "../components/PodSlider";
-
 
 const HomePage = () => {
   const vector = useRef(null);
@@ -31,8 +29,12 @@ const HomePage = () => {
           procuring first in class tech people{" "}
         </p>
         <div className={styles.homeButtons}>
-          <a className={styles.homeButtonLeft}>Create your Team</a>
-          <a className={styles.homeButtonRight}>How it works?</a>
+          <Link href="/contact">
+            <a className={styles.homeButtonLeft}>Create your Team</a>
+          </Link>
+          <Link href="/how-it-works">
+            <a className={styles.homeButtonRight}>How it works?</a>
+          </Link>
         </div>
         <div className={styles.homeVector}>
           <Player
@@ -60,7 +62,7 @@ const HomePage = () => {
                     <Image
                       className={styles.homeStepImg1}
                       src={item.step1Image}
-                      alt="WHAT WE DO"
+                      alt="Betacrew - WHAT WE DO"
                       width={740}
                       height={490}
                     />
@@ -75,6 +77,7 @@ const HomePage = () => {
                   <Image
                     src="/images/leftToRight.svg"
                     className={styles.homeForwardImg}
+                    alt="Betacrew"
                     width={750}
                     height={330}
                   />
@@ -91,7 +94,7 @@ const HomePage = () => {
                     <Image
                       className={styles.homeStepImg}
                       src={item.step2Image}
-                      alt="WHAT WE DO"
+                      alt="Betacrew - WHAT WE DO"
                       width={740}
                       height={490}
                     />
@@ -101,6 +104,7 @@ const HomePage = () => {
                   <Image
                     src="/images/rightToLeft.svg"
                     className={styles.homeForwardImg}
+                    alt="Betacrew"
                     width={750}
                     height={330}
                   />
@@ -112,7 +116,7 @@ const HomePage = () => {
                     <Image
                       className={styles.homeStepImg3}
                       src={item.step3Image}
-                      alt="WHAT WE DO"
+                      alt="Betacrew - WHAT WE DO"
                       width={740}
                       height={490}
                     />
@@ -172,7 +176,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className={styles.homeWWD}>
-          <h2 className={styles.homeWWDTitle} style={{marginTop:'-5%'}}>
+          <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%" }}>
             OUR POD <span>.</span>
           </h2>
           <p className={styles.homeWWDDescp}>
@@ -181,7 +185,7 @@ const HomePage = () => {
             within the organization.
           </p>
         </div>
-        <PodSlider/>
+        <PodSlider />
         <div className={styles.homeCL1}>
           <h2 className={styles.homeCL1Title}>CL1(CREW LEVEL 1)</h2>
           <p className={styles.homeCL1Descp}>
@@ -190,7 +194,7 @@ const HomePage = () => {
             under a more senior engineer.
           </p>
         </div>
-            <Process/>
+        <Process />
         <div className={styles.homeDiffContainer}>
           <div className={styles.homeDiff}>
             <h2 className={styles.homeDiffTitle}>THE OLD WAY</h2>
@@ -206,7 +210,12 @@ const HomePage = () => {
             <ul className={styles.homeDiffContent}>
               <li className={styles.homeDiffPoint}>
                 <div className={styles.homeDiffIcon}>
-                  <Image src="/images/x.svg" alt="" width={50} height={50} />
+                  <Image
+                    src="/images/x.svg"
+                    alt="Betacrew Way"
+                    width={50}
+                    height={50}
+                  />
                 </div>
                 <p className={styles.homeDiffText}>
                   The normal organization just provides a single team
@@ -214,7 +223,12 @@ const HomePage = () => {
               </li>
               <li className={styles.homeDiffPoint}>
                 <div className={styles.homeDiffIcon}>
-                  <Image src="/images/x.svg" alt="" width={50} height={50} />
+                  <Image
+                    src="/images/x.svg"
+                    alt="Betacrew Way"
+                    width={50}
+                    height={50}
+                  />
                 </div>
                 <p className={styles.homeDiffText}>
                   A fixed team members are there and cannot be interchanged
@@ -222,7 +236,12 @@ const HomePage = () => {
               </li>
               <li className={styles.homeDiffPoint}>
                 <div className={styles.homeDiffIcon}>
-                  <Image src="/images/x.svg" alt="" width={50} height={50} />
+                  <Image
+                    src="/images/x.svg"
+                    alt="Betacrew Way"
+                    width={50}
+                    height={50}
+                  />
                 </div>
                 <p className={styles.homeDiffText}>
                   Choosen from a pool of engineers
@@ -251,7 +270,7 @@ const HomePage = () => {
                 <div className={styles.homeDiffIcon}>
                   <Image
                     src="/images/check.svg"
-                    alt=""
+                    alt="Old Way"
                     width={50}
                     height={50}
                   />
@@ -264,7 +283,7 @@ const HomePage = () => {
                 <div className={styles.homeDiffIcon}>
                   <Image
                     src="/images/check.svg"
-                    alt=""
+                    alt="Old Way"
                     width={50}
                     height={50}
                   />
@@ -278,7 +297,7 @@ const HomePage = () => {
                 <div className={styles.homeDiffIcon}>
                   <Image
                     src="/images/check.svg"
-                    alt=""
+                    alt="Old Way"
                     width={50}
                     height={50}
                   />
@@ -303,12 +322,22 @@ const HomePage = () => {
           <div className={styles.homeCaseStudiesCards}>
             <Link href="/our-work/case-study-1">
               <div className={styles.homeCaseStudiesCard}>
-                <Image src="/images/bild.png" alt="" width={340} height={130} />
+                <Image
+                  src="/images/bild.png"
+                  alt="Betacrew - Case Study"
+                  width={340}
+                  height={130}
+                />
               </div>
             </Link>
             <Link href="/our-work/case-study-2">
               <div className={styles.homeCaseStudiesCard2}>
-                <Image src="/images/stopspoof.png" alt="" width={340} height={130} />
+                <Image
+                  src="/images/stopspoof.png"
+                  alt="Betacrew - Case Study"
+                  width={340}
+                  height={130}
+                />
               </div>
             </Link>
           </div>
@@ -353,7 +382,9 @@ const HomePage = () => {
                 <div className={styles.hireUpperLine}></div>
                 <div className={styles.hireUpperLine}></div>
               </div>
-              <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
+              <Link href="/contact">
+                <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
+              </Link>
               <div className={styles.hireLineWhite}>
                 <div className={styles.hireBottomLine}></div>
                 <div className={styles.hireBottomLine}></div>

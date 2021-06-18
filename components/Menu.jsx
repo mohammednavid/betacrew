@@ -6,7 +6,7 @@ const Menu = ({ menu, setMenu }) => {
     <div className={styles.menu}>
       <a className={styles.menuClose} onClick={() => setMenu(false)}>
         <p>Close</p>
-        <img src="/images/x.svg" className={styles.menuIcon} />
+        <img src="/images/x.svg" alt="Close" className={styles.menuIcon} />
       </a>
       <div className={styles.menuContainer}>
       <ul className={styles.menuLeft}>
@@ -34,10 +34,12 @@ const Menu = ({ menu, setMenu }) => {
             <span className={styles.menuLeftLink}>How it works</span>
           </Link>
         </li>
+        <Link href="/contact">
         <li className={styles.menuLeftListLast}>
           Call Betacrew{" "}
-          <img src="/images/x.svg" onClick={() => setMenu(false)} />
+          <img src="/images/arrow.svg" alt="Call Betacrew" onClick={() => setMenu(false)} />
         </li>
+        </Link>
       </ul>
       <ul className={styles.menuRight}>
         <li className={styles.menuRightLink1}>

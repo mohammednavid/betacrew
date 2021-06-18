@@ -8,9 +8,9 @@
   background: #fff;
   padding: 10%;
   @media screen and (min-width: 1201px) {
-      padding: 5% 10%;
-      padding-bottom: 0;
-}
+    padding: 5% 10%;
+    padding-bottom: 0;
+  }
   .menuClose {
     position: absolute;
     font-family: graphik;
@@ -49,9 +49,9 @@
     }
   }
   .menuContainer {
-      padding-top: 60px;
+    padding-top: 60px;
     @media screen and (min-width: 621px) {
-        padding-top: 0;
+      padding-top: 0;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -67,10 +67,10 @@
         font: normal normal normal 22px/56px Graphik;
         color: #3b537ccc;
         @media screen and (min-width: 621px) {
-            font: normal normal normal 32px/60px Graphik;
+          font: normal normal normal 32px/60px Graphik;
         }
         @media screen and (min-width: 1201px) {
-            font: normal normal normal 40px/70px Graphik;
+          font: normal normal normal 40px/70px Graphik;
         }
         @media screen and (min-width: 1901px) {
           font: normal normal normal 60px/78px Graphik;
@@ -81,18 +81,18 @@
         letter-spacing: 0px;
         color: #ff6498;
         margin-left: 20px;
-        border-bottom:3px solid transparent;
-        transition:all 0.3s linear;
-        &:hover{
-            border-bottom:3px solid #2a539c;
+        border-bottom: 3px solid transparent;
+        transition: all 0.3s linear;
+        &:hover {
+          border-bottom: 3px solid #2a539c;
         }
         @media screen and (min-width: 621px) {
-            font: normal normal normal 42px/90px Graphik Bold;
-            padding-bottom: 5px;
+          font: normal normal normal 42px/90px Graphik Bold;
+          padding-bottom: 5px;
         }
         @media screen and (min-width: 1201px) {
-            margin-left: 30px;
-            font: normal normal normal 60px/105px Graphik Bold;
+          margin-left: 30px;
+          font: normal normal normal 60px/105px Graphik Bold;
         }
         @media screen and (min-width: 1901px) {
           font: normal normal bold 90px/127px Graphik Bold;
@@ -106,46 +106,62 @@
       letter-spacing: 0px;
       cursor: pointer;
       color: #2a539c;
-      border-bottom:3px solid transparent;
-      transition:all 0.3s linear;
-      &:hover{
-        border-bottom:3px solid #ff6498;
-    }
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s linear;
+      &:hover {
+        border-bottom: 3px solid #ff6498;
+      }
       @media screen and (min-width: 621px) {
         font: normal normal normal 42px/90px Graphik;
-    }
-    @media screen and (min-width: 1201px) {
+      }
+      @media screen and (min-width: 1201px) {
         font: normal normal normal 60px/105px Graphik;
-    }
+      }
       @media screen and (min-width: 1901px) {
         font: normal normal normal 82px/127px Graphik;
+      }
+      img{
+        height:25px;
+        width:25px;
+        @media screen and (min-width: 621px) {
+          height:30px;
+        width:30px;
+        }
+        @media screen and (min-width: 1201px) {
+          height:40px;
+        width:40px;
+        }
+        @media screen and (min-width: 1901px) {
+          height:50px;
+        width:50px;
+        }
       }
     }
     .menuRight {
       list-style: none;
       text-align: left;
       @media screen and (min-width: 621px) {
-          text-align: right;
-          margin-top: 50px;
+        text-align: right;
+        margin-top: 50px;
       }
       .menuRightLink1 {
         font: normal normal normal 28px/56px Graphik;
         letter-spacing: 0px;
         color: #3b537c;
         @media screen and (min-width: 621px) {
-            font: normal normal normal 42px/90px Graphik;
-            margin-right: 5px;
+          font: normal normal normal 42px/90px Graphik;
+          margin-right: 5px;
         }
         @media screen and (min-width: 1201px) {
-            font: normal normal normal 60px/105px Graphik;
-            margin-right: -10px;
+          font: normal normal normal 60px/105px Graphik;
+          margin-right: -10px;
         }
         @media screen and (min-width: 1901px) {
-            font: normal normal normal 90px/127px Graphik;
+          font: normal normal normal 90px/127px Graphik;
         }
       }
       .menuRightLink {
-          cursor: pointer;
+        cursor: pointer;
         font: normal normal normal 23px/54px Graphik;
         letter-spacing: 0px;
         color: #5185eb;
@@ -154,28 +170,28 @@
         justify-content: space-between;
         max-width: 200px;
         @media screen and (min-width: 621px) {
-            max-width: 300px;
-            font: normal normal normal 30px/60px Graphik;
+          max-width: 300px;
+          font: normal normal normal 30px/60px Graphik;
         }
         @media screen and (min-width: 1201px) {
-            max-width: 300px;
-            font: normal normal normal 40px/70px Graphik;
+          max-width: 300px;
+          font: normal normal normal 40px/70px Graphik;
         }
         @media screen and (min-width: 1901px) {
-            max-width: 500px;
-            font: normal normal normal 60px/88px Graphik;
+          max-width: 500px;
+          font: normal normal normal 60px/88px Graphik;
         }
-        span{
-            width: 42px;
-            height: 0.1px;
-            border-top: 2px solid #FF6498;
-            @media screen and (min-width: 621px) {
-                margin-right: -20px;
-                margin-left: 10px;
-            }
-            @media screen and (min-width: 1201px) {
-                margin-left: 30px;
-            }
+        span {
+          width: 42px;
+          height: 0.1px;
+          border-top: 2px solid #ff6498;
+          @media screen and (min-width: 621px) {
+            margin-right: -20px;
+            margin-left: 10px;
+          }
+          @media screen and (min-width: 1201px) {
+            margin-left: 30px;
+          }
         }
       }
     }

@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
   .contactLeft {
     @media screen and (min-width: 889px) {
       width: 100%;
@@ -144,4 +145,3 @@
       }
     }
   }
-}

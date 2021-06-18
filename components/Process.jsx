@@ -1,4 +1,5 @@
 import styles from "../styles/Process.module.css";
+import Link from 'next/link'
 const Process = () => {
   return (
     <div className={styles.homeProcess}>
@@ -7,7 +8,9 @@ const Process = () => {
           <h2 className={styles.homeProcessLeftTitle}>
             How we build your perfect team .
           </h2>
+          <Link href="/contact">
           <a className={styles.homeProcessLeftButton}>Create your Team</a>
+          </Link>
         </div>
         <div className={styles.homeProcessRight}>
           <div className={styles.homeProcessRightContent}>

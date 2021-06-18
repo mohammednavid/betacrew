@@ -111,6 +111,7 @@
 }
 
 .homeProcess .homeProcessContainer .homeProcessLeft .homeProcessLeftButton {
+  cursor: pointer;
   text-align: center;
   color: #fff;
   background: #2a539c;

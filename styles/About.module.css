@@ -1,5 +1,6 @@
 .about {
   width: 100%;
+  overflow: hidden;
 }
 
 .about .aboutContainer {
@@ -31,6 +32,7 @@
   width: 50%;
   max-width: 770px;
   margin-right: 5%;
+  z-index: 10;
 }
 
 @media screen and (max-width: 888px) {
@@ -98,14 +100,57 @@
   }
 }
 
-.about .aboutContainer .aboutRight {
+.about .aboutContainer .aboutVector {
+  height: 400px;
   z-index: 2;
   background: #fff;
 }
 
 @media screen and (max-width: 888px) {
-  .about .aboutContainer .aboutRight {
-    padding-top: 50px;
+  .about .aboutContainer .aboutVector {
+    margin-top: -150px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .aboutContainer .aboutVector {
+    margin-top: -100px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .about .aboutContainer .aboutVector {
+    min-width: 600px;
+    height: 500px;
+    margin-top: -200px;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .about .aboutContainer .aboutVector {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1651px) {
+  .about .aboutContainer .aboutVector {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1851px) {
+  .about .aboutContainer .aboutVector {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .about .aboutContainer .aboutVector {
+    height: 650px;
+    max-width: 47%;
   }
 }
 

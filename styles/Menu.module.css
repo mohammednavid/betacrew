@@ -191,6 +191,32 @@
   }
 }
 
+.menu .menuContainer .menuLeftListLast img {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 621px) {
+  .menu .menuContainer .menuLeftListLast img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .menu .menuContainer .menuLeftListLast img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .menu .menuContainer .menuLeftListLast img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
 .menu .menuContainer .menuRight {
   list-style: none;
   text-align: left;
@@ -270,7 +296,7 @@
 .menu .menuContainer .menuRight .menuRightLink span {
   width: 42px;
   height: 0.1px;
-  border-top: 2px solid #FF6498;
+  border-top: 2px solid #ff6498;
 }
 
 @media screen and (min-width: 621px) {

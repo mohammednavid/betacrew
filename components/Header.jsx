@@ -9,11 +9,11 @@ const Header = () => {
     <nav className={styles.header}>
       {menu ? <Menu menu={menu} setMenu={setMenu} /> : ""}
       <Link href="/">
-        <img src="/images/logo.svg" className={styles.headerLogo} />
+        <img src="/images/logo.svg" alt="Betacrew" className={styles.headerLogo} />
       </Link>
       <div onClick={(menu) => setMenu(true)} className={styles.headerMenu}>
         <p>Menu</p>
-        <img src="/images/Burgermenu.svg" width={30} height={30} />
+        <img src="/images/Burgermenu.svg" alt="Betacrew" width={30} height={30} />
       </div>
     </nav>
   );

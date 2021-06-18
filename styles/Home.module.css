@@ -1555,6 +1555,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    border-radius: 10px;
   }
 }
 
@@ -1631,6 +1632,7 @@
 @media screen and (max-width: 620px) {
   .home .homeHire .hire .hireRight .hireButton {
     font-size: 12px;
+    border-radius: 8px;
   }
 }
 
