@@ -12,12 +12,29 @@ const caseStudy = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>Case study</title>
-        <meta name="description" content="Recent Betacrew Work - Recent case studies on how we have helped companies" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <meta
+          name="description"
+          content="Recent Betacrew Work - Recent case studies on how we have helped companies"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
         <meta name="msapplication-TileColor" content="#ffc40d" />
@@ -179,12 +196,8 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </div>
-                  <h2 className={styles.caseStudyDescpHeader}>
-                    Result
-                  </h2>
-                  <p className={styles.caseStudyDescpFull}>
-                    {val.firstResult}
-                  </p>
+                  <h2 className={styles.caseStudyDescpHeader}>Result</h2>
+                  <p className={styles.caseStudyDescpFull}>{val.firstResult}</p>
                 </>
               )}
               {router.query.id == "case-study-2" && (
@@ -263,7 +276,7 @@ const caseStudy = () => {
                       </p>
                     </div>
                   </div>
-                  <h2 className={styles.caseStudyDescpHeader}>Process</h2>
+                  <h2 className={styles.caseStudyDescpHeader2}>Process</h2>
                   <div className={styles.caseStudyProcess}>
                     <div className={styles.caseStudyProcessLine}></div>
                     <div className={styles.caseStudyProcessContent}>
@@ -338,6 +351,8 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </div>
+                  <h2 className={styles.caseStudyDescpHeader}>Result</h2>
+                  <p className={styles.caseStudyDescpFull}>{val.firstResult}</p>
                 </>
               )}
               {router.query.id == "case-study-3" && (
@@ -416,7 +431,7 @@ const caseStudy = () => {
                       </p>
                     </div>
                   </div>
-                  <h2 className={styles.caseStudyDescpHeader}>Process</h2>
+                  <h2 className={styles.caseStudyDescpHeader2}>Process</h2>
                   <div className={styles.caseStudyProcess}>
                     <div className={styles.caseStudyProcessLine}></div>
                     <div className={styles.caseStudyProcessContent}>
@@ -491,13 +506,15 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </div>
+                  <h2 className={styles.caseStudyDescpHeader}>Result</h2>
+                  <p className={styles.caseStudyDescpFull}>{val.firstResult}</p>
                 </>
               )}
             </div>
           );
         })}
         <div className={styles.caseStudyHire}>
-        <Hire />
+          <Hire />
         </div>
       </div>
       <Footer />
