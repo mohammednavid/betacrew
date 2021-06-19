@@ -22,7 +22,8 @@
   }
 }
 
-.podSlider .next, .podSlider .prev {
+.podSlider .next,
+.podSlider .prev {
   position: absolute;
   top: 50%;
   cursor: pointer;
@@ -30,46 +31,53 @@
 }
 
 @media screen and (min-width: 1401px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     top: 55%;
   }
 }
 
 @media screen and (min-width: 1521px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     top: 60%;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     width: 42px;
   }
 }
 
 @media screen and (max-width: 888px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     width: 35px;
     top: 47%;
   }
 }
 
 @media screen and (max-width: 730px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     width: 35px;
     top: 40%;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     width: 25px;
     top: 30%;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .podSlider .next, .podSlider .prev {
+  .podSlider .next,
+  .podSlider .prev {
     width: 25px;
     top: 27%;
   }
@@ -222,6 +230,86 @@
     max-width: 300px;
     margin-top: -50px;
     margin-bottom: -150px;
+  }
+}
+
+.homeCL {
+  padding: 5%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 889px) {
+  .homeCL {
+    padding: 0% 9%;
+  }
+}
+
+.homeCL .homeCLTitle {
+  font-size: 26px;
+  line-height: 35px;
+  color: #2a539c;
+  font-family: Graphik Bold;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+@media screen and (min-width: 621px) {
+  .homeCL .homeCLTitle {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .homeCL .homeCLTitle {
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .homeCL .homeCLTitle {
+    font-size: 47px;
+    line-height: 59px;
+  }
+}
+
+.homeCL .homeCLDescp {
+  font-size: 12px;
+  line-height: 20px;
+  color: #000c20;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  max-width: 320px;
+}
+
+.homeCL .homeCLDescp span {
+  color: #5185eb;
+}
+
+@media screen and (min-width: 621px) {
+  .homeCL .homeCLDescp {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .homeCL .homeCLDescp {
+    font-size: 21px;
+    line-height: 32px;
+    max-width: 830px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .homeCL .homeCLDescp {
+    font-size: 25px;
+    line-height: 40px;
+    max-width: 1000px;
   }
 }
 /*# sourceMappingURL=PodSlider.module.css.map */

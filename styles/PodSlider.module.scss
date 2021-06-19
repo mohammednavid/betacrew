@@ -1,137 +1,193 @@
 .podSlider {
-  width:50%;
+  width: 50%;
   margin: 0 auto;
   position: relative;
-  @media screen and (min-width:2101px){
+  @media screen and (min-width: 2101px) {
     width: 38%;
   }
-  @media screen and (max-width:888px){
+  @media screen and (max-width: 888px) {
     width: 60%;
   }
-  @media screen and (max-width:620px){
+  @media screen and (max-width: 620px) {
     width: 80%;
   }
-  .next,.prev{
+  .next,
+  .prev {
     position: absolute;
     top: 50%;
     cursor: pointer;
     z-index: 10;
-    @media screen and (min-width:1401px) {
+    @media screen and (min-width: 1401px) {
       top: 55%;
     }
-    @media screen and (min-width:1521px) {
+    @media screen and (min-width: 1521px) {
       top: 60%;
     }
-    @media screen and (max-width:1200px){
-      width:42px;
+    @media screen and (max-width: 1200px) {
+      width: 42px;
     }
-    @media screen and (max-width:888px){
+    @media screen and (max-width: 888px) {
       width: 35px;
       top: 47%;
     }
-    @media screen and (max-width:730px){
+    @media screen and (max-width: 730px) {
       width: 35px;
       top: 40%;
     }
-    @media screen and (max-width:620px){
+    @media screen and (max-width: 620px) {
       width: 25px;
       top: 30%;
     }
-    @media screen and (max-width:350px){
+    @media screen and (max-width: 350px) {
       width: 25px;
       top: 27%;
     }
   }
-  .next{
-    left:0;
-    @media screen and (max-width:620px){
+  .next {
+    left: 0;
+    @media screen and (max-width: 620px) {
       left: 15%;
     }
-    @media screen and (max-width:420px){
+    @media screen and (max-width: 420px) {
       left: 10%;
     }
   }
-  .prev{
-    right:0;
-    @media screen and (max-width:620px){
+  .prev {
+    right: 0;
+    @media screen and (max-width: 620px) {
       right: 15%;
     }
-    @media screen and (max-width:420px){
+    @media screen and (max-width: 420px) {
       right: 10%;
     }
   }
-  .fixed{
+  .fixed {
     position: absolute;
-    top:29%;
-    left:30%;
+    top: 29%;
+    left: 30%;
     z-index: 10;
-    @media screen and (max-width:1200px){
+    @media screen and (max-width: 1200px) {
       top: 26%;
       left: 34%;
       width: 200px;
     }
-    @media screen and (max-width:1050px){
+    @media screen and (max-width: 1050px) {
       top: 26%;
       left: 32%;
       width: 200px;
     }
-    @media screen and (max-width:888px){
+    @media screen and (max-width: 888px) {
       top: 26%;
       width: 180px;
     }
-    @media screen and (max-width:790px){
+    @media screen and (max-width: 790px) {
       top: 24%;
       left: 30%;
     }
-    @media screen and (max-width:620px){
+    @media screen and (max-width: 620px) {
       top: 17%;
       left: 38%;
       width: 120px;
     }
-    @media screen and (max-width:460px){
+    @media screen and (max-width: 460px) {
       left: 35%;
     }
-    @media screen and (max-width:390px){
+    @media screen and (max-width: 390px) {
       left: 31%;
     }
-    @media screen and (min-width:1551px){
-    top: 32%;
-    left:32%;
+    @media screen and (min-width: 1551px) {
+      top: 32%;
+      left: 32%;
     }
-    @media screen and (min-width:1801px){
-    left:34%;
+    @media screen and (min-width: 1801px) {
+      left: 34%;
     }
-    @media screen and (min-width:1901px){
-    left:33%;
+    @media screen and (min-width: 1901px) {
+      left: 33%;
     }
   }
-      .podSlide{
-        height:600px;
-        z-index: 0;
-        max-width: 800px;
-        margin:0 auto;
-        margin-top: -100px;
-        @media screen and (min-width:1551px){
-          margin-top: -200px;
-          margin-bottom: 50px;
-        }
-        @media screen and (max-width:1200px){
-          max-height: 450px;
-          max-width: 500px;
-          margin-top: -100px;
-          margin-bottom: -50px;
-        }
-        @media screen and (max-width:888px){
-          max-height: 450px;
-          max-width: 500px;
-          margin-top: -150px;
-          margin-bottom: -100px;
-        }
-        @media screen and (max-width:620px){
-          max-height: 450px;
-          max-width: 300px;
-         margin-top: -50px;
-         margin-bottom: -150px;
-        }
-      }
+  .podSlide {
+    height: 600px;
+    z-index: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: -100px;
+    @media screen and (min-width: 1551px) {
+      margin-top: -200px;
+      margin-bottom: 50px;
+    }
+    @media screen and (max-width: 1200px) {
+      max-height: 450px;
+      max-width: 500px;
+      margin-top: -100px;
+      margin-bottom: -50px;
+    }
+    @media screen and (max-width: 888px) {
+      max-height: 450px;
+      max-width: 500px;
+      margin-top: -150px;
+      margin-bottom: -100px;
+    }
+    @media screen and (max-width: 620px) {
+      max-height: 450px;
+      max-width: 300px;
+      margin-top: -50px;
+      margin-bottom: -150px;
+    }
+  }
+}
+.homeCL {
+  padding: 5%;
+  max-width: 1920px;
+  margin: 0 auto;
+  @media screen and (min-width: 889px) {
+    padding: 0% 9%;
+  }
+  .homeCLTitle {
+    font-size: 26px;
+    line-height: 35px;
+    color: #2a539c;
+    font-family: Graphik Bold;
+    text-align: center;
+    margin-bottom: 2%;
+    @media screen and (min-width: 621px) {
+      font-size: 32px;
+      line-height: 44px;
+    }
+    @media screen and (min-width: 1201px) {
+      font-size: 38px;
+      line-height: 50px;
+    }
+    @media screen and (min-width: 1901px) {
+      font-size: 47px;
+      line-height: 59px;
+    }
+  }
+  .homeCLDescp {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000c20;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    max-width: 320px;
+    span {
+      color: #5185eb;
+    }
+    @media screen and (min-width: 621px) {
+      font-size: 16px;
+      line-height: 28px;
+      max-width: 600px;
+    }
+    @media screen and (min-width: 1201px) {
+      font-size: 21px;
+      line-height: 32px;
+      max-width: 830px;
+    }
+    @media screen and (min-width: 1901px) {
+      font-size: 25px;
+      line-height: 40px;
+      max-width: 1000px;
+    }
+  }
 }

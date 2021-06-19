@@ -5,12 +5,41 @@ import styles from "../styles/About.module.css";
 import Footer from "../components/Footer";
 import Hire from "../components/Hire";
 import { Player } from "@lottiefiles/react-lottie-player";
-import {useRef} from 'react'
+import { useRef } from "react";
+import Head from "next/head";
 
 const About = () => {
-  const aboutVector = useRef(null)
+  const aboutVector = useRef(null);
   return (
     <>
+      <Head>
+        <title>About Betacrew</title>
+        <meta
+          name="description"
+          content="About Betacrerw - A team of developers for your organisation"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
       <Header />
       {aboutData?.map((val, index) => {
         return (
@@ -27,23 +56,33 @@ const About = () => {
                 <p className={styles.aboutDescp}>{val.descpSecond}</p>
               </div>
               <div className={styles.aboutVector}>
-              <Player
-                ref={aboutVector}
-                hover
-                autoplay={true}
-                loop={false}
-                src="/illustration/about.json"
-              ></Player>
-            </div>
+                <Player
+                  ref={aboutVector}
+                  hover
+                  autoplay={true}
+                  loop={false}
+                  src="/illustration/about.json"
+                ></Player>
+              </div>
             </div>
             <div className={styles.aboutFounder}>
               <div className={styles.aboutImageLeft}>
-                <Image src="/images/Founder_RV.svg" alt="Betacrew Co-Founder" width={350} height={420} />
+                <Image
+                  src="/images/Founder_RV.svg"
+                  alt="Betacrew Co-Founder"
+                  width={350}
+                  height={420}
+                />
                 <h1 className={styles.aboutFounderTitle}>Rushabh Vora</h1>
                 <p className={styles.aboutFounderDescp}>Co-Founder</p>
               </div>
               <div className={styles.aboutImageRight}>
-                <Image src="/images/Founder_RM.svg" alt="Betacrew Co-Founder" width={540} height={590} />
+                <Image
+                  src="/images/Founder_RM.svg"
+                  alt="Betacrew Co-Founder"
+                  width={540}
+                  height={590}
+                />
                 <h1 className={styles.aboutFounderTitle}>Ronil Mehta</h1>
                 <p className={styles.aboutFounderDescp}>Co-Founder</p>
               </div>
@@ -86,37 +125,62 @@ const About = () => {
               <div className={styles.aboutOperateHDWO}>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
-                    <Image src="/images/HDWO_1.svg" alt="Betacrew - HOW DO WE OPERATE" width={110} height={110} />
+                    <Image
+                      src="/images/HDWO_1.svg"
+                      alt="Betacrew - HOW DO WE OPERATE"
+                      width={110}
+                      height={110}
+                    />
                   </div>
                   <p className={styles.aboutHDWO_Descp}>{val.firstStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
-                    <Image src="/images/HDWO_2.svg" alt="Betacrew - HOW DO WE OPERATE" width={110} height={110} />
+                    <Image
+                      src="/images/HDWO_2.svg"
+                      alt="Betacrew - HOW DO WE OPERATE"
+                      width={110}
+                      height={110}
+                    />
                   </div>
                   <p className={styles.aboutHDWO_Descp}>{val.secondStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
-                    <Image src="/images/HDWO_3.svg" alt="Betacrew - HOW DO WE OPERATE" width={110} height={110} />
+                    <Image
+                      src="/images/HDWO_3.svg"
+                      alt="Betacrew - HOW DO WE OPERATE"
+                      width={110}
+                      height={110}
+                    />
                   </div>
                   <p className={styles.aboutHDWO_Descp}>{val.thirdStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
-                    <Image src="/images/HDWO_4.svg" alt="Betacrew - HOW DO WE OPERATE" width={110} height={110} />
+                    <Image
+                      src="/images/HDWO_4.svg"
+                      alt="Betacrew - HOW DO WE OPERATE"
+                      width={110}
+                      height={110}
+                    />
                   </div>
                   <p className={styles.aboutHDWO_Descp}>{val.fourthStep}</p>
                 </div>
                 <div className={styles.aboutHDWO}>
                   <div className={styles.aboutHDWO_Img}>
-                    <Image src="/images/HDWO_5.svg" alt="Betacrew - HOW DO WE OPERATE" width={110} height={110} />
+                    <Image
+                      src="/images/HDWO_5.svg"
+                      alt="Betacrew - HOW DO WE OPERATE"
+                      width={110}
+                      height={110}
+                    />
                   </div>
                   <p className={styles.aboutHDWO_Descp}>{val.fifthStep}</p>
                 </div>
                 <div className={styles.aboutHDWO_Line}></div>
               </div>
-              <Hire/>
+              <Hire />
             </div>
           </div>
         );

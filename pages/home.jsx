@@ -7,6 +7,7 @@ import Image from "next/image";
 import { homePODData, homeWWDData, homeFeedback } from "../data/homeData";
 import Slider from "../components/Slider";
 import Link from "next/link";
+import Head from "next/head";
 import Process from "../components/Process";
 import Hire from "../components/Hire";
 import PodSlider from "../components/PodSlider";
@@ -19,6 +20,17 @@ const HomePage = () => {
 
   return (
     <>
+    <Head>
+        <title>Betacrew</title>
+        <meta name="description" content="Betacrerw - A team of developers for your organisation" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
       <Header />
       <div className={styles.home}>
         <h1 className={styles.homeTitle}>
@@ -186,14 +198,7 @@ const HomePage = () => {
           </p>
         </div>
         <PodSlider />
-        <div className={styles.homeCL1}>
-          <h2 className={styles.homeCL1Title}>CL1(CREW LEVEL 1)</h2>
-          <p className={styles.homeCL1Descp}>
-            These are entry-level engineers expected to be able to write modules
-            and fix bugs. We expect them to be keen learners and perform well
-            under a more senior engineer.
-          </p>
-        </div>
+
         <Process />
         <div className={styles.homeDiffContainer}>
           <div className={styles.homeDiff}>

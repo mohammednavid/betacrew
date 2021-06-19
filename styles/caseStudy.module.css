@@ -288,7 +288,7 @@
   font-family: Graphik;
 }
 
-.caseStudy .caseStudyDescpHeader {
+.caseStudy .caseStudyDescpHeader, .caseStudy .caseStudyDescpHeader2 {
   text-align: left;
   font-size: 22px;
   line-height: 28px;
@@ -299,34 +299,34 @@
 }
 
 @media screen and (min-width: 621px) {
-  .caseStudy .caseStudyDescpHeader {
+  .caseStudy .caseStudyDescpHeader, .caseStudy .caseStudyDescpHeader2 {
     font-size: 36px;
     line-height: 56px;
   }
 }
 
 @media screen and (min-width: 889px) {
-  .caseStudy .caseStudyDescpHeader {
+  .caseStudy .caseStudyDescpHeader, .caseStudy .caseStudyDescpHeader2 {
     padding: 30px 9% 50px 9%;
   }
 }
 
 @media screen and (min-width: 1201px) {
-  .caseStudy .caseStudyDescpHeader {
+  .caseStudy .caseStudyDescpHeader, .caseStudy .caseStudyDescpHeader2 {
     font-size: 48px;
     line-height: 68px;
   }
 }
 
 @media screen and (min-width: 1901px) {
-  .caseStudy .caseStudyDescpHeader {
+  .caseStudy .caseStudyDescpHeader, .caseStudy .caseStudyDescpHeader2 {
     font-size: 65px;
     line-height: 85px;
   }
 }
 
 @media screen and (min-width: 1921px) {
-  .caseStudy .caseStudyDescpHeader {
+  .caseStudy .caseStudyDescpHeader2 {
     margin-top: 40%;
   }
 }

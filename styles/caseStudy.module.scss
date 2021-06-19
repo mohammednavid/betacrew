@@ -192,7 +192,7 @@
       }
     }
   }
-  .caseStudyDescpHeader {
+  .caseStudyDescpHeader, .caseStudyDescpHeader2 {
     text-align: left;
     font-size: 22px;
     line-height: 28px;
@@ -214,7 +214,9 @@
     @media screen and (min-width: 1901px) {
       font-size: 65px;
       line-height: 85px;
-    }
+    }  
+  }
+  .caseStudyDescpHeader2{
     @media screen and (min-width: 1921px) {
       margin-top: 40%;
     }

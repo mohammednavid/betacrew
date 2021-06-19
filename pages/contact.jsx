@@ -1,12 +1,25 @@
 import styles from "../styles/Contact.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Head from "next/head";
+
 const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefaults();
   };
   return (
     <>
+    <Head>
+        <title>Contact Betacrew</title>
+        <meta name="description" content="Contact Betacrew - A team of developers for your organisation" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
       <Header />
       <div className={styles.contact}>
         <div className={styles.contactLeft}>

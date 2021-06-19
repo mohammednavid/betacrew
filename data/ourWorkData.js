@@ -15,6 +15,7 @@ export const ourWorkData = [
     firstPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
     firstPersonName:"Dougs Jerey",
     firstPersonPost:"Chairman at Consa",
+    firstResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
 
     // Second Case Study 
     id:"case-study-2",
@@ -31,6 +32,7 @@ export const ourWorkData = [
     secondPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
     secondPersonName:"Dougs Jerey",
     secondPersonPost:"Chairman at Consa",
+    secondResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
 
 
     // Third Case Study 
@@ -48,5 +50,6 @@ export const ourWorkData = [
     thirdPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
     thirdPersonName:"Dougs Jerey",
     thirdPersonPost:"Chairman at Consa",
+    thirdResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
   },
 ];

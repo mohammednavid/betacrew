@@ -7,6 +7,7 @@ import Process from "../components/Process";
 import Hire from "../components/Hire";
 import { Player } from "@lottiefiles/react-lottie-player";
 import Image from 'next/image'
+import Head from 'next/head'
 
 const howItWorks = () => {
   const step1 = useRef(null);
@@ -15,6 +16,17 @@ const howItWorks = () => {
   const step4 = useRef(null);
   return (
     <>
+    <Head>
+        <title>Betacrew - How Betacrew Works</title>
+        <meta name="description" content="How Betacrew Works - How building development team works ." />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
       <Header />
       <div className={styles.HIW}>
         <h1 className={styles.HIW_Title}>
