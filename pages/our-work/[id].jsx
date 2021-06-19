@@ -18,6 +18,7 @@ const caseStudy = () => {
           name="description"
           content="Recent Betacrew Work - Recent case studies on how we have helped companies"
         />
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

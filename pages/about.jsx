@@ -18,6 +18,7 @@ const About = () => {
           name="description"
           content="About Betacrerw - A team of developers for your organisation"
         />
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
