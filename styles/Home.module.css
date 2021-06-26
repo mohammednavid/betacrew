@@ -670,7 +670,7 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward {
-  z-index: 100 !important;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -680,7 +680,7 @@
   max-width: 50%;
   margin: 0 auto;
   margin-top: -40px;
-  margin-bottom: -25px;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 888px) {
@@ -690,11 +690,11 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward .homeForwardImg {
-  z-index: 100 !important;
+  z-index: 10;
 }
 
 .home .homeWWD .homeStepContainer .homeForward2 {
-  z-index: 100 !important;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -704,12 +704,12 @@
   max-width: 50%;
   margin: 0 auto;
   margin-top: -40px;
-  margin-bottom: -70px;
+  margin-bottom: -40px;
 }
 
-@media screen and (min-width: 1901px) {
+@media screen and (max-width: 1200px) {
   .home .homeWWD .homeStepContainer .homeForward2 {
-    margin-bottom: -80px;
+    margin-bottom: -30px;
   }
 }
 
@@ -720,7 +720,7 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward2 .homeForwardImg {
-  z-index: 100 !important;
+  z-index: 10;
 }
 
 .home .homePOD {
