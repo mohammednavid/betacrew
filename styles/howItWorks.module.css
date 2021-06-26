@@ -50,15 +50,17 @@
 
 .HIW .HIW_Descp {
   text-align: center;
-  font: normal normal 300 15px/23px Graphik;
+  font: normal normal 300 15px/23px Graphik Light;
   letter-spacing: 0.45px;
   color: #363636;
+  padding: 0 10px;
 }
 
 @media screen and (min-width: 621px) {
   .HIW .HIW_Descp {
     max-width: 400px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -123,6 +125,51 @@
 .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
   height: 300px;
   min-width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 550px;
+    min-width: 140%;
+    margin-left: -20%;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .HIW .HIW_Container .HIW_Content .HIW_ContentVector,
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 621px) {
@@ -226,7 +273,7 @@
 
 .HIW .HIW_Container .HIW_Content .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle,
 .HIW .HIW_Container .HIW_Content2 .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle {
-  font: normal normal bold 17px/21px Graphik Bold;
+  font: normal normal bold 17px/25px Graphik Bold;
   color: #2a539c;
   text-shadow: 0px 30px 60px #00000017;
   max-width: 200px;
@@ -237,7 +284,7 @@
   .HIW .HIW_Container .HIW_Content .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle,
   .HIW .HIW_Container .HIW_Content2 .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 28px;
     max-width: 230px;
   }
 }
@@ -246,7 +293,7 @@
   .HIW .HIW_Container .HIW_Content .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle,
   .HIW .HIW_Container .HIW_Content2 .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 32px;
     max-width: 260px;
   }
 }
@@ -255,14 +302,14 @@
   .HIW .HIW_Container .HIW_Content .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle,
   .HIW .HIW_Container .HIW_Content2 .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentTitle {
     font-size: 29px;
-    line-height: 36px;
+    line-height: 38px;
     max-width: 320px;
   }
 }
 
 .HIW .HIW_Container .HIW_Content .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentDescp,
 .HIW .HIW_Container .HIW_Content2 .HIW_ContentText .HIW_ContentTextContainer .HIW_ContentDescp {
-  font: normal normal 300 14px/21px Graphik;
+  font: normal normal 300 14px/21px Graphik Light;
   letter-spacing: 0.56px;
   color: #363636;
   opacity: 0.8;
@@ -325,6 +372,45 @@
 .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
   height: 300px;
   min-width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 550px;
+    min-width: 140%;
+    margin-left: 0%;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .HIW .HIW_Container .HIW_Content2 .HIW_ContentVector {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 621px) {

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import styles from "../styles/PodSlider.module.css";
 import Image from "next/image";
+import Fade from "react-reveal/Fade";
 
 const PodSlider = () => {
   const [pod1, setPod1] = useState(true);
@@ -41,6 +42,7 @@ const PodSlider = () => {
   return (
     <>
       <div className={styles.podSlider}>
+      <Fade delay={2000}>
         <a className={styles.next} onClick={Prev}>
           {" "}
           <Image src="/images/prev.svg" alt="Betacrew" width={50} height={50} />
@@ -56,7 +58,9 @@ const PodSlider = () => {
             height={150}
           />
         </div>
+        </Fade>
         {pod1 && (
+          <Fade delay={2500}>
           <div ref={pod} className={styles.podSlide}>
             <Player
               ref={podVector1}
@@ -66,6 +70,7 @@ const PodSlider = () => {
               src="/illustration/pod1.json"
             ></Player>
           </div>
+          </Fade>
         )}
         {pod2 && (
           <div ref={pod} className={styles.podSlide}>
@@ -102,6 +107,7 @@ const PodSlider = () => {
         )}
       </div>
       {pod1 && (
+        <Fade delay={3000}>
         <div className={styles.homeCL}>
           <h2 className={styles.homeCLTitle}>CL1(CREW LEVEL 1)</h2>
           <p className={styles.homeCLDescp}>
@@ -110,6 +116,7 @@ const PodSlider = () => {
             under a more senior engineer.
           </p>
         </div>
+        </Fade>
       )}
       {pod2 && (
         <div className={styles.homeCL}>

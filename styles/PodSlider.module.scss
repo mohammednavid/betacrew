@@ -9,7 +9,7 @@
     width: 60%;
   }
   @media screen and (max-width: 620px) {
-    width: 80%;
+    width: 100%;
   }
   .next,
   .prev {
@@ -22,6 +22,9 @@
     }
     @media screen and (min-width: 1521px) {
       top: 60%;
+    }
+    @media screen and (min-width: 1901px) {
+      top: 75%;
     }
     @media screen and (max-width: 1200px) {
       width: 42px;
@@ -36,11 +39,16 @@
     }
     @media screen and (max-width: 620px) {
       width: 25px;
-      top: 30%;
+      top:180px;
     }
-    @media screen and (max-width: 350px) {
-      width: 25px;
-      top: 27%;
+    @media screen and (max-width: 380px) {
+      top: 170px;
+    }
+    @media screen and (max-width: 365px) {
+      top: 160px;
+    }
+    @media screen and (max-width: 340px) {
+      top: 150px;
     }
   }
   .next {
@@ -85,15 +93,16 @@
       left: 30%;
     }
     @media screen and (max-width: 620px) {
-      top: 17%;
-      left: 38%;
-      width: 120px;
+      left: 36%;
+      width: 140px;
+      top:22%;
     }
     @media screen and (max-width: 460px) {
-      left: 35%;
+      left: 34%;
     }
-    @media screen and (max-width: 390px) {
-      left: 31%;
+    @media screen and (max-width: 370px) {
+      top:19%;
+      width: 120px;
     }
     @media screen and (min-width: 1551px) {
       top: 32%;
@@ -103,7 +112,8 @@
       left: 34%;
     }
     @media screen and (min-width: 1901px) {
-      left: 33%;
+      left: 35%;
+      top: 45%;
     }
   }
   .podSlide {
@@ -115,6 +125,10 @@
     @media screen and (min-width: 1551px) {
       margin-top: -200px;
       margin-bottom: 50px;
+    }
+    @media screen and (min-width: 1901px) {
+      max-width: 1000px;
+      margin-bottom: 200px;
     }
     @media screen and (max-width: 1200px) {
       max-height: 450px;
@@ -130,9 +144,10 @@
     }
     @media screen and (max-width: 620px) {
       max-height: 450px;
-      max-width: 300px;
-      margin-top: -50px;
-      margin-bottom: -150px;
+      max-width: 400px;
+      width:100%;
+      margin-top: -70px;
+      margin-bottom: -120px;
     }
   }
 }
@@ -165,12 +180,13 @@
   }
   .homeCLDescp {
     font-size: 12px;
+    font-family:Graphik Light;
     line-height: 20px;
     color: #000c20;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5%;
-    max-width: 320px;
+    max-width: 245px;
     span {
       color: #5185eb;
     }

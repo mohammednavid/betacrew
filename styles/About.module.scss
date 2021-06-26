@@ -50,7 +50,7 @@
       }
       .aboutDescp {
         text-align: left;
-        font: normal normal 300 28px/42px Graphik;
+        font: normal normal 300 28px/42px Graphik Light;
         letter-spacing: 1px;
         color: #000000d4;
         opacity: 0.8;
@@ -74,7 +74,12 @@
         height: 500px;
       }
       @media screen and (max-width: 620px) {
+        height: 400px;
+        min-width: 120%;
         margin-top:-100px;
+        margin-left: -10%;
+      }
+      @media screen and (max-width: 450px) {
         height: 300px;
       }
       @media screen and (min-width: 889px) {
@@ -231,7 +236,7 @@
       .aboutCultureDescp {
         text-align: left;
         padding-top: 30px;
-        font: normal normal normal 24px/40px Graphik;
+        font: normal normal normal 24px/40px Graphik Light;
         letter-spacing: 1.2px;
         color: #fcfcfc;
         @media screen and (max-width: 1900px) {
@@ -245,7 +250,8 @@
         @media screen and (max-width: 620px) {
           text-align: center;
           font-size: 13px;
-          line-height: 21px;
+          line-height: 23px;
+          padding:0 20px;
         }
       }
     }
@@ -275,13 +281,14 @@
       line-height: 75px;
     }
     @media screen and (max-width: 620px) {
-      font-size: 32px;
-      line-height: 52px;
+      font-size: 28px;
+      line-height: 48px;
+      padding-top: 30px;
     }
   }
   .aboutOperateDescp {
     text-align: center;
-    font: normal normal 300 26px/34px Graphik;
+    font: normal normal 300 26px/34px Graphik Light;
     color: #313131;
     margin-bottom: 50px;
     @media screen and (max-width: 1900px) {
@@ -350,7 +357,7 @@
         max-width: 205px;
         text-align: center;
         letter-spacing: 0.4px;
-        font: normal normal 300 14px/22px Graphik;
+        font: normal normal 300 14px/22px Graphik Light;
         color: #464646;
         @media screen and (min-width: 621px) {
           width: 100%;

@@ -36,9 +36,9 @@
 
 @media screen and (max-width: 1200px) {
   .home .homeTitle {
-    font-size: 42px;
-    line-height: 55px;
-    max-width: 550px;
+    font-size: 48px;
+    line-height: 60px;
+    max-width: 650px;
   }
 }
 
@@ -52,13 +52,14 @@
 
 .home .homeDescp {
   text-align: center;
-  font: normal normal 300 26px/40px Graphik;
+  font: normal normal 300 26px/40px Graphik Light;
   letter-spacing: 1px;
   color: #363636;
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   opacity: 0.9;
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background: #fff;
   z-index: 10;
 }
@@ -66,16 +67,17 @@
 @media screen and (max-width: 1900px) {
   .home .homeDescp {
     font-size: 20px;
-    line-height: 30px;
-    max-width: 580px;
+    line-height: 32px;
+    padding-bottom: 10px;
+    max-width: 555px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .home .homeDescp {
     font-size: 18px;
-    line-height: 28px;
-    max-width: 500px;
+    line-height: 30px;
+    max-width: 520px;
   }
 }
 
@@ -83,8 +85,9 @@
   .home .homeDescp {
     max-width: 320px;
     font-size: 15px;
-    line-height: 23px;
+    line-height: 26px;
     padding-top: 20px;
+    padding-bottom: 10px;
   }
 }
 
@@ -145,13 +148,15 @@
 
 @media screen and (min-width: 1201px) {
   .home .homeButtons .homeButtonLeft {
-    width: 260px;
+    width: 220px;
+    padding: 15px 0;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .home .homeButtons .homeButtonLeft {
-    width: 220px;
+    width: 200px;
+    padding: 15px 0;
   }
 }
 
@@ -163,7 +168,7 @@
 
 @media screen and (min-width: 1901px) {
   .home .homeButtons .homeButtonLeft {
-    width: 350px;
+    width: 250px;
   }
 }
 
@@ -179,13 +184,15 @@
 
 @media screen and (min-width: 1201px) {
   .home .homeButtons .homeButtonRight {
-    width: 260px;
+    width: 220px;
+    padding: 15px 0;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .home .homeButtons .homeButtonRight {
-    width: 220px;
+    width: 200px;
+    padding: 15px 0;
   }
 }
 
@@ -197,18 +204,36 @@
 
 @media screen and (min-width: 1901px) {
   .home .homeButtons .homeButtonRight {
-    width: 350px;
+    width: 250px;
   }
 }
 
 .home .homeVector {
+  z-index: -1 !important;
   max-width: 820px;
   height: 500px;
   margin: 0 auto;
   margin-top: -15%;
   margin-bottom: -5%;
   background: #fff;
-  z-index: -1;
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeVector {
+    margin-bottom: -50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .home .homeVector {
+    margin-bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home .homeVector {
+    margin-bottom: -150px;
+  }
 }
 
 @media screen and (min-width: 621px) {
@@ -291,6 +316,7 @@
 
 .home .homeWWD .homeWWDDescp {
   font-size: 14px;
+  font-family: Graphik Light;
   line-height: 22px;
   color: #000c20;
   text-align: center;
@@ -332,11 +358,23 @@
   padding-bottom: 50px;
 }
 
+@media screen and (min-width: 889px) {
+  .home .homeWWD .homeStepContainer {
+    padding-bottom: 100px;
+  }
+}
+
 .home .homeWWD .homeStepContainer .homeStepContent {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 888px) {
+  .home .homeWWD .homeStepContainer .homeStepContent {
+    padding-top: 50px;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -383,7 +421,7 @@
   max-height: 250px;
   margin: 0 auto;
   margin-bottom: 50px;
-  z-index: 1;
+  z-index: 0;
 }
 
 @media screen and (min-width: 889px) {
@@ -409,12 +447,17 @@
 
 .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImg1 {
   margin-left: -25px !important;
+  z-index: 0;
 }
 
 @media screen and (min-width: 889px) {
   .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImg1 {
     margin-left: -35px !important;
   }
+}
+
+.home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImg {
+  z-index: 0;
 }
 
 @media screen and (min-width: 1201px) {
@@ -425,6 +468,7 @@
 
 .home .homeWWD .homeStepContainer .homeStepContent .homeStepImgContainer .homeStepImg3 {
   margin-left: -45px !important;
+  z-index: 0;
 }
 
 @media screen and (min-width: 889px) {
@@ -483,6 +527,7 @@
   left: 30px;
   height: 135px;
   width: 183px;
+  z-index: 0;
 }
 
 @media screen and (min-width: 889px) {
@@ -600,12 +645,13 @@
   font-size: 14px;
   line-height: 22px;
   text-align: left;
+  font-family: Graphik Light;
 }
 
 @media screen and (min-width: 889px) {
   .home .homeWWD .homeStepContainer .homeStepContent .homeStepRight .homeStepDescp {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 32px;
   }
 }
 
@@ -624,7 +670,7 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward {
-  z-index: 10;
+  z-index: 100 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -644,11 +690,11 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward .homeForwardImg {
-  z-index: 10;
+  z-index: 100 !important;
 }
 
 .home .homeWWD .homeStepContainer .homeForward2 {
-  z-index: 10;
+  z-index: 100 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -674,7 +720,7 @@
 }
 
 .home .homeWWD .homeStepContainer .homeForward2 .homeForwardImg {
-  z-index: 10;
+  z-index: 100 !important;
 }
 
 .home .homePOD {
@@ -789,7 +835,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-top: -26px;
-  font-weight: lighter;
+  font-family: Graphik Light;
   color: #fff;
   padding-bottom: 30px;
   max-width: 85%;
@@ -903,6 +949,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 620px) {
+  .home .homeDiffContainer .homeDiff {
+    padding-top: 50px;
+  }
+}
+
 .home .homeDiffContainer .homeDiff .homeDiffTitle {
   padding-bottom: 50px;
   font: normal normal bold 22px/35px Graphik Bold;
@@ -936,15 +988,28 @@
 
 .home .homeDiffContainer .homeDiff .homeDiffImg {
   min-height: 400px;
-  width: 100%;
+  min-width: 120%;
   height: 400px;
   margin-top: -100px;
   margin-bottom: -150px;
   cursor: pointer;
 }
 
+@media screen and (min-width: 381px) {
+  .home .homeDiffContainer .homeDiff .homeDiffImg {
+    margin-bottom: -100px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .home .homeDiffContainer .homeDiff .homeDiffImg {
+    margin-bottom: -50px;
+  }
+}
+
 @media screen and (min-width: 951px) {
   .home .homeDiffContainer .homeDiff .homeDiffImg {
+    min-width: auto;
     margin-top: -150px;
     margin-bottom: -100px;
   }
@@ -1016,7 +1081,7 @@
 }
 
 .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffText {
-  font: normal normal normal 16px/25px Graphik;
+  font: normal normal normal 16px/25px Graphik Light;
   letter-spacing: 0px;
   color: #000c20;
   padding-left: 30px;
@@ -1411,7 +1476,7 @@
   line-height: 30px;
   color: #ffffff;
   opacity: 0.8;
-  font-weight: lighter;
+  font-family: Graphik Light;
 }
 
 @media screen and (min-width: 621px) {

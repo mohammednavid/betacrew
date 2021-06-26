@@ -42,9 +42,9 @@ const About = () => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <Header />
-      {aboutData?.map((val, index) => {
+      {aboutData?.map((val) => {
         return (
-          <div className={styles.about} kay={index}>
+          <div className={styles.about} key={val.id}>
             <div className={styles.aboutContainer}>
               <div className={styles.aboutLeft}>
                 <h1 className={styles.aboutTitle}>
