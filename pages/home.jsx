@@ -27,28 +27,6 @@ const HomePage = () => {
           name="description"
           content="Betacrerw - A team of developers for your organisation"
         />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#24509b" />
-        <meta name="msapplication-TileColor" content="#ffc40d" />
-        <meta name="theme-color" content="#ffffff" />
       </Head>
       <Header />
       <div className={styles.home}>
@@ -63,18 +41,16 @@ const HomePage = () => {
             procuring first in class tech people{" "}
           </p>
         </Fade>
+            <Fade delay={2000}>
         <div className={styles.homeButtons}>
           <Link href="/contact">
-            <Fade delay={2000}>
               <a className={styles.homeButtonLeft}>Create your Team</a>
-            </Fade>
           </Link>
           <Link href="/how-it-works">
-            <Fade delay={2000}>
               <a className={styles.homeButtonRight}>How it works?</a>
-            </Fade>
           </Link>
         </div>
+            </Fade>
         <div className={styles.homeVector}>
           <Fade delay={2500}>
             <Player
@@ -304,7 +280,7 @@ const HomePage = () => {
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/x.svg"
-                      alt="Betacrew Way"
+                      alt="Old Way"
                       width={50}
                       height={50}
                     />
@@ -319,7 +295,7 @@ const HomePage = () => {
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/x.svg"
-                      alt="Betacrew Way"
+                      alt="Old Way"
                       width={50}
                       height={50}
                     />
@@ -334,7 +310,7 @@ const HomePage = () => {
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/x.svg"
-                      alt="Betacrew Way"
+                      alt="Old Way"
                       width={50}
                       height={50}
                     />
@@ -347,17 +323,17 @@ const HomePage = () => {
             </ul>
           </div>
 
-          <Fade delay={3000}>
+          <Fade delay={1300}>
             <div className={styles.homeDiffLine}></div>
 
             <div className={styles.homeDiffVs}>Vs</div>
           </Fade>
 
           <div className={styles.homeDiff}>
-            <Fade delay={3500}>
+            <Fade delay={1000}>
               <h2 className={styles.homeDiffTitle}>THE BETACREW WAY</h2>
             </Fade>
-            <Fade delay={4000}>
+            <Fade delay={1500}>
               <div className={styles.homeDiffImg}>
                 <Player
                   ref={thirdVector}
@@ -369,12 +345,12 @@ const HomePage = () => {
               </div>
             </Fade>
             <ul className={styles.homeDiffContent}>
-              <Fade delay={4500}>
+              <Fade delay={2000}>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/check.svg"
-                      alt="Old Way"
+                      alt="Betacrew Way"
                       width={50}
                       height={50}
                     />
@@ -384,12 +360,12 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={4800}>
+              <Fade delay={2200}>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/check.svg"
-                      alt="Old Way"
+                      alt="Betacrew Way"
                       width={50}
                       height={50}
                     />
@@ -400,12 +376,12 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={5100}>
+              <Fade delay={2600}>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
                       src="/images/check.svg"
-                      alt="Old Way"
+                      alt="Betacrew Way"
                       width={50}
                       height={50}
                     />
@@ -502,6 +478,7 @@ const HomePage = () => {
             </div>
           );
         })}
+            <Fade delay={500}>
         <div className={styles.homeHire}>
           <div className={styles.hire}>
             <Fade delay={1000}>
@@ -532,6 +509,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+          </Fade>
       </div>
       <Footer />
     </>
