@@ -20,7 +20,7 @@ const Work = () => {
       </Head>
       <Header />
       <div className={styles.work}>
-        <Fade delay={1000}>
+        <Fade delay={200}>
           <h1 className={styles.workTitle}>
             Recent case studies on <br />
             <span>how we have helped companies</span>
@@ -31,21 +31,21 @@ const Work = () => {
             <div className={styles.workContainer} id={val.id} key={val.id}>
               <div className={styles.workContent}>
                 <div className={styles.workDescpContainer}>
-                  <Fade delay={1000}>
+                  <Fade>
                     <h2 className={styles.workName}>{val.firstName}</h2>
                   </Fade>
-                  <Fade delay={1500}>
+                  <Fade>
                     <p className={styles.workDescp}>{val.firstDescp}</p>
                   </Fade>
-                  <Fade delay={2000}>
+                  <Fade>
                     <Link href={"/our-work/case-study-1"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
                   </Fade>
                 </div>
-                <Fade delay={500}>
+                <Fade delay={200}>
                   <div className={styles.workDetails}>
-                    <Fade delay={1000}>
+                    <Fade>
                       <div className={styles.workImg}>
                         <Image
                           src={val.firstLogo}
@@ -55,32 +55,32 @@ const Work = () => {
                         />
                       </div>
                     </Fade>
-                    <Fade delay={1200}>
+                    <Fade>
                       <p className={styles.workComment}>"{val.firstComment}"</p>
                     </Fade>
                     <div className={styles.workDetailsBottom}>
-                      <Fade delay={1400}>
+                      <Fade>
                         <p>
                           {val.firstTeamScaled}
                           <br />
                           <span>Team Scaled</span>
                         </p>
                       </Fade>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p>
                           {val.firstNPS}
                           <br />
                           <span>NPS</span>
                         </p>
                       </Fade>
-                      <Fade delay={1800}>
+                      <Fade>
                         <p>
                           {val.firstSaved}
                           <br />
                           <span>saved</span>
                         </p>
                       </Fade>
-                      <Fade delay={2000}>
+                      <Fade>
                         <p>
                           {val.firstFaster}
                           <br />
@@ -93,9 +93,9 @@ const Work = () => {
               </div>
               {/* second */}
               <div className={styles.workContent}>
-                <Fade delay={500}>
+                <Fade delay={200}>
                   <div className={styles.workDetails2}>
-                    <Fade delay={1000}>
+                    <Fade>
                       <div className={styles.workImg}>
                         <Image
                           src={val.secondLogo}
@@ -105,34 +105,34 @@ const Work = () => {
                         />
                       </div>
                     </Fade>
-                    <Fade delay={1200}>
+                    <Fade>
                       <p className={styles.workComment}>
                         "{val.secondComment}"
                       </p>
                     </Fade>
                     <div className={styles.workDetailsBottom}>
-                      <Fade delay={1400}>
+                      <Fade>
                         <p>
                           {val.secondTeamScaled}
                           <br />
                           <span>Team Scaled</span>
                         </p>
                       </Fade>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p>
                           {val.secondNPS}
                           <br />
                           <span>NPS</span>
                         </p>
                       </Fade>
-                      <Fade delay={1800}>
+                      <Fade>
                         <p>
                           {val.secondSaved}
                           <br />
                           <span>saved</span>
                         </p>
                       </Fade>
-                      <Fade delay={2000}>
+                      <Fade>
                         <p>
                           {val.secondFaster}
                           <br />
@@ -143,13 +143,13 @@ const Work = () => {
                   </div>
                 </Fade>
                 <div className={styles.workDescpContainer2}>
-                  <Fade delay={1000}>
+                  <Fade>
                     <h2 className={styles.workName}>{val.secondName}</h2>
                   </Fade>
-                  <Fade delay={1500}>
+                  <Fade>
                     <p className={styles.workDescp}>{val.secondDescp}</p>
                   </Fade>
-                  <Fade delay={2000}>
+                  <Fade>
                     <Link href={"/our-work/case-study-2"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
@@ -159,21 +159,21 @@ const Work = () => {
               {/* third */}
               <div className={styles.workContent}>
                 <div className={styles.workDescpContainer}>
-<Fade delay={1000}>
+                <Fade>
                   <h2 className={styles.workName}>{val.thirdName}</h2>
                   </Fade>
-<Fade delay={1500}>
+                <Fade>
                   <p className={styles.workDescp}>{val.thirdDescp}</p>
                   </Fade>
-                  <Fade delay={2000}>
+                  <Fade>
                   <Link href={"/our-work/case-study-3"}>
                     <p className={styles.workView}>VIEW CASE STUDY</p>
                   </Link>
                   </Fade>
                 </div>
-                <Fade delay={500}>
+                <Fade delay={200}>
                 <div className={styles.workDetails3}>
-                  <Fade delay={1000}>
+                  <Fade>
                   <div className={styles.workImg}>
                     <Image
                       src={val.thirdLogo}
@@ -183,32 +183,32 @@ const Work = () => {
                       />
                   </div>
                   </Fade>
-                  <Fade delay={1200}>
+                  <Fade>
                   <p className={styles.workComment}>"{val.thirdComment}"</p>
                   </Fade>
                   <div className={styles.workDetailsBottom}>
-                    <Fade delay={1400}>
+                    <Fade>
                     <p>
                       {val.thirdTeamScaled}
                       <br />
                       <span>Team Scaled</span>
                     </p>
                     </Fade>
-                    <Fade delay={1600}>
+                    <Fade>
                     <p>
                       {val.thirdNPS}
                       <br />
                       <span>NPS</span>
                     </p>
                     </Fade>
-                    <Fade delay={1800}>
+                    <Fade>
                     <p>
                       {val.thirdSaved}
                       <br />
                       <span>saved</span>
                     </p>
                     </Fade>
-                    <Fade delay={2000}>
+                    <Fade>
                     <p>
                       {val.thirdFaster}
                       <br />

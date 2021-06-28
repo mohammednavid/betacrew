@@ -30,23 +30,23 @@ const caseStudy = () => {
                 <>
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
-                      <Fade delay={500}>
+                      <Fade>
                         <h1 className={styles.caseStudyTitle}>Case study :</h1>
                       </Fade>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyName}>
                           {val.firstName}
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyDescp}>
                           {val.firstDescp}
                         </p>
                       </Fade>
                     </div>
-                    <Fade delay={500}>
+                    <Fade delay={200}>
                       <div className={styles.caseStudyDetails}>
-                        <Fade delay={1000}>
+                        <Fade>
                           <div className={styles.caseStudyImg}>
                             <Image
                               src={val.firstLogo}
@@ -56,34 +56,34 @@ const caseStudy = () => {
                             />
                           </div>
                         </Fade>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyComment}>
                             "{val.firstComment}"
                           </p>
                         </Fade>
                         <div className={styles.caseStudyDetailsBottom}>
-                          <Fade delay={1400}>
+                          <Fade>
                             <p>
                               {val.firstTeamScaled}
                               <br />
                               <span>Team Scaled</span>
                             </p>
                           </Fade>
-                          <Fade delay={1600}>
+                          <Fade>
                             <p>
                               {val.firstNPS}
                               <br />
                               <span>NPS</span>
                             </p>
                           </Fade>
-                          <Fade delay={1800}>
+                          <Fade>
                             <p>
                               {val.firstSaved}
                               <br />
                               <span>saved</span>
                             </p>
                           </Fade>
-                          <Fade delay={2000}>
+                          <Fade>
                             <p>
                               {val.firstFaster}
                               <br />
@@ -94,18 +94,18 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>
                       Context and Vision
                     </h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.firstFullDescp}
                     </p>
                   </Fade>
                   <div className={styles.caseStudyPerson}>
-                    <Fade delay={500}>
+                    <Fade>
                       <div className={styles.caseStudyPersonImg}>
                         <Image
                           src={val.firstPersonImg}
@@ -116,39 +116,39 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                     <div className={styles.caseStudyPersonThought}>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyPersonHeader}>
                           Selecting Betacrew
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyPersonWords}>
                           "{val.firstPersonThought}"
                         </p>
                       </Fade>
                       <br />
                       <br />
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyPersonName}>
                           {val.firstPersonName}
                         </p>
                       </Fade>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyPersonPost}>
                           {val.firstPersonPost}
                         </p>
                       </Fade>
                     </div>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader2}>Process</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcess}>
                       <div className={styles.caseStudyProcessLine}></div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           scoping
                           <br />
@@ -157,7 +157,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Initial build
                           <br />
@@ -168,7 +168,7 @@ const caseStudy = () => {
                       </div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Rapid Iteration
                           <br />
@@ -177,7 +177,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1800}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Launch
                           <br />
@@ -188,11 +188,11 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcessM}>
                       <div className={styles.caseStudyProcessContentRight}>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1400}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Initial build
                             <br />
@@ -202,7 +202,7 @@ const caseStudy = () => {
                           <p className={styles.caseStudyProcessCircle}></p>
                         </div>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1800}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Launch
                             <br />
@@ -216,7 +216,7 @@ const caseStudy = () => {
                       <div className={styles.caseStudyProcessContentLeft}>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             scoping
                             <br />
@@ -226,7 +226,7 @@ const caseStudy = () => {
                         </div>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1600}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Rapid Iteration
                             <br />
@@ -237,10 +237,10 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>Result</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.firstResult}
                     </p>
@@ -251,23 +251,23 @@ const caseStudy = () => {
                 <>
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
-                      <Fade delay={500}>
+                      <Fade>
                         <h1 className={styles.caseStudyTitle}>Case study :</h1>
                       </Fade>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyName}>
                           {val.secondName}
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyDescp}>
                           {val.secondDescp}
                         </p>
                       </Fade>
                     </div>
-                    <Fade delay={500}>
+                    <Fade delay={200}>
                       <div className={styles.caseStudyDetails2}>
-                        <Fade delay={1000}>
+                        <Fade>
                           <div className={styles.caseStudyImg}>
                             <Image
                               src={val.secondLogo}
@@ -277,34 +277,34 @@ const caseStudy = () => {
                             />
                           </div>
                         </Fade>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyComment}>
                             "{val.secondComment}"
                           </p>
                         </Fade>
                         <div className={styles.caseStudyDetailsBottom}>
-                          <Fade delay={1400}>
+                          <Fade>
                             <p>
                               {val.secondTeamScaled}
                               <br />
                               <span>Team Scaled</span>
                             </p>
                           </Fade>
-                          <Fade delay={1600}>
+                          <Fade>
                             <p>
                               {val.secondNPS}
                               <br />
                               <span>NPS</span>
                             </p>
                           </Fade>
-                          <Fade delay={1800}>
+                          <Fade>
                             <p>
                               {val.secondSaved}
                               <br />
                               <span>saved</span>
                             </p>
                           </Fade>
-                          <Fade delay={2000}>
+                          <Fade>
                             <p>
                               {val.secondFaster}
                               <br />
@@ -315,18 +315,18 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>
                       Context and Vision
                     </h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.secondFullDescp}
                     </p>
                   </Fade>
                   <div className={styles.caseStudyPerson}>
-                    <Fade delay={500}>
+                    <Fade>
                       <div className={styles.caseStudyPersonImg}>
                         <Image
                           src={val.secondPersonImg}
@@ -337,39 +337,39 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                     <div className={styles.caseStudyPersonThought}>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyPersonHeader}>
                           Selecting Betacrew
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyPersonWords}>
                           "{val.secondPersonThought}"
                         </p>
                       </Fade>
                       <br />
                       <br />
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyPersonName}>
                           {val.secondPersonName}
                         </p>
                       </Fade>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyPersonPost}>
                           {val.secondPersonPost}
                         </p>
                       </Fade>
                     </div>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader2}>Process</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcess}>
                       <div className={styles.caseStudyProcessLine}></div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           scoping
                           <br />
@@ -378,7 +378,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Initial build
                           <br />
@@ -389,7 +389,7 @@ const caseStudy = () => {
                       </div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Rapid Iteration
                           <br />
@@ -398,7 +398,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1800}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Launch
                           <br />
@@ -409,11 +409,11 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcessM}>
                       <div className={styles.caseStudyProcessContentRight}>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1400}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Initial build
                             <br />
@@ -423,7 +423,7 @@ const caseStudy = () => {
                           <p className={styles.caseStudyProcessCircle}></p>
                         </div>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1800}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Launch
                             <br />
@@ -437,7 +437,7 @@ const caseStudy = () => {
                       <div className={styles.caseStudyProcessContentLeft}>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             scoping
                             <br />
@@ -447,7 +447,7 @@ const caseStudy = () => {
                         </div>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1600}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Rapid Iteration
                             <br />
@@ -458,10 +458,10 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>Result</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.firstResult}
                     </p>
@@ -472,23 +472,23 @@ const caseStudy = () => {
                 <>
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
-                      <Fade delay={500}>
+                      <Fade>
                         <h1 className={styles.caseStudyTitle}>Case study :</h1>
                       </Fade>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyName}>
                           {val.thirdName}
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyDescp}>
                           {val.thirdDescp}
                         </p>
                       </Fade>
                     </div>
-                    <Fade delay={500}>
+                    <Fade delay={200}>
                       <div className={styles.caseStudyDetails3}>
-                        <Fade delay={1000}>
+                        <Fade>
                           <div className={styles.caseStudyImg}>
                             <Image
                               src={val.thirdLogo}
@@ -498,34 +498,34 @@ const caseStudy = () => {
                             />
                           </div>
                         </Fade>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyComment}>
                             "{val.thirdComment}"
                           </p>
                         </Fade>
                         <div className={styles.caseStudyDetailsBottom}>
-                          <Fade delay={1400}>
+                          <Fade>
                             <p>
                               {val.thirdTeamScaled}
                               <br />
                               <span>Team Scaled</span>
                             </p>
                           </Fade>
-                          <Fade delay={1600}>
+                          <Fade>
                             <p>
                               {val.thirdNPS}
                               <br />
                               <span>NPS</span>
                             </p>
                           </Fade>
-                          <Fade delay={1800}>
+                          <Fade>
                             <p>
                               {val.thirdSaved}
                               <br />
                               <span>saved</span>
                             </p>
                           </Fade>
-                          <Fade delay={2000}>
+                          <Fade>
                             <p>
                               {val.thirdFaster}
                               <br />
@@ -536,18 +536,18 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>
                       Context and Vision
                     </h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.thirdFullDescp}
                     </p>
                   </Fade>
                   <div className={styles.caseStudyPerson}>
-                    <Fade delay={500}>
+                    <Fade>
                       <div className={styles.caseStudyPersonImg}>
                         <Image
                           src={val.thirdPersonImg}
@@ -558,39 +558,39 @@ const caseStudy = () => {
                       </div>
                     </Fade>
                     <div className={styles.caseStudyPersonThought}>
-                      <Fade delay={1000}>
+                      <Fade>
                         <h2 className={styles.caseStudyPersonHeader}>
                           Selecting Betacrew
                         </h2>
                       </Fade>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyPersonWords}>
                           "{val.thirdPersonThought}"
                         </p>
                       </Fade>
                       <br />
                       <br />
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyPersonName}>
                           {val.thirdPersonName}
                         </p>
                       </Fade>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyPersonPost}>
                           {val.thirdPersonPost}
                         </p>
                       </Fade>
                     </div>
                   </div>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader2}>Process</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcess}>
                       <div className={styles.caseStudyProcessLine}></div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1200}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           scoping
                           <br />
@@ -599,7 +599,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1400}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Initial build
                           <br />
@@ -610,7 +610,7 @@ const caseStudy = () => {
                       </div>
                       <div className={styles.caseStudyProcessContent}>
                         <p className={styles.caseStudyProcessCircle}></p>
-                      <Fade delay={1600}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Rapid Iteration
                           <br />
@@ -619,7 +619,7 @@ const caseStudy = () => {
                       </Fade>
                       </div>
                       <div className={styles.caseStudyProcessContent}>
-                      <Fade delay={1800}>
+                      <Fade>
                         <p className={styles.caseStudyProcessStep}>
                           Launch
                           <br />
@@ -630,11 +630,11 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.caseStudyProcessM}>
                       <div className={styles.caseStudyProcessContentRight}>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1400}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Initial build
                             <br />
@@ -644,7 +644,7 @@ const caseStudy = () => {
                           <p className={styles.caseStudyProcessCircle}></p>
                         </div>
                         <div className={styles.caseStudyProcessContentR}>
-                        <Fade delay={1800}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Launch
                             <br />
@@ -658,7 +658,7 @@ const caseStudy = () => {
                       <div className={styles.caseStudyProcessContentLeft}>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1200}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             scoping
                             <br />
@@ -668,7 +668,7 @@ const caseStudy = () => {
                         </div>
                         <div className={styles.caseStudyProcessContentL}>
                           <p className={styles.caseStudyProcessCircle}></p>
-                        <Fade delay={1600}>
+                        <Fade>
                           <p className={styles.caseStudyProcessStep}>
                             Rapid Iteration
                             <br />
@@ -679,10 +679,10 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </Fade>
-                  <Fade delay={500}>
+                  <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>Result</h2>
                   </Fade>
-                  <Fade delay={1000}>
+                  <Fade>
                     <p className={styles.caseStudyDescpFull}>
                       {val.firstResult}
                     </p>

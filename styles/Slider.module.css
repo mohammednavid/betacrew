@@ -20,6 +20,11 @@
   }
 }
 
+.sliderContainer:hover .slideTrack {
+  -webkit-animation: none;
+          animation: none;
+}
+
 .slider, .slider2 {
   background: white;
   height: 200px;
@@ -43,8 +48,6 @@
 }
 
 .slider::before, .slider::after, .slider2::before, .slider2::after {
-  background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 250px;
   position: absolute;
@@ -76,18 +79,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(250px * 12);
+  width: calc(250px * 30);
 }
 
 @media screen and (max-width: 888px) {
   .slider .slideTrack, .slider2 .slideTrack {
-    width: calc(90px * 12);
+    width: calc(90px * 30);
   }
 }
 
 @media screen and (min-width: 889px) and (max-width: 1900px) {
   .slider .slideTrack, .slider2 .slideTrack {
-    width: calc(150px * 12);
+    width: calc(150px * 30);
   }
 }
 
@@ -130,6 +133,8 @@
 }
 
 .slider .slideImg, .slider2 .slideImg {
+  -o-object-fit: contain;
+     object-fit: contain;
   -webkit-transform: rotate(385deg);
           transform: rotate(385deg);
 }

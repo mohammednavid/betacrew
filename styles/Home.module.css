@@ -108,7 +108,7 @@
   white-space: nowrap;
   margin: 0 auto;
   background: #fff;
-  z-index: 2 !important;
+  z-index: 2;
 }
 
 @media screen and (min-width: 1401px) {
@@ -214,12 +214,6 @@
   margin-top: -15%;
   margin-bottom: -5%;
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
 @media screen and (max-width: 620px) {
@@ -329,7 +323,7 @@
   color: #000c20;
   text-align: center;
   margin: 0 auto;
-  z-index: 2 !important;
+  z-index: 2;
   margin-bottom: 5%;
   max-width: 320px;
 }

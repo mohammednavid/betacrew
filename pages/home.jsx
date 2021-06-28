@@ -12,8 +12,22 @@ import Process from "../components/Process";
 import Hire from "../components/Hire";
 import PodSlider from "../components/PodSlider";
 import Fade from "react-reveal/Fade";
+// import tawkTo from "tawkto-react";
+// import {useEffect} from 'react'
+
 
 const HomePage = () => {
+// const tawkToPropertyId = '60da1d3065b7290ac6385ccb'
+
+// Direct Chat Link
+// https://tawk.to/chat/tawkToPropertyId/tawkToKey
+
+// const tawkToKey = 'get_key_from_tawkto_dashboard'
+
+// useEffect(() => {
+//     tawkTo(tawkToPropertyId, tawkToKey)
+// }, [])
+
   const vector = useRef(null);
   const secondVector = useRef(null);
   const thirdVector = useRef(null);
@@ -30,18 +44,18 @@ const HomePage = () => {
       </Head>
       <Header />
       <div className={styles.home}>
-        <Fade delay={1000}>
+        <Fade delay={250}>
           <h1 className={styles.homeTitle}>
             A team of developers for your <span>organisation</span>
           </h1>
         </Fade>
-        <Fade delay={1500}>
+        <Fade delay={500}>
           <p className={styles.homeDescp}>
             Betacrew helps tech company extend their engineering teams by
             procuring first in class tech people{" "}
           </p>
         </Fade>
-            <Fade delay={2000}>
+            <Fade delay={750}>
         <div className={styles.homeButtons}>
           <Link href="/contact">
               <a className={styles.homeButtonLeft}>Create your Team</a>
@@ -52,7 +66,7 @@ const HomePage = () => {
         </div>
             </Fade>
         <div className={styles.homeVector}>
-          <Fade delay={2500}>
+          <Fade>
             <Player
               ref={vector}
               hover
@@ -64,14 +78,14 @@ const HomePage = () => {
           </Fade>
         </div>
         <div className={styles.homeWWD}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.homeWWDTitle}>
-              WHAT WE DO <span>.</span>
+              WHAT WE DO<span>.</span>
             </h2>
           </Fade>
-          <Fade delay={1500}>
+          <Fade>
             <p className={styles.homeWWDDescp}>
-              We provide best in class <span>developer team</span> . So you can
+              We provide best in class <span>developer team</span>. So you can
               build the plane as you fly it.
             </p>
           </Fade>
@@ -79,7 +93,7 @@ const HomePage = () => {
             return (
               <div className={styles.homeStepContainer} key={item.id}>
                 <div className={styles.homeStepContent}>
-                  <Fade delay={1500}>
+                  <Fade>
                     <div className={styles.homeStepImgContainer}>
                       <div className={styles.homeStepImgBg}></div>
                       <Image
@@ -92,21 +106,21 @@ const HomePage = () => {
                     </div>
                   </Fade>
                   <div className={styles.homeStepRight}>
-                    <Fade delay={2000}>
+                    <Fade>
                       <p className={styles.homeStepNo}>Step 1 : {item.step1}</p>
                     </Fade>
-                    <Fade delay={2200}>
+                    <Fade>
                       <h3 className={styles.homeStepTitle}>
                         {item.step1Title}
                       </h3>
                     </Fade>
-                    <Fade delay={2400}>
+                    <Fade>
                       <p className={styles.homeStepDescp}>{item.step1Descp}</p>
                     </Fade>
                   </div>
                 </div>
                 <div className={styles.homeForward}>
-                  <Fade delay={1000}>
+                  <Fade>
                     <Image
                       src="/images/leftToRight.svg"
                       className={styles.homeForwardImg}
@@ -119,19 +133,19 @@ const HomePage = () => {
                 {/* second */}
                 <div className={styles.homeStepContent}>
                   <div className={styles.homeStepRight}>
-                    <Fade delay={1500}>
+                    <Fade>
                       <p className={styles.homeStepNo}>Step 2 : {item.step2}</p>
                     </Fade>
-                    <Fade delay={1700}>
+                    <Fade>
                       <h3 className={styles.homeStepTitle}>
                         {item.step2Title}
                       </h3>
                     </Fade>
-                    <Fade delay={1900}>
+                    <Fade>
                       <p className={styles.homeStepDescp}>{item.step2Descp}</p>
                     </Fade>
                   </div>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.homeStepImgContainer}>
                       <div className={styles.homeStepImgBg}></div>
                       <Image
@@ -144,7 +158,7 @@ const HomePage = () => {
                     </div>
                   </Fade>
                 </div>
-                <Fade delay={1000}>
+                <Fade>
                   <div className={styles.homeForward2}>
                     <Image
                       src="/images/rightToLeft.svg"
@@ -157,7 +171,7 @@ const HomePage = () => {
                 </Fade>
                 {/* third */}
                 <div className={styles.homeStepContent}>
-                  <Fade delay={1000}>
+                  <Fade>
                     <div className={styles.homeStepImgContainer}>
                       <div className={styles.homeStepImgBg3}></div>
                       <Image
@@ -170,15 +184,15 @@ const HomePage = () => {
                     </div>
                   </Fade>
                   <div className={styles.homeStepRight}>
-                    <Fade delay={1500}>
+                    <Fade>
                       <p className={styles.homeStepNo}>Step 3 : {item.step3}</p>
                     </Fade>
-                    <Fade delay={1700}>
+                    <Fade>
                       <h3 className={styles.homeStepTitle}>
                         {item.step3Title}
                       </h3>
                     </Fade>
-                    <Fade delay={1900}>
+                    <Fade>
                       <p className={styles.homeStepDescp}>{item.step3Descp}</p>
                     </Fade>
                   </div>
@@ -188,14 +202,14 @@ const HomePage = () => {
           })}
         </div>
         <div className={styles.homePOD}>
-          <Fade delay={1000}>
-            <h2 className={styles.homePODTitle}>WHAT is a pod ?</h2>
+          <Fade>
+            <h2 className={styles.homePODTitle}>WHAT is a pod?</h2>
           </Fade>
           <div className={styles.homePODContainer}>
             {homePODData?.map((item) => {
               return (
                 <div className={styles.homePODLeft} key={item.id}>
-                  <Fade delay={2000}>
+                  <Fade delay={150}>
                     <div className={styles.homePODContent}>
                       <span className={styles.homePODCircle}></span>
                       <p className={styles.homePODText}>
@@ -205,7 +219,7 @@ const HomePage = () => {
                       </p>
                     </div>
                   </Fade>
-                  <Fade delay={2500}>
+                  <Fade delay={300}>
                     <div className={styles.homePODContent}>
                       <span className={styles.homePODCircle}></span>
                       <p className={styles.homePODText}>
@@ -215,7 +229,7 @@ const HomePage = () => {
                       </p>
                     </div>
                   </Fade>
-                  <Fade delay={3000}>
+                  <Fade delay={450}>
                     <div className={styles.homePODContent}>
                       <span className={styles.homePODCircle3}></span>
                       <p className={styles.homePODText}>
@@ -228,7 +242,7 @@ const HomePage = () => {
                 </div>
               );
             })}
-            <Fade delay={500}>
+            <Fade>
               <div className={styles.homePODRight}>
                 <Player
                   ref={secondVector}
@@ -242,12 +256,12 @@ const HomePage = () => {
           </div>
         </div>
         <div className={styles.homeWWD}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%" }}>
-              OUR POD <span>.</span>
+              OUR POD<span>.</span>
             </h2>
           </Fade>
-          <Fade delay={1500}>
+          <Fade>
             <p className={styles.homeWWDDescp}>
               A Pod can be thought of as <span>“just another team”</span> within
               the parent organization. It will not feel different than a team
@@ -260,10 +274,10 @@ const HomePage = () => {
         <Process />
         <div className={styles.homeDiffContainer}>
           <div className={styles.homeDiff}>
-            <Fade delay={1000}>
+            <Fade>
               <h2 className={styles.homeDiffTitle}>THE OLD WAY</h2>
             </Fade>
-            <Fade delay={1500}>
+            <Fade>
               <div className={styles.homeDiffImg}>
                 <Player
                   ref={thirdVector}
@@ -275,7 +289,7 @@ const HomePage = () => {
               </div>
             </Fade>
             <ul className={styles.homeDiffContent}>
-              <Fade delay={2000}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -290,7 +304,7 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={2300}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -305,7 +319,7 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={2600}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -323,17 +337,17 @@ const HomePage = () => {
             </ul>
           </div>
 
-          <Fade delay={1300}>
+          <Fade>
             <div className={styles.homeDiffLine}></div>
 
             <div className={styles.homeDiffVs}>Vs</div>
           </Fade>
 
           <div className={styles.homeDiff}>
-            <Fade delay={1000}>
+            <Fade>
               <h2 className={styles.homeDiffTitle}>THE BETACREW WAY</h2>
             </Fade>
-            <Fade delay={1500}>
+            <Fade>
               <div className={styles.homeDiffImg}>
                 <Player
                   ref={thirdVector}
@@ -345,7 +359,7 @@ const HomePage = () => {
               </div>
             </Fade>
             <ul className={styles.homeDiffContent}>
-              <Fade delay={2000}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -360,7 +374,7 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={2200}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -376,7 +390,7 @@ const HomePage = () => {
                   </p>
                 </li>
               </Fade>
-              <Fade delay={2600}>
+              <Fade>
                 <li className={styles.homeDiffPoint}>
                   <div className={styles.homeDiffIcon}>
                     <Image
@@ -395,24 +409,24 @@ const HomePage = () => {
           </div>
         </div>
         <div className={styles.homeSlider}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.homeSliderTitle}>
-              OUR CODING TOOLS <span>ARSENAL</span> .
+              OUR CODING TOOLS <span>ARSENAL</span>.
             </h2>
           </Fade>
         </div>
-        <Fade delay={1500}>
+        <Fade>
           <Slider />
         </Fade>
         <div className={styles.homeCaseStudies}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.homeCaseStudiesTitle}>
-              CASE STUDIES <span>.</span>
+              CASE STUDIES<span>.</span>
             </h2>
           </Fade>
           <div className={styles.homeCaseStudiesCards}>
             <Link href="/our-work/case-study-1">
-              <Fade delay={1500}>
+              <Fade>
                 <div className={styles.homeCaseStudiesCard}>
                   <Image
                     src="/images/bild.png"
@@ -424,7 +438,7 @@ const HomePage = () => {
               </Fade>
             </Link>
             <Link href="/our-work/case-study-2">
-              <Fade delay={2000}>
+              <Fade>
                 <div className={styles.homeCaseStudiesCard2}>
                   <Image
                     src="/images/stopspoof.png"
@@ -436,21 +450,21 @@ const HomePage = () => {
               </Fade>
             </Link>
           </div>
-          <Fade delay={2500}>
+          <Fade>
             <Link href="/our-work">
               <p className={styles.homeCaseStudiesMore}>VIEW MORE</p>
             </Link>
           </Fade>
         </div>
         <div className={styles.homeCaseStudies}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.homeCaseStudiesTitle}>FEEDBACK</h2>
           </Fade>
         </div>
         {homeFeedback?.map((val, index) => {
           return (
             <div className={styles.caseStudyPerson} key={index}>
-              <Fade delay={1500}>
+              <Fade>
                 <div className={styles.caseStudyPersonImg}>
                   <Image
                     src={val.feedbackImage}
@@ -461,15 +475,15 @@ const HomePage = () => {
                 </div>
               </Fade>
               <div className={styles.caseStudyPersonThought}>
-                <Fade delay={2000}>
+                <Fade>
                   <h2 className={styles.caseStudyPersonHeader}>
                     {val.feedbackCompany}
                   </h2>
                 </Fade>
-                <Fade delay={2200}>
+                <Fade>
                   <div className={styles.caseStudyPersonLine}></div>
                 </Fade>
-                <Fade delay={2500}>
+                <Fade>
                   <p className={styles.caseStudyPersonWords}>
                     "{val.feedbackDescp}"
                   </p>
@@ -478,28 +492,28 @@ const HomePage = () => {
             </div>
           );
         })}
-            <Fade delay={500}>
+            <Fade delay={100}>
         <div className={styles.homeHire}>
           <div className={styles.hire}>
-            <Fade delay={1000}>
+            <Fade delay={250}>
               <p className={styles.hireContent}>
                 Hire The Best Developers And Designers Around!
               </p>
             </Fade>
             <div className={styles.hireRight}>
-              <Fade delay={2000}>
+              <Fade delay={500}>
                 <div className={styles.hireLineWhite}>
                   <div className={styles.hireUpperLine}></div>
                   <div className={styles.hireUpperLine}></div>
                   <div className={styles.hireUpperLine}></div>
                 </div>
               </Fade>
-              <Fade delay={1500}>
+              <Fade delay={400}>
                 <Link href="/contact">
                   <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
                 </Link>
               </Fade>
-              <Fade delay={2000}>
+              <Fade delay={500}>
                 <div className={styles.hireLineWhite}>
                   <div className={styles.hireBottomLine}></div>
                   <div className={styles.hireBottomLine}></div>

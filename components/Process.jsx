@@ -7,20 +7,20 @@ const Process = () => {
     <div className={styles.homeProcess}>
       <div className={styles.homeProcessContainer}>
         <div className={styles.homeProcessLeft}>
-          <Fade delay={1000}>
+          <Fade delay={200}>
             <h2 className={styles.homeProcessLeftTitle}>
               How we build your perfect team .
             </h2>
           </Fade>
-          <Fade delay={1500}>
+          <Fade delay={400}>
             <Link href="/contact">
               <a className={styles.homeProcessLeftButton}>Create your Team</a>
             </Link>
           </Fade>
         </div>
-        <Fade delay={2000}>
+        <Fade delay={600}>
           <div className={styles.homeProcessRight}>
-            <Fade delay={2500}>
+            <Fade delay={800}>
               <div className={styles.homeProcessRightContent}>
                 <div className={styles.homeProcessRightBlank}></div>
                 <div className={styles.homeProcessRightCircle}></div>
@@ -30,7 +30,7 @@ const Process = () => {
                 </div>
               </div>
             </Fade>
-            <Fade delay={3000}>
+            <Fade delay={1000}>
               <div className={styles.homeProcessRightContent}>
                 <div className={styles.homeProcessRightBlank}></div>
                 <div className={styles.homeProcessRightCircle}></div>
@@ -40,7 +40,7 @@ const Process = () => {
                 </div>
               </div>
             </Fade>
-            <Fade delay={3500}>
+            <Fade delay={1200}>
               <div className={styles.homeProcessRightContent}>
                 <div className={styles.homeProcessRightBlank}></div>
                 <div className={styles.homeProcessRightCircle}></div>
@@ -50,7 +50,7 @@ const Process = () => {
                 </div>
               </div>
             </Fade>
-            <Fade delay={4000}>
+            <Fade delay={1400}>
               <div className={styles.homeProcessRightContent}>
                 <div className={styles.homeProcessRightBlank}></div>
                 <div className={styles.homeProcessRightCircle}></div>

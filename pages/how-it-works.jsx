@@ -26,12 +26,12 @@ const howItWorks = () => {
       </Head>
       <Header />
       <div className={styles.HIW}>
-        <Fade delay={1000}>
+        <Fade delay={250}>
           <h1 className={styles.HIW_Title}>
-            How building <span>development</span> team works .
+            How building <span>development</span> team works.
           </h1>
         </Fade>
-        <Fade delay={1500}>
+        <Fade delay={500}>
           <p className={styles.HIW_Descp}>
             Extend your tech team with top talent. We oversee the execution and
             management of your software projects with our proven processes and
@@ -42,7 +42,7 @@ const howItWorks = () => {
           return (
             <div className={styles.HIW_Container} key={index}>
               <div className={styles.HIW_Content}>
-                <Fade delay={1000}>
+                <Fade delay={100}>
                   <div className={styles.HIW_ContentVector}>
                     <Player
                       ref={step1}
@@ -54,17 +54,17 @@ const howItWorks = () => {
                   </div>
                 </Fade>
                 <div className={styles.HIW_ContentText}>
-                  <Fade delay={1300}>
+                  <Fade delay={200}>
                     <h5 className={styles.HIW_Step}>01</h5>
                   </Fade>
-                  <Fade delay={1600}>
+                  <Fade delay={400}>
                     <div className={styles.HIW_ContentTextContainer}>
-                      <Fade delay={1900}>
+                      <Fade delay={600}>
                         <h4 className={styles.HIW_ContentTitle}>
                           {item.firstStepTitle}
                         </h4>
                       </Fade>
-                      <Fade delay={2200}>
+                      <Fade delay={700}>
                         <p className={styles.HIW_ContentDescp}>
                           {item.firstStepDescp}
                         </p>
@@ -74,7 +74,7 @@ const howItWorks = () => {
                 </div>
               </div>
 
-              <Fade delay={1000}>
+              <Fade>
                 <div className={styles.HIW_Forward}>
                   <Image
                     src="/images/leftToRight.svg"
@@ -87,17 +87,17 @@ const howItWorks = () => {
 
               <div className={styles.HIW_Content2}>
                 <div className={styles.HIW_ContentText}>
-                  <Fade delay={1300}>
+                  <Fade delay={200}>
                     <h5 className={styles.HIW_Step}>02</h5>
                   </Fade>
-                  <Fade delay={1600}>
+                  <Fade delay={400}>
                     <div className={styles.HIW_ContentTextContainer}>
-                      <Fade delay={1900}>
+                      <Fade delay={600}>
                         <h4 className={styles.HIW_ContentTitle}>
                           {item.secondStepTitle}
                         </h4>
                       </Fade>
-                      <Fade delay={2200}>
+                      <Fade delay={700}>
                         <p className={styles.HIW_ContentDescp}>
                           {item.secondStepDescp}
                         </p>
@@ -105,7 +105,7 @@ const howItWorks = () => {
                     </div>
                   </Fade>
                 </div>
-                <Fade delay={1000}>
+                <Fade delay={100}>
                   <div className={styles.HIW_ContentVector}>
                     <Player
                       ref={step2}
@@ -118,7 +118,7 @@ const howItWorks = () => {
                 </Fade>
               </div>
 
-              <Fade delay={1000}>
+              <Fade>
                 <div className={styles.HIW_Forward}>
                   <Image
                     src="/images/rightToLeft.svg"
@@ -130,7 +130,7 @@ const howItWorks = () => {
               </Fade>
 
               <div className={styles.HIW_Content}>
-                <Fade delay={1000}>
+                <Fade delay={100}>
                   <div className={styles.HIW_ContentVector}>
                     <Player
                       ref={step3}
@@ -142,17 +142,17 @@ const howItWorks = () => {
                   </div>
                 </Fade>
                 <div className={styles.HIW_ContentText}>
-                  <Fade delay={1300}>
+                  <Fade delay={200}>
                     <h5 className={styles.HIW_Step}>03</h5>
                   </Fade>
-                  <Fade delay={1600}>
+                  <Fade delay={400}>
                     <div className={styles.HIW_ContentTextContainer}>
-                      <Fade delay={1900}>
+                      <Fade delay={600}>
                         <h4 className={styles.HIW_ContentTitle}>
                           {item.thirdStepTitle}
                         </h4>
                       </Fade>
-                      <Fade delay={2200}>
+                      <Fade delay={700}>
                         <p className={styles.HIW_ContentDescp}>
                           {item.thirdStepDescp}
                         </p>
@@ -162,7 +162,7 @@ const howItWorks = () => {
                 </div>
               </div>
 
-              <Fade delay={1000}>
+              <Fade>
                 <div className={styles.HIW_Forward}>
                   <Image
                     src="/images/leftToRight.svg"
@@ -175,17 +175,17 @@ const howItWorks = () => {
 
               <div className={styles.HIW_Content2}>
                 <div className={styles.HIW_ContentText}>
-                  <Fade delay={1300}>
+                  <Fade delay={200}>
                     <h5 className={styles.HIW_Step}>04</h5>
                   </Fade>
-                  <Fade delay={1600}>
+                  <Fade delay={400}>
                     <div className={styles.HIW_ContentTextContainer}>
-                      <Fade delay={1900}>
+                      <Fade delay={600}>
                         <h4 className={styles.HIW_ContentTitle}>
                           {item.fourthStepTitle}
                         </h4>
                       </Fade>
-                      <Fade delay={2200}>
+                      <Fade delay={700}>
                         <p className={styles.HIW_ContentDescp}>
                           {item.fourthStepDescp}
                         </p>
@@ -193,7 +193,7 @@ const howItWorks = () => {
                     </div>
                   </Fade>
                 </div>
-                <Fade delay={1000}>
+                <Fade delay={100}>
                   <div className={styles.HIW_ContentVector}>
                     <Player
                       ref={step4}
@@ -210,16 +210,16 @@ const howItWorks = () => {
         })}
         <Process />
         <div className={styles.HIW_Services}>
-          <Fade delay={1000}>
+          <Fade delay={100}>
             <h2 className={styles.HIW_ServicesTitle}>
-              WHAT YOU GET <span>.</span>
+              WHAT YOU GET<span>.</span>
             </h2>
           </Fade>
-          <Fade delay={1500}>
+          <Fade delay={200}>
             <div className={styles.HIW_ServicesContainer}>
               {whatYouGetData?.map((item) => {
                 return (
-                  <Fade delay={2200}>
+                  <Fade delay={400}>
                     <div
                       className={styles.HIW_ServicesContent}
                       id={item.id}

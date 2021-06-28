@@ -1,10 +1,9 @@
 import Head from "next/head";
 import HomePage from "./home";
-
 export default function Home() {
-  return (
+return (
     <>
-      <Head>
+    <Head>
         <title>Betacrew</title>
         <meta
           name="description"
@@ -13,5 +12,5 @@ export default function Home() {
       </Head>
       <HomePage />
     </>
-  );
-}
+  )
+};

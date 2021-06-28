@@ -49,9 +49,9 @@
     }
   }
   .menuContainer {
-    padding-top: 60px;
+    margin-top: -5px;
     @media screen and (min-width: 621px) {
-      padding-top: 0;
+      margin-top: 0
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -70,7 +70,7 @@
           font: normal normal normal 32px/60px Graphik;
         }
         @media screen and (min-width: 1201px) {
-          font: normal normal normal 40px/70px Graphik;
+          font: normal normal normal 36px/52px Graphik;
         }
         @media screen and (min-width: 1901px) {
           font: normal normal normal 60px/78px Graphik;
@@ -87,15 +87,15 @@
           border-bottom: 3px solid #2a539c;
         }
         @media screen and (min-width: 621px) {
-          font: normal normal normal 42px/90px Graphik Bold;
+          font: normal normal normal 38px/70px Graphik Bold;
           padding-bottom: 5px;
         }
         @media screen and (min-width: 1201px) {
           margin-left: 30px;
-          font: normal normal normal 60px/105px Graphik Bold;
+          font: normal normal normal 48px/85px Graphik Bold;
         }
         @media screen and (min-width: 1901px) {
-          font: normal normal bold 90px/127px Graphik Bold;
+          font: normal normal bold 90px/130px Graphik Bold;
         }
       }
     }
@@ -112,24 +112,21 @@
         border-bottom: 3px solid #ff6498;
       }
       @media screen and (min-width: 621px) {
-        font: normal normal normal 42px/90px Graphik;
+        font: normal normal normal 38px/70px Graphik;
       }
       @media screen and (min-width: 1201px) {
-        font: normal normal normal 60px/105px Graphik;
+        font: normal normal normal 52px/80px Graphik;
       }
       @media screen and (min-width: 1901px) {
-        font: normal normal normal 82px/127px Graphik;
+        font: normal normal normal 86px/130px Graphik;
       }
       img{
         height:25px;
         width:25px;
-        @media screen and (min-width: 621px) {
-          height:30px;
-        width:30px;
-        }
+        margin-left: 10px;
         @media screen and (min-width: 1201px) {
-          height:40px;
-        width:40px;
+          height:35px;
+        width:35px;
         }
         @media screen and (min-width: 1901px) {
           height:50px;
@@ -149,18 +146,18 @@
         letter-spacing: 0px;
         color: #3b537c;
         @media screen and (min-width: 621px) {
-          font: normal normal normal 42px/90px Graphik;
+          font: normal normal normal 38px/70px Graphik;
           margin-right: 5px;
         }
         @media screen and (min-width: 1201px) {
-          font: normal normal normal 60px/105px Graphik;
-          margin-right: -10px;
+          font: normal normal normal 54px/80px Graphik;
         }
         @media screen and (min-width: 1901px) {
-          font: normal normal normal 90px/127px Graphik;
+          font: normal normal normal 90px/130px Graphik;
         }
       }
       .menuRightLink {
+        a{
         cursor: pointer;
         font: normal normal normal 23px/54px Graphik;
         letter-spacing: 0px;
@@ -193,6 +190,7 @@
             margin-left: 30px;
           }
         }
+      }
       }
     }
   }

@@ -20,27 +20,27 @@ const Contact = () => {
       <Header />
       <div className={styles.contact}>
         <div className={styles.contactLeft}>
-          <Fade delay={1000}>
+          <Fade>
             <h2 className={styles.contactTitle}>
               Call
               <br />
               Betacrew
             </h2>
           </Fade>
-          <Fade delay={1300}>
+          <Fade>
             <p className={styles.contactDescp}>
               Describe your project and leave us your contact info, we’ll get
               back to you within 24 hours.
             </p>
           </Fade>
-          <Fade delay={1600}>
+          <Fade>
             <p className={styles.contactEmail}>
               <strong>Email-</strong>
               <br />
               info@gmail.com
             </p>
           </Fade>
-          <Fade delay={1900}>
+          <Fade>
             <p className={styles.contactPhone}>
               <strong>Phone-</strong>
               <br />
@@ -49,36 +49,36 @@ const Contact = () => {
           </Fade>
         </div>
         <form className={styles.contactRight} onSubmit={onSubmit}>
-          <Fade delay={1000}>
+          <Fade>
             <label for="contactName" className={styles.contactNameLabel}>
               What's your Name?
             </label>
             <input type="text" className={styles.contactNameInput} />
           </Fade>
-          <Fade delay={1300}>
+          <Fade>
             <label for="contactName" className={styles.contactEmailLabel}>
               What's your E-mail?
             </label>
             <input type="text" className={styles.contactEmailInput} />
           </Fade>
-          <Fade delay={1600}>
+          <Fade>
             <label for="contactName" className={styles.contactAboutLabel}>
               Tell us about your project : )
             </label>
             <input type="text" className={styles.contactAboutInput} />
           </Fade>
-          <Fade delay={1900}>
+          <Fade>
             <a className={styles.contactButton}>Send</a>
           </Fade>
         </form>
-        <Fade delay={500}>
+        <Fade>
           <p className={styles.contactEmail2}>
             <strong>Email-</strong>
             <br />
             info@gmail.com
           </p>
         </Fade>
-        <Fade delay={800}>
+        <Fade>
           <p className={styles.contactPhone2}>
             <strong>Phone-</strong>
             <br />

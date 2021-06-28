@@ -73,12 +73,12 @@
 }
 
 .menu .menuContainer {
-  padding-top: 60px;
+  margin-top: -5px;
 }
 
 @media screen and (min-width: 621px) {
   .menu .menuContainer {
-    padding-top: 0;
+    margin-top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -113,7 +113,7 @@
 
 @media screen and (min-width: 1201px) {
   .menu .menuContainer .menuLeft .menuLeftList {
-    font: normal normal normal 40px/70px Graphik;
+    font: normal normal normal 36px/52px Graphik;
   }
 }
 
@@ -139,7 +139,7 @@
 
 @media screen and (min-width: 621px) {
   .menu .menuContainer .menuLeft .menuLeftLink {
-    font: normal normal normal 42px/90px Graphik Bold;
+    font: normal normal normal 38px/70px Graphik Bold;
     padding-bottom: 5px;
   }
 }
@@ -147,13 +147,13 @@
 @media screen and (min-width: 1201px) {
   .menu .menuContainer .menuLeft .menuLeftLink {
     margin-left: 30px;
-    font: normal normal normal 60px/105px Graphik Bold;
+    font: normal normal normal 48px/85px Graphik Bold;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .menu .menuContainer .menuLeft .menuLeftLink {
-    font: normal normal bold 90px/127px Graphik Bold;
+    font: normal normal bold 90px/130px Graphik Bold;
   }
 }
 
@@ -175,38 +175,32 @@
 
 @media screen and (min-width: 621px) {
   .menu .menuContainer .menuLeftListLast {
-    font: normal normal normal 42px/90px Graphik;
+    font: normal normal normal 38px/70px Graphik;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .menu .menuContainer .menuLeftListLast {
-    font: normal normal normal 60px/105px Graphik;
+    font: normal normal normal 52px/80px Graphik;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .menu .menuContainer .menuLeftListLast {
-    font: normal normal normal 82px/127px Graphik;
+    font: normal normal normal 86px/130px Graphik;
   }
 }
 
 .menu .menuContainer .menuLeftListLast img {
   height: 25px;
   width: 25px;
-}
-
-@media screen and (min-width: 621px) {
-  .menu .menuContainer .menuLeftListLast img {
-    height: 30px;
-    width: 30px;
-  }
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 1201px) {
   .menu .menuContainer .menuLeftListLast img {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
   }
 }
 
@@ -237,25 +231,24 @@
 
 @media screen and (min-width: 621px) {
   .menu .menuContainer .menuRight .menuRightLink1 {
-    font: normal normal normal 42px/90px Graphik;
+    font: normal normal normal 38px/70px Graphik;
     margin-right: 5px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .menu .menuContainer .menuRight .menuRightLink1 {
-    font: normal normal normal 60px/105px Graphik;
-    margin-right: -10px;
+    font: normal normal normal 54px/80px Graphik;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .menu .menuContainer .menuRight .menuRightLink1 {
-    font: normal normal normal 90px/127px Graphik;
+    font: normal normal normal 90px/130px Graphik;
   }
 }
 
-.menu .menuContainer .menuRight .menuRightLink {
+.menu .menuContainer .menuRight .menuRightLink a {
   cursor: pointer;
   font: normal normal normal 23px/54px Graphik;
   letter-spacing: 0px;
@@ -273,41 +266,41 @@
 }
 
 @media screen and (min-width: 621px) {
-  .menu .menuContainer .menuRight .menuRightLink {
+  .menu .menuContainer .menuRight .menuRightLink a {
     max-width: 300px;
     font: normal normal normal 30px/60px Graphik;
   }
 }
 
 @media screen and (min-width: 1201px) {
-  .menu .menuContainer .menuRight .menuRightLink {
+  .menu .menuContainer .menuRight .menuRightLink a {
     max-width: 300px;
     font: normal normal normal 40px/70px Graphik;
   }
 }
 
 @media screen and (min-width: 1901px) {
-  .menu .menuContainer .menuRight .menuRightLink {
+  .menu .menuContainer .menuRight .menuRightLink a {
     max-width: 500px;
     font: normal normal normal 60px/88px Graphik;
   }
 }
 
-.menu .menuContainer .menuRight .menuRightLink span {
+.menu .menuContainer .menuRight .menuRightLink a span {
   width: 42px;
   height: 0.1px;
   border-top: 2px solid #ff6498;
 }
 
 @media screen and (min-width: 621px) {
-  .menu .menuContainer .menuRight .menuRightLink span {
+  .menu .menuContainer .menuRight .menuRightLink a span {
     margin-right: -20px;
     margin-left: 10px;
   }
 }
 
 @media screen and (min-width: 1201px) {
-  .menu .menuContainer .menuRight .menuRightLink span {
+  .menu .menuContainer .menuRight .menuRightLink a span {
     margin-left: 30px;
   }
 }

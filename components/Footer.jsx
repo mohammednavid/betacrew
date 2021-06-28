@@ -8,34 +8,50 @@ const Footer = () => {
       <hr />
       <div className={styles.footerContainer}>
         <Link href="/">
-          <div className={styles.footerLogo}>
+          <a className={styles.footerLogo}>
             <Image
               src="/images/footerLogo.svg"
               alt="Betacrew"
               width={174}
               height={124}
             />
-          </div>
+          </a>
         </Link>
         <ul>
-          <Link href="/our-work">
-            <li>Work</li>
-          </Link>
-          <Link href="/how-it-works">
-            <li>How it works</li>
-          </Link>
-          <Link href="/contact">
-            <li>Contact</li>
-          </Link>
-          <Link href="/about">
-            <li>About</li>
-          </Link>
+          <li>
+            <Link href="/our-work">
+              <a>Work</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/how-it-works">
+              <a>How it works</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </li>
         </ul>
         <ul>
-          <li>Linkedin</li>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Medium</li>
+          <li>
+            <a>limkedin</a>
+          </li>
+          <li>
+            <a>Instagram</a>
+          </li>
+          <li>
+            <a>Facebook</a>
+          </li>
+          <li>
+            <a>Medium</a>
+          </li>
         </ul>
         <p className={styles.footerCopyright}>
           © <span>Copyright@{new Date().getFullYear()}</span>

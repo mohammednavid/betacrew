@@ -76,7 +76,7 @@
     white-space: nowrap;
     margin: 0 auto;
     background: #fff;
-    z-index: 2 !important;
+    z-index: 2;
     @media screen and (min-width: 1401px) {
       margin-top: 40px;
     }
@@ -143,8 +143,6 @@
     margin-top: -15%;
     margin-bottom: -5%;
     background: #fff;
-    display:flex;
-    align-items:flex-start;
     @media screen and (max-width: 620px) {
       margin-bottom:-50px;
     }
@@ -216,7 +214,7 @@
       color: #000c20;
       text-align: center;
       margin: 0 auto;
-      z-index: 2 !important;
+      z-index: 2;
       margin-bottom: 5%;
       max-width: 320px;
       span {

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import styles from "../styles/PodSlider.module.css";
 import Image from "next/image";
@@ -42,7 +42,7 @@ const PodSlider = () => {
   return (
     <>
       <div className={styles.podSlider}>
-      <Fade delay={2000}>
+      <Fade>
         <a className={styles.next} onClick={Prev}>
           {" "}
           <Image src="/images/prev.svg" alt="Betacrew" width={50} height={50} />
@@ -60,7 +60,7 @@ const PodSlider = () => {
         </div>
         </Fade>
         {pod1 && (
-          <Fade delay={2500}>
+          <Fade>
           <div ref={pod} className={styles.podSlide}>
             <Player
               ref={podVector1}
@@ -68,11 +68,12 @@ const PodSlider = () => {
               autoplay={true}
               loop={false}
               src="/illustration/pod1.json"
-            ></Player>
+            />
           </div>
           </Fade>
         )}
         {pod2 && (
+          <Fade>
           <div ref={pod} className={styles.podSlide}>
             <Player
               ref={podVector2}
@@ -80,10 +81,12 @@ const PodSlider = () => {
               autoplay={true}
               loop={false}
               src="/illustration/pod2.json"
-            ></Player>
+            />
           </div>
+          </Fade>
         )}
         {pod3 && (
+          <Fade>
           <div ref={pod} className={styles.podSlide}>
             <Player
               ref={podVector3}
@@ -91,10 +94,12 @@ const PodSlider = () => {
               autoplay={true}
               loop={false}
               src="/illustration/pod3.json"
-            ></Player>
+            />
           </div>
+          </Fade>
         )}
         {pod4 && (
+          <Fade>
           <div ref={pod} className={styles.podSlide}>
             <Player
               ref={podVector4}
@@ -102,14 +107,15 @@ const PodSlider = () => {
               autoplay={true}
               loop={false}
               src="/illustration/pod4.json"
-            ></Player>
+            />
           </div>
+          </Fade>
         )}
       </div>
       {pod1 && (
-        <Fade delay={3000}>
+        <Fade>
         <div className={styles.homeCL}>
-          <h2 className={styles.homeCLTitle}>CL1(CREW LEVEL 1)</h2>
+          <h2 className={styles.homeCLTitle}>CREW LEVEL 1(CL1)</h2>
           <p className={styles.homeCLDescp}>
             These are entry-level engineers expected to be able to write modules
             and fix bugs. We expect them to be keen learners and perform well
@@ -119,8 +125,9 @@ const PodSlider = () => {
         </Fade>
       )}
       {pod2 && (
+        <Fade>
         <div className={styles.homeCL}>
-          <h2 className={styles.homeCLTitle}>CL2(CREW LEVEL 2)</h2>
+          <h2 className={styles.homeCLTitle}>CREW LEVEL 2(CL2)</h2>
           <p className={styles.homeCLDescp}>
             These are mid-level software engineers. They are expected to own
             features of a given product and are responsible to take these
@@ -129,10 +136,12 @@ const PodSlider = () => {
             communicate effectively.
           </p>
         </div>
+        </Fade>
       )}
       {pod3 && (
+        <Fade>
         <div className={styles.homeCL}>
-          <h2 className={styles.homeCLTitle}>CL3(CREW LEVEL 3)</h2>
+          <h2 className={styles.homeCLTitle}>CREW LEVEL 3(CL3)</h2>
           <p className={styles.homeCLDescp}>
             These are senior software engineers. They are expected to lead
             entire projects. While they are required to be good programmers,
@@ -141,10 +150,12 @@ const PodSlider = () => {
             timelines.
           </p>
         </div>
+        </Fade>
       )}
       {pod4 && (
+        <Fade>
         <div className={styles.homeCL}>
-          <h2 className={styles.homeCLTitle}>CL4(CREW LEVEL 4)</h2>
+          <h2 className={styles.homeCLTitle}>CREW LEVEL 4(CL4)</h2>
           <p className={styles.homeCLDescp}>
             These are experienced software developers with a history of
             excellence throughout their career. CL4 engineers are expected to
@@ -154,6 +165,7 @@ const PodSlider = () => {
             and solving complex technical problems.
           </p>
         </div>
+        </Fade>
       )}
     </>
   );
