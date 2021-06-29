@@ -53,7 +53,8 @@
         font: normal normal 300 28px/42px Graphik Light;
         letter-spacing: 1px;
         color: #000000d4;
-        opacity: 0.8;
+        background-color: #ffffff;
+        z-index: 10;
         @media screen and (max-width: 1900px) {
           font-size: 18px;
           line-height: 32px;
@@ -137,6 +138,9 @@
         min-width: 300px;
       }
     }
+    .aboutFounderDetails {
+      display: flex;
+      justify-content: center;align-items: center;
     .aboutFounderTitle {
       text-align: center;
       font: normal normal bold 55px/72px Graphik Bold;
@@ -145,10 +149,26 @@
         font-size: 42px;
         line-height: 60px;
       }
+      @media screen and (max-width: 1200px) {
+        font-size: 36px;
+        line-height: 60px;
+      }
       @media screen and (max-width: 620px) {
         font-size: 32px;
         line-height: 55px;
       }
+    }
+    .aboutFounderLinkedin{
+      margin-left: 15px;
+      object-fit: contain;
+      height: 40px;
+      @media screen and (max-width: 1900px) {
+        height: 30px;
+      }
+      @media screen and (max-width: 620px) {
+        height: 20px;
+      }
+    }
     }
     .aboutFounderDescp {
       font: normal normal 300 30px/39px Graphik;

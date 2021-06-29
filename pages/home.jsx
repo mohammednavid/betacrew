@@ -15,18 +15,17 @@ import Fade from "react-reveal/Fade";
 // import tawkTo from "tawkto-react";
 // import {useEffect} from 'react'
 
-
 const HomePage = () => {
-// const tawkToPropertyId = '60da1d3065b7290ac6385ccb'
+  // const tawkToPropertyId = '60da1d3065b7290ac6385ccb'
 
-// Direct Chat Link
-// https://tawk.to/chat/tawkToPropertyId/tawkToKey
+  // Direct Chat Link
+  // https://tawk.to/chat/tawkToPropertyId/tawkToKey
 
-// const tawkToKey = 'get_key_from_tawkto_dashboard'
+  // const tawkToKey = 'get_key_from_tawkto_dashboard'
 
-// useEffect(() => {
-//     tawkTo(tawkToPropertyId, tawkToKey)
-// }, [])
+  // useEffect(() => {
+  //     tawkTo(tawkToPropertyId, tawkToKey)
+  // }, [])
 
   const vector = useRef(null);
   const secondVector = useRef(null);
@@ -46,25 +45,25 @@ const HomePage = () => {
       <div className={styles.home}>
         <Fade delay={250}>
           <h1 className={styles.homeTitle}>
-            A team of developers for your <span>organisation</span>
+            GET YOUR OWN TECH AIDE. BETACREW GOES FROM FIXING A SOFTWARE BUG ALL
+            THE WAY TO BUILDING ONE FROM SCRATCH, JUST FOR YOU<span>.</span>
           </h1>
         </Fade>
         <Fade delay={500}>
           <p className={styles.homeDescp}>
-            Betacrew helps tech company extend their engineering teams by
-            procuring first in class tech people{" "}
+          BetaCrew helps tech companies and start-ups enhance their engineering team by custom-building pods most suitable to them.
           </p>
         </Fade>
-            <Fade delay={750}>
-        <div className={styles.homeButtons}>
-          <Link href="/contact">
+        <Fade delay={750}>
+          <div className={styles.homeButtons}>
+            <Link href="/contact">
               <a className={styles.homeButtonLeft}>Create your Team</a>
-          </Link>
-          <Link href="/how-it-works">
+            </Link>
+            <Link href="/how-it-works">
               <a className={styles.homeButtonRight}>How it works?</a>
-          </Link>
-        </div>
-            </Fade>
+            </Link>
+          </div>
+        </Fade>
         <div className={styles.homeVector}>
           <Fade>
             <Player
@@ -85,8 +84,7 @@ const HomePage = () => {
           </Fade>
           <Fade>
             <p className={styles.homeWWDDescp}>
-              We provide best in class <span>developer team</span>. So you can
-              build the plane as you fly it.
+            Pioneering a new and unique approach of <span>‘Pods’</span>, we bring you best-in-class developers.
             </p>
           </Fade>
           {homeWWDData.map((item) => {
@@ -258,16 +256,31 @@ const HomePage = () => {
         <div className={styles.homeWWD}>
           <Fade>
             <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%" }}>
-              OUR POD<span>.</span>
+              WHY A POD<span>?</span>
             </h2>
           </Fade>
+          <ul>
           <Fade>
-            <p className={styles.homeWWDDescp}>
-              A Pod can be thought of as <span>“just another team”</span> within
-              the parent organization. It will not feel different than a team
-              within the organization.
-            </p>
+            <li className={styles.homeWWDDescp}>
+            Inheriting the protocols, expectations and the end-objectives, our pod welds with the parent organization so that it does not feel any different than them. 
+            </li>
           </Fade>
+          <Fade>
+            <li className={styles.homeWWDDescp}>
+            These pods will help you to accelerate the development of your software.
+            </li>
+          </Fade>
+          <Fade>
+            <li className={styles.homeWWDDescp}>
+            Clients can reap the benefit of skilled developers and engineers from the BetaCrew team when their own in-house team may lack such expertise.
+            </li>
+          </Fade>
+          <Fade>
+            <li className={styles.homeWWDDescp}>
+            In addition to all these, clients can cut back on the total cost since pods don’t require hiring on pay-roll. Instead, you get an opportunity to utilize our experts on tech stack for your module on a contractual basis.
+            </li>
+          </Fade>
+          </ul>
         </div>
         <PodSlider />
 
@@ -300,7 +313,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    The normal organization just provides a single team
+                  The organisation provides the same team for all the clients; lack of variety
                   </p>
                 </li>
               </Fade>
@@ -315,7 +328,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    A fixed team members are there and cannot be interchanged
+                  Team members are fixed, without the scope of interchanging members or scaling the team up or down.
                   </p>
                 </li>
               </Fade>
@@ -330,7 +343,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Choosen from a pool of engineers
+                  (I don’t understand that if the team is fixed, how can we write ‘chosen from a pool of engineers’)
                   </p>
                 </li>
               </Fade>
@@ -370,7 +383,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Engineers within the pod can take help of different pod
+                  Engineers within the pod can consult other pods which will result in more efficiency and better decision-making.
                   </p>
                 </li>
               </Fade>
@@ -385,8 +398,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Organizations can Scale-Up and Scale-down teams as per your
-                    needs
+                  Organizations can Scale-up or Scale-Down teams as per your needs.
                   </p>
                 </li>
               </Fade>
@@ -401,7 +413,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Chosen from experienced engineers with our aptitude tests
+                  Chosen from a pool of experienced engineers through aptitude tests that you fit your goals.
                   </p>
                 </li>
               </Fade>
@@ -492,38 +504,38 @@ const HomePage = () => {
             </div>
           );
         })}
-            <Fade delay={100}>
-        <div className={styles.homeHire}>
-          <div className={styles.hire}>
-            <Fade delay={250}>
-              <p className={styles.hireContent}>
-                Hire The Best Developers And Designers Around!
-              </p>
-            </Fade>
-            <div className={styles.hireRight}>
-              <Fade delay={500}>
-                <div className={styles.hireLineWhite}>
-                  <div className={styles.hireUpperLine}></div>
-                  <div className={styles.hireUpperLine}></div>
-                  <div className={styles.hireUpperLine}></div>
-                </div>
+        <Fade delay={100}>
+          <div className={styles.homeHire}>
+            <div className={styles.hire}>
+              <Fade delay={250}>
+                <p className={styles.hireContent}>
+                  Hire The Best Developers And Designers Around!
+                </p>
               </Fade>
-              <Fade delay={400}>
-                <Link href="/contact">
-                  <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
-                </Link>
-              </Fade>
-              <Fade delay={500}>
-                <div className={styles.hireLineWhite}>
-                  <div className={styles.hireBottomLine}></div>
-                  <div className={styles.hireBottomLine}></div>
-                  <div className={styles.hireBottomLine}></div>
-                </div>
-              </Fade>
+              <div className={styles.hireRight}>
+                <Fade delay={500}>
+                  <div className={styles.hireLineWhite}>
+                    <div className={styles.hireUpperLine}></div>
+                    <div className={styles.hireUpperLine}></div>
+                    <div className={styles.hireUpperLine}></div>
+                  </div>
+                </Fade>
+                <Fade delay={400}>
+                  <Link href="/contact">
+                    <a className={styles.hireButton}>HIRE TOP DEVELOPERS</a>
+                  </Link>
+                </Fade>
+                <Fade delay={500}>
+                  <div className={styles.hireLineWhite}>
+                    <div className={styles.hireBottomLine}></div>
+                    <div className={styles.hireBottomLine}></div>
+                    <div className={styles.hireBottomLine}></div>
+                  </div>
+                </Fade>
+              </div>
             </div>
           </div>
-        </div>
-          </Fade>
+        </Fade>
       </div>
       <Footer />
     </>

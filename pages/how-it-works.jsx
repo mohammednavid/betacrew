@@ -28,14 +28,12 @@ const howItWorks = () => {
       <div className={styles.HIW}>
         <Fade delay={250}>
           <h1 className={styles.HIW_Title}>
-            How building <span>development</span> team works.
+          HOW TO SET YOUR POD-BUILDING IN MOTION<span>?</span>
           </h1>
         </Fade>
         <Fade delay={500}>
           <p className={styles.HIW_Descp}>
-            Extend your tech team with top talent. We oversee the execution and
-            management of your software projects with our proven processes and
-            tech mentorship
+          Augment your tech team with our top talent. So, we will oversee the execution and management of your software projects with our proven processes and tech mentorship.
           </p>
         </Fade>
         {howItWorksData?.map((item, index) => {

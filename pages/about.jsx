@@ -63,7 +63,12 @@ const About = () => {
                     height={590}
                   />
                   <Fade delay={100}>
+                  <div className={styles.aboutFounderDetails}>
                   <h1 className={styles.aboutFounderTitle}>Ronil Mehta</h1>
+                  <a href="https://www.linkedin.com/in/ronilm/" target="_blank">
+                    <img src="/images/linkedin.png" alt="Ronil Mehta" className={styles.aboutFounderLinkedin} />
+                  </a>
+                  </div>
                   </Fade>
                   <Fade delay={200}>
                   <p className={styles.aboutFounderDescp}>Co-Founder</p>
@@ -77,7 +82,12 @@ const About = () => {
                     height={420}
                   />
                   <Fade delay={100}>
+                  <div className={styles.aboutFounderDetails}>
                   <h1 className={styles.aboutFounderTitle}>Rushabh Vora</h1>
+                  <a href="https://www.linkedin.com/in/rushabh-vora/" target="_blank">
+                  <img src="/images/linkedin.png" alt="Rushabh Vora" className={styles.aboutFounderLinkedin}/>
+                  </a>
+                  </div>
                   </Fade>
                   <Fade delay={200}>
                   <p className={styles.aboutFounderDescp}>Co-Founder</p>
@@ -87,7 +97,7 @@ const About = () => {
               </Fade>
             <div className={styles.aboutCulture}>
               <Fade delay={100}>
-                <h1 className={styles.aboutCultureHeader}>Our Culture.</h1>
+                <h1 className={styles.aboutCultureHeader}>OUR CULTURE /CULTURE AT BETACREW</h1>
               </Fade>
               <div className={styles.aboutCultureContainer}>
                 <Fade delay={200}>

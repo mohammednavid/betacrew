@@ -1,22 +1,22 @@
 export const homeWWDData = [
     {
         id:"WWD1",
-        step1:"Talk to us",
+        step1:"Contact Us",
         step1Image:"/images/wwd1.png",
-        step1Title:"Launch the personalized matching process",
-        step1Descp:"Set up a free intro call with our Team Advisor—your personal contact at Betacrew. They'll ensure the talent we source perfectly matches your needs.",
+        step1Title:"Match your business goals with our business team",
+        step1Descp:"Voice your vision, requirements and concerns to our Team Advisor, and they will ensure that that we recommend a pod that best fits the outline of your expectations.",
      
         id:"WWD2",
-        step2:"Assess the candidates",
+        step2:"Preview Your Team",
         step2Image:"/images/wwd2.png",
-        step2Title:"48h to the verified shortlist of candidates",
-        step2Descp:"Betacrew handpicks the best-matched candidates from its pool of over 20,000 engineers, conducts personalized pre-screening, then arranges interviews for you.",
+        step2Title:"We shortlist the best suited candidates for you",
+        step2Descp:"After BetaCrew hand-picks the fittest candidates from its team of engineers, it arranges interviews for you so you can ensure alignment of the pod with your outlook.",
      
         id:"WWD3",
-        step3:"Begin work ASAP",
+        step3:"Get Onboard with Your Team",
         step3Image:"/images/wwd3.png",
-        step3Title:"Get work started with confidence",
-        step3Descp:"Betacrew automates contract signing and invoicing for you and the development companies, employers of your selected engineers. No commitments before this point."
+        step3Title:"Kickstart your journey in no time",
+        step3Descp:"Following the confirmation of your customized pod, the candidates will begin work on the project immediately with minimal ramp up time."
     },
 ]
 
@@ -24,16 +24,16 @@ const homePODData = [
     {
         id:"pod",
         firstPOD1:"A Pod is a dedicated ",
-        firstPOD2:"engineering team ",
-        firstPOD3:"that will strive towards reaching its assigned goals as a cohesive unit",
+        firstPOD2:"team of engineers ",
+        firstPOD3:"who strives towards reaching the goal as a cohesive unit with the client’s team.",
         
-        secondPOD1:"It is usually assigned a ",
+        secondPOD1:"A pod usually consists of a ",
         secondPOD2:"Team Lead ",
-        secondPOD3:"that acts as an interface between the organization and programmers",
+        secondPOD3:"who acts as an interface between the organization and the programmers",
         
-        thirdPOD1:"Ideally it contains between ",
+        thirdPOD1:"Ideally,in consist of ",
         thirdPOD2:"1-6 ",
-        thirdPOD3:"developers with varying experience",
+        thirdPOD3:"developers with diverse experiences and skills.",
     },
 ]
 

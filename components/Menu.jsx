@@ -58,17 +58,17 @@ const Menu = ({ menu, setMenu }) => {
             More<span></span>
           </li>
           <li className={styles.menuRightLink}>
-            <a>
+            <a href="https://www.linkedin.com/company/betacrew-solutions/" target="_blank">
               Linkedin<span></span>
             </a>
           </li>
           <li className={styles.menuRightLink}>
-            <a>
-              Instagram<span></span>
+            <a href="https://twitter.com/betacrewhq" target="_blank">
+              Twitter<span></span>
             </a>
           </li>
           <li className={styles.menuRightLink}>
-            <a>
+            <a href="https://www.facebook.com/BetaCrewHQ" target="_blank">
               Facebook<span></span>
             </a>
           </li>

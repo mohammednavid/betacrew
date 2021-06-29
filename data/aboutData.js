@@ -1,26 +1,26 @@
 export const aboutData=[
     {
         id:1,
-        descpFirst:"We are a Software Development company and we are specialists in building digital products that requires Software implementation.",
-        descpSecond:"We craft and build them through a methodical and hassle free process, working hard and close to our customers need. We aim to live in a world led by trust. So that’s how we are, how we work and why we do it.",
+        descpFirst:"We are a Software Development Company, with specialists in building software and tech-products that require Software implementation. We also help organizations kick-start their projects and make tech-based architectural decisions; floating in a revolutionized approach of Pods.",
+        descpSecond:"We carry our operations in a methodical and hassle-free manner, working hard and close to our customers’ needs. That’s who we are and how we work.",
         
         //our culture
         firstTitle:"Collaborate",
-        firstDescp:"Great achievements are not met based on individuals. Forming a solid, committed, supportive team enables us to meet our goals. We want to make Betacrew a place where everyone is happy and proud to work at.",
+        firstDescp:"When everyone is moving forward together, success takes care of itself. We at BetaCrew believe that great achievements are not met individually, but as a team. Forming a solid, committed, supportive team that combines with the client’s team, enables you to meet the goals with a greater drive and pace.",
         secondTitle:"Client-first",
-        secondDescp:"Our clients lead. In order to be successful, we need to continuously change and adapt to our customer’s ever-changing needs and wants. If we fail to do so, they will lose out to our competitors who are better at it, simple as that.",
+        secondDescp:"Our clients lead the way. As we see it, to prosper and thrive in the industry, we need to continuously shape-shift so as to switch into our customers’ ever-changing needs and vision, to help them remain strong in competition with peers/other players.",
         thirdTitle:"Work smart",
-        thirdDescp:"Solve problems, don’t create them. We are sure we should be facilitators, not part of the problem. Help, think, propose, and discuss to create something really useful for those who need it. Don’t reinvent the wheel",
+        thirdDescp:"Don’t reinvent the wheel. We ensure to play our roles as facilitators, rather than being stuck in the hamster wheel. We listen to your issue, meditate upon it, propose, discuss and come to an ideal conclusion.",
         fourthTitle:"Be transparent",
-        fourthDescp:"Be open, human and honest. Any problem or dispute may be resolved if these values are upheld. Never remain silent nor neglect to express your opinions or thoughts; great things may arise from these diﬀerences. Do not be afraid to say ‘no’. This is how lasting relationships are formed.",
+        fourthDescp:"Effective communication is the route to a transparent relationship. We uphold the values of loyalty, forthrightness and integrity and encourage our customers to freely express their opinions, ideas or even criticism; because communication is a two-way street that can lead to satisfaction.",
         
         //how do we operate?
-        operateDescp:"Our 5 step approach outlines how we choose a dedicated team to work on your project.",
-        firstStep:"We analyze the project requirement and provide dedicated team model suggestions",
-        secondStep:"You provide feedback on our suggestions",
-        thirdStep:"Based on the suggestions, betacrew chooses members from our team to support your projects.",
-        fourthStep:"You evaluate the chosen candidates and select the best its",
-        fifthStep:"The dedicated team works on assignments and communicates updates to you or the project manager",
+        operateDescp:"Our 5-step approach outlines how we select a pod best compatible with your project:",
+        firstStep:"We analyze the project requirements and provide suggestion on a dedicated team model.",
+        secondStep:"You provide feedback on our suggestions.",
+        thirdStep:"Based on the suggestions, BetaCrew chooses members from its team to support your projects.",
+        fourthStep:"You evaluate the chosen candidates through interviews and select the best fit for you.",
+        fifthStep:"The dedicated team works on assignments and communicates updates to you or the project manager.",
     
     },
 ]

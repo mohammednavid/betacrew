@@ -41,16 +41,16 @@ const Footer = () => {
         </ul>
         <ul>
           <li>
-            <a>limkedin</a>
+            <a href="https://www.linkedin.com/company/betacrew-solutions/" target="_blank">Linkedin</a>
           </li>
           <li>
-            <a>Instagram</a>
+            <a href="https://twitter.com/betacrewhq" target="_blank">Twitter</a>
           </li>
           <li>
-            <a>Facebook</a>
+            <a href="https://www.facebook.com/BetaCrewHQ" target="_blank">Facebook</a>
           </li>
           <li>
-            <a>Medium</a>
+            <a target="_blank">Medium</a>
           </li>
         </ul>
         <p className={styles.footerCopyright}>
