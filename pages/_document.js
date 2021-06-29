@@ -21,11 +21,11 @@ componentDidMount(){
       <Html>
         <Head>
           {/* Google Adsense */}
-          <script
+          {/* <script
             data-ad-client="<Your value here>"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
+          ></script> */}
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
