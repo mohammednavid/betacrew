@@ -257,7 +257,7 @@ const HomePage = () => {
         </div>
         <div className={styles.homeWWD}>
           <Fade>
-            <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%",textAlign:"left" }}>
+            <h2 className={styles.homeWWDTitle2} style={{ marginTop: "-5%" }}>
               WHY A POD<span>?</span>
             </h2>
           </Fade>

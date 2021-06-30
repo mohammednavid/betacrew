@@ -334,7 +334,7 @@
   }
 }
 
-.home .homeWWD .homeWWDTitle {
+.home .homeWWD .homeWWDTitle, .home .homeWWD .homeWWDTitle2 {
   font-size: 23px;
   line-height: 32px;
   color: #000c20;
@@ -344,12 +344,12 @@
   margin-bottom: 2%;
 }
 
-.home .homeWWD .homeWWDTitle span {
+.home .homeWWD .homeWWDTitle span, .home .homeWWD .homeWWDTitle2 span {
   color: #5185eb;
 }
 
 @media screen and (min-width: 621px) {
-  .home .homeWWD .homeWWDTitle {
+  .home .homeWWD .homeWWDTitle, .home .homeWWD .homeWWDTitle2 {
     text-align: left;
     font-size: 40px;
     line-height: 50px;
@@ -357,16 +357,27 @@
 }
 
 @media screen and (min-width: 1201px) {
-  .home .homeWWD .homeWWDTitle {
+  .home .homeWWD .homeWWDTitle, .home .homeWWD .homeWWDTitle2 {
     font-size: 48px;
     line-height: 60px;
   }
 }
 
 @media screen and (min-width: 1901px) {
-  .home .homeWWD .homeWWDTitle {
+  .home .homeWWD .homeWWDTitle, .home .homeWWD .homeWWDTitle2 {
     font-size: 64px;
     line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .home .homeWWD .homeWWDTitle2 {
+    font-size: 23px;
+    line-height: 32px;
+    color: #000c20;
+    font-family: Graphik Bold;
+    text-align: left;
+    padding-left: 5%;
   }
 }
 
@@ -410,7 +421,13 @@
 }
 
 .home .homeWWD ul {
-  padding-left: 10px;
+  padding-left: 9%;
+}
+
+@media screen and (min-width: 889px) {
+  .home .homeWWD ul {
+    padding-left: 0;
+  }
 }
 
 .home .homeWWD ul .homeWWDList {
@@ -420,15 +437,16 @@
   color: #000c20;
   text-align: left;
   z-index: 2;
+  padding-left: 10px;
   margin-bottom: 10px;
-  max-width: 320px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 621px) {
   .home .homeWWD ul .homeWWDList {
     font-size: 18px;
     line-height: 28px;
-    max-width: 100%;
+    padding-left: 15px;
     list-style: disc;
     margin-bottom: 20px;
   }
