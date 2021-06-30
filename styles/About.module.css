@@ -166,7 +166,7 @@
 .about .aboutFounder {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 5% 18%;
+  padding: 0 16% 0 11%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,7 +183,7 @@
   .about .aboutFounder {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 5% 10%;
+    padding: 2% 10% 2% 0%;
   }
 }
 
