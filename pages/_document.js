@@ -1,20 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { GA_TRACKING_ID } from "../lib/gtag";
-import tawkTo from "tawkto-react";
+import dynamic from 'next/dynamic'
 
-
- var tawkToPropertyId = '60da1d3065b7290ac6385ccb';
-
-// Direct Chat Link
-// https://tawk.to/chat/tawkToPropertyId/tawkToKey
-
-var tawkToKey = '5083d80916876cd81bc461d75c2ad17c100ad2f6'
+const TawkWithNoSSR = dynamic(
+  () => import('../components/Chat'),
+  { ssr: false }
+  )
 export default class MyDocument extends Document {
 
-
-componentDidMount(){
-    tawkTo(tawkToPropertyId, tawkToKey)
-}
   render() {
 
     return (
@@ -69,7 +62,9 @@ componentDidMount(){
         <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
-          <Main />
+          <Main>
+            <TawkWithNoSSR/>
+          </Main>
           <NextScript />
         </body>
       </Html>

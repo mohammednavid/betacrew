@@ -288,7 +288,7 @@ const Slider = () => {
           
         </div>
       </div>
-      <div className={styles.slider2}>
+      {/* <div className={styles.slider2}>
         <div className={styles.slideTrack}>
         <div className={styles.slide} style={{ background: "#E8FBFF" }}>
             <img
@@ -570,7 +570,7 @@ const Slider = () => {
           </div>
           
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

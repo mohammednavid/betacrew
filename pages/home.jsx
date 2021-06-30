@@ -12,26 +12,14 @@ import Process from "../components/Process";
 import Hire from "../components/Hire";
 import PodSlider from "../components/PodSlider";
 import Fade from "react-reveal/Fade";
-// import tawkTo from "tawkto-react";
-// import {useEffect} from 'react'
+import Chat from '../components/Chat';
 
 const HomePage = () => {
-  // const tawkToPropertyId = '60da1d3065b7290ac6385ccb'
-
-  // Direct Chat Link
-  // https://tawk.to/chat/tawkToPropertyId/tawkToKey
-
-  // const tawkToKey = 'get_key_from_tawkto_dashboard'
-
-  // useEffect(() => {
-  //     tawkTo(tawkToPropertyId, tawkToKey)
-  // }, [])
-
   const vector = useRef(null);
   const secondVector = useRef(null);
   const thirdVector = useRef(null);
   const fourthVector = useRef(null);
-
+  
   return (
     <>
       <Head>
@@ -50,6 +38,7 @@ const HomePage = () => {
           A TEAM OF <span>DEVELOPERS</span> FOR YOUR ORGANISATION.
           </h1>
         </Fade>
+        <Chat/>
         <Fade delay={500}>
           <p className={styles.homeDescp}>
           BetaCrew helps tech companies and start-ups enhance their engineering team by custom-building pods most suitable to them.
