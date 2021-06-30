@@ -14,7 +14,7 @@ const caseStudy = () => {
   return (
     <>
       <Head>
-        <title>Case study</title>
+        <title>Case Study</title>
         <meta
           name="description"
           content="Recent Betacrew Work - Recent case studies on how we have helped companies"
@@ -31,7 +31,7 @@ const caseStudy = () => {
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
                       <Fade>
-                        <h1 className={styles.caseStudyTitle}>Case study :</h1>
+                        <h1 className={styles.caseStudyTitle}>Case Study:</h1>
                       </Fade>
                       <Fade>
                         <h2 className={styles.caseStudyName}>
@@ -96,6 +96,16 @@ const caseStudy = () => {
                   </div>
                   <Fade>
                     <h2 className={styles.caseStudyDescpHeader}>
+                      About
+                    </h2>
+                  </Fade>
+                  <Fade>
+                    <p className={styles.caseStudyDescpFull}>
+                      {val.firstAbout}
+                    </p>
+                  </Fade>
+                  <Fade>
+                    <h2 className={styles.caseStudyDescpHeader}>
                       Context and Vision
                     </h2>
                   </Fade>
@@ -103,6 +113,22 @@ const caseStudy = () => {
                     <p className={styles.caseStudyDescpFull}>
                       {val.firstFullDescp}
                     </p>
+                  </Fade>
+                  <Fade>
+                    <ul>
+                      <li className={styles.caseStudyList}>
+                      Pod availed: {val.firstPod}
+                    </li>
+                      <li className={styles.caseStudyList}>
+                      Project-building pace: {val.firstBuildingPace}
+                    </li>
+                      <li className={styles.caseStudyList}>
+                      Current relationship: {val.firstRelationship}
+                    </li>
+                      <li className={styles.caseStudyList}>
+                      Technology provided: {val.firstTechnology}
+                    </li>
+                    </ul>
                   </Fade>
                   <div className={styles.caseStudyPerson}>
                     <Fade>
@@ -252,7 +278,7 @@ const caseStudy = () => {
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
                       <Fade>
-                        <h1 className={styles.caseStudyTitle}>Case study :</h1>
+                        <h1 className={styles.caseStudyTitle}>Case Study:</h1>
                       </Fade>
                       <Fade>
                         <h2 className={styles.caseStudyName}>
@@ -473,7 +499,7 @@ const caseStudy = () => {
                   <div className={styles.caseStudyContent}>
                     <div className={styles.caseStudyDescpContainer}>
                       <Fade>
-                        <h1 className={styles.caseStudyTitle}>Case study :</h1>
+                        <h1 className={styles.caseStudyTitle}>Case Study:</h1>
                       </Fade>
                       <Fade>
                         <h2 className={styles.caseStudyName}>

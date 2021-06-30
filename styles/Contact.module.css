@@ -201,6 +201,7 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  z-index: -1;
 }
 
 .contact .contactRight .contactButton::after {

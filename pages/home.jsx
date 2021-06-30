@@ -43,10 +43,11 @@ const HomePage = () => {
       </Head>
       <Header />
       <div className={styles.home}>
+      <div className={styles.homeHeroContainer}>
+      <div className={styles.homeContent}>
         <Fade delay={250}>
           <h1 className={styles.homeTitle}>
-            GET YOUR OWN TECH AIDE. BETACREW GOES FROM FIXING A SOFTWARE BUG ALL
-            THE WAY TO BUILDING ONE FROM SCRATCH, JUST FOR YOU<span>.</span>
+          A TEAM OF <span>DEVELOPERS</span> FOR YOUR ORGANISATION.
           </h1>
         </Fade>
         <Fade delay={500}>
@@ -64,7 +65,8 @@ const HomePage = () => {
             </Link>
           </div>
         </Fade>
-        <div className={styles.homeVector}>
+          </div>
+        <div className={styles.homeVector} style={{ zIndex: 0 }}>
           <Fade>
             <Player
               ref={vector}
@@ -72,9 +74,9 @@ const HomePage = () => {
               autoplay={true}
               loop={false}
               src="/illustration/lottie.json"
-              style={{ zIndex: -1 }}
             />
           </Fade>
+        </div>
         </div>
         <div className={styles.homeWWD}>
           <Fade>
@@ -255,29 +257,34 @@ const HomePage = () => {
         </div>
         <div className={styles.homeWWD}>
           <Fade>
-            <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%" }}>
+            <h2 className={styles.homeWWDTitle} style={{ marginTop: "-5%",textAlign:"left" }}>
               WHY A POD<span>?</span>
             </h2>
           </Fade>
           <ul>
           <Fade>
-            <li className={styles.homeWWDDescp}>
-            Inheriting the protocols, expectations and the end-objectives, our pod welds with the parent organization so that it does not feel any different than them. 
+            <li className={styles.homeWWDList}>
+            Inheriting the protocols, expectations and the end-objectives, our pod welds with the parents organizations so that it does not feel any different than them. 
             </li>
           </Fade>
           <Fade>
-            <li className={styles.homeWWDDescp}>
-            These pods will help you to accelerate the development of your software.
+            <li className={styles.homeWWDList}>
+            The pods help accelerating the development of your software.
             </li>
           </Fade>
           <Fade>
-            <li className={styles.homeWWDDescp}>
-            Clients can reap the benefit of skilled developers and engineers from the BetaCrew team when their own in-house team may lack such expertise.
+            <li className={styles.homeWWDList}>
+            Clients can reap the benefits of skilled developers and engineers from the BetaCrew team when their own in-house team may lack such expertise.
             </li>
           </Fade>
           <Fade>
-            <li className={styles.homeWWDDescp}>
-            In addition to all these, clients can cut back on the total cost since pods don’t require hiring on pay-roll. Instead, you get an opportunity to utilize our experts on tech stack for your module on a contractual basis.
+            <li className={styles.homeWWDList}>
+            In addition to all these, clients can cut back on their total cost, since pods don’t require hiring on pay-roll. Instead, they utilize our experts on tech stack for their module on a contractual basis.
+            </li>
+          </Fade>
+          <Fade>
+            <li className={styles.homeWWDList}>
+            Our pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
             </li>
           </Fade>
           </ul>
@@ -343,7 +350,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  (I don’t understand that if the team is fixed, how can we write ‘chosen from a pool of engineers’)
+                    Choosen from a pool of engineers
                   </p>
                 </li>
               </Fade>
@@ -398,7 +405,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Organizations can Scale-up or Scale-Down teams as per your needs.
+                    Organizations can Scale-Up and Scale-down teams as per your needs.
                   </p>
                 </li>
               </Fade>
@@ -470,7 +477,7 @@ const HomePage = () => {
         </div>
         <div className={styles.homeCaseStudies}>
           <Fade>
-            <h2 className={styles.homeCaseStudiesTitle}>FEEDBACK</h2>
+            <h2 className={styles.homeCaseStudiesTitle}>FEEDBACK.</h2>
           </Fade>
         </div>
         {homeFeedback?.map((val, index) => {

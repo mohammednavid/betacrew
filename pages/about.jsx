@@ -64,7 +64,7 @@ const About = () => {
                   />
                   <Fade delay={100}>
                   <div className={styles.aboutFounderDetails}>
-                  <h1 className={styles.aboutFounderTitle}>Ronil Mehta</h1>
+                  <h3 className={styles.aboutFounderTitle}>Ronil Mehta</h3>
                   <a href="https://www.linkedin.com/in/ronilm/" target="_blank">
                     <img src="/images/linkedin.png" alt="Ronil Mehta" className={styles.aboutFounderLinkedin} />
                   </a>
@@ -83,7 +83,7 @@ const About = () => {
                   />
                   <Fade delay={100}>
                   <div className={styles.aboutFounderDetails}>
-                  <h1 className={styles.aboutFounderTitle}>Rushabh Vora</h1>
+                  <h3 className={styles.aboutFounderTitle}>Rushabh Vora</h3>
                   <a href="https://www.linkedin.com/in/rushabh-vora/" target="_blank">
                   <img src="/images/linkedin.png" alt="Rushabh Vora" className={styles.aboutFounderLinkedin}/>
                   </a>
@@ -97,14 +97,14 @@ const About = () => {
               </Fade>
             <div className={styles.aboutCulture}>
               <Fade delay={100}>
-                <h1 className={styles.aboutCultureHeader}>OUR CULTURE /CULTURE AT BETACREW</h1>
+                <h2 className={styles.aboutCultureHeader}>CULTURE AT BETACREW.</h2>
               </Fade>
               <div className={styles.aboutCultureContainer}>
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
-                    <h1 className={styles.aboutCultureTitle}>
+                    <h3 className={styles.aboutCultureTitle}>
                       {val.firstTitle}
-                    </h1>
+                    </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
                         {val.firstDescp}
@@ -114,9 +114,9 @@ const About = () => {
                 </Fade>
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
-                    <h1 className={styles.aboutCultureTitle}>
+                    <h3 className={styles.aboutCultureTitle}>
                       {val.secondTitle}
-                    </h1>
+                    </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
                         {val.secondDescp}
@@ -128,9 +128,9 @@ const About = () => {
               <div className={styles.aboutCultureContainer}>
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
-                    <h1 className={styles.aboutCultureTitle}>
+                    <h3 className={styles.aboutCultureTitle}>
                       {val.thirdTitle}
-                    </h1>
+                    </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
                         {val.thirdDescp}
@@ -140,9 +140,9 @@ const About = () => {
                 </Fade>
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
-                    <h1 className={styles.aboutCultureTitle}>
+                    <h3 className={styles.aboutCultureTitle}>
                       {val.fourthTitle}
-                    </h1>
+                    </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
                         {val.fourthDescp}

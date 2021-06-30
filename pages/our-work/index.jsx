@@ -23,7 +23,7 @@ const Work = () => {
         <Fade delay={200}>
           <h1 className={styles.workTitle}>
             Recent case studies on <br />
-            <span>how we have helped companies</span>
+            <span>how we have helped companies.</span>
           </h1>
         </Fade>
         {ourWorkData?.map((val) => {
@@ -32,7 +32,7 @@ const Work = () => {
               <div className={styles.workContent}>
                 <div className={styles.workDescpContainer}>
                   <Fade>
-                    <h2 className={styles.workName}>{val.firstName}</h2>
+                    <h3 className={styles.workName}>{val.firstName}</h3>
                   </Fade>
                   <Fade>
                     <p className={styles.workDescp}>{val.firstDescp}</p>
@@ -144,7 +144,7 @@ const Work = () => {
                 </Fade>
                 <div className={styles.workDescpContainer2}>
                   <Fade>
-                    <h2 className={styles.workName}>{val.secondName}</h2>
+                    <h3 className={styles.workName}>{val.secondName}</h3>
                   </Fade>
                   <Fade>
                     <p className={styles.workDescp}>{val.secondDescp}</p>
@@ -160,7 +160,7 @@ const Work = () => {
               <div className={styles.workContent}>
                 <div className={styles.workDescpContainer}>
                 <Fade>
-                  <h2 className={styles.workName}>{val.thirdName}</h2>
+                  <h3 className={styles.workName}>{val.thirdName}</h3>
                   </Fade>
                 <Fade>
                   <p className={styles.workDescp}>{val.thirdDescp}</p>

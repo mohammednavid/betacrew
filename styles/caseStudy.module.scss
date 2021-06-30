@@ -35,7 +35,6 @@
         font-family: Graphik Bold;
         letter-spacing: 0;
         text-shadow: 0px 30px 60px #00000017;
-        margin-top: 20px;
         color: #5185eb;
         @media screen and (min-width: 621px) {
           font-size: 42px;
@@ -57,7 +56,7 @@
         font-family: Graphik Bold;
         text-shadow: 0px 30px 60px #00000017;
         color: #ff6498;
-        padding: 30px 0 50px 0;
+        padding: 30px 0 20px 0;
         @media screen and (min-width: 621px) {
           font-size: 36px;
           line-height: 56px;
@@ -228,10 +227,10 @@
   }
   .caseStudyDescpFull {
     text-align: left;
+    font-family:Graphik Light;
     font-size: 18px;
     line-height: 30px;
     color: #545454d4;
-    font-weight: lighter;
     padding: 0 5% 50px 5%;
     @media screen and (min-width: 889px) {
       padding: 0 9% 100px 9%;
@@ -246,6 +245,21 @@
       line-height: 42px;
     }
   }
+  ul{
+    padding-left: 10%;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    @media screen and (min-width: 621px) {
+      margin-top: -50px;
+      padding: 0 10%;
+    }
+  .caseStudyList{
+    font-size: 18px;
+    line-height: 30px;
+    color: #545454d4;
+    list-style: disc;
+  }
+}
   .caseStudyPerson {
     width: 100%;
     background: #5185eb;
@@ -306,6 +320,7 @@
       .caseStudyPersonPost {
         text-align: left;
         font-size: 18px;
+        font-family: Graphik Light;
         line-height: 30px;
         color: #ffffff;
         opacity: 0.8;

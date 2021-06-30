@@ -116,11 +116,11 @@ const PodSlider = () => {
         <Fade>
         <div className={styles.homeCL}>
           <h2 className={styles.homeCLTitle}>CREW LEVEL 1(CL1)</h2>
-          {/* <p className={styles.homeCLDescp}>
+          <p className={styles.homeCLDescp}>
             These are entry-level engineers expected to be able to write modules
             and fix bugs. We expect them to be keen learners and perform well
             under a more senior engineer.
-          </p> */}
+          </p>
         </div>
         </Fade>
       )}
@@ -128,13 +128,13 @@ const PodSlider = () => {
         <Fade>
         <div className={styles.homeCL}>
           <h2 className={styles.homeCLTitle}>CREW LEVEL 2(CL2)</h2>
-          {/* <p className={styles.homeCLDescp}>
+          <p className={styles.homeCLDescp}>
             These are mid-level software engineers. They are expected to own
             features of a given product and are responsible to take these
             features from conception to production. They are expected to review
             peer code, churn out high quality code without supervision and
             communicate effectively.
-          </p> */}
+          </p>
         </div>
         </Fade>
       )}
@@ -142,13 +142,13 @@ const PodSlider = () => {
         <Fade>
         <div className={styles.homeCL}>
           <h2 className={styles.homeCLTitle}>CREW LEVEL 3(CL3)</h2>
-          {/* <p className={styles.homeCLDescp}>
+          <p className={styles.homeCLDescp}>
             These are senior software engineers. They are expected to lead
             entire projects. While they are required to be good programmers,
             they also need to have people management skills. They are tasked
             with ensuring high quality deliverables and adherence to project
             timelines.
-          </p> */}
+          </p>
         </div>
         </Fade>
       )}
@@ -156,14 +156,14 @@ const PodSlider = () => {
         <Fade>
         <div className={styles.homeCL}>
           <h2 className={styles.homeCLTitle}>CREW LEVEL 4(CL4)</h2>
-          {/* <p className={styles.homeCLDescp}>
+          <p className={styles.homeCLDescp}>
             These are experienced software developers with a history of
             excellence throughout their career. CL4 engineers are expected to
             have an impact on scale. They achieve this by working as solutions
             architects, supporting team members, constantly improving team
             processes, writing code/libraries that can be reused by team members
             and solving complex technical problems.
-          </p> */}
+          </p>
         </div>
         </Fade>
       )}

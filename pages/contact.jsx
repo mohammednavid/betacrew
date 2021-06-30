@@ -23,14 +23,6 @@ const Contact = (props) => {
       setDescp("")
       }
   };
-  function recaptchaLoader() {
-    console.log("Recaptcha is Loaded");
-  }
-  function verifyCallback(response) {
-    if (response) {
-      setVerified(true);
-    }
-  }
   return (
     <>
       <Head>
@@ -108,14 +100,8 @@ const Contact = (props) => {
           <ReCAPTCHA
         ref={recaptchaRef}
         size="invisible"
-        sitekey="6LdxDWAbAAAAADjtqH17aw4pU0IZG0S_bJtdrIMN"
+        sitekey={process.env.siteKey}
       />
-          {/* <Recaptcha
-            sitekey=""
-            render="invisible"
-            onloadCallback={recaptchaLoader}
-            verifyCallback={verifyCallback}
-          /> */}
           <Fade>
             <a className={styles.contactButton} onClick={onSubmit}>
               Send
