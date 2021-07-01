@@ -48,10 +48,17 @@
   font: normal normal bold 83px/103px Graphik Bold;
   letter-spacing: 0px;
   text-shadow: 0px 30px 60px #00000017;
+  text-transform: uppercase;
 }
 
 .about .aboutContainer .aboutLeft .aboutTitle span {
   color: #5185eb;
+}
+
+@media screen and (min-width: 1901px) {
+  .about .aboutContainer .aboutLeft .aboutTitle {
+    min-width: 820px;
+  }
 }
 
 @media screen and (max-width: 1900px) {
@@ -85,6 +92,12 @@
   color: #000000d4;
   background-color: #ffffff;
   z-index: 10;
+}
+
+@media screen and (min-width: 1901px) {
+  .about .aboutContainer .aboutLeft .aboutDescp {
+    min-width: 840px;
+  }
 }
 
 @media screen and (max-width: 1900px) {
@@ -387,7 +400,8 @@
 .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
   text-align: left;
   padding-top: 100px;
-  font: normal normal bold 80px/30px Graphik Bold;
+  text-transform: uppercase;
+  font: normal normal bold 65px/70px Graphik Bold;
   white-space: nowrap;
   color: #2a539c;
 }
@@ -464,6 +478,7 @@
   text-align: center;
   font: normal normal bold 80px/100px Graphik Bold;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .aboutOperate .aboutOperateTitle span {

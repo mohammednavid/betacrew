@@ -1,9 +1,10 @@
 export const aboutData=[
     {
         id:1,
-        descpFirst:"We are a Software Development Company, with specialists in building software and tech-products that require Software implementation. We also help organizations kick-start their projects and make tech-based architectural decisions; floating in a revolutionized approach of Pods.",
-        descpSecond:"We carry our operations in a methodical and hassle-free manner, working hard and close to our customers’ needs. That’s who we are and how we work.",
-        
+        descpFirst:"Think of us as an extended crew to lend a helping-hand as you build your ship and when it's ready to set sail, we pack ourselves up. Except that we don't make ships, but software for you. Oh, and we also come back to your rescue in case you need assistance during the sailing.",
+        descpSecond:"We have specialists in building high-quality software products with complex requirements. We help organizations kick-start their projects and make architectural decisions. And with our revolutionized approach of Pods, our sole priority is our customers satisfaction. That's who we are and how we work.",
+        // descpThird:"That's who we are and how we work.",
+
         //our culture
         firstTitle:"Collaborate",
         firstDescp:"When everyone is moving forward together, success takes care of itself. We at BetaCrew believe that great achievements are not met individually, but as a team. Forming a solid, committed, supportive team that combines with the client’s team, enables you to meet the goals with a greater drive and pace.",

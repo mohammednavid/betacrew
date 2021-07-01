@@ -1,5 +1,6 @@
 const howItWorksData = [
   {
+    id:"HIW01",
     firstStepTitle:
       "Get an array of technologies and skills to choose from and invest in.",
     firstStepDescp:
@@ -21,47 +22,47 @@ const howItWorksData = [
 
 export const whatYouGetData = [
   {
-    id: "1",
+    id: "WYG01",
     icon: "/images/programming.svg",
     text: "Efficient Code Quality .",
   },
   {
-    id: "2",
+    id: "WYG02",
     icon: "/images/exchange.svg",
     text: "Peer Code Review",
   },
   {
-    id: "3",
+    id: "WYG03",
     icon: "/images/graph.svg",
     text: "Proactive Monitoring",
   },
   {
-    id: "4",
+    id: "WYG04",
     icon: "/images/process.svg",
     text: "Timelines with Goals.",
   },
   {
-    id: "5",
+    id: "WYG05",
     icon: "/images/files.svg",
     text: "Documentation for Future Proof",
   },
   {
-    id: "6",
+    id: "WYG06",
     icon: "/images/support.svg",
     text: "On Call Support",
   },
   {
-    id: "7",
+    id: "WYG07",
     icon: "/images/note.svg",
     text: "Monthly Status Reporting",
   },
   {
-    id: "8",
+    id: "WYG08",
     icon: "/images/training.svg",
     text: "Rigorous Training",
   },
   {
-    id: "9",
+    id: "WYG09",
     icon: "/images/chat.svg",
     text: "Actionable Feedback",
   },

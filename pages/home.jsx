@@ -359,7 +359,7 @@ const HomePage = () => {
             <Fade>
               <div className={styles.homeDiffImg}>
                 <Player
-                  ref={thirdVector}
+                  ref={fourthVector}
                   hover
                   autoplay={true}
                   loop={false}
@@ -426,15 +426,15 @@ const HomePage = () => {
         <Fade>
           <Slider />
         </Fade>
-        <div className={styles.homeCaseStudies}>
+        <div className={styles.homeCaseStudies} style={{paddingTop:"5%"}}>
           <Fade>
             <h2 className={styles.homeCaseStudiesTitle}>
               CASE STUDIES<span>.</span>
             </h2>
           </Fade>
+              <Fade>
           <div className={styles.homeCaseStudiesCards}>
             <Link href="/our-work/case-study-1">
-              <Fade>
                 <div className={styles.homeCaseStudiesCard}>
                   <Image
                     src="/images/bild.png"
@@ -443,10 +443,8 @@ const HomePage = () => {
                     height={130}
                   />
                 </div>
-              </Fade>
             </Link>
             <Link href="/our-work/case-study-2">
-              <Fade>
                 <div className={styles.homeCaseStudiesCard2}>
                   <Image
                     src="/images/stopspoof.png"
@@ -455,9 +453,9 @@ const HomePage = () => {
                     height={130}
                   />
                 </div>
-              </Fade>
             </Link>
           </div>
+              </Fade>
           <Fade>
             <Link href="/our-work">
               <p className={styles.homeCaseStudiesMore}>VIEW MORE</p>

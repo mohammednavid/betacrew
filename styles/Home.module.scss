@@ -973,11 +973,11 @@
       justify-content: center;
       margin-bottom: 100px;
     }
-    @media screen and (min-width: 1921px) {
-      min-width: 100vw;
-      position: absolute;
-      left: 0;
-    }
+    // @media screen and (min-width: 1921px) {
+    //   min-width: 100%;
+    //   position: absolute;
+    //   left: 0;
+    // }
     .caseStudyPersonImg {
       width: 100%;
       display: flex;
@@ -1050,9 +1050,9 @@
     @media screen and (min-width: 889px) {
       padding: 5% 9%;
     }
-    @media screen and (min-width: 1921px) {
-      margin-top: 30%;
-    }
+    // @media screen and (min-width: 1921px) {
+    //   margin-top: 30%;
+    // }
     .hire {
       display: flex;
       align-items: center;

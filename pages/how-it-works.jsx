@@ -28,17 +28,19 @@ const howItWorks = () => {
       <div className={styles.HIW}>
         <Fade delay={250}>
           <h1 className={styles.HIW_Title}>
-          HOW TO SET YOUR POD-BUILDING IN MOTION<span>?</span>
+            HOW TO SET YOUR POD-BUILDING IN MOTION<span>?</span>
           </h1>
         </Fade>
         <Fade delay={500}>
           <p className={styles.HIW_Descp}>
-          Augment your tech team with our top talent. So, we will oversee the execution and management of your software projects with our proven processes and tech mentorship.
+            Augment your tech team with our top talent. So, we will oversee the
+            execution and management of your software projects with our proven
+            processes and tech mentorship.
           </p>
         </Fade>
-        {howItWorksData?.map((item, index) => {
+        {howItWorksData?.map((item) => {
           return (
-            <div className={styles.HIW_Container} key={index}>
+            <div className={styles.HIW_Container} key={item.id} id={item.id}>
               <div className={styles.HIW_Content}>
                 <Fade delay={100}>
                   <div className={styles.HIW_ContentVector}>
@@ -215,9 +217,9 @@ const howItWorks = () => {
           </Fade>
           <Fade delay={200}>
             <div className={styles.HIW_ServicesContainer}>
-              {whatYouGetData?.map((item) => {
-                return (
-                  <Fade delay={400}>
+              <Fade delay={400}>
+                {whatYouGetData?.map((item) => {
+                  return (
                     <div
                       className={styles.HIW_ServicesContent}
                       id={item.id}
@@ -233,9 +235,9 @@ const howItWorks = () => {
                       </div>
                       <h5 className={styles.HIW_ServicesText}>{item.text}</h5>
                     </div>
-                  </Fade>
-                );
-              })}
+                  );
+                })}
+              </Fade>
             </div>
           </Fade>
         </div>

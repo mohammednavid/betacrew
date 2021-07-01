@@ -1501,14 +1501,6 @@
   }
 }
 
-@media screen and (min-width: 1921px) {
-  .home .caseStudyPerson {
-    min-width: 100vw;
-    position: absolute;
-    left: 0;
-  }
-}
-
 .home .caseStudyPerson .caseStudyPersonImg {
   width: 100%;
   display: -webkit-box;
@@ -1614,12 +1606,6 @@
 @media screen and (min-width: 889px) {
   .home .homeHire {
     padding: 5% 9%;
-  }
-}
-
-@media screen and (min-width: 1921px) {
-  .home .homeHire {
-    margin-top: 30%;
   }
 }
 

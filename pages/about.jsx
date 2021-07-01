@@ -40,6 +40,9 @@ const About = () => {
                 <Fade delay={700}>
                   <p className={styles.aboutDescp}>{val.descpSecond}</p>
                 </Fade>
+                <Fade delay={700}>
+                  <p className={styles.aboutDescp}>{val.descpThird}</p>
+                </Fade>
               </div>
               <Fade delay={200}>
                 <div className={styles.aboutVector}>
