@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
           `,
             }}
           />
-
+          <meta name="google-site-verification" content="sCQrf6e8_9ADFB3Gm7Q53ONK_UgF0pPVRyXHSUuMAlc" />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
