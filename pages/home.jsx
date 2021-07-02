@@ -35,13 +35,13 @@ const HomePage = () => {
       <div className={styles.homeContent}>
         <Fade delay={250}>
           <h1 className={styles.homeTitle}>
-          A TEAM OF <span>DEVELOPERS</span> FOR YOUR ORGANISATION.
+          ON-DEMAND ELASTIC <span>TECH TEAMS</span>.
           </h1>
         </Fade>
         <Chat/>
         <Fade delay={500}>
           <p className={styles.homeDescp}>
-          BetaCrew helps tech companies and start-ups enhance their engineering team by custom-building pods most suitable to them.
+          BetaCrew helps tech companies and start-ups enhance their engineering team by custom-building Pods most suitable to them.
           </p>
         </Fade>
         <Fade delay={750}>
@@ -75,7 +75,7 @@ const HomePage = () => {
           </Fade>
           <Fade>
             <p className={styles.homeWWDDescp}>
-            Pioneering a new and unique approach of <span>‘Pods’</span>, we bring you best-in-class developers.
+            Pioneering a new and unique concept of <span>‘Pods’</span>, we bring you the best-in-class developers.
             </p>
           </Fade>
           {homeWWDData.map((item) => {
@@ -192,7 +192,7 @@ const HomePage = () => {
         </div>
         <div className={styles.homePOD}>
           <Fade>
-            <h2 className={styles.homePODTitle}>WHAT is a pod?</h2>
+            <h2 className={styles.homePODTitle}>WHAT IS A POD?</h2>
           </Fade>
           <div className={styles.homePODContainer}>
             {homePODData?.map((item) => {
@@ -258,7 +258,7 @@ const HomePage = () => {
           </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
-            The pods help accelerating the development of your software.
+            The Pods help accelerating the development of your software.
             </li>
           </Fade>
           <Fade>
@@ -268,12 +268,17 @@ const HomePage = () => {
           </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
-            In addition to all these, clients can cut back on their total cost, since pods don’t require hiring on pay-roll. Instead, they utilize our experts on tech stack for their module on a contractual basis.
+            In addition to all these, clients can cut back on their total cost, since Pods don’t require hiring on pay-roll. Instead, they utilize our experts on tech stack for their module on a contractual basis.
             </li>
           </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
-            Our pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
+            Our Pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
+            </li>
+          </Fade>
+          <Fade>
+            <li className={styles.homeWWDList}>
+              The Pods come with various Crew Levels for ease of selection according to your specifications.
             </li>
           </Fade>
           </ul>
@@ -379,7 +384,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Engineers within the pod can consult other pods which will result in more efficiency and better decision-making.
+                  Engineers within the pod can consult other Pods which will result in more efficiency and better decision-making.
                   </p>
                 </li>
               </Fade>

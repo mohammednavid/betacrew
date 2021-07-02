@@ -12,11 +12,11 @@ const howItWorksData = [
 
     thirdStepTitle: "You won’t know where your team ends and ours begin.",
     thirdStepDescp:
-      "We strike a balance between our development operations and your engineering culture, processes and ways of working. Our tech leads receive priorities directly from you, and with that, the pods smoothly plus in to your systems.",
+      "We strike a balance between our development operations and your engineering culture, processes and ways of working. Our tech leads receive priorities directly from you, and with that, the Pods smoothly plugs in to your systems.",
 
     fourthStepTitle: "Get quality software delivered on time, on budget.",
     fourthStepDescp:
-      "With our fully-managed software development service, you get proven processes and expertise that ensures successful results. We take ownership and guarantee the delivery and quality of your project.",
+      "With our fully-managed software development service, you get proven processes and expertise that ensure successful results. We take ownership and guarantee the delivery and quality of your project.",
   },
 ];
 
@@ -49,7 +49,7 @@ export const whatYouGetData = [
   {
     id: "WYG06",
     icon: "/images/support.svg",
-    text: "On Call Support",
+    text: "On-Call Support",
   },
   {
     id: "WYG07",

@@ -2,7 +2,7 @@ export const aboutData=[
     {
         id:1,
         descpFirst:"Think of us as an extended crew to lend a helping-hand as you build your ship and when it's ready to set sail, we pack ourselves up. Except that we don't make ships, but software for you. Oh, and we also come back to your rescue in case you need assistance during the sailing.",
-        descpSecond:"We have specialists in building high-quality software products with complex requirements. We help organizations kick-start their projects and make architectural decisions. And with our revolutionized approach of Pods, our sole priority is our customers satisfaction. That's who we are and how we work.",
+        descpSecond:"We have specialists in building high-quality software products with complex requirements. We help organizations kick-start their projects and make architectural decisions. And with our revolutionized approach of Pods, our sole priority is our customers' satisfaction. That's who we are and how we work.",
         // descpThird:"That's who we are and how we work.",
 
         //our culture
