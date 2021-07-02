@@ -7,7 +7,8 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 5% 9%;
+  padding: 3% 9%;
+  padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +20,7 @@
           justify-content: space-between;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 1200px) {
   .about .aboutContainer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -31,13 +32,15 @@
 .about .aboutContainer .aboutLeft {
   width: 50%;
   max-width: 770px;
-  margin-right: 5%;
   z-index: 10;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 1200px) {
   .about .aboutContainer .aboutLeft {
     width: 100%;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
     margin-bottom: 70px;
     margin-top: -20px;
     margin-right: 0;
@@ -63,8 +66,8 @@
 
 @media screen and (max-width: 1900px) {
   .about .aboutContainer .aboutLeft .aboutTitle {
-    font-size: 66px;
-    line-height: 84px;
+    font-size: 60px;
+    line-height: 78px;
     white-space: nowrap;
   }
 }
@@ -92,11 +95,12 @@
   color: #000000d4;
   background-color: #ffffff;
   z-index: 10;
+  width: 100%;
 }
 
 @media screen and (min-width: 1901px) {
   .about .aboutContainer .aboutLeft .aboutDescp {
-    min-width: 840px;
+    min-width: 820px;
   }
 }
 
@@ -120,7 +124,7 @@
   background: #fff;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 1200px) {
   .about .aboutContainer .aboutVector {
     margin-top: -150px;
     height: 500px;
@@ -145,21 +149,25 @@
 @media screen and (min-width: 889px) {
   .about .aboutContainer .aboutVector {
     min-width: 600px;
-    height: 500px;
-    margin-top: -200px;
-    margin-left: -100px;
+    height: 600px;
+    margin-top: -250px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .about .aboutContainer .aboutVector {
+    margin-top: -200px;
+    margin-left: -100px;
     margin-left: 0px;
+    min-width: 700px;
+    height: 600px;
   }
 }
 
-@media screen and (min-width: 1651px) {
+@media screen and (min-width: 1501px) {
   .about .aboutContainer .aboutVector {
-    height: 550px;
+    min-width: 800px;
+    height: 650px;
   }
 }
 
@@ -171,8 +179,8 @@
 
 @media screen and (min-width: 1901px) {
   .about .aboutContainer .aboutVector {
-    height: 650px;
-    max-width: 47%;
+    min-width: 1000px;
+    height: 800px;
   }
 }
 
@@ -196,7 +204,7 @@
   .about .aboutFounder {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 2% 10% 2% 0%;
+    padding: 0% 10% 2% 0%;
   }
 }
 
@@ -207,6 +215,7 @@
             justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-left: 5%;
   }
 }
 
@@ -315,7 +324,6 @@
   width: 100%;
   background: #ff6498;
   padding: 5% 12%;
-  padding-top: 3%;
   margin-top: 5%;
 }
 
@@ -344,6 +352,7 @@
     font-size: 55px;
     line-height: 75px;
     text-align: center;
+    white-space: normal;
   }
 }
 
@@ -370,10 +379,11 @@
           align-items: flex-start;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1301px) {
   .aboutCulture .aboutCultureContainer {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
@@ -465,7 +475,8 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 10% 9%;
+  padding: 5% 9%;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 620px) {

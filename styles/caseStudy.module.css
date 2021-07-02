@@ -39,13 +39,7 @@
 
 @media screen and (min-width: 889px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDescpContainer {
-    margin-right: 50px;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDescpContainer {
-    margin-right: 100px;
+    margin-right: 5%;
   }
 }
 
@@ -112,7 +106,7 @@
 }
 
 .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDescp {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: left;
   font-size: 18px;
   line-height: 30px;
@@ -129,8 +123,8 @@
 
 @media screen and (min-width: 1901px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDescp {
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 
@@ -362,8 +356,8 @@
 
 @media screen and (min-width: 1901px) {
   .caseStudy .caseStudyAll .caseStudyDescpFull {
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 
@@ -720,8 +714,7 @@
 
 @media screen and (min-width: 889px) {
   .caseStudy .caseStudyHire {
-    padding: 5% 9%;
-    padding-top: 0;
+    padding: 0 9%;
   }
 }
 /*# sourceMappingURL=caseStudy.module.css.map */

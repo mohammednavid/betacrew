@@ -37,9 +37,9 @@ const Contact = (props) => {
         <div className={styles.contactLeft}>
           <Fade>
             <h2 className={styles.contactTitle}>
-              LET'S WORK
+              CONTACT
               <br />
-              TOGETHER!
+              BETACREW
             </h2>
           </Fade>
           <Fade>

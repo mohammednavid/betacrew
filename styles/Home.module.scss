@@ -37,9 +37,14 @@
         @media screen and (min-width: 1201px) {
           max-width: 700px;
           margin: 0;
-          font-size: 56px;
-          line-height: 70px;
+          font-size: 46px;
+          line-height: 58px;
           text-align: left;
+        }
+        @media screen and (min-width: 1301px) {
+          max-width: 700px;
+          font-size: 54px;
+          line-height: 66px;
         }
         @media screen and (min-width: 1521px) {
           min-width: 600px;
@@ -583,11 +588,9 @@
       padding-bottom: 2%;
       margin-bottom: 200px;
     }
-    // @media screen and (min-width: 1921px) {
-    //   min-width:100vw;
-    //   position: absolute;
-    //   left: 0;
-    // }
+    @media screen and (min-width: 1601px) {
+      margin-bottom: 13%;
+    }
     .homePODTitle {
       font-size: 22px;
       line-height: 32px;
@@ -700,10 +703,12 @@
           margin-top: -250px;
           min-width:700px;
           height:500px;
-          margin-right: 0;
+          margin-right: -50px;
+          margin-left:0;
         }
         @media screen and (min-width: 1901px) {
           margin-top: -300px;
+          margin-right: 0;
           margin-left: -150px;
         }
         @media screen and (max-width: 888px) {
@@ -1077,7 +1082,7 @@
   .homeHire {
     padding: 10% 5%;
     @media screen and (min-width: 889px) {
-      padding: 5% 9%;
+      padding: 0% 9%;
     }
     // @media screen and (min-width: 1921px) {
     //   margin-top: 30%;
