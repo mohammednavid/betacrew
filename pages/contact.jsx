@@ -46,7 +46,7 @@ const Contact = (props) => {
             <p className={styles.contactDescp}>
               You are in the right place, surrounded by the right people and
               have taken the right step by reaching out to us. Can't wait to get
-              back you.
+              back you!
             </p>
           </Fade>
           <Fade>
