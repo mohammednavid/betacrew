@@ -31,7 +31,7 @@ const homePODData = [
         secondPOD2:"Team Lead ",
         secondPOD3:"who acts as an interface between the organization and the programmers.",
         
-        thirdPOD1:"Ideally,it consists of ",
+        thirdPOD1:"Ideally, it consists of ",
         thirdPOD2:"1-6 ",
         thirdPOD3:"developers with diverse experiences and skills.",
     },

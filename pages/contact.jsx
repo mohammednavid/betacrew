@@ -1,4 +1,4 @@
-import { useState,useRef } from "react";
+import { useState, useRef } from "react";
 import styles from "../styles/Contact.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -15,13 +15,13 @@ const Contact = (props) => {
   const [verified, setVerified] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
-    setVerified(recaptchaRef.current.execute())
-     if(verified){
+    setVerified(recaptchaRef.current.execute());
+    if (verified) {
       alert("Message sent!");
-      setName("")
-      setEmail("")
-      setDescp("")
-      }
+      setName("");
+      setEmail("");
+      setDescp("");
+    }
   };
   return (
     <>
@@ -37,15 +37,16 @@ const Contact = (props) => {
         <div className={styles.contactLeft}>
           <Fade>
             <h2 className={styles.contactTitle}>
-              Call
+              LET'S WORK
               <br />
-              Betacrew
+              TOGETHER!
             </h2>
           </Fade>
           <Fade>
             <p className={styles.contactDescp}>
-              Describe your project and leave us your contact info, we’ll get
-              back to you within 24 hours.
+              You are in the right place, surrounded by the right people and
+              have taken the right step by reaching out to us. Can't wait to get
+              back you.
             </p>
           </Fade>
           <Fade>
@@ -98,10 +99,10 @@ const Contact = (props) => {
             />
           </Fade>
           <ReCAPTCHA
-        ref={recaptchaRef}
-        size="invisible"
-        sitekey={process.env.siteKey}
-      />
+            ref={recaptchaRef}
+            size="invisible"
+            sitekey={process.env.siteKey}
+          />
           <Fade>
             <a className={styles.contactButton} onClick={onSubmit}>
               Send

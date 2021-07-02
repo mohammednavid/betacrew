@@ -5,12 +5,12 @@
 
 @media screen and (min-width: 889px) {
   .homeProcess {
-    padding: 9%;
+    padding: 5% 9%;
   }
 }
 
 .homeProcess .homeProcessContainer {
-  max-width: 1920px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -28,7 +28,13 @@
   }
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 889px) {
+  .homeProcess .homeProcessContainer {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1521px) {
   .homeProcess .homeProcessContainer {
     padding: 0% 9%;
   }

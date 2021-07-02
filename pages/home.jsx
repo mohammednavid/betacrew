@@ -246,11 +246,16 @@ const HomePage = () => {
         </div>
         <div className={styles.homeWWD}>
           <Fade>
-            <h2 className={styles.homeWWDTitle2} style={{ marginTop: "-5%" }}>
+            <h2 className={styles.homeWWDTitle2} style={{ marginTop: "-10%" }}>
               WHY A POD<span>?</span>
             </h2>
           </Fade>
           <ul>
+          <Fade>
+            <li className={styles.homeWWDList}>
+            Our Pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
+            </li>
+          </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
             Inheriting the protocols, expectations and the end-objectives, our Pod welds with the parents organizations so that it does not feel any different than them. 
@@ -266,16 +271,11 @@ const HomePage = () => {
             Clients can reap the benefits of skilled developers and engineers from the BetaCrew team when their own in-house team may lack such expertise.
             </li>
           </Fade>
-          <Fade>
+          {/* <Fade>
             <li className={styles.homeWWDList}>
             In addition to all these, clients can cut back on their total cost, since Pods don’t require hiring on pay-roll. Instead, they utilize our experts on tech stack for their module on a contractual basis.
             </li>
-          </Fade>
-          <Fade>
-            <li className={styles.homeWWDList}>
-            Our Pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
-            </li>
-          </Fade>
+          </Fade> */}
           <Fade>
             <li className={styles.homeWWDList}>
               The Pods come with various Crew Levels for ease of selection according to your specifications.
