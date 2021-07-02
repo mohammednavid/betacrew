@@ -253,7 +253,7 @@ const HomePage = () => {
           <ul>
           <Fade>
             <li className={styles.homeWWDList}>
-            Inheriting the protocols, expectations and the end-objectives, our pod welds with the parents organizations so that it does not feel any different than them. 
+            Inheriting the protocols, expectations and the end-objectives, our Pod welds with the parents organizations so that it does not feel any different than them. 
             </li>
           </Fade>
           <Fade>
@@ -384,7 +384,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Engineers within the pod can consult other Pods which will result in more efficiency and better decision-making.
+                  Engineers within the Pod can consult other Pods which will result in more efficiency and better decision-making.
                   </p>
                 </li>
               </Fade>

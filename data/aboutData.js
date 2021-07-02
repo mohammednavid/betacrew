@@ -16,7 +16,7 @@ export const aboutData=[
         fourthDescp:"Effective communication is the route to a transparent relationship. We uphold the values of loyalty, forthrightness and integrity and encourage our customers to freely express their opinions, ideas or even criticism; because communication is a two-way street that can lead to satisfaction.",
         
         //how do we operate?
-        operateDescp:"Our 5-step approach outlines how we select a pod best compatible with your project:",
+        operateDescp:"Our 5-step approach outlines how we select a Pod best compatible with your project:",
         firstStep:"We analyze the project requirements and provide suggestion on a dedicated team model.",
         secondStep:"You provide feedback on our suggestions.",
         thirdStep:"Based on the suggestions, BetaCrew chooses members from its team to support your projects.",
