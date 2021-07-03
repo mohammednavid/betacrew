@@ -715,6 +715,7 @@
 @media screen and (min-width: 889px) {
   .caseStudy .caseStudyHire {
     padding: 0 9%;
+    padding-bottom: 5%;
   }
 }
 /*# sourceMappingURL=caseStudy.module.css.map */

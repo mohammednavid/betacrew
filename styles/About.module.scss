@@ -1,12 +1,13 @@
 .about {
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
+  padding-bottom: 5%;
   .aboutContainer {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
     padding: 3% 9%;
-    padding-bottom: 0;
+    padding-bottom: 0%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -30,12 +31,12 @@
         font: normal normal bold 83px/103px Graphik Bold;
         letter-spacing: 0px;
         text-shadow: 0px 30px 60px #00000017;
-        text-transform:uppercase;
+        text-transform: uppercase;
         span {
           color: #5185eb;
         }
         @media screen and (min-width: 1901px) {
-          min-width:820px;
+          min-width: 820px;
         }
         @media screen and (max-width: 1900px) {
           font-size: 60px;
@@ -76,33 +77,33 @@
       }
     }
     .aboutVector {
-      height:400px;
+      height: 400px;
       z-index: 2;
       background: #fff;
       @media screen and (max-width: 1200px) {
-        margin-top:-150px;
+        margin-top: -150px;
         height: 500px;
       }
       @media screen and (max-width: 620px) {
         height: 400px;
         min-width: 120%;
-        margin-top:-100px;
+        margin-top: -100px;
         margin-left: -10%;
       }
       @media screen and (max-width: 450px) {
         height: 300px;
       }
       @media screen and (min-width: 889px) {
-         min-width:600px;
-         height:600px;
-         margin-top: -250px;
-        }
-        @media screen and (min-width: 1201px) {
+        min-width: 600px;
+        height: 600px;
+        margin-top: -250px;
+      }
+      @media screen and (min-width: 1201px) {
         margin-top: -200px;
         margin-left: -100px;
-         margin-left: 0px;
-         min-width: 700px;
-         height: 600px;
+        margin-left: 0px;
+        min-width: 700px;
+        height: 600px;
       }
       @media screen and (min-width: 1501px) {
         min-width: 800px;
@@ -113,7 +114,7 @@
       }
       @media screen and (min-width: 1901px) {
         min-width: 1000px;
-        height:800px;
+        height: 800px;
       }
     }
   }
@@ -154,35 +155,36 @@
     }
     .aboutFounderDetails {
       display: flex;
-      justify-content: center;align-items: center;
-    .aboutFounderTitle {
-      text-align: center;
-      font: normal normal bold 55px/72px Graphik Bold;
-      color: #5185eb;
-      @media screen and (max-width: 1900px) {
-        font-size: 42px;
-        line-height: 60px;
+      justify-content: center;
+      align-items: center;
+      .aboutFounderTitle {
+        text-align: center;
+        font: normal normal bold 55px/72px Graphik Bold;
+        color: #5185eb;
+        @media screen and (max-width: 1900px) {
+          font-size: 42px;
+          line-height: 60px;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 36px;
+          line-height: 60px;
+        }
+        @media screen and (max-width: 620px) {
+          font-size: 32px;
+          line-height: 55px;
+        }
       }
-      @media screen and (max-width: 1200px) {
-        font-size: 36px;
-        line-height: 60px;
+      .aboutFounderLinkedin {
+        margin-left: 15px;
+        object-fit: contain;
+        height: 40px;
+        @media screen and (max-width: 1900px) {
+          height: 30px;
+        }
+        @media screen and (max-width: 620px) {
+          height: 20px;
+        }
       }
-      @media screen and (max-width: 620px) {
-        font-size: 32px;
-        line-height: 55px;
-      }
-    }
-    .aboutFounderLinkedin{
-      margin-left: 15px;
-      object-fit: contain;
-      height: 40px;
-      @media screen and (max-width: 1900px) {
-        height: 30px;
-      }
-      @media screen and (max-width: 620px) {
-        height: 20px;
-      }
-    }
     }
     .aboutFounderDescp {
       font: normal normal 300 30px/39px Graphik;
@@ -247,7 +249,7 @@
       .aboutCultureTitle {
         text-align: left;
         padding-top: 100px;
-        text-transform:uppercase;
+        text-transform: uppercase;
         font: normal normal bold 65px/70px Graphik Bold;
         white-space: nowrap;
         color: #2a539c;
@@ -286,7 +288,7 @@
           text-align: center;
           font-size: 13px;
           line-height: 23px;
-          padding:0 20px;
+          padding: 0 20px;
         }
       }
     }
@@ -305,7 +307,7 @@
     text-align: center;
     font: normal normal bold 80px/100px Graphik Bold;
     margin-bottom: 20px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     span {
       color: #5185eb;
     }

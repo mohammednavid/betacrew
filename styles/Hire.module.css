@@ -1,17 +1,17 @@
 .hire {
+  max-width: 1400px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background: #5185eb;
   border-radius: 56px;
-  padding: 10% 5%;
-  margin-bottom: 50px;
+  padding: 8% 5%;
 }
 
 @media screen and (max-width: 1500px) {
@@ -28,6 +28,15 @@
         -ms-flex-pack: center;
             justify-content: center;
     border-radius: 15px;
+    padding: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hire {
+    padding: 12% 5%;
+    padding-bottom: 5%;
   }
 }
 

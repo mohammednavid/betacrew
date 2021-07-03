@@ -991,16 +991,16 @@
 .home .homePOD .homePODContainer .homePODLeft .homePODContent .homePODCircle3 {
   position: absolute;
   top: 0;
-  left: -6px;
+  left: -7px;
   z-index: 2;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: #fff;
 }
 
 .home .homePOD .homePODContainer .homePODLeft .homePODContent .homePODCircle3 {
-  left: -1px;
+  left: -2.5px;
 }
 
 .home .homePOD .homePODContainer .homePODLeft .homePODContent .homePODText {
@@ -1054,7 +1054,6 @@
 }
 
 .home .homePOD .homePODContainer .homePODRight {
-  cursor: pointer;
   width: 100%;
   height: 300px;
   margin-bottom: -100px;
@@ -1200,22 +1199,24 @@
   }
 }
 
-@media screen and (min-width: 1301px) {
-  .home .homeDiffContainer .homeDiff .homeDiffImg {
-    margin-top: -150px;
-    margin-bottom: 0;
-  }
-}
-
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiff .homeDiffImg {
     margin-top: -150px;
   }
 }
 
+@media screen and (min-width: 1301px) {
+  .home .homeDiffContainer .homeDiff .homeDiffImg {
+    margin-bottom: 0;
+    max-width: 550px;
+  }
+}
+
 @media screen and (min-width: 1901px) {
   .home .homeDiffContainer .homeDiff .homeDiffImg {
-    max-width: 550px;
+    max-width: 650px;
+    margin-top: -200px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1304,7 +1305,7 @@
 
 @media screen and (min-width: 621px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 300px;
+    height: 685px;
     width: 0.1px;
     max-width: 2px;
     border-bottom: none;
@@ -1315,19 +1316,19 @@
 
 @media screen and (min-width: 889px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 380px;
+    height: 600px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 450px;
+    height: 775px;
   }
 }
 
-@media screen and (min-width: 1351px) {
+@media screen and (min-width: 1901px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 500px;
+    height: 785px;
   }
 }
 
@@ -1349,26 +1350,14 @@
   .home .homeDiffContainer .homeDiffVs {
     position: absolute;
     left: 50%;
-    margin-top: 135px;
+    top: 25%;
     margin-left: -17px;
-  }
-}
-
-@media screen and (min-width: 889px) {
-  .home .homeDiffContainer .homeDiffVs {
-    margin-top: 190px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiffVs {
-    margin-top: 210px;
-  }
-}
-
-@media screen and (min-width: 1351px) {
-  .home .homeDiffContainer .homeDiffVs {
-    margin-top: 235px;
+    top: 30%;
   }
 }
 
@@ -1683,18 +1672,19 @@
 }
 
 .home .homeHire .hire {
+  max-width: 1400px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background: #ff6498;
   border-radius: 56px;
-  padding: 10% 5%;
+  padding: 8% 5%;
   margin-bottom: 50px;
 }
 
@@ -1712,6 +1702,15 @@
         -ms-flex-pack: center;
             justify-content: center;
     border-radius: 10px;
+    padding: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeHire .hire {
+    padding: 12% 5%;
+    padding-bottom: 5%;
   }
 }
 

@@ -8,7 +8,7 @@ const Hire = () => {
       <div className={styles.hire}>
         <Fade delay={250}>
           <p className={styles.hireContent}>
-            Hire The Best Developers And Designers Around!
+            Hire the best developers and designers around!
           </p>
         </Fade>
         <div className={styles.hireRight}>

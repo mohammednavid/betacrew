@@ -253,7 +253,7 @@ const HomePage = () => {
           <ul>
           <Fade>
             <li className={styles.homeWWDList}>
-            Our Pods are very flexible, and can be scaled up/down at any point, according to the client's needs.
+            Our Pods are very flexible, and can be scaled up/down at any point, according to the client's specifications.
             </li>
           </Fade>
           <Fade>
@@ -263,7 +263,7 @@ const HomePage = () => {
           </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
-            The Pods help accelerating the development of your software.
+            The Pods help in accelerating the development of the client's software.
             </li>
           </Fade>
           <Fade>
@@ -271,11 +271,11 @@ const HomePage = () => {
             Clients can reap the benefits of skilled developers and engineers from the BetaCrew team when their own in-house team may lack such expertise.
             </li>
           </Fade>
-          {/* <Fade>
+          <Fade>
             <li className={styles.homeWWDList}>
             In addition to all these, clients can cut back on their total cost, since Pods don’t require hiring on pay-roll. Instead, they utilize our experts on tech stack for their module on a contractual basis.
             </li>
-          </Fade> */}
+          </Fade>
           <Fade>
             <li className={styles.homeWWDList}>
               The Pods come with various Crew Levels for ease of selection according to your specifications.
@@ -508,7 +508,7 @@ const HomePage = () => {
             <div className={styles.hire}>
               <Fade delay={250}>
                 <p className={styles.hireContent}>
-                  Hire The Best Developers And Designers Around!
+                  Hire the best developers and designers around!
                 </p>
               </Fade>
               <div className={styles.hireRight}>
