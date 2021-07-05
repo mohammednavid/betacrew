@@ -18,8 +18,8 @@ const Menu = ({ menu, setMenu }) => {
           </li>
           <li className={styles.menuLeftList}>
             02.
-            <Link href="/our-work">
-              <a className={styles.menuLeftLink}>Work</a>
+            <Link href="/case-studies">
+              <a className={styles.menuLeftLink}>Case studies</a>
             </Link>
           </li>
           <li className={styles.menuLeftList}>
