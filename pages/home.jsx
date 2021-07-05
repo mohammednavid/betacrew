@@ -439,7 +439,7 @@ const HomePage = () => {
           </Fade>
               <Fade>
           <div className={styles.homeCaseStudiesCards}>
-            <Link href="/our-work/case-study-1">
+            <Link href="/case-studies/bild-case-study">
                 <div className={styles.homeCaseStudiesCard}>
                   <Image
                     src="/images/bild.png"
@@ -449,7 +449,7 @@ const HomePage = () => {
                   />
                 </div>
             </Link>
-            <Link href="/our-work/case-study-2">
+            <Link href="/case-studies/stopspoof-case-study">
                 <div className={styles.homeCaseStudiesCard2}>
                   <Image
                     src="/images/stopspoof.png"
