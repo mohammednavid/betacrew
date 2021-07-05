@@ -19,7 +19,7 @@ const Menu = ({ menu, setMenu }) => {
           <li className={styles.menuLeftList}>
             02.
             <Link href="/case-studies">
-              <a className={styles.menuLeftLink}>Case studies</a>
+              <a className={styles.menuLeftLink}>Case Studies</a>
             </Link>
           </li>
           <li className={styles.menuLeftList}>
@@ -31,13 +31,13 @@ const Menu = ({ menu, setMenu }) => {
           <li className={styles.menuLeftList}>
             04.
             <Link href="/about">
-              <a className={styles.menuLeftLink}>About</a>
+              <a className={styles.menuLeftLink}>About Us</a>
             </Link>
           </li>
           <li className={styles.menuLeftList}>
             05.
             <Link href="/how-it-works">
-              <a className={styles.menuLeftLink}>How it works</a>
+              <a className={styles.menuLeftLink}>How It Works</a>
             </Link>
           </li>
           <Link href="/contact">

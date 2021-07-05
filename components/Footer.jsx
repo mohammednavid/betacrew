@@ -20,12 +20,12 @@ const Footer = () => {
         <ul>
           <li>
             <Link href="/case-studies">
-              <a>Case studies</a>
+              <a>Case Studies</a>
             </Link>
           </li>
           <li>
             <Link href="/how-it-works">
-              <a>How it works</a>
+              <a>How It Works</a>
             </Link>
           </li>
           <li>
@@ -35,7 +35,7 @@ const Footer = () => {
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              <a>About Us</a>
             </Link>
           </li>
         </ul>

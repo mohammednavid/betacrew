@@ -28,18 +28,18 @@ const Header = () => {
       </div>
       <div className={styles.headerDesktop}>
         <Link href="/case-studies">
-          <a className={router.pathname == "/case-studies" ? styles.headerActive:styles.headerLink}>Case studies</a>
+          <a className={router.pathname == "/case-studies" ? styles.headerActive:styles.headerLink}>Case Studies</a>
         </Link>
         <Link href="/how-it-works">
-          <a className={router.pathname == "/how-it-works" ? styles.headerActive:styles.headerLink}>How it works</a>
+          <a className={router.pathname == "/how-it-works" ? styles.headerActive:styles.headerLink}>How It Works</a>
         </Link>
         <Link href="/about">
-          <a className={router.pathname == "/about" ? styles.headerActive:styles.headerLink}>About</a>
+          <a className={router.pathname == "/about" ? styles.headerActive:styles.headerLink}>About Us</a>
         </Link>
         <Link href="/contact">
           <a className={router.pathname == "/contact" ? styles.headerActive:styles.headerLink}>Contact</a>
         </Link>
-          <a className={styles.headerButton} href="https://calendly.com/meetbetacrew" target="_blank">Book a meeting</a>
+          <a className={styles.headerButton} href="https://calendly.com/meetbetacrew" target="_blank">Book A Meeting</a>
       </div>
     </nav>
   );
