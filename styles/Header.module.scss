@@ -10,11 +10,15 @@
     padding-left: 0%;
     padding-right: 5%;
   }
+  @media screen and (max-width: 1200px) {
+    padding-left: 0%;
+    padding-right: 5%;
+  }
   .headerLogo {
-      width: 300px;
-      height:200px;
-      cursor: pointer;
-    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    margin-top: 40px;
     @media screen and (max-width: 888px) {
       width: 300px;
       margin-left: -10px;
@@ -29,14 +33,17 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    height:30px;
+    height: 30px;
+    @media screen and (min-width: 889px) {
+      display: none;
+    }
     p {
-        font-family:Graphik;
-        letter-spacing: 0px;
-        color: #2A539C;
-        text-shadow: 0px 30px 60px #00000014;
-        font-size: 28px;
-        font-weight: 600;
+      font-family: Graphik;
+      letter-spacing: 0px;
+      color: #2a539c;
+      text-shadow: 0px 30px 60px #00000014;
+      font-size: 28px;
+      font-weight: 600;
       padding-right: 20px;
       @media screen and (max-width: 1800px) {
         font-size: 22px;
@@ -44,6 +51,33 @@
       @media screen and (max-width: 620px) {
         display: none;
       }
+    }
+  }
+  .headerDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 35vw;
+    @media screen and (max-width: 888px) {
+      display: none;
+    }
+    .headerLink {
+      font-family: Graphik;
+      letter-spacing: 0px;
+      color: #2a539c;
+      text-shadow: 0px 30px 60px #00000014;
+      font-size: 24px;
+      white-space: nowrap;
+      font-weight: 600;
+      padding-right: 20px;
+    }
+    .headerButton {
+      margin-left: 5%;
+      color: #fff;
+      background: #2a539c;
+      padding: 12px 25px;
+      border: 3px solid transparent;
+      border-radius: 8px;
     }
   }
 }
