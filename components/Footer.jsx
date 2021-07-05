@@ -19,8 +19,8 @@ const Footer = () => {
         </Link>
         <ul>
           <li>
-            <Link href="/our-work">
-              <a>Work</a>
+            <Link href="/case-studies">
+              <a>Case studies</a>
             </Link>
           </li>
           <li>
@@ -49,9 +49,9 @@ const Footer = () => {
           <li>
             <a href="https://www.facebook.com/BetaCrewHQ" target="_blank">Facebook</a>
           </li>
-          <li>
+          {/* <li>
             <a target="_blank">Medium</a>
-          </li>
+          </li> */}
         </ul>
         <p className={styles.footerCopyright}>
           © <span>Copyright@{new Date().getFullYear()}</span>

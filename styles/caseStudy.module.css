@@ -33,6 +33,12 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 3% 5% 5% 5%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent {
     padding: 3% 9% 5% 9%;
   }
 }
@@ -226,9 +232,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-wrap: wrap;
@@ -239,134 +245,56 @@
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
 }
 
 .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p {
   padding-top: 50px;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 32px;
   color: #3b537c;
   min-width: 30vw;
   text-align: center;
   font-family: Graphik Bold;
+  max-width: 140px;
 }
 
 @media screen and (min-width: 621px) and (max-width: 888px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p {
+    max-width: 160px;
     min-width: auto;
-    font-size: 21px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
   }
 }
 
 @media screen and (min-width: 889px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p {
     min-width: auto;
-    font-size: 18px;
-    line-height: 40px;
+    max-width: 160px;
+    font-size: 15px;
+    line-height: 30px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p {
     min-width: auto;
-    font-size: 21px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p {
-    font-size: 25px;
-    line-height: 55px;
+    max-width: 200px;
+    font-size: 22px;
+    line-height: 45px;
   }
 }
 
 .caseStudy .caseStudyAll .caseStudyContainer .caseStudyContent .caseStudyDetailsBottom p span {
   font-family: Graphik;
-}
-
-.caseStudy .caseStudyAll .caseStudyDescpHeader,
-.caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-  text-align: left;
-  font-size: 22px;
-  line-height: 28px;
-  font-family: Graphik Bold;
-  text-shadow: 0px 30px 60px #00000017;
-  color: #2a539c;
-  padding: 30px 5% 20px 5%;
-}
-
-@media screen and (min-width: 621px) {
-  .caseStudy .caseStudyAll .caseStudyDescpHeader,
-  .caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-    padding: 30px 5% 50px 5%;
-    font-size: 36px;
-    line-height: 56px;
-  }
-}
-
-@media screen and (min-width: 889px) {
-  .caseStudy .caseStudyAll .caseStudyDescpHeader,
-  .caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-    padding: 0px 9% 30px 9%;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .caseStudy .caseStudyAll .caseStudyDescpHeader,
-  .caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-    font-size: 48px;
-    line-height: 68px;
-  }
-}
-
-@media screen and (min-width: 1901px) {
-  .caseStudy .caseStudyAll .caseStudyDescpHeader,
-  .caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-    font-size: 65px;
-    line-height: 85px;
-  }
-}
-
-@media screen and (min-width: 1921px) {
-  .caseStudy .caseStudyAll .caseStudyDescpHeader2 {
-    margin-top: 40%;
-  }
-}
-
-.caseStudy .caseStudyAll .caseStudyDescpFull {
-  text-align: left;
-  font-family: Graphik Light;
-  font-size: 18px;
-  line-height: 30px;
-  color: #545454d4;
-  padding: 0 5% 30px 5%;
-}
-
-@media screen and (min-width: 621px) {
-  .caseStudy .caseStudyAll .caseStudyDescpFull {
-    padding: 0 5% 50px 5%;
-    font-size: 22px;
-    line-height: 32px;
-  }
-}
-
-@media screen and (min-width: 889px) {
-  .caseStudy .caseStudyAll .caseStudyDescpFull {
-    padding: 0 9% 50px 9%;
-  }
-}
-
-@media screen and (min-width: 1901px) {
-  .caseStudy .caseStudyAll .caseStudyDescpFull {
-    font-size: 24px;
-    line-height: 36px;
-  }
 }
 
 .caseStudy .caseStudyHire {
@@ -380,42 +308,107 @@
   }
 }
 
+.caseStudyBottom {
+  padding-top: 3%;
+}
+
 @media screen and (min-width: 1201px) {
   .caseStudyBottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
-.caseStudyBottom ul {
-  padding-left: 10%;
-  margin-bottom: 50px;
-  width: 70%;
+.caseStudyBottom .caseStudyBottomLeft {
+  padding: 30px 5% 20px 5%;
+}
+
+@media screen and (min-width: 889px) {
+  .caseStudyBottom .caseStudyBottomLeft {
+    max-width: 100%;
+    padding: 0 5% 5% 5%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .caseStudyBottom .caseStudyBottomLeft {
+    max-width: 45vw;
+    padding: 0 20px 5% 9%;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .caseStudyBottom .caseStudyBottomLeft {
+    padding: 0 30px 5% 9%;
+    max-width: 46%;
+  }
+}
+
+.caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader,
+.caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: Graphik Bold;
+  text-shadow: 0px 30px 60px #00000017;
+  color: #2a539c;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 621px) {
-  .caseStudyBottom ul {
-    padding: 0 5% 0 10%;
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader,
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader2 {
+    font-size: 36px;
+    line-height: 56px;
   }
 }
 
-.caseStudyBottom ul .caseStudyList {
-  font-size: 22px;
-  font-family: Graphik Bold;
-  line-height: 32px;
-  padding-bottom: 20px;
-  color: #545454d4;
-  list-style: disc;
-  white-space: nowrap;
+@media screen and (min-width: 1201px) {
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader,
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader2 {
+    font-size: 48px;
+    line-height: 68px;
+  }
 }
 
-.caseStudyBottom ul .caseStudyList span {
-  white-space: normal;
+@media screen and (min-width: 1901px) {
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader,
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader2 {
+    font-size: 65px;
+    line-height: 85px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpHeader2 {
+    margin-top: 40%;
+  }
+}
+
+.caseStudyBottom .caseStudyBottomLeft .caseStudyDescpFull {
+  text-align: left;
   font-family: Graphik Light;
+  font-size: 18px;
+  line-height: 30px;
+  color: #545454d4;
+}
+
+@media screen and (min-width: 621px) {
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpFull {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .caseStudyBottom .caseStudyBottomLeft .caseStudyDescpFull {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 .caseStudyBottom .caseStudyPerson {
@@ -427,8 +420,7 @@
 
 @media screen and (min-width: 889px) {
   .caseStudyBottom .caseStudyPerson {
-    border-radius: 30px;
-    padding: 2% 0%;
+    padding: 5% 0%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -439,8 +431,13 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin-right: 9%;
-    margin-top: -30px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .caseStudyBottom .caseStudyPerson {
+    border-radius: 30px;
   }
 }
 

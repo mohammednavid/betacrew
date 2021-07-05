@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="410" height="209.792" viewBox="0 0 410 209.792">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392" height="209.792" viewBox="0 0 392 209.792">
   <defs>
-    <filter id="Betacrew" x="86" y="19.617" width="324" height="184" filterUnits="userSpaceOnUse">
+    <filter id="Betacrew" x="68" y="14.2" width="324" height="184" filterUnits="userSpaceOnUse">
       <feOffset dy="30" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="25" result="blur"/>
       <feFlood flood-opacity="0.09"/>
@@ -22,9 +22,9 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Betacrewlogonavbar" transform="translate(75 45)">
+  <g id="Group_2963" data-name="Group 2963" transform="translate(75 45)">
     <g transform="matrix(1, 0, 0, 1, -75, -45)" filter="url(#Betacrew)">
-      <text id="Betacrew-2" data-name="Betacrew" transform="translate(161 91.62)" fill="#101010" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em" opacity="0.91"><tspan x="0" y="0">BETACREW</tspan></text>
+      <text id="Betacrew-2" data-name="Betacrew" transform="translate(143 86.2)" fill="#101010" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em" opacity="0.91"><tspan x="0" y="0">BETACREW</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, -75, -45)" filter="url(#Path_2053)">
       <path id="Path_2053-2" data-name="Path 2053" d="M231.83,473.9V509.62l23.491-32.212c2.541-3.27,9.391-4.344,13.073-2.047h0c6.655,2.335,6.379,8.748,3.557,13.359l-8.428,13.739c-1.573,2.57-2.7,7.187-.346,9.25h0c2.163,1.913,7.569,2.907,9.364.711l15.03-19.237a5.926,5.926,0,0,0,1.254-3.639v-5.2c0-10.42-9.661-18.869-21.577-18.869H241.464C236.139,465.475,231.83,469.248,231.83,473.9Z" transform="translate(-156.83 -420.47)" fill="#2a539c" opacity="0.9"/>

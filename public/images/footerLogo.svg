@@ -15,9 +15,9 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Betacrewlogo_Footer" transform="translate(-203 -10428.081)">
-    <text id="BETACREW" transform="translate(278 10589.976)" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em" opacity="0.91"><tspan x="0" y="0">BETACREW</tspan></text>
-    <g id="weblogo" transform="translate(278 10473.081)">
+  <g id="Group_2965" data-name="Group 2965" transform="translate(-203 -10428.082)">
+    <text id="BETACREW" transform="translate(278 10563.977)" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em" opacity="0.91"><tspan x="0" y="0">BETACREW</tspan></text>
+    <g id="weblogo" transform="translate(278 10473.082)">
       <g transform="matrix(1, 0, 0, 1, -75, -45)" filter="url(#Path_2053)">
         <path id="Path_2053-2" data-name="Path 2053" d="M231.83,473.9V509.62l23.491-32.212c2.541-3.27,9.391-4.344,13.073-2.047h0c6.655,2.335,6.379,8.748,3.557,13.359l-8.428,13.739c-1.573,2.57-2.7,7.187-.346,9.25h0c2.163,1.913,7.569,2.907,9.364.711l15.03-19.237a5.926,5.926,0,0,0,1.254-3.639v-5.2c0-10.42-9.661-18.869-21.577-18.869H241.464C236.139,465.475,231.83,469.248,231.83,473.9Z" transform="translate(-156.83 -420.47)" fill="#2a539c" opacity="0.9"/>
       </g>

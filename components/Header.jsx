@@ -27,8 +27,8 @@ const Header = () => {
         />
       </div>
       <div className={styles.headerDesktop}>
-        <Link href="/our-work">
-          <a className={router.pathname == "/our-work" ? styles.headerActive:styles.headerLink}>Work</a>
+        <Link href="/case-studies">
+          <a className={router.pathname == "/case-studies" ? styles.headerActive:styles.headerLink}>Case studies</a>
         </Link>
         <Link href="/how-it-works">
           <a className={router.pathname == "/how-it-works" ? styles.headerActive:styles.headerLink}>How it works</a>
@@ -39,9 +39,7 @@ const Header = () => {
         <Link href="/contact">
           <a className={router.pathname == "/contact" ? styles.headerActive:styles.headerLink}>Contact</a>
         </Link>
-        <Link href="/contact">
-          <a className={styles.headerButton}>Book a meeting</a>
-        </Link>
+          <a className={styles.headerButton} href="https://calendly.com/meetbetacrew" target="_blank">Book a meeting</a>
       </div>
     </nav>
   );

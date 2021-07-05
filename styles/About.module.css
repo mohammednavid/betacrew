@@ -404,7 +404,7 @@
 
 @media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent {
-    max-width: 370px;
+    max-width: 390px;
   }
 }
 
@@ -420,8 +420,8 @@
 @media screen and (max-width: 1900px) {
   .aboutCulture .aboutCultureContainer .aboutCultureContent .aboutCultureTitle {
     padding-top: 70px;
-    font-size: 48px;
-    line-height: 75px;
+    font-size: 42px;
+    line-height: 62px;
   }
 }
 

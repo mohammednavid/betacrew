@@ -33,7 +33,7 @@
   }
   .workContainer {
     @media screen and (min-width: 889px) {
-      padding-bottom: 100px;
+      padding-bottom: 50px;
     }
     .workContent {
       width: 100%;
@@ -188,41 +188,44 @@
           line-height: 35px;
         }
       }
-      .workDetailsBottom {
+      .caseStudyDetailsBottom {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-around;
         flex-wrap: wrap;
         @media screen and (min-width: 621px) {
           flex-wrap: nowrap;
-          align-items: flex-start;
         }
         p {
           padding-top: 50px;
-          font-size: 18px;
-          line-height: 40px;
+          font-size: 16px;
+          line-height: 32px;
           color: #3b537c;
           min-width: 30vw;
           text-align: center;
           font-family: Graphik Bold;
+          max-width: 140px;
           @media screen and (min-width: 621px) and (max-width: 888px) {
+            max-width: 160px;
             min-width: auto;
-            font-size: 21px;
-            line-height: 42px;
+            font-size: 18px;
+            line-height: 36px;
           }
           @media screen and (min-width: 889px) {
             min-width: auto;
-            font-size: 18px;
-            line-height: 40px;
+            max-width: 160px;
+            font-size: 15px;
+            line-height: 30px;
           }
           @media screen and (min-width: 1201px) {
             min-width: auto;
-            font-size: 21px;
-            line-height: 42px;
+            font-size: 18px;
+            line-height: 36px;
           }
           @media screen and (min-width: 1901px) {
-            font-size: 25px;
-            line-height: 55px;
+            max-width: 200px;
+            font-size: 22px;
+            line-height: 45px;
           }
           span {
             font-family: Graphik;

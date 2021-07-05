@@ -118,11 +118,11 @@ const About = () => {
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
                     <h3 className={styles.aboutCultureTitle}>
-                      {val.secondTitle}
+                      {val.fourthTitle}
                     </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
-                        {val.secondDescp}
+                        {val.fourthDescp}
                       </p>
                     </Fade>
                   </div>
@@ -144,11 +144,11 @@ const About = () => {
                 <Fade delay={200}>
                   <div className={styles.aboutCultureContent}>
                     <h3 className={styles.aboutCultureTitle}>
-                      {val.fourthTitle}
+                      {val.secondTitle}
                     </h3>
                     <Fade delay={400}>
                       <p className={styles.aboutCultureDescp}>
-                        {val.fourthDescp}
+                        {val.secondDescp}
                       </p>
                     </Fade>
                   </div>

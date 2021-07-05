@@ -14,7 +14,7 @@ const caseStudy = () => {
   return (
     <>
       <Head>
-        <title>Case Study</title>
+        <title>BetaCrew | Case Studies</title>
         <meta
           name="description"
           content="Recent Betacrew Work - Recent case studies on how we have helped companies"
@@ -68,63 +68,49 @@ const caseStudy = () => {
                           <div className={styles.caseStudyDetailsBottom}>
                             <Fade>
                               <p>
-                                {val.firstTeamScaled}
+                                <span>Team</span>
                                 <br />
-                                <span>Team Scaled</span>
+                                {val.firstPod}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.firstNPS}
+                                <span>Faster</span>
                                 <br />
-                                <span>NPS</span>
+                                {val.firstBuildingPace}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.firstSaved}
+                                <span>Relationship</span>
                                 <br />
-                                <span>saved</span>
+                                {val.firstRelationship}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.firstFaster}
+                                <span>Stack</span>
                                 <br />
-                                <span>faster</span>
+                                {val.firstTechnology}
                               </p>
                             </Fade>
                           </div>
                         </div>
                       </Fade>
                     </div>
-                    <Fade>
-                      <h2 className={styles.caseStudyDescpHeader}>
-                        Context and Vision
-                      </h2>
-                    </Fade>
-                    <Fade>
-                      <p className={styles.caseStudyDescpFull}>
-                        {val.firstFullDescp}
-                      </p>
-                    </Fade>
                     <div className={styles.caseStudyBottom}>
-                      <ul>
+                      <div className={styles.caseStudyBottomLeft}>
                         <Fade>
-                          <li className={styles.caseStudyList}>
-                            Pod availed: <br/><span>{val.firstPod}</span>
-                          </li>
-                          <li className={styles.caseStudyList}>
-                            Project-building pace: <br/><span>{val.firstBuildingPace}</span>
-                          </li>
-                          <li className={styles.caseStudyList}>
-                            Current relationship: <br/><span>{val.firstRelationship}</span>
-                          </li>
-                          <li className={styles.caseStudyList}>
-                            Technology provided: <br/><span>{val.firstTechnology}</span>
-                          </li>
+                          <h2 className={styles.caseStudyDescpHeader}>
+                            Context and Vision
+                          </h2>
                         </Fade>
-                      </ul>
+                        <Fade>
+                          <p className={styles.caseStudyDescpFull}>
+                            {val.firstFullDescp}
+                          </p>
+                        </Fade>
+                      </div>
                       <div className={styles.caseStudyPerson}>
                         <Fade>
                           <div className={styles.caseStudyPersonImg}>
@@ -202,30 +188,30 @@ const caseStudy = () => {
                           <div className={styles.caseStudyDetailsBottom}>
                             <Fade>
                               <p>
-                                {val.secondTeamScaled}
+                                <span>Team</span>
                                 <br />
-                                <span>Team Scaled</span>
+                                {val.firstPod}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.secondNPS}
+                                <span>Faster</span>
                                 <br />
-                                <span>NPS</span>
+                                {val.firstBuildingPace}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.secondSaved}
+                                <span>Relationship</span>
                                 <br />
-                                <span>saved</span>
+                                {val.firstRelationship}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.secondFaster}
+                                <span>Stack</span>
                                 <br />
-                                <span>faster</span>
+                                {val.firstTechnology}
                               </p>
                             </Fade>
                           </div>
@@ -318,30 +304,30 @@ const caseStudy = () => {
                           <div className={styles.caseStudyDetailsBottom}>
                             <Fade>
                               <p>
-                                {val.thirdTeamScaled}
+                                <span>Team</span>
                                 <br />
-                                <span>Team Scaled</span>
+                                {val.firstPod}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.thirdNPS}
+                                <span>Faster</span>
                                 <br />
-                                <span>NPS</span>
+                                {val.firstBuildingPace}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.thirdSaved}
+                                <span>Relationship</span>
                                 <br />
-                                <span>saved</span>
+                                {val.firstRelationship}
                               </p>
                             </Fade>
                             <Fade>
                               <p>
-                                {val.thirdFaster}
+                                <span>Stack</span>
                                 <br />
-                                <span>faster</span>
+                                {val.firstTechnology}
                               </p>
                             </Fade>
                           </div>

@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 889px) {
   .work .workContainer {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -284,13 +284,13 @@
   }
 }
 
-.work .workContainer .workContent .workDetailsBottom {
+.work .workContainer .workContent .caseStudyDetailsBottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-wrap: wrap;
@@ -298,57 +298,58 @@
 }
 
 @media screen and (min-width: 621px) {
-  .work .workContainer .workContent .workDetailsBottom {
+  .work .workContainer .workContent .caseStudyDetailsBottom {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
 }
 
-.work .workContainer .workContent .workDetailsBottom p {
+.work .workContainer .workContent .caseStudyDetailsBottom p {
   padding-top: 50px;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 32px;
   color: #3b537c;
   min-width: 30vw;
   text-align: center;
   font-family: Graphik Bold;
+  max-width: 140px;
 }
 
 @media screen and (min-width: 621px) and (max-width: 888px) {
-  .work .workContainer .workContent .workDetailsBottom p {
+  .work .workContainer .workContent .caseStudyDetailsBottom p {
+    max-width: 160px;
     min-width: auto;
-    font-size: 21px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
   }
 }
 
 @media screen and (min-width: 889px) {
-  .work .workContainer .workContent .workDetailsBottom p {
+  .work .workContainer .workContent .caseStudyDetailsBottom p {
     min-width: auto;
-    font-size: 18px;
-    line-height: 40px;
+    max-width: 160px;
+    font-size: 15px;
+    line-height: 30px;
   }
 }
 
 @media screen and (min-width: 1201px) {
-  .work .workContainer .workContent .workDetailsBottom p {
+  .work .workContainer .workContent .caseStudyDetailsBottom p {
     min-width: auto;
-    font-size: 21px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
   }
 }
 
 @media screen and (min-width: 1901px) {
-  .work .workContainer .workContent .workDetailsBottom p {
-    font-size: 25px;
-    line-height: 55px;
+  .work .workContainer .workContent .caseStudyDetailsBottom p {
+    max-width: 200px;
+    font-size: 22px;
+    line-height: 45px;
   }
 }
 
-.work .workContainer .workContent .workDetailsBottom p span {
+.work .workContainer .workContent .caseStudyDetailsBottom p span {
   font-family: Graphik;
 }
 /*# sourceMappingURL=ourWork.module.css.map */

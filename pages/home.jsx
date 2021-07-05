@@ -23,7 +23,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Betacrew</title>
+        <title>BetaCrew |  Demand Elastic Tech Teams</title>
         <meta
           name="description"
           content="Betacrerw - A team of developers for your organisation"

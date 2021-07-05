@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <>
       <Head>
-        <title>Recent Betacrew Work</title>
+        <title>BetaCrew | Case Studies</title>
         <meta
           name="description"
           content="Recent Betacrew Work - Recent case studies on how we have helped companies"
@@ -38,7 +38,7 @@ const Work = () => {
                     <p className={styles.workDescp}>{val.firstDescp}</p>
                   </Fade>
                   <Fade>
-                    <Link href={"/our-work/bild-case-study"}>
+                    <Link href={"/case-studies/bild-case-study"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
                   </Fade>
@@ -58,33 +58,33 @@ const Work = () => {
                     <Fade>
                       <p className={styles.workComment}>"{val.firstComment}"</p>
                     </Fade>
-                    <div className={styles.workDetailsBottom}>
+                    <div className={styles.caseStudyDetailsBottom}>
                       <Fade>
                         <p>
-                          {val.firstTeamScaled}
+                          <span>Team</span>
                           <br />
-                          <span>Team Scaled</span>
+                          {val.firstPod}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.firstNPS}
+                          <span>Faster</span>
                           <br />
-                          <span>NPS</span>
+                          {val.firstBuildingPace}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.firstSaved}
+                          <span>Relationship</span>
                           <br />
-                          <span>saved</span>
+                          {val.firstRelationship}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.firstFaster}
+                          <span>Stack</span>
                           <br />
-                          <span>faster</span>
+                          {val.firstTechnology}
                         </p>
                       </Fade>
                     </div>
@@ -110,33 +110,33 @@ const Work = () => {
                         "{val.secondComment}"
                       </p>
                     </Fade>
-                    <div className={styles.workDetailsBottom}>
+                    <div className={styles.caseStudyDetailsBottom}>
                       <Fade>
                         <p>
-                          {val.secondTeamScaled}
+                          <span>Team</span>
                           <br />
-                          <span>Team Scaled</span>
+                          {val.firstPod}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.secondNPS}
+                          <span>Faster</span>
                           <br />
-                          <span>NPS</span>
+                          {val.firstBuildingPace}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.secondSaved}
+                          <span>Relationship</span>
                           <br />
-                          <span>saved</span>
+                          {val.firstRelationship}
                         </p>
                       </Fade>
                       <Fade>
                         <p>
-                          {val.secondFaster}
+                          <span>Stack</span>
                           <br />
-                          <span>faster</span>
+                          {val.firstTechnology}
                         </p>
                       </Fade>
                     </div>
@@ -150,7 +150,7 @@ const Work = () => {
                     <p className={styles.workDescp}>{val.secondDescp}</p>
                   </Fade>
                   <Fade>
-                    <Link href={"/our-work/stopspoof-case-study"}>
+                    <Link href={"/case-studies/stopspoof-case-study"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
                   </Fade>
@@ -159,64 +159,64 @@ const Work = () => {
               {/* third */}
               <div className={styles.workContent}>
                 <div className={styles.workDescpContainer}>
-                <Fade>
-                  <h3 className={styles.workName}>{val.thirdName}</h3>
-                  </Fade>
-                <Fade>
-                  <p className={styles.workDescp}>{val.thirdDescp}</p>
+                  <Fade>
+                    <h3 className={styles.workName}>{val.thirdName}</h3>
                   </Fade>
                   <Fade>
-                  <Link href={"/our-work/nav360-case-study"}>
-                    <p className={styles.workView}>VIEW CASE STUDY</p>
-                  </Link>
+                    <p className={styles.workDescp}>{val.thirdDescp}</p>
+                  </Fade>
+                  <Fade>
+                    <Link href={"/case-studies/nav360-case-study"}>
+                      <p className={styles.workView}>VIEW CASE STUDY</p>
+                    </Link>
                   </Fade>
                 </div>
                 <Fade delay={200}>
-                <div className={styles.workDetails3}>
-                  <Fade>
-                  <div className={styles.workImg}>
-                    <Image
-                      src={val.thirdLogo}
-                      alt={val.thirdName}
-                      width={270}
-                      height={100}
-                      />
+                  <div className={styles.workDetails3}>
+                    <Fade>
+                      <div className={styles.workImg}>
+                        <Image
+                          src={val.thirdLogo}
+                          alt={val.thirdName}
+                          width={270}
+                          height={100}
+                        />
+                      </div>
+                    </Fade>
+                    <Fade>
+                      <p className={styles.workComment}>"{val.thirdComment}"</p>
+                    </Fade>
+                    <div className={styles.caseStudyDetailsBottom}>
+                      <Fade>
+                        <p>
+                          <span>Team</span>
+                          <br />
+                          {val.firstPod}
+                        </p>
+                      </Fade>
+                      <Fade>
+                        <p>
+                          <span>Faster</span>
+                          <br />
+                          {val.firstBuildingPace}
+                        </p>
+                      </Fade>
+                      <Fade>
+                        <p>
+                          <span>Relationship</span>
+                          <br />
+                          {val.firstRelationship}
+                        </p>
+                      </Fade>
+                      <Fade>
+                        <p>
+                          <span>Stack</span>
+                          <br />
+                          {val.firstTechnology}
+                        </p>
+                      </Fade>
+                    </div>
                   </div>
-                  </Fade>
-                  <Fade>
-                  <p className={styles.workComment}>"{val.thirdComment}"</p>
-                  </Fade>
-                  <div className={styles.workDetailsBottom}>
-                    <Fade>
-                    <p>
-                      {val.thirdTeamScaled}
-                      <br />
-                      <span>Team Scaled</span>
-                    </p>
-                    </Fade>
-                    <Fade>
-                    <p>
-                      {val.thirdNPS}
-                      <br />
-                      <span>NPS</span>
-                    </p>
-                    </Fade>
-                    <Fade>
-                    <p>
-                      {val.thirdSaved}
-                      <br />
-                      <span>saved</span>
-                    </p>
-                    </Fade>
-                    <Fade>
-                    <p>
-                      {val.thirdFaster}
-                      <br />
-                      <span>faster</span>
-                    </p>
-                    </Fade>
-                  </div>
-                </div>
                 </Fade>
               </div>
             </div>

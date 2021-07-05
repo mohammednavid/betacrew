@@ -244,7 +244,7 @@
     .aboutCultureContent {
       max-width: 530px;
       @media screen and (max-width: 1900px) {
-        max-width: 370px;
+        max-width: 390px;
       }
       .aboutCultureTitle {
         text-align: left;
@@ -255,8 +255,8 @@
         color: #2a539c;
         @media screen and (max-width: 1900px) {
           padding-top: 70px;
-          font-size: 48px;
-          line-height: 75px;
+          font-size: 42px;
+          line-height: 62px;
         }
 
         @media screen and (min-width: 621px) and (max-width: 888px) {
