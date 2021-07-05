@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 889px) {
   .HIW {
-    padding: 5% 0;
+    padding: 3% 0;
   }
 }
 
@@ -16,7 +16,6 @@
   letter-spacing: 0px;
   text-shadow: 0px 30px 60px #00000017;
   padding-bottom: 20px;
-  max-width: 310px;
   margin: 0 auto;
 }
 
@@ -24,7 +23,6 @@
   .HIW .HIW_Title {
     font-size: 36px;
     line-height: 52px;
-    max-width: 470px;
   }
 }
 
@@ -32,7 +30,6 @@
   .HIW .HIW_Title {
     font-size: 48px;
     line-height: 64px;
-    max-width: 630px;
   }
 }
 
@@ -40,7 +37,6 @@
   .HIW .HIW_Title {
     font-size: 67px;
     line-height: 83px;
-    max-width: 880px;
   }
 }
 
@@ -96,13 +92,13 @@
 
 @media screen and (min-width: 889px) and (max-width: 1440px) {
   .HIW .HIW_Container {
-    padding: 5% 9%;
+    padding: 0% 9%;
   }
 }
 
 @media screen and (min-width: 1441px) {
   .HIW .HIW_Container {
-    padding: 5% 0;
+    padding: 3% 0;
   }
 }
 
@@ -496,8 +492,8 @@
 
 @media screen and (min-width: 889px) {
   .HIW .HIW_Services {
-    padding: 10% 9%;
-    padding-bottom: 5%;
+    padding: 5% 9%;
+    padding-bottom: 3%;
   }
 }
 
@@ -605,17 +601,20 @@
 @media screen and (min-width: 621px) {
   .HIW .HIW_Services .HIW_ServicesContainer .HIW_ServicesContent {
     padding: 40px;
+    max-height: 200px;
   }
 }
 
 @media screen and (min-width: 889px) {
   .HIW .HIW_Services .HIW_ServicesContainer .HIW_ServicesContent {
+    max-height: 230px;
     padding: 50px 50px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .HIW .HIW_Services .HIW_ServicesContainer .HIW_ServicesContent {
+    max-height: 300px;
     padding: 70px 80px;
   }
 }
@@ -623,11 +622,13 @@
 @media screen and (min-width: 1501px) {
   .HIW .HIW_Services .HIW_ServicesContainer .HIW_ServicesContent {
     padding: 90px 100px;
+    max-height: 330px;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .HIW .HIW_Services .HIW_ServicesContainer .HIW_ServicesContent {
+    max-height: 380px;
     padding: 110px 130px;
   }
 }

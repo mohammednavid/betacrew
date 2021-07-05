@@ -3,7 +3,7 @@
   overflow: hidden;
   padding: 10% 0;
   @media screen and (min-width: 889px) {
-    padding: 5% 0;
+    padding: 3% 0;
   }
   .HIW_Title {
     text-align: center;
@@ -11,22 +11,18 @@
     letter-spacing: 0px;
     text-shadow: 0px 30px 60px #00000017;
     padding-bottom: 20px;
-    max-width: 310px;
     margin: 0 auto;
     @media screen and (min-width: 889px) {
       font-size: 36px;
       line-height: 52px;
-      max-width: 470px;
     }
     @media screen and (min-width: 1201px) {
       font-size: 48px;
       line-height: 64px;
-      max-width: 630px;
     }
     @media screen and (min-width: 1901px) {
       font-size: 67px;
       line-height: 83px;
-      max-width: 880px;
     }
     span {
       color: #5185eb;
@@ -64,10 +60,10 @@
     margin: 0 auto;
     padding: 10% 5%;
     @media screen and (min-width: 889px) and (max-width: 1440px) {
-      padding: 5% 9%;
+      padding: 0% 9%;
     }
     @media screen and (min-width: 1441px) {
-      padding: 5% 0;
+      padding: 3% 0;
     }
     .HIW_Content,
     .HIW_Content2 {
@@ -284,8 +280,8 @@
   .HIW_Services {
     padding: 10%;
     @media screen and (min-width: 889px) {
-      padding: 10% 9%;
-      padding-bottom: 5%;
+      padding: 5% 9%;
+      padding-bottom:3%;
     }
     .HIW_ServicesTitle {
       text-align: center;
@@ -343,17 +339,22 @@
         padding: 30px 20px;
         @media screen and (min-width: 621px) {
           padding: 40px;
+          max-height: 200px;
         }
         @media screen and (min-width: 889px) {
+          max-height: 230px;
           padding:50px 50px;
         }
         @media screen and (min-width: 1201px) {
+          max-height: 300px;
           padding:70px 80px;
         }
         @media screen and (min-width: 1501px) {
           padding:90px 100px;
+          max-height: 330px;
         }
         @media screen and (min-width: 1901px) {
+          max-height:380px;
           padding:110px 130px;
         }
         .HIW_ServicesImg {

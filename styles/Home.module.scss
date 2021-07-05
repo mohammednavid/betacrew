@@ -136,6 +136,9 @@
           border: 3px solid transparent;
           border-radius: 8px;
           cursor: pointer;
+          @media screen and (max-width:620px){
+            margin: 15px 0;
+          }
           @media screen and (min-width: 1201px) {
             width: 220px;
             padding: 15px 0;
@@ -162,6 +165,9 @@
           border: 3px solid #5185eb;
           cursor: pointer;
           border-radius: 8px;
+          @media screen and (max-width:620px){
+            margin: 15px 0;
+          }
           @media screen and (min-width: 1201px) {
             width: 220px;
             padding: 15px 0;

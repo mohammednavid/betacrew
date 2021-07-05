@@ -28,7 +28,7 @@ const howItWorks = () => {
       <div className={styles.HIW}>
         <Fade delay={250}>
           <h1 className={styles.HIW_Title}>
-            HOW TO SET YOUR POD-BUILDING IN MOTION<span>?</span>
+            HOW TO SET YOUR <br/><span>POD-BUILDING IN MOTION</span>?
           </h1>
         </Fade>
         <Fade delay={500}>

@@ -2,294 +2,317 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  height:100%;
-  .caseStudyAll{
-    height:100%;
-  min-height:1000px;
-  max-height: 100%;
-  .caseStudyContainer {
-    @media screen and (min-width: 889px) {
-      padding-bottom: 100px;
-    }
-    .caseStudyContent {
-      width: 100%;
-      padding: 10% 5%;
+  height: 100%;
+  .caseStudyAll {
+    height: 100%;
+    min-height: 1000px;
+    max-height: 100%;
+    .caseStudyContainer {
       @media screen and (min-width: 889px) {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5% 9%;
+        padding-bottom: 5%;
       }
-      .caseStudyDescpContainer {
+      .caseStudyContent {
+        width: 100%;
+        padding: 10% 5%;
         @media screen and (min-width: 889px) {
-          margin-right: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 3% 9% 5% 9%;
         }
-      }
-      .caseStudyTitle {
-        text-align: left;
-        font-size: 23px;
-        line-height: 32px;
-        font-family: Graphik Bold;
-        letter-spacing: 0;
-        text-shadow: 0px 30px 60px #00000017;
-        color: #5185eb;
-        @media screen and (min-width: 621px) {
-          font-size: 42px;
-          line-height: 62px;
-        }
-        @media screen and (min-width: 1201px) {
-          font-size: 54px;
-          line-height: 64px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 72px;
-          line-height: 92px;
-        }
-      }
-      .caseStudyName {
-        text-align: left;
-        font-size: 22px;
-        line-height: 28px;
-        font-family: Graphik Bold;
-        text-shadow: 0px 30px 60px #00000017;
-        color: #ff6498;
-        padding: 30px 0 20px 0;
-        @media screen and (min-width: 621px) {
-          font-size: 36px;
-          line-height: 56px;
-        }
-        @media screen and (min-width: 1201px) {
-          font-size: 48px;
-          line-height: 68px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 65px;
-          line-height: 85px;
-        }
-      }
-      .caseStudyDescp {
-        padding-bottom: 30px;
-        text-align: left;
-        font-size: 18px;
-        line-height: 30px;
-        color: #545454d4;
-        font-weight: lighter;
-        @media screen and (min-width: 621px) {
-          font-size: 22px;
-          line-height: 32px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 24px;
-          line-height: 36px;
-        }
-      }
-      .caseStudyDetails {
-        border-radius: 32px;
-        padding: 50px;
-        margin: 80px 0;
-        background: #dbf9ff;
-
-        @media screen and (min-width: 889px) {
-          padding: 80px 50px;
-          margin: 0;
-          min-width: 55%;
-        }
-      }
-      .caseStudyDetails2 {
-        border-radius: 32px;
-        padding: 50px;
-        margin: 80px 0;
-        background: #f29595;
-        @media screen and (min-width: 889px) {
-          padding: 80px 50px;
-          min-width: 55%;
-          margin: 0;
-          width: 100%;
-        }
-      }
-      .caseStudyDetails3 {
-        border-radius: 32px;
-        padding: 50px;
-        margin: 80px 0;
-        background: #e5e5e5;
-        @media screen and (min-width: 889px) {
-          min-width: 55%;
-          padding: 80px 50px;
-          margin: 0;
-          width: 100%;
-        }
-      }
-      .caseStudyImg {
-        margin: 0 auto;
-        width: 154px;
-        height: 56px;
-        margin-bottom: 50px;
-        @media screen and (min-width: 889px) {
-          margin: 0;
-          width: 175px;
-          height: 65px;
-          margin-right: auto;
-          margin-bottom: 20px;
-        }
-        @media screen and (min-width: 1901px) {
-          width: auto;
-          height: auto;
-        }
-      }
-      .caseStudyComment {
-        text-align: left;
-        font-size: 17px;
-        line-height: 27px;
-        color: #545454;
-        @media screen and (min-width: 621px) {
-          font-size: 21px;
-          line-height: 31px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 25px;
-          line-height: 35px;
-        }
-      }
-      .caseStudyDetailsBottom {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        @media screen and (min-width: 621px) {
-          flex-wrap: nowrap;
-          align-items: flex-start;
-        }
-        p {
-          padding-top: 50px;
-          font-size: 18px;
-          line-height: 40px;
-          color: #3b537c;
-          min-width: 30vw;
-          text-align: center;
-          font-family: Graphik Bold;
-          @media screen and (min-width: 621px) and (max-width: 888px) {
-            min-width: auto;
-            font-size: 21px;
-            line-height: 42px;
-          }
+        .caseStudyDescpContainer {
           @media screen and (min-width: 889px) {
-            min-width: auto;
-            font-size: 18px;
-            line-height: 40px;
+            margin-right: 4%;
+          }
+        }
+        .caseStudyTitle {
+          text-align: left;
+          font-size: 23px;
+          line-height: 32px;
+          font-family: Graphik Bold;
+          letter-spacing: 0;
+          text-shadow: 0px 30px 60px #00000017;
+          color: #5185eb;
+          @media screen and (min-width: 621px) {
+            font-size: 42px;
+            line-height: 62px;
           }
           @media screen and (min-width: 1201px) {
-            min-width: auto;
+            font-size: 54px;
+            line-height: 64px;
+          }
+          @media screen and (min-width: 1901px) {
+            font-size: 72px;
+            line-height: 92px;
+          }
+        }
+        .caseStudyName {
+          text-align: left;
+          font-size: 22px;
+          line-height: 28px;
+          font-family: Graphik Bold;
+          text-shadow: 0px 30px 60px #00000017;
+          color: #ff6498;
+          padding: 30px 0 20px 0;
+          @media screen and (min-width: 621px) {
+            font-size: 36px;
+            line-height: 56px;
+          }
+          @media screen and (min-width: 1201px) {
+            font-size: 48px;
+            line-height: 68px;
+          }
+          @media screen and (min-width: 1901px) {
+            font-size: 65px;
+            line-height: 85px;
+          }
+        }
+        .caseStudyDescp {
+          font-family:Graphik Light;
+          padding-bottom: 30px;
+          text-align: left;
+          font-size: 18px;
+          line-height: 30px;
+          color: #545454d4;
+          font-weight: lighter;
+          @media screen and (min-width: 621px) {
+            font-size: 22px;
+            line-height: 32px;
+            padding-bottom: 10px;
+          }
+          @media screen and (min-width: 1901px) {
+            font-size: 24px;
+            line-height: 36px;
+          }
+        }
+        .caseStudyDetails {
+          border-radius: 32px;
+          padding: 50px;
+          margin: 30px 0 0 0;
+          background: #dbf9ff;
+
+          @media screen and (min-width: 889px) {
+            padding: 80px 50px;
+            margin: 0;
+            min-width: 55%;
+          }
+        }
+        .caseStudyDetails2 {
+          border-radius: 32px;
+          padding: 50px;
+          margin: 30px 0 0 0;
+          background: #f29595;
+          @media screen and (min-width: 889px) {
+            padding: 80px 50px;
+            min-width: 55%;
+            margin: 0;
+            width: 100%;
+          }
+        }
+        .caseStudyDetails3 {
+          border-radius: 32px;
+          padding: 50px;
+          margin: 30px 0 0 0;
+          background: #e5e5e5;
+          @media screen and (min-width: 889px) {
+            min-width: 55%;
+            padding: 80px 50px;
+            margin: 0;
+            width: 100%;
+          }
+        }
+        .caseStudyImg {
+          margin: 0 auto;
+          width: 154px;
+          height: 56px;
+          margin-bottom: 50px;
+          @media screen and (min-width: 889px) {
+            margin: 0;
+            width: 175px;
+            height: 65px;
+            margin-right: auto;
+            margin-bottom: 20px;
+          }
+          @media screen and (min-width: 1901px) {
+            width: auto;
+            height: auto;
+          }
+        }
+        .caseStudyComment {
+          text-align: left;
+          font-size: 17px;
+          line-height: 27px;
+          color: #545454;
+          @media screen and (min-width: 621px) {
             font-size: 21px;
-            line-height: 42px;
+            line-height: 31px;
           }
           @media screen and (min-width: 1901px) {
             font-size: 25px;
-            line-height: 55px;
+            line-height: 35px;
           }
-          span {
-            font-family: Graphik;
+        }
+        .caseStudyDetailsBottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          @media screen and (min-width: 621px) {
+            flex-wrap: nowrap;
+            align-items: flex-start;
+          }
+          p {
+            padding-top: 50px;
+            font-size: 18px;
+            line-height: 40px;
+            color: #3b537c;
+            min-width: 30vw;
+            text-align: center;
+            font-family: Graphik Bold;
+            @media screen and (min-width: 621px) and (max-width: 888px) {
+              min-width: auto;
+              font-size: 21px;
+              line-height: 42px;
+            }
+            @media screen and (min-width: 889px) {
+              min-width: auto;
+              font-size: 18px;
+              line-height: 40px;
+            }
+            @media screen and (min-width: 1201px) {
+              min-width: auto;
+              font-size: 21px;
+              line-height: 42px;
+            }
+            @media screen and (min-width: 1901px) {
+              font-size: 25px;
+              line-height: 55px;
+            }
+            span {
+              font-family: Graphik ;
+            }
           }
         }
       }
     }
-  }
-  .caseStudyDescpHeader, .caseStudyDescpHeader2 {
-    text-align: left;
-    font-size: 22px;
-    line-height: 28px;
-    font-family: Graphik Bold;
-    text-shadow: 0px 30px 60px #00000017;
-    color: #2a539c;
-    padding: 30px 5% 50px 5%;
-    @media screen and (min-width: 621px) {
-      font-size: 36px;
-      line-height: 56px;
-    }
-    @media screen and (min-width: 889px) {
-      padding: 30px 9% 50px 9%;
-    }
-    @media screen and (min-width: 1201px) {
-      font-size: 48px;
-      line-height: 68px;
-    }
-    @media screen and (min-width: 1901px) {
-      font-size: 65px;
-      line-height: 85px;
-    }  
-  }
-  .caseStudyDescpHeader2{
-    @media screen and (min-width: 1921px) {
-      margin-top: 40%;
-    }
-  }
-  .caseStudyDescpFull {
-    text-align: left;
-    font-family:Graphik Light;
-    font-size: 18px;
-    line-height: 30px;
-    color: #545454d4;
-    padding: 0 5% 50px 5%;
-    @media screen and (min-width: 889px) {
-      padding: 0 9% 100px 9%;
-    }
-    @media screen and (min-width: 621px) {
+    .caseStudyDescpHeader,
+    .caseStudyDescpHeader2 {
+      text-align: left;
       font-size: 22px;
-      line-height: 32px;
-      max-width: 80%;
+      line-height: 28px;
+      font-family: Graphik Bold;
+      text-shadow: 0px 30px 60px #00000017;
+      color: #2a539c;
+      padding: 30px 5% 20px 5%;
+      @media screen and (min-width: 621px) {
+        padding: 30px 5% 50px 5%;
+        font-size: 36px;
+        line-height: 56px;
+      }
+      @media screen and (min-width: 889px) {
+        padding: 0px 9% 30px 9%;
+      }
+      @media screen and (min-width: 1201px) {
+        font-size: 48px;
+        line-height: 68px;
+      }
+      @media screen and (min-width: 1901px) {
+        font-size: 65px;
+        line-height: 85px;
+      }
     }
-    @media screen and (min-width: 1901px) {
-      font-size: 24px;
-      line-height: 36px;
+    .caseStudyDescpHeader2 {
+      @media screen and (min-width: 1921px) {
+        margin-top: 40%;
+      }
+    }
+    .caseStudyDescpFull {
+      text-align: left;
+      font-family: Graphik Light;
+      font-size: 18px;
+      line-height: 30px;
+      color: #545454d4;
+      padding: 0 5% 30px 5%;
+      @media screen and (min-width: 621px) {
+        padding: 0 5% 50px 5%;
+        font-size: 22px;
+        line-height: 32px;
+        // max-width: 80%;
+      }
+      @media screen and (min-width: 889px) {
+        padding: 0 9% 50px 9%;
+      }
+      @media screen and (min-width: 1901px) {
+        font-size: 24px;
+        line-height: 36px;
+      }
     }
   }
-  ul{
-    padding-left: 10%;
-    margin-top: -20px;
-    margin-bottom: 50px;
-    @media screen and (min-width: 621px) {
-      margin-top: -50px;
-      padding: 0 10%;
+  .caseStudyHire {
+    padding: 5%;
+    @media screen and (min-width: 889px) {
+      padding: 0 9%;
+      padding-bottom: 5%;
     }
-  .caseStudyList{
-    font-size: 18px;
-    line-height: 30px;
-    color: #545454d4;
-    list-style: disc;
   }
 }
+
+.caseStudyBottom {
+  @media screen and (min-width: 1201px) {
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    padding-left: 10%;
+    margin-bottom: 50px;
+    width: 70%;
+    @media screen and (min-width: 621px) {
+      padding: 0 5% 0 10%;
+    }
+    .caseStudyList {
+      font-size: 22px;
+      font-family: Graphik Bold;
+      line-height: 32px;
+      padding-bottom: 20px;
+      color: #545454d4;
+      list-style: disc;
+      white-space: nowrap;
+      span {
+        white-space: normal;
+        font-family: Graphik Light;
+      }
+    }
+  }
   .caseStudyPerson {
     width: 100%;
-    background: #5185eb;
+    background: #ff6498;
     padding: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     @media screen and (min-width: 889px) {
-      padding: 5% 9%;
+      border-radius: 30px;
+      padding: 2% 0%;
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      margin-bottom: 100px;
-    }
-    @media screen and (min-width: 1921px) {
-      min-width:100%;
-      position: absolute;
-      left: 0;
+      margin-right: 9%;
+      margin-top: -30px;
+      margin-bottom: 0;
     }
     .caseStudyPersonImg {
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       padding-bottom: 30px;
       @media screen and (min-width: 889px) {
         justify-content: flex-end;
         padding-right: 5%;
-        margin-left: -10%;
       }
     }
     .caseStudyPersonThought {
-      @media screen and (min-width: 889px) {
-        max-width: 55%;
-        margin-right:auto;
-      }
+      // @media screen and (min-width: 889px) {
+      //   max-width: 55%;
+      //   margin-right: auto;
+      // }
       .caseStudyPersonHeader {
         text-align: left;
         font-size: 22px;
@@ -297,19 +320,19 @@
         font-family: Graphik Bold;
         text-shadow: 0px 30px 60px #00000017;
         color: #ffffff;
-        padding-bottom: 15px;
+        // padding-bottom: 15px;
         @media screen and (min-width: 621px) {
           padding-bottom: 30px;
           font-size: 36px;
           line-height: 56px;
         }
         @media screen and (min-width: 1201px) {
-          font-size: 48px;
-          line-height: 68px;
+          font-size: 36px;
+          line-height: 50px;
         }
         @media screen and (min-width: 1901px) {
-          font-size: 65px;
-          line-height: 85px;
+          font-size: 48px;
+          line-height: 60px;
         }
       }
       .caseStudyPersonWords,
@@ -321,151 +344,16 @@
         line-height: 30px;
         color: #ffffff;
         opacity: 0.8;
-        font-weight: lighter;
         @media screen and (min-width: 621px) {
-          font-size: 22px;
-          line-height: 32px;
-          max-width: 80%;
+          font-size: 20px;
+          line-height: 30px;
+          max-width: 95%;
         }
         @media screen and (min-width: 1901px) {
-          font-size: 28px;
-          line-height: 42px;
+          font-size: 24px;
+          line-height: 36px;
         }
       }
-    }
-  }
-  .caseStudyProcess {
-    position: relative;
-    @media screen and (max-width: 888px) {
-      display: none;
-      width: 0;
-      height: 0;
-    }
-    @media screen and (min-width: 889px) {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-evenly;
-      padding: 5% 9%;
-    }
-    .caseStudyProcessLine {
-      position: absolute;
-      background-color: #5185eb;
-      z-index: 1;
-      @media screen and (min-width: 889px) {
-        width: max-content;
-        min-width: 80%;
-        min-height: 10px;
-      }
-    }
-  }
-  .caseStudyProcessContent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    flex-wrap: wrap;
-    max-width: 110px;
-    white-space: nowrap;
-    &:nth-child(3),
-    &:nth-child(5) {
-      flex-wrap: wrap-reverse;
-    }
-    @media screen and (max-width:888px) {
-        max-width: auto;
-    }
-    }
-    .caseStudyProcessCircle {
-      height: 15px;
-      width: 15px;
-      background: #ff6498;
-      border-radius: 50%;
-      z-index: 2;
-      margin: -2.5px 15px 30px 15px;
-      @media screen and (max-width:888px){
-          width: 9px;
-          height:9px;
-      }
-    }
-    .caseStudyProcessStep {
-      font-size: 18px;
-      line-height: 28px;
-      color: #2a539c;
-      text-align: center;
-      font-weight: 600;
-      @media screen and (min-width: 889px) {
-        font-size: 28px;
-        line-height: 40px;
-      }
-      @media screen and (min-width: 1901px) {
-        font-size: 38px;
-        line-height: 54px;
-      }
-      span {
-        text-align: center;
-        color: #ff6498;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: lighter;
-        @media screen and (min-width: 889px) {
-          font-size: 22px;
-          line-height: 40px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 32px;
-          line-height: 54px;
-        }
-      }
-  }
-  .caseStudyProcessContentL,
-  .caseStudyProcessContentR {
-      display: flex;
-      max-width: 250px;
-  }
-  .caseStudyProcessM {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -150px;
-    padding-left: 30px;
-    @media screen and (min-width: 889px) {
-        display:none;
-        width:0;
-        height:0;
-    }
-  }
-  .caseStudyProcessLineM {
-    background-color: #5185eb;
-    z-index: 1;
-      width: max-content;
-      min-width: 7px;
-      min-height: 400px;
-      max-height: 580px;
-  }
-      .caseStudyProcessContentLeft{
-        margin-top: -200px;
-    }
-    .caseStudyProcessContentRight{
-        margin-top: -50px;
-    }
-    .caseStudyProcessContentL{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin: 250px 0;
-        margin-left: -23px;
-    }
-    .caseStudyProcessContentR{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        margin: 250px 0;
-        margin-right: -23px;
-  }
-}
-  .caseStudyHire{
-    padding:5%;
-    @media screen and (min-width:889px){
-      padding:0 9%;
-      padding-bottom:5%;
     }
   }
 }

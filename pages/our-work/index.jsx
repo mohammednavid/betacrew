@@ -23,7 +23,7 @@ const Work = () => {
         <Fade delay={200}>
           <h1 className={styles.workTitle}>
             Recent case studies on <br />
-            <span>how we have helped companies.</span>
+            <span>how we have helped companies</span>.
           </h1>
         </Fade>
         {ourWorkData?.map((val) => {
@@ -38,7 +38,7 @@ const Work = () => {
                     <p className={styles.workDescp}>{val.firstDescp}</p>
                   </Fade>
                   <Fade>
-                    <Link href={"/our-work/case-study-1"}>
+                    <Link href={"/our-work/bild-case-study"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
                   </Fade>
@@ -150,7 +150,7 @@ const Work = () => {
                     <p className={styles.workDescp}>{val.secondDescp}</p>
                   </Fade>
                   <Fade>
-                    <Link href={"/our-work/case-study-2"}>
+                    <Link href={"/our-work/stopspoof-case-study"}>
                       <p className={styles.workView}>VIEW CASE STUDY</p>
                     </Link>
                   </Fade>
@@ -166,7 +166,7 @@ const Work = () => {
                   <p className={styles.workDescp}>{val.thirdDescp}</p>
                   </Fade>
                   <Fade>
-                  <Link href={"/our-work/case-study-3"}>
+                  <Link href={"/our-work/nav360-case-study"}>
                     <p className={styles.workView}>VIEW CASE STUDY</p>
                   </Link>
                   </Fade>

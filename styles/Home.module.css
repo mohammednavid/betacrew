@@ -212,6 +212,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 620px) {
+  .home .homeHeroContainer .homeContent .homeButtons .homeButtonLeft {
+    margin: 15px 0;
+  }
+}
+
 @media screen and (min-width: 1201px) {
   .home .homeHeroContainer .homeContent .homeButtons .homeButtonLeft {
     width: 220px;
@@ -252,6 +258,12 @@
   border: 3px solid #5185eb;
   cursor: pointer;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 620px) {
+  .home .homeHeroContainer .homeContent .homeButtons .homeButtonRight {
+    margin: 15px 0;
+  }
 }
 
 @media screen and (min-width: 1201px) {

@@ -60,14 +60,14 @@ const PodSlider = () => {
               height={50}
             />
           </a>
-          <div className={styles.fixed}>
+          {/* <div className={styles.fixed}>
             <Image
               src="/images/ourPod.svg"
               alt="Betacrew"
               width={300}
               height={150}
             />
-          </div>
+          </div> */}
         </Fade>
         {pod1 && (
           <Fade>

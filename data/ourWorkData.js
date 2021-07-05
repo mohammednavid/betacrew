@@ -1,7 +1,7 @@
 export const ourWorkData = [
   {
     // First Case Study 
-    id:"case-study-1",
+    id:"bild-case-study",
     firstName: "Bild",
     firstDescp:"The pain of the tedious task of taking screenshots at each stage of designing is now eased, because at Bild you can not only discuss design visually as a team, but also have version control facility like GitHub offers for software. In the initial few days of its commencement, Bild sought BetaCrew to aid in their product development for the satisfactory designing of target module and features.",
     firstLogo: "/images/bild.png",
@@ -23,7 +23,7 @@ export const ourWorkData = [
     firstResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
 
     // Second Case Study 
-    id:"case-study-2",
+    id:"stopspoof-case-study",
     secondName: "Stopspoof",
     secondDescp: "With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
     secondLogo: "/images/stopspoof.png",
@@ -46,7 +46,7 @@ export const ourWorkData = [
 
 
     // Third Case Study 
-    id:"case-study-3",
+    id:"nav360-case-study",
     thirdName: "Nav 360",
     thirdDescp:"With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
     thirdLogo: "/images/nav.svg",
