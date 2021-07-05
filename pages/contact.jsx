@@ -36,6 +36,11 @@ const Contact = (props) => {
       <div className={styles.contact}>
         <div className={styles.contactLeft}>
           <Fade>
+            <p className={styles.contactFirst}>
+              Let's get started!
+            </p>
+          </Fade>
+          <Fade>
             <h2 className={styles.contactTitle}>
               CONTACT
               <br />
@@ -53,14 +58,7 @@ const Contact = (props) => {
             <p className={styles.contactEmail}>
               <strong>Email-</strong>
               <br />
-              info@gmail.com
-            </p>
-          </Fade>
-          <Fade>
-            <p className={styles.contactPhone}>
-              <strong>Phone-</strong>
-              <br />
-              022-809-789
+              hi@betacrew.io
             </p>
           </Fade>
         </div>
@@ -113,14 +111,7 @@ const Contact = (props) => {
           <p className={styles.contactEmail2}>
             <strong>Email-</strong>
             <br />
-            info@gmail.com
-          </p>
-        </Fade>
-        <Fade>
-          <p className={styles.contactPhone2}>
-            <strong>Phone-</strong>
-            <br />
-            022-809-789
+            hi@betacrew.io
           </p>
         </Fade>
       </div>

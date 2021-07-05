@@ -28,6 +28,24 @@
   }
 }
 
+.contact .contactLeft .contactFirst {
+  text-align: left;
+  font: normal normal 300 20px/25px Graphik Bold;
+  color: #ff6498;
+}
+
+@media screen and (min-width: 1201px) {
+  .contact .contactLeft .contactFirst {
+    font: normal normal 300 25px/32px Graphik Bold;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .contact .contactLeft .contactFirst {
+    font: normal normal 300 32px/39px Graphik Bold;
+  }
+}
+
 .contact .contactLeft .contactTitle {
   text-align: left;
   font: normal normal bold 46px/60px Graphik Bold;
