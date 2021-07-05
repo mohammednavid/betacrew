@@ -13,7 +13,7 @@ export const aboutData=[
         thirdTitle:"Work smart",
         thirdDescp:"Don’t reinvent the wheel. We ensure to play our roles as facilitators, rather than being stuck in the hamster wheel. We listen to your issue, meditate upon it, propose, discuss and come to an ideal conclusion.",
         fourthTitle:"Be transparent",
-        fourthDescp:"Effective communication is the route to a transparent relationship. We uphold the values of loyalty, forthrightness and integrity and encourage our customers to freely express their opinions, ideas or even criticism; because communication is a two-way street that can lead to satisfaction.",
+        fourthDescp:"Effective communication is the route to a transparent relationship. We uphold the values of frankness and honesty, and encourage our customers to freely express their opinions, ideas or even criticism; because communication is a two-way street that can lead to satisfaction.",
         
         //how do we operate?
         operateDescp:"Our 5-step approach outlines how we select a Pod best compatible with your project:",

@@ -4,11 +4,11 @@ const howItWorksData = [
     firstStepTitle:
       "Get an array of technologies and skills to choose from and invest in.",
     firstStepDescp:
-      "Let us know about the project needs and goals - the more detailed, the better. Taking into account the rough outlines, we sketch a whole tech roadmap with a hiring plan and technical consultation that is ideal for you.",
+      "Let us know your project needs and goals - the more detailed, the better. Our pool of developers are replete with the skill set you are looking for, so you won't need to look anywhere else for a team that can slide smoothly into your project outline.",
 
     secondStepTitle: "Hire the best developers for your project.",
     secondStepDescp:
-      "Whether you want to add a member to your existing tech team or build a standalone project from scratch, we can help you find the best developers for the job and make sure the project is successfully delivered on time.",
+      "Whether you want to add a member to your existing tech team or build a standalone project from scratch, we can provide you our best developers for the job and make sure the project is successfully delivered on time.",
 
     thirdStepTitle: "You won’t know where your team ends and ours begin.",
     thirdStepDescp:

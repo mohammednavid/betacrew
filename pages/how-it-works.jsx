@@ -33,9 +33,7 @@ const howItWorks = () => {
         </Fade>
         <Fade delay={500}>
           <p className={styles.HIW_Descp}>
-            Augment your tech team with our top talent. We will oversee the
-            execution and management of your software projects with our proven
-            processes and tech mentorship.
+          We undertake the execution and management of your software projects with our proven processes and tech mentor-ship.
           </p>
         </Fade>
         {howItWorksData?.map((item) => {
