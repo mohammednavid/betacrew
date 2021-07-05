@@ -13,6 +13,7 @@ import Hire from "../components/Hire";
 import PodSlider from "../components/PodSlider";
 import Fade from "react-reveal/Fade";
 import Chat from '../components/Chat';
+import Feedback from "../components/Feedback";
 
 const HomePage = () => {
   const vector = useRef(null);
@@ -289,7 +290,7 @@ const HomePage = () => {
         <div className={styles.homeDiffContainer}>
           <div className={styles.homeDiff}>
             <Fade>
-              <h2 className={styles.homeDiffTitle}>THE OLD WAY</h2>
+              <h2 className={styles.homeDiffTitle}>WHAT YOU THINK</h2>
             </Fade>
             <Fade>
               <div className={styles.homeDiffImg}>
@@ -314,7 +315,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  The organisation provides the same team for all the clients; lack of variety
+                  Hiring the developers/engineers will result in a lot of overhead cost.         
                   </p>
                 </li>
               </Fade>
@@ -329,7 +330,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Team members are fixed, without the scope of interchanging members or scaling the team up or down.
+                  Finding a team with the right skills is going to be a tough job.
                   </p>
                 </li>
               </Fade>
@@ -344,7 +345,52 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Choosen from a pool of engineers
+                  What about quality assurance of the team? 
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/x.svg"
+                      alt="Old Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  A single team with fixed team members and talent pool will be provided for every project. 
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/x.svg"
+                      alt="Old Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  Hiring an elastic team will result in a lot of paperwork and formalities.
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/x.svg"
+                      alt="Old Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  After a Pod is confirmed, we have to work with the team members even if we are unsatisfied with a certain developer.
                   </p>
                 </li>
               </Fade>
@@ -359,7 +405,7 @@ const HomePage = () => {
 
           <div className={styles.homeDiff}>
             <Fade>
-              <h2 className={styles.homeDiffTitle}>THE BETACREW WAY</h2>
+              <h2 className={styles.homeDiffTitle}>WHAT WE ACTUALLY ARE</h2>
             </Fade>
             <Fade>
               <div className={styles.homeDiffImg}>
@@ -384,7 +430,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Engineers within the Pod can consult other Pods which will result in more efficiency and better decision-making.
+                  Our pods don’t require hiring on payroll. We work as long as there is a deal.
                   </p>
                 </li>
               </Fade>
@@ -399,7 +445,7 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                    Organizations can Scale-Up and Scale-down teams as per your needs.
+                  At BetaCrew, you only need to convey your needs. The perfect team will be provided by us!
                   </p>
                 </li>
               </Fade>
@@ -414,7 +460,52 @@ const HomePage = () => {
                     />
                   </div>
                   <p className={styles.homeDiffText}>
-                  Chosen from a pool of experienced engineers through aptitude tests that you fit your goals.
+                  Our trusted team of engineers is vetted by us, so you can bid your worries goodbye. 
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/check.svg"
+                      alt="Betacrew Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  One size does not fit all, and so our elastic pods will be tailored according to your specifications. 
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/check.svg"
+                      alt="Betacrew Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  We make work easier, not create more work. All the legwork will be managed by us so that you can concentrate on your business.
+                  </p>
+                </li>
+              </Fade>
+              <Fade>
+                <li className={styles.homeDiffPoint}>
+                  <div className={styles.homeDiffIcon}>
+                    <Image
+                      src="/images/check.svg"
+                      alt="Betacrew Way"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <p className={styles.homeDiffText}>
+                  1.5-2 months of probation period for the developers. If you are unsatisfied, then the developer will be replaced immediately. No commitments.
                   </p>
                 </li>
               </Fade>
@@ -472,37 +563,9 @@ const HomePage = () => {
             <h2 className={styles.homeCaseStudiesTitle}>FEEDBACK.</h2>
           </Fade>
         </div>
-        {homeFeedback?.map((val, index) => {
-          return (
-            <div className={styles.caseStudyPerson} key={index}>
-              <Fade>
-                <div className={styles.caseStudyPersonImg}>
-                  <Image
-                    src={val.feedbackImage}
-                    alt={val.feedbackCompany}
-                    width={160}
-                    height={160}
-                  />
-                </div>
-              </Fade>
-              <div className={styles.caseStudyPersonThought}>
-                <Fade>
-                  <h2 className={styles.caseStudyPersonHeader}>
-                    {val.feedbackCompany}
-                  </h2>
-                </Fade>
-                <Fade>
-                  <div className={styles.caseStudyPersonLine}></div>
-                </Fade>
-                <Fade>
-                  <p className={styles.caseStudyPersonWords}>
-                    "{val.feedbackDescp}"
-                  </p>
-                </Fade>
-              </div>
-            </div>
-          );
-        })}
+        
+        <Feedback/>
+        
         <Fade delay={100}>
           <div className={styles.homeHire}>
             <div className={styles.hire}>

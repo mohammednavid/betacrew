@@ -178,8 +178,8 @@ const Work = () => {
                         <Image
                           src={val.thirdLogo}
                           alt={val.thirdName}
-                          width={270}
-                          height={100}
+                          width={300}
+                          height={120}
                         />
                       </div>
                     </Fade>

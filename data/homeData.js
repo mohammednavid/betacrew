@@ -39,9 +39,21 @@ const homePODData = [
 
 const homeFeedback=[
     {
-        feedbackImage:"/images/profile.png",
-        feedbackCompany:"Stopspoof",
-        feedbackDescp:"They go the extra mile and provide alternative solutions rather than just going with the flow and accepting what we’ve given them.",
+        firstFeedbackImage:"/images/profile.png",
+        firstFeedbackCompany:"Stopspoof",
+        firstFeedbackDescp:"BetaCrew’s collaboration with us has been a decisive factor for the success of our business as a whole, without whom we could not have accessed such a talented pool of developers for launching our product.",
+        
+        secondFeedbackImage:"/images/profileNav360.png",
+        secondFeedbackCompany:"Nav360",
+        secondFeedbackDescp:"With such collaborative spirit and tech expertise, BetaCrew leaves almost no room for customer dissatisfaction.",
+        
+        thirdFeedbackImage:"/images/profile.png",
+        thirdFeedbackCompany:"Bild",
+        thirdFeedbackDescp:"BetaCrew has not only built a culture of hard work and excellence, but has also lived well up to it; which was evident in its operations and the results it has delivered with such precision and pace.",
+        
+        fourthFeedbackImage:"/images/profile.png",
+        fourthFeedbackCompany:"StepOneStepAhead",
+        fourthFeedbackDescp:"We could've never imagined finding a high skill set so easily without worrying or lengthy hunting. Thanks to BetaCrew for delivering us with such satisfactory developers who can facilitate and work so productively.",
     },
 ]
 

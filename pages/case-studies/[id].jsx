@@ -82,7 +82,7 @@ const caseStudy = () => {
                             </Fade>
                             <Fade>
                               <p>
-                                <span>Relationship</span>
+                                <span>Current Status</span>
                                 <br />
                                 {val.firstRelationship}
                               </p>

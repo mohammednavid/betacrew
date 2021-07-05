@@ -1,0 +1,78 @@
+.caseStudyPersonContainer {
+    padding: 0 20px;
+  .caseStudyPerson {
+    width: 100%;
+    background: #5185eb;
+    padding: 10%;
+    margin-bottom: 40px;
+    @media screen and (min-width: 889px) {
+      padding: 10% 5%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @media screen and (min-width: 1201px) {
+      border-radius: 30px;
+      min-height: 390px;
+    }
+    .caseStudyPersonImg {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      @media screen and (min-width: 889px) {
+        justify-content: flex-end;
+        padding-right: 5%;
+        max-width: 140px;
+        min-width: 150px;
+      }
+    }
+    .caseStudyPersonThought {
+      // @media screen and (min-width: 889px) {
+      //   max-width: 55%;
+      //   margin-right: auto;
+      // }
+      .caseStudyPersonHeader {
+        text-align: left;
+        font-size: 22px;
+        line-height: 28px;
+        font-family: Graphik Bold;
+        text-shadow: 0px 30px 60px #00000017;
+        color: #ffffff;
+        // padding-bottom: 15px;
+        @media screen and (min-width: 621px) {
+          padding-bottom: 30px;
+          font-size: 36px;
+          line-height: 56px;
+        }
+        @media screen and (min-width: 1201px) {
+          font-size: 36px;
+          line-height: 50px;
+        }
+        @media screen and (min-width: 1901px) {
+          font-size: 48px;
+          line-height: 60px;
+        }
+      }
+      .caseStudyPersonWords,
+      .caseStudyPersonName,
+      .caseStudyPersonPost {
+        text-align: left;
+        font-size: 18px;
+        font-family: Graphik Light;
+        line-height: 30px;
+        color: #ffffff;
+        opacity: 0.8;
+        @media screen and (min-width: 621px) {
+          font-size: 20px;
+          line-height: 30px;
+          max-width: 95%;
+        }
+        @media screen and (min-width: 1901px) {
+          font-size: 24px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}

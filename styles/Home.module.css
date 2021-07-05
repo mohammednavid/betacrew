@@ -1317,7 +1317,7 @@
 
 @media screen and (min-width: 621px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 685px;
+    height: 1065px;
     width: 0.1px;
     max-width: 2px;
     border-bottom: none;
@@ -1328,19 +1328,19 @@
 
 @media screen and (min-width: 889px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 600px;
+    height: 1025px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 775px;
+    height: 1250px;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 785px;
+    height: 1260px;
   }
 }
 
@@ -1552,138 +1552,17 @@
   }
 }
 
-.home .caseStudyPerson {
-  width: 100%;
-  background: #5185eb;
-  padding: 10%;
-  margin-bottom: 50px;
-}
-
-@media screen and (min-width: 889px) {
-  .home .caseStudyPerson {
-    padding: 5% 9%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 100px;
-  }
-}
-
-.home .caseStudyPerson .caseStudyPersonImg {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 30px;
-}
-
-@media screen and (min-width: 889px) {
-  .home .caseStudyPerson .caseStudyPersonImg {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    padding-right: 5%;
-    margin-left: -10%;
-  }
-}
-
-@media screen and (min-width: 889px) {
-  .home .caseStudyPerson .caseStudyPersonThought {
-    max-width: 55%;
-    margin-right: auto;
-  }
-}
-
-.home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonHeader {
-  text-align: left;
-  font-size: 20px;
-  line-height: 28px;
-  font-family: Graphik Bold;
-  text-shadow: 0px 30px 60px #00000017;
-  color: #ffffff;
-  padding-bottom: 20px;
-}
-
-@media screen and (min-width: 621px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonHeader {
-    font-size: 24px;
-    line-height: 34px;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonHeader {
-    font-size: 28px;
-    line-height: 38px;
-  }
-}
-
-@media screen and (min-width: 1901px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonHeader {
-    font-size: 35px;
-    line-height: 55px;
-  }
-}
-
-.home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonLine {
-  margin-left: 10px;
-  height: 2px;
-  width: 120px;
-  background: #ff6498;
-  margin-bottom: 50px;
-}
-
-@media screen and (max-width: 1200px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonLine {
-    width: 80px;
-  }
-}
-
-.home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonWords {
-  text-align: left;
-  font-size: 18px;
-  line-height: 30px;
-  color: #ffffff;
-  opacity: 0.8;
-  font-family: Graphik Light;
-}
-
-@media screen and (min-width: 621px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonWords {
-    font-size: 22px;
-    line-height: 32px;
-    max-width: 70%;
-  }
-}
-
-@media screen and (min-width: 1901px) {
-  .home .caseStudyPerson .caseStudyPersonThought .caseStudyPersonWords {
-    font-size: 28px;
-    line-height: 42px;
-    max-width: 60%;
-  }
-}
-
-.home .homeHire {
+.homeHire {
   padding: 10% 5%;
 }
 
 @media screen and (min-width: 889px) {
-  .home .homeHire {
+  .homeHire {
     padding: 0% 9%;
   }
 }
 
-.home .homeHire .hire {
+.homeHire .hire {
   max-width: 1400px;
   margin: 0 auto;
   display: -webkit-box;
@@ -1701,13 +1580,13 @@
 }
 
 @media screen and (max-width: 1500px) {
-  .home .homeHire .hire {
+  .homeHire .hire {
     border-radius: 30px;
   }
 }
 
 @media screen and (max-width: 888px) {
-  .home .homeHire .hire {
+  .homeHire .hire {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -1720,13 +1599,13 @@
 }
 
 @media screen and (max-width: 620px) {
-  .home .homeHire .hire {
+  .homeHire .hire {
     padding: 12% 5%;
     padding-bottom: 5%;
   }
 }
 
-.home .homeHire .hire .hireContent {
+.homeHire .hire .hireContent {
   max-width: 633px;
   text-align: left;
   font: normal normal bold 47px/59px Graphik Bold;
@@ -1736,34 +1615,34 @@
 }
 
 @media screen and (max-width: 1900px) {
-  .home .homeHire .hire .hireContent {
+  .homeHire .hire .hireContent {
     font-size: 36px;
     line-height: 55px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .home .homeHire .hire .hireContent {
+  .homeHire .hire .hireContent {
     font-size: 28px;
     line-height: 45px;
   }
 }
 
 @media screen and (max-width: 888px) {
-  .home .homeHire .hire .hireContent {
+  .homeHire .hire .hireContent {
     text-align: center;
     padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .home .homeHire .hire .hireContent {
+  .homeHire .hire .hireContent {
     font-size: 18px;
     line-height: 34px;
   }
 }
 
-.home .homeHire .hire .hireRight .hireButton {
+.homeHire .hire .hireRight .hireButton {
   cursor: pointer;
   padding: 20px 50px;
   text-align: center;
@@ -1779,7 +1658,7 @@
 }
 
 @media screen and (max-width: 1900px) {
-  .home .homeHire .hire .hireRight .hireButton {
+  .homeHire .hire .hireRight .hireButton {
     font-size: 18px;
     line-height: 28px;
     border-radius: 10px;
@@ -1788,7 +1667,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .home .homeHire .hire .hireRight .hireButton {
+  .homeHire .hire .hireRight .hireButton {
     font-size: 16px;
     white-space: nowrap;
     line-height: 24px;
@@ -1797,13 +1676,13 @@
 }
 
 @media screen and (max-width: 620px) {
-  .home .homeHire .hire .hireRight .hireButton {
+  .homeHire .hire .hireRight .hireButton {
     font-size: 12px;
     border-radius: 8px;
   }
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite {
+.homeHire .hire .hireRight .hireLineWhite {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1816,41 +1695,41 @@
 }
 
 @media screen and (min-width: 1901px) {
-  .home .homeHire .hire .hireRight .hireLineWhite {
+  .homeHire .hire .hireRight .hireLineWhite {
     margin: 50px 0;
   }
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireUpperLine {
+.homeHire .hire .hireRight .hireLineWhite .hireUpperLine {
   width: 1px;
   height: 21px;
   border-right: 4px solid #ffffff;
   opacity: 1;
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireUpperLine:nth-child(1) {
+.homeHire .hire .hireRight .hireLineWhite .hireUpperLine:nth-child(1) {
   -webkit-transform: rotate(140deg);
           transform: rotate(140deg);
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireUpperLine:nth-child(3) {
+.homeHire .hire .hireRight .hireLineWhite .hireUpperLine:nth-child(3) {
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireBottomLine {
+.homeHire .hire .hireRight .hireLineWhite .hireBottomLine {
   width: 1px;
   height: 21px;
   border-right: 4px solid #ffffff;
   opacity: 1;
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireBottomLine:nth-child(1) {
+.homeHire .hire .hireRight .hireLineWhite .hireBottomLine:nth-child(1) {
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
 }
 
-.home .homeHire .hire .hireRight .hireLineWhite .hireBottomLine:nth-child(3) {
+.homeHire .hire .hireRight .hireLineWhite .hireBottomLine:nth-child(3) {
   -webkit-transform: rotate(140deg);
           transform: rotate(140deg);
 }

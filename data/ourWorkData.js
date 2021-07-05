@@ -13,9 +13,9 @@ export const ourWorkData = [
     firstRelationship:"On-going client",
     firstTechnology:"ReactJs, NodeJS, AWS Lambda",
     firstPersonImg:"/images/profile.png",
-    firstPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
-    firstPersonName:"Dougs Jerey",
-    firstPersonPost:"Chairman at Consa",
+    firstPersonThought:"BetaCrew has not only built a culture of hard work and excellence, but has also lived well up to it; which was evident in its operations and the results it has delivered with such precision and pace.",
+    firstPersonName:"Avinash Kunaparaju",
+    firstPersonPost:"Founder at Bild",
     firstResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
 
     // Second Case Study 
@@ -32,8 +32,8 @@ export const ourWorkData = [
     secondTechnology:"ReactJs, NodeJS, AWS Lambda",
     secondPersonImg:"/images/profile.png",
     secondPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
-    secondPersonName:"Dougs Jerey",
-    secondPersonPost:"Chairman at Consa",
+    secondPersonName:"Zakir Shaikh",
+    secondPersonPost:"Founder at Stopspoof",
     secondResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
 
 
@@ -41,7 +41,7 @@ export const ourWorkData = [
     id:"nav360-case-study",
     thirdName: "Nav 360",
     thirdDescp:"With a drive to deliver exceptionally data rich software to clients including one of the UKs biggest high street banks, Heron. AI approached Distributed to fulfill those needs with a quick turn-around time.",
-    thirdLogo: "/images/nav.svg",
+    thirdLogo: "/images/nav360.png",
     thirdComment:"It's not an overstatement to say we've been able to overachieve with betacrew.",
     thirdAbout:"Bild has opened up avenues for making the process of hardware designing and engineering much more rapid and easier. In addition to allowing for sharing the designing access, it also helps in communicating in the design panel itself. Live design viewing with the team and version control furthermore adds to the incredible features of Bild.",
     thirdFullDescp:"BetaCrew joined Bild in its primal stage and dispensed an external team to work in coalition with their in-house team, while subtracting their care for hiring and multiplying the speed of the consolidated process. With BetaCrew's stellar developers/engineers and a very systematic, businesslike approach, Bild reached its goal two times faster than its anticipated due date, on top of closing a second round of funding. With a 100% satisfaction with our operations and strategies, Bild is an on-going client of ours.",
@@ -49,10 +49,10 @@ export const ourWorkData = [
     thirdBuildingPace:"2x faster than schedule",
     thirdRelationship:"On-going client",
     thirdTechnology:"ReactJs, NodeJS, AWS Lambda",
-    thirdPersonImg:"/images/profile.png",
+    thirdPersonImg:"/images/profileNav360.png",
     thirdPersonThought:"Having partnered with Betacrew on previous projects both for HP and other leading technology companies, it was clear that they were best placed to deliver this sort of complex tool",
-    thirdPersonName:"Dougs Jerey",
-    thirdPersonPost:"Chairman at Consa",
+    thirdPersonName:"Kamaljit Deka",
+    thirdPersonPost:"Founder at Nav360",
     thirdResult:"The revamped HP for Education platform launched on time and on budget, and in its first month supported hundreds of school registrations. A process originally scheduled for 6-12 months was cut to 3, including multiple iterations.",
   },
 ];

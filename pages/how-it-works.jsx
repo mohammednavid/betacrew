@@ -18,10 +18,10 @@ const howItWorks = () => {
   return (
     <>
       <Head>
-        <title>Betacrew - How Betacrew Works</title>
+        <title>Betacrew | How It Works</title>
         <meta
           name="description"
-          content="How Betacrew Works - How building development team works ."
+          content="How It Works - How building development team works ."
         />
       </Head>
       <Header />

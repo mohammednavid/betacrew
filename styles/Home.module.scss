@@ -851,7 +851,7 @@
       z-index: 0;
       border-bottom: 2px solid #707070;
       @media screen and (min-width: 621px) {
-        height: 685px;
+        height: 1065px;
         width: 0.1px;
         max-width: 2px;
         border-bottom: none;
@@ -859,13 +859,13 @@
         margin-top: 20px;
       }
       @media screen and (min-width: 889px) {
-        height: 600px;
+        height: 1025px;
       }
       @media screen and (min-width: 1201px) {
-        height: 775px;
+        height: 1250px;
       }
       @media screen and (min-width: 1901px) {
-        height: 785px;
+        height: 1260px;
       }
     }
     .homeDiffVs {
@@ -996,89 +996,7 @@
       letter-spacing: 1.56px;
     }
   }
-  .caseStudyPerson {
-    width: 100%;
-    background: #5185eb;
-    padding: 10%;
-    margin-bottom: 50px;
-    @media screen and (min-width: 889px) {
-      padding: 5% 9%;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      margin-bottom: 100px;
-    }
-    // @media screen and (min-width: 1921px) {
-    //   min-width: 100%;
-    //   position: absolute;
-    //   left: 0;
-    // }
-    .caseStudyPersonImg {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 30px;
-      @media screen and (min-width: 889px) {
-        justify-content: flex-end;
-        padding-right: 5%;
-        margin-left: -10%;
-      }
-    }
-    .caseStudyPersonThought {
-      @media screen and (min-width: 889px) {
-        max-width: 55%;
-        margin-right: auto;
-      }
-      .caseStudyPersonHeader {
-        text-align: left;
-        font-size: 20px;
-        line-height: 28px;
-        font-family: Graphik Bold;
-        text-shadow: 0px 30px 60px #00000017;
-        color: #ffffff;
-        padding-bottom: 20px;
-        @media screen and (min-width: 621px) {
-          font-size: 24px;
-          line-height: 34px;
-        }
-        @media screen and (min-width: 1201px) {
-          font-size: 28px;
-          line-height: 38px;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 35px;
-          line-height: 55px;
-        }
-      }
-      .caseStudyPersonLine {
-        margin-left: 10px;
-        height: 2px;
-        width: 120px;
-        background: #ff6498;
-        margin-bottom: 50px;
-        @media screen and (max-width: 1200px) {
-          width: 80px;
-        }
-      }
-      .caseStudyPersonWords {
-        text-align: left;
-        font-size: 18px;
-        line-height: 30px;
-        color: #ffffff;
-        opacity: 0.8;
-        font-family: Graphik Light;
-        @media screen and (min-width: 621px) {
-          font-size: 22px;
-          line-height: 32px;
-          max-width: 70%;
-        }
-        @media screen and (min-width: 1901px) {
-          font-size: 28px;
-          line-height: 42px;
-          max-width: 60%;
-        }
-      }
-    }
+  
   }
   .homeHire {
     padding: 10% 5%;
@@ -1202,4 +1120,3 @@
       }
     }
   }
-}
