@@ -462,7 +462,7 @@ const HomePage = () => {
           </div>
               </Fade>
           <Fade>
-            <Link href="/our-work">
+            <Link href="/case-studies">
               <p className={styles.homeCaseStudiesMore}>VIEW MORE</p>
             </Link>
           </Fade>
