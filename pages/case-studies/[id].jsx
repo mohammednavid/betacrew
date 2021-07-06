@@ -14,7 +14,7 @@ const caseStudy = () => {
   return (
     <>
       <Head>
-        <title>BetaCrew | Case Studies</title>
+        <title>BetaCrew | {router.query.id == "stopspoof-case-study" ? "StopSpoof Case Study" : "Nav360 Case Study" }</title>
         <meta
           name="description"
           content="Recent Betacrew Work - Recent case studies on how we have helped companies"
@@ -30,7 +30,7 @@ const caseStudy = () => {
                 id={val.id}
                 key={val.id}
               >
-                {router.query.id == "bild-case-study" && (
+                {/* {router.query.id == "bild-case-study" && (
                   <>
                     <div className={styles.caseStudyContent}>
                       <div className={styles.caseStudyDescpContainer}>
@@ -149,93 +149,96 @@ const caseStudy = () => {
                       </div>
                     </div>
                   </>
-                )}
+                )} */}
                 {router.query.id == "stopspoof-case-study" && (
                   <>
-                    <div className={styles.caseStudyContent}>
-                      <div className={styles.caseStudyDescpContainer}>
-                        <Fade>
-                          <h1 className={styles.caseStudyTitle}>Case Study:</h1>
-                        </Fade>
-                        <Fade>
-                          <h2 className={styles.caseStudyName}>
-                            {val.secondName}
-                          </h2>
-                        </Fade>
-                        <Fade>
-                          <p className={styles.caseStudyDescp}>
-                            {val.secondDescp}
-                          </p>
-                        </Fade>
-                      </div>
-                      <Fade delay={200}>
-                        <div className={styles.caseStudyDetails2}>
-                          <Fade>
-                            <div className={styles.caseStudyImg}>
-                              <Image
-                                src={val.secondLogo}
-                                alt={val.secondName}
-                                width={270}
-                                height={100}
-                              />
-                            </div>
-                          </Fade>
-                          <Fade>
-                            <p className={styles.caseStudyComment}>
-                              "{val.secondComment}"
-                            </p>
-                          </Fade>
-                          <div className={styles.caseStudyDetailsBottom}>
-                            <Fade>
-                              <p>
-                                <span>Team</span>
-                                <br />
-                                {val.firstPod}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Faster</span>
-                                <br />
-                                {val.firstBuildingPace}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Relationship</span>
-                                <br />
-                                {val.firstRelationship}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Stack</span>
-                                <br />
-                                {val.firstTechnology}
-                              </p>
-                            </Fade>
-                          </div>
-                        </div>
+                  <div className={styles.caseStudyContent}>
+                    <div className={styles.caseStudyDescpContainer}>
+                      <Fade>
+                        <h1 className={styles.caseStudyTitle}>Case Study:</h1>
+                      </Fade>
+                      <Fade>
+                        <h2 className={styles.caseStudyName}>
+                          About {val.secondName}
+                        </h2>
+                      </Fade>
+                      <Fade>
+                        <p className={styles.caseStudyDescp}>
+                          {val.secondAbout}
+                        </p>
                       </Fade>
                     </div>
-                    <Fade>
-                      <h2 className={styles.caseStudyDescpHeader}>
-                        Context and Vision
-                      </h2>
+                    <Fade delay={200}>
+                      <div className={styles.caseStudyDetails2}>
+                        <Fade>
+                          <div className={styles.caseStudyImg}>
+                            <Image
+                              src={val.secondLogo}
+                              alt={val.secondName}
+                              width={270}
+                              height={100}
+                            />
+                          </div>
+                        </Fade>
+                        <Fade>
+                          <p className={styles.caseStudyComment}>
+                            "{val.secondComment}"
+                          </p>
+                        </Fade>
+                        <div className={styles.caseStudyDetailsBottom}>
+                          <Fade>
+                            <p>
+                              <span>Team</span>
+                              <br />
+                              {val.secondPod}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Faster</span>
+                              <br />
+                              {val.secondBuildingPace}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Current Status</span>
+                              <br />
+                              {val.secondRelationship}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Stack</span>
+                              <br />
+                              {val.secondTechnology}
+                            </p>
+                          </Fade>
+                        </div>
+                      </div>
                     </Fade>
-                    <Fade>
-                      <p className={styles.caseStudyDescpFull}>
-                        {val.secondFullDescp}
-                      </p>
-                    </Fade>
+                  </div>
+                  <div className={styles.caseStudyBottom}>
+                    <div className={styles.caseStudyBottomLeft}>
+                      <Fade>
+                        <h2 className={styles.caseStudyDescpHeader}>
+                          Context and Vision
+                        </h2>
+                      </Fade>
+                      <Fade>
+                        <p className={styles.caseStudyDescpFull}>
+                          {val.secondFullDescp}
+                        </p>
+                      </Fade>
+                    </div>
                     <div className={styles.caseStudyPerson}>
                       <Fade>
                         <div className={styles.caseStudyPersonImg}>
                           <Image
                             src={val.secondPersonImg}
                             alt={val.secondPersonName}
-                            width={160}
-                            height={160}
+                            width={120}
+                            height={120}
                           />
                         </div>
                       </Fade>
@@ -264,94 +267,98 @@ const caseStudy = () => {
                         </Fade>
                       </div>
                     </div>
-                  </>
+                  </div>
+                </>
                 )}
                 {router.query.id == "nav360-case-study" && (
                   <>
-                    <div className={styles.caseStudyContent}>
-                      <div className={styles.caseStudyDescpContainer}>
-                        <Fade>
-                          <h1 className={styles.caseStudyTitle}>Case Study:</h1>
-                        </Fade>
-                        <Fade>
-                          <h2 className={styles.caseStudyName}>
-                            {val.thirdName}
-                          </h2>
-                        </Fade>
-                        <Fade>
-                          <p className={styles.caseStudyDescp}>
-                            {val.thirdDescp}
-                          </p>
-                        </Fade>
-                      </div>
-                      <Fade delay={200}>
-                        <div className={styles.caseStudyDetails3}>
-                          <Fade>
-                            <div className={styles.caseStudyImg}>
-                              <Image
-                                src={val.thirdLogo}
-                                alt={val.thirdName}
-                                width={270}
-                                height={100}
-                              />
-                            </div>
-                          </Fade>
-                          <Fade>
-                            <p className={styles.caseStudyComment}>
-                              "{val.thirdComment}"
-                            </p>
-                          </Fade>
-                          <div className={styles.caseStudyDetailsBottom}>
-                            <Fade>
-                              <p>
-                                <span>Team</span>
-                                <br />
-                                {val.firstPod}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Faster</span>
-                                <br />
-                                {val.firstBuildingPace}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Relationship</span>
-                                <br />
-                                {val.firstRelationship}
-                              </p>
-                            </Fade>
-                            <Fade>
-                              <p>
-                                <span>Stack</span>
-                                <br />
-                                {val.firstTechnology}
-                              </p>
-                            </Fade>
-                          </div>
-                        </div>
+                  <div className={styles.caseStudyContent}>
+                    <div className={styles.caseStudyDescpContainer}>
+                      <Fade>
+                        <h1 className={styles.caseStudyTitle}>Case Study:</h1>
+                      </Fade>
+                      <Fade>
+                        <h2 className={styles.caseStudyName}>
+                          About {val.thirdName}
+                        </h2>
+                      </Fade>
+                      <Fade>
+                        <p className={styles.caseStudyDescp}>
+                          {val.thirdAbout}
+                        </p>
                       </Fade>
                     </div>
-                    <Fade>
-                      <h2 className={styles.caseStudyDescpHeader}>
-                        Context and Vision
-                      </h2>
+                    <Fade delay={200}>
+                      <div className={styles.caseStudyDetails3}>
+                        <Fade>
+                          <div className={styles.caseStudyImg}>
+                            <Image
+                              src={val.thirdLogo}
+                              alt={val.thirdName}
+                              width={270}
+                              height={100}
+                            />
+                          </div>
+                        </Fade>
+                        <Fade>
+                          <p className={styles.caseStudyComment}>
+                            "{val.thirdComment}"
+                          </p>
+                        </Fade>
+                        <div className={styles.caseStudyDetailsBottom}>
+                          <Fade>
+                            <p>
+                              <span>Team</span>
+                              <br />
+                              {val.thirdPod}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Faster</span>
+                              <br />
+                              {val.thirdBuildingPace}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Current Status</span>
+                              <br />
+                              {val.thirdRelationship}
+                            </p>
+                          </Fade>
+                          <Fade>
+                            <p>
+                              <span>Stack</span>
+                              <br />
+                              {val.thirdTechnology}
+                            </p>
+                          </Fade>
+                        </div>
+                      </div>
                     </Fade>
-                    <Fade>
-                      <p className={styles.caseStudyDescpFull}>
-                        {val.thirdFullDescp}
-                      </p>
-                    </Fade>
+                  </div>
+                  <div className={styles.caseStudyBottom}>
+                    <div className={styles.caseStudyBottomLeft}>
+                      <Fade>
+                        <h2 className={styles.caseStudyDescpHeader}>
+                          Context and Vision
+                        </h2>
+                      </Fade>
+                      <Fade>
+                        <p className={styles.caseStudyDescpFull}>
+                          {val.thirdFullDescp}
+                        </p>
+                      </Fade>
+                    </div>
                     <div className={styles.caseStudyPerson}>
                       <Fade>
                         <div className={styles.caseStudyPersonImg}>
                           <Image
                             src={val.thirdPersonImg}
                             alt={val.thirdPersonName}
-                            width={160}
-                            height={160}
+                            width={120}
+                            height={120}
                           />
                         </div>
                       </Fade>
@@ -380,7 +387,8 @@ const caseStudy = () => {
                         </Fade>
                       </div>
                     </div>
-                  </>
+                  </div>
+                </>
                 )}
               </div>
             );

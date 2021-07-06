@@ -1268,6 +1268,33 @@
           align-items: flex-start;
 }
 
+@media screen and (min-width: 621px) {
+  .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint {
+    min-height: 130px;
+    margin-top: -25px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint {
+    min-height: 150px;
+    margin-top: -25px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint {
+    min-height: 170px;
+    margin-top: -25px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint {
+    margin-top: -20px;
+  }
+}
+
 .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffIcon {
   max-width: 20px;
 }
@@ -1279,7 +1306,7 @@
 }
 
 .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffText {
-  font: normal normal normal 16px/25px Graphik Light;
+  font: normal normal normal 16px/22px Graphik Light;
   letter-spacing: 0px;
   color: #000c20;
   padding-left: 30px;
@@ -1289,21 +1316,21 @@
 @media screen and (min-width: 889px) {
   .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffText {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 22px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffText {
     font-size: 22px;
-    line-height: 33px;
+    line-height: 26px;
   }
 }
 
 @media screen and (min-width: 1901px) {
   .home .homeDiffContainer .homeDiff .homeDiffContent .homeDiffPoint .homeDiffText {
     font-size: 25px;
-    line-height: 38x;
+    line-height: 30x;
   }
 }
 
@@ -1317,7 +1344,7 @@
 
 @media screen and (min-width: 621px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 1065px;
+    height: 965px;
     width: 0.1px;
     max-width: 2px;
     border-bottom: none;
@@ -1328,13 +1355,13 @@
 
 @media screen and (min-width: 889px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 1025px;
+    height: 970px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .home .homeDiffContainer .homeDiffLine {
-    height: 1250px;
+    height: 1190px;
   }
 }
 
@@ -1484,7 +1511,7 @@
   max-width: 100%;
   border-radius: 27px;
   padding: 100px 50px;
-  background: #dbf9ff;
+  background: #E5E5E5;
   margin: 50px 0 0 0;
   cursor: pointer;
 }
@@ -1519,6 +1546,7 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  max-width: 250px;
   margin: 0 auto;
   white-space: nowrap;
   color: #2a539c;

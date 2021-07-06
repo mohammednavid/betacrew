@@ -530,25 +530,25 @@ const HomePage = () => {
           </Fade>
               <Fade>
           <div className={styles.homeCaseStudiesCards}>
-            <Link href="/case-studies/bild-case-study">
-                <div className={styles.homeCaseStudiesCard}>
+            <Link href="/case-studies/nav360-case-study">
+                <a className={styles.homeCaseStudiesCard}>
                   <Image
-                    src="/images/bild.png"
+                    src="/images/nav360.png"
                     alt="Betacrew - Case Study"
                     width={340}
                     height={130}
                   />
-                </div>
+                </a>
             </Link>
             <Link href="/case-studies/stopspoof-case-study">
-                <div className={styles.homeCaseStudiesCard2}>
+                <a className={styles.homeCaseStudiesCard2}>
                   <Image
                     src="/images/stopspoof.png"
                     alt="Betacrew - Case Study"
                     width={340}
                     height={130}
                   />
-                </div>
+                </a>
             </Link>
           </div>
               </Fade>

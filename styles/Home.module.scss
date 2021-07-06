@@ -816,6 +816,21 @@
           display: flex;
           justify-content: space-evenly;
           align-items: flex-start;
+          @media screen and (min-width: 621px) {
+            min-height:130px;
+            margin-top:-25px;
+          }
+          @media screen and (min-width: 889px) {
+            min-height:150px;
+            margin-top:-25px;
+          }
+          @media screen and (min-width: 1201px) {
+            min-height:170px;
+            margin-top:-25px;
+          }
+          @media screen and (min-width: 1901px) {
+            margin-top:-20px;
+          }
           .homeDiffIcon {
             max-width: 20px;
             @media screen and (min-width: 1201px) {
@@ -823,22 +838,22 @@
             }
           }
           .homeDiffText {
-            font: normal normal normal 16px/25px Graphik Light;
+            font: normal normal normal 16px/22px Graphik Light;
             letter-spacing: 0px;
             color: #000c20;
             padding-left: 30px;
             margin-top: -2px;
             @media screen and (min-width: 889px) {
               font-size: 18px;
-              line-height: 26px;
+              line-height: 22px;
             }
             @media screen and (min-width: 1201px) {
               font-size: 22px;
-              line-height: 33px;
+              line-height: 26px;
             }
             @media screen and (min-width: 1901px) {
               font-size: 25px;
-              line-height: 38x;
+              line-height: 30x;
             }
           }
         }
@@ -851,7 +866,7 @@
       z-index: 0;
       border-bottom: 2px solid #707070;
       @media screen and (min-width: 621px) {
-        height: 1065px;
+        height: 965px;
         width: 0.1px;
         max-width: 2px;
         border-bottom: none;
@@ -859,10 +874,10 @@
         margin-top: 20px;
       }
       @media screen and (min-width: 889px) {
-        height: 1025px;
+        height: 970px;
       }
       @media screen and (min-width: 1201px) {
-        height: 1250px;
+        height: 1190px;
       }
       @media screen and (min-width: 1901px) {
         height: 1260px;
@@ -952,7 +967,7 @@
       max-width: 100%;
       border-radius: 27px;
       padding: 100px 50px;
-      background: #dbf9ff;
+      background: #E5E5E5;
       margin: 50px 0 0 0;
       cursor: pointer;
       @media screen and (min-width: 621px) {
@@ -973,6 +988,7 @@
   .homeCaseStudiesMore {
     text-align: center;
     width: max-content;
+    max-width:250px;
     margin: 0 auto;
     white-space: nowrap;
     color: #2a539c;

@@ -6,7 +6,7 @@ const howItWorksData = [
     firstStepDescp:
       "Let us know your project needs and goals - the more detailed, the better. Our pool of developers are replete with the skill set you are looking for, so you won't need to look anywhere else for a team that can slide smoothly into your project outline.",
 
-    secondStepTitle: "Hire the best developers for your project.",
+    secondStepTitle: "Avail the best developers for your project.",
     secondStepDescp:
       "Whether you want to add a member to your existing tech team or build a standalone project from scratch, we can provide you our best developers for the job and make sure the project is successfully delivered on time.",
 

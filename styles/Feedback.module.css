@@ -1,3 +1,15 @@
+@media screen and (max-width: 620px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 621px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .caseStudyPersonContainer {
   padding: 0 20px;
 }
@@ -5,13 +17,23 @@
 .caseStudyPersonContainer .caseStudyPerson {
   width: 100%;
   background: #5185eb;
-  padding: 10%;
+  padding: 5%;
   margin-bottom: 40px;
+  border-radius: 10px;
+  min-height: 320px;
+  max-height: 320px;
+}
+
+@media screen and (min-width: 621px) {
+  .caseStudyPersonContainer .caseStudyPerson {
+    min-height: 380px;
+    max-height: 380px;
+    border-radius: 15px;
+  }
 }
 
 @media screen and (min-width: 889px) {
   .caseStudyPersonContainer .caseStudyPerson {
-    padding: 10% 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -21,13 +43,27 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    min-height: 280px;
+    max-height: 280px;
+    border-radius: 20px;
   }
 }
 
 @media screen and (min-width: 1201px) {
   .caseStudyPersonContainer .caseStudyPerson {
+    padding: 10% 5%;
     border-radius: 30px;
-    min-height: 390px;
+    min-height: 350px;
+    max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .caseStudyPersonContainer .caseStudyPerson {
+    padding: 5%;
+    border-radius: 50px;
+    min-height: 330px;
+    max-height: 330px;
   }
 }
 
@@ -39,17 +75,31 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  min-width: 120px;
+  max-width: 120px;
 }
 
 @media screen and (min-width: 889px) {
   .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonImg {
+    padding-right: 5%;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonImg {
+    min-width: 140px;
     max-width: 140px;
-    min-width: 150px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonImg {
+    min-width: 200px;
+    max-width: 200px;
   }
 }
 
@@ -65,8 +115,8 @@
 @media screen and (min-width: 621px) {
   .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonHeader {
     padding-bottom: 30px;
-    font-size: 36px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 42px;
   }
 }
 
@@ -88,9 +138,9 @@
 .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonName,
 .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonPost {
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Graphik Light;
-  line-height: 30px;
+  line-height: 24px;
   color: #ffffff;
   opacity: 0.8;
 }
@@ -99,9 +149,17 @@
   .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonWords,
   .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonName,
   .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonPost {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonWords,
+  .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonName,
+  .caseStudyPersonContainer .caseStudyPerson .caseStudyPersonThought .caseStudyPersonPost {
     font-size: 20px;
     line-height: 30px;
-    max-width: 95%;
   }
 }
 
